@@ -23,6 +23,9 @@
 /log/*
 /tmp/*
 
+# ignore mp3 file locations
+/public/sounds/*
+
 # various artifacts
 **.mp3
 **.war
