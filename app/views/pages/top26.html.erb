@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang='en' background-color='green'>
 <head>
-  <link rel="stylesheet" type="text/css" href="talker.css" />
+<!--  <link rel="stylesheet" type="text/css" href="talker.css" /> -->
   <script type="text/javaScript" src="jquery.js"></script> 
   <script type="text/javaScript" src="talker.js"></script> 
 </head>
@@ -15,12 +15,12 @@
     <div class='container'>
       <table class='talker'>
         <tr>
-          <td><a href='#' onclick='return playSound("./sounds/mine/yes.mp3")';>Yes</a></td>
-          <td><a href='#' onclick='return playSound("./sounds/mine/no.mp3")';>No</a></td>
+          <td><a href='#' onclick='return playSound(<%= root_path %> + "sounds/mine/yes.mp3")';>Yes</a></td>
+          <td><a href='#' onclick='return playSound(<%= root_path %> + "/sounds/mine/no.mp3")';>No</a></td>
         </tr>
         <tr>
-          <td><a href='#' onclick='return playSound("./sounds/mine/judy.mp3")';>Judy</a></td>
-          <td><a href='#' onclick='return playSound("./sounds/mine/heather.mp3")';>Heather</a></td>
+          <td><a href='#' onclick='return playSound("/sounds/mine/judy.mp3")';>Judy</a></td>
+          <td><a href='#' onclick='return playSound("/sounds/mine/heather.mp3")';>Heather</a></td>
         </tr>
         <tr>
           <td><a href='#' onclick='return playSound("./sounds/mine/julianne.mp3")';>Julianne</a></td>
