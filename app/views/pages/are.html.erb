@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <link rel="stylesheet" type="text/css" href="talker.css" />
+  <script type="text/javaScript" src="jquery.js"></script> 
+  <script type="text/javaScript" src="talker.js"></script> 
+</head>
+<body>
+  <div id='white'>
+    <br/>
+    <div id='topper'>
+      <h2>Tommy Talker</h2>
+    </div>
+  </div> <!-- end white -->
+  <div class='container'>
+    <table class='talker'>
+      <tr><th>Are you</th></tr>
+      <tr>
+        <td><a href='#' onclick='return playSound("./sounds/mine/areyouafraid.mp3")';>afraid?</a></td>
+        <td><a href='#' onclick='return playSound("./sounds/mine/areyouhungry.mp3")';>hungry?</a></td>
+      </tr>
+      <tr>
+        <td><a href='#' onclick='return playSound("./sounds/mine/areyouallergictoanything.mp3")';>allergic to anything?</a></td>
+        <td><a href='#' onclick='return playSound("./sounds/mine/areyoumarried.mp3")';>married?</a></td>
+      </tr>
+      <tr>
+        <td><a href='#' onclick='return playSound("./sounds/mine/areyouamerican.mp3")';>American?</a></td>
+        <td><a href='#' onclick='return playSound("./sounds/mine/areyouok.mp3")';>OK?</a></td>
+      </tr>
+      <tr>
+        <td><a href='#' onclick='return playSound("./sounds/mine/areyoubusy.mp3")';>busy?</a></td>
+        <td><a href='#' onclick='return playSound("./sounds/mine/areyouready.mp3")';>ready?</a></td>
+      </tr>
+      <tr>
+        <td><a href='#' onclick='return playSound("./sounds/mine/areyoucomfortable.mp3")';>comfortable?</a></td>
+        <td><a href='#' onclick='return playSound("./sounds/mine/areyousick.mp3")';>sick?</a></td>
+      </tr>
+      <tr>
+        <td><a href='#' onclick='return playSound("./sounds/mine/areyoucomingthisevening.mp3")';>coming this evening?</a></td>
+        <td><a href='#' onclick='return playSound("./sounds/mine/areyousure.mp3")';>sure?</a></td>
+      </tr>
+      <tr>
+        <td><a href='#' onclick='return playSound("./sounds/mine/areyoufreetonight.mp3")';>free tonight?</a></td>
+        <td><a href='#' onclick='return playSound("./sounds/mine/areyouwaitingforsomeone.mp3")';>waiting for someone?</a></td>
+      </tr>
+      <tr>
+        <td><a href='#' onclick='return playSound("./sounds/mine/areyougoingtoattendtheirwedding.mp3")';>going to attend their wedding?</a></td>
+        <td><a href='#' onclick='return playSound("./sounds/mine/areyouworkingtoday.mp3")';>working today?</a></td>
+      </tr>
+      <tr>
+        <td><a href='#' onclick='return playSound("./sounds/mine/areyougoingtohelpher.mp3")';>going to help her?</a></td>
+        <td><a href='#' onclick='return playSound("./sounds/mine/areyouworkingtomorrow.mp3")';>working tomorrow?</a></td>
+      </tr>
+      <tr>
+        <td><a href='#' onclick='return playSound("./sounds/mine/areyougoingtotakeaplane.mp3")';>going to take a plane?</a></td> 
+        <td><a href='#' onclick='return playSound("./sounds/mine/areyourchildrenwithyou.mp3")';>children with you?</a></td>
+      </tr>
+      <tr>
+        <td><a href='#' onclick='return playSound("./sounds/mine/areyouherealone.mp3")';>here alone?</a></td>
+      </tr>
+    </table>
+    <%= link_to 'Back', root_path, id: 'mmode', class: 'button' %>
+    <div id='copyright1'>
+      <p>Copyright 2015, <a id='mmode' href='https://maintenancemode.com';>Maintenance Mode</a>. All rights reserved.</p>
+    </div>
+  </div> <!-- end container -->
+</body>
+</html>
