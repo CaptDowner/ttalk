@@ -11,6 +11,8 @@ Rails.application.routes.draw do
   get '/what', to: 'high_voltage/pages#show', id: 'what'
   get '/wwwww', to: 'high_voltage/pages#show', id: 'wwwww'
 
+#  get '/sounds', to: 'public/sounds', id: 'sounds'
+
   root to: 'visitors#index'
   devise_for :users
   resources :users
