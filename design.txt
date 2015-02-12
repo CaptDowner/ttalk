@@ -1,7 +1,7 @@
 Current questions
 
 1. Better (or best) way to setup mp3 files into Phrase
-   object.
+   object. (Currently using @path and @file)
 2. What goes into the routes.rb for the mp3file locations
    (perhaps /public/sounds, as a root folder for
    mp3 files)? Final location may be preceded by
@@ -16,7 +16,11 @@ Current questions
    or does rails require a specific format or tag, ( e.g. <audio> or 
    something else) in order to pass the file to the clients 
    mp3 playback program?
-
+6. How to best implement the #categories member of the
+   Phrase object? Use has_and_belongs_to_many to qualify
+   categories as an array of strings? Or as an array or ENUMs 
+   that are assigned (locally or globally)? 
+   
 
 
 
