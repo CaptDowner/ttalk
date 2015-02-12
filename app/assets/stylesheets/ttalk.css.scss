@@ -1,6 +1,5 @@
-
 .main1 .main h3 {
-  color: gold;
+  color: #ffff00;
 }
 div#white{
   margin-top:2em;
@@ -8,7 +7,7 @@ div#white{
 }
 
 div#white h3{
-  color: gold;
+  color: #ffff00;
   margin-left:4em;
   margin-top: -0.2em;
 }
@@ -30,7 +29,7 @@ ul.nav.navbar-nav a:hover {
   font-weight: 900;
 }
 ul.nav.navbar-nav a:hover {
-  color:gold;
+  color:#ffff00;
 }
 ul.li {
   margin: 0 0 0 0;
@@ -43,11 +42,11 @@ ul.li {
   font-weight: 400;
 }
 .navbar-header a.navbar-brand:hover {
-  color: gold;
+  color: #ffff00;
   font-weight: 900;
 }
 .navbar-nav.nav.ul.li  a:hover{
-  color: gold;
+  color: #ffff00;
 }
 @font-face {
     font-family: 'EfonRegular';
@@ -129,7 +128,7 @@ body {
 th {
   text-align: left;
   font-weight: bold;
-  color: gold;
+  color: #ffff00;
 }
 
 div.container {
@@ -160,7 +159,7 @@ table#mbuttons a.button{
 
 }
 table#mbuttons a.button:hover{
-  color: gold;
+  color: #ffff00;
   text-decoration: none;
 }
 
@@ -171,7 +170,7 @@ a {
 
 a:hover {
   text-decoration: none;
-  color: gold;
+  color: #ffff00;
 }
 
 table.talker {
@@ -197,13 +196,15 @@ table.talker a{
 }
 
 table.talker a:hover{
-  color: gold;
+  color: #ffff00;
   text-decoration: none;
 }
 table.talker th {
-  color: gold;
-  font-size: 1.1em;
-  font-family: Arial;
+//  color: #c49f9f;
+//  color: orange;
+  color: #ffff00;
+  font-size: 1.3em;
+  font-family: Courier New;
   font-weight: bold;
 }
 div#topper{
@@ -222,7 +223,7 @@ div#topper1 h1 {
   font-weight: bold;
   font-size: 4em;
   text-align: left;
-  color: gold;
+  color: #ffff00;
   margin-top: -2em;
   margin-left:  0.65em;
   margin-bottom: 0.5em;
@@ -233,30 +234,30 @@ div#topper h1 {
   font-weight: bold;
   font-size: 2.5em;
   text-align: left;
-  color: gold;
+  color: #ffff00;
   margin-top: 0;
   margin-left: -22px; 
   margin-bottom: 0.5em;
 }
 
 div#topper h2{
-  font-family: Arial;
+  font-family: Courier New;
   width: 14em; 
   font-weight: bold;
   font-size: 1.75em;
   text-align: left;
-  color: gold;
+  color: #ffff00;
   margin-top: -0.5em;
   margin-left: 3.25em; 
   margin-bottom: 1em;
 }
 div#topper-ab h2{
-  font-family: Arial;
+  font-family: courier New;
   width: 14em; 
   font-weight: bold;
   font-size: 1.75em;
   text-align: left;
-  color: gold;
+  color: #ffff00;
   margin-top: -0.5em;
   margin-left: 3.75em; 
   margin-bottom: 1em;
@@ -281,7 +282,7 @@ table.tomspeak h1{
   font-weight: bold;
   font-size: 2.5em;
   text-align: center;
-  color: gold;
+  color: #ffff00;
   margin-left: -0.75em; 
   margin-bottom: 0.5em;
 }
@@ -315,7 +316,7 @@ div#about {
 }
 
 h3{
-  color: gold;
+  color: #ffff00;
   margin-left: 11em;
   margin-bottom: -0.35em;
   font-family: sans-serif;
@@ -327,7 +328,7 @@ a#mailto {
   font-family: Arial;
   font-weight:bold;
   font-size: 1em;
-  color: gold;
+  color: #ffff00;
 }
 
 a#mailto:hover {
@@ -345,7 +346,7 @@ a#a-bout.button {
 }
 
 a#a-bout.button:hover {
-  color: gold;
+  color: #ffff00;
   text-decoration: none;
 }
 
@@ -355,7 +356,7 @@ h2#abt{
   font-size: 1.5em;
   font-family: sans-serif;
   font-weight: bold;
-  color: gold;
+  color: #ffff00;
 }
 
 .modalDialog {
@@ -475,11 +476,11 @@ p a#mmode {
 }
 p a#mmode:hover {
   text-decoration: none;
-  color: gold;
+  color: #ffff00;
   font-weight: 500;
 }
 div#copyright1.p a:hover{
-  color: gold;
+  color: #ffff00;
   text-decoration: none;
 }
 
