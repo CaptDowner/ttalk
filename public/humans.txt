@@ -1,0 +1,16 @@
+/* the humans responsible */
+
+/* TEAM */
+  CTO: Capt. Downer
+  Site: http://tommytalker.com
+  Twitter: @captdowner
+  Location: San Francisco Bay
+
+/* THANKS */
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: jQuery
+  Languages: Ruby, ECMAscript, CSS3, HTML5, Go
+  Software: Nginx, Passenger, Ruby on Rails
+
