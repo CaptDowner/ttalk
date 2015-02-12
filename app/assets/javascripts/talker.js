@@ -1,4 +1,5 @@
 function playSound(f) {
+//  alert("playsound() called to play file " + f);
   soundfile = new Audio(f);
   soundfile.play();
   return false; // prevent default click action from happening!
