@@ -1,0 +1,495 @@
+
+.main1 .main h3 {
+  color: gold;
+}
+div#white{
+  margin-top:2em;
+  background-color:green;
+}
+
+div#white h3{
+  color: gold;
+  margin-left:4em;
+  margin-top: -0.2em;
+}
+div#white p{
+  color: white;
+  margin-left: 1.75em;
+}
+div#white a{
+  color: #eee;
+  font-weight: bold;
+}
+div.main {
+  background-color: green;
+  width: 100%;
+  height: 160em;
+}
+ul.nav.navbar-nav a:hover {
+  color:white;
+  font-weight: 900;
+}
+ul.nav.navbar-nav a:hover {
+  color:gold;
+}
+ul.li {
+  margin: 0 0 0 0;
+}
+.navbar-header a:navbar-brand {
+}
+// this affects the HOME link only
+.navbar-header a.navbar-brand {
+  color: gray;
+  font-weight: 400;
+}
+.navbar-header a.navbar-brand:hover {
+  color: gold;
+  font-weight: 900;
+}
+.navbar-nav.nav.ul.li  a:hover{
+  color: gold;
+}
+@font-face {
+    font-family: 'EfonRegular';
+    src: url('font/EFON-webfont.eot');
+    src: local('EfonRegular'), url('font/EFON-webfont.woff') format('woff'), url('font/EFON-webfont.ttf') format('truetype'), url('font/EFON-webfont.svg#webfont') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+body {
+  width: 100%;
+  height: 100%;
+  margin-top: 200px;
+  margin-left:2.5em; 
+  background: #666;
+//  background: green;
+  color: white;
+  background-color: green;
+}
+
+.button {
+  width: 8.8em;
+  line-height: 1.3em;
+  color: white;
+  text-decoration: none;
+  font-size: 0.85em;
+  font-family: helvetica, arial;
+  font-weight: 700;
+  display: block;
+  text-align: center;
+  position: relative;
+  padding: 6px;
+  /* BACKGROUND GRADIENTS */
+  background: #014464;
+  background: -moz-linear-gradient(top, #0D658E, #0C577A 50%, #014D71 51%, #003E5C);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0E658E), color-stop(.5, #0C577A), color-stop(.5, #014D71), to(#003E5C)); 
+
+  /* BORDER RADIUS */
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  border: 1px solid #368DBE;
+  border-top: 1px solid #c3d6df;
+
+  /* TEXT SHADOW */
+  text-shadow: 1px 1px 1px black;
+
+  /* BOX SHADOW */
+  -moz-box-shadow: 0 1px 3px black;
+  -webkit-box-shadow: 0 1px 3px black;
+  box-shadow: 0 1px 3px black;
+}
+
+/* WHILE HOVERED */
+.button:hover {
+  color: white;
+  background: #014464;
+  background: -moz-linear-gradient(top, #0c5f85, #0b5273 50%, #024869 51%, #003853);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0c5f85), color-stop(.5, #0b5273), color-stop(.51, #024869), to(#003853));
+}
+
+/* WHILE BEING CLICKED */
+.button:active {
+  -moz-box-shadow: 0 2px 6px black;
+  -webkit-box-shadow: 0 2px 6px black;
+}
+/* FONT GLYPH (MOSTLY FOR FUN) 
+.button:before {
+  font-family: EfonRegular;
+  content: 'v';
+  color: #09232F;
+  font-size: 90px;
+  float: left;
+  margin-left: 35px;
+  margin-right: -10px;
+  text-shadow: 0 1px 0 #4190AF;
+}
+*/
+th {
+  text-align: left;
+  font-weight: bold;
+  color: gold;
+}
+
+div.container {
+  width: 100%;
+  height: 100%;
+  margin-left: 5em;
+}
+table#mbuttons {
+  margin-top: -1em;
+  margin-left: -1em;
+  margin-bottom: 0.75em;
+}
+table#mbuttons tr{
+  margin-top: 0.25em;
+  margin-left: 2em;
+  margin-bottom: 1.5em;
+}
+td{
+  color: white;
+}
+table#mbuttons td{
+  margin-right:1em;
+  padding-right: 0.5em;
+  margin-bottom: 1.5em;
+}
+table#mbuttons a.button{
+  margin: 0.25em 0.10em; 
+
+}
+table#mbuttons a.button:hover{
+  color: gold;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: none;
+  color: gold;
+}
+
+table.talker {
+  width: 42em;
+  margin-left: 0.15em;
+  text-align: left;
+}
+
+table.talker tr{
+  margin-left: 66em;
+}
+table.talker td{
+  font-family: Arial;
+  font-size: 1em;
+  text-align: left;
+  margin: 0;
+}
+table.talker a{
+  font-family: sans-serif;
+  color: white;
+  font-size: 1em;
+  width: 28em;
+}
+
+table.talker a:hover{
+  color: gold;
+  text-decoration: none;
+}
+table.talker th {
+  color: gold;
+  font-size: 1.1em;
+  font-family: Arial;
+  font-weight: bold;
+}
+div#topper{
+  padding-top: 0;
+  margin-top: -.25em;
+  margin-bottom: -1em;
+}
+div#topper-ab{
+  padding-top: 0;
+  margin-top: -.25em;
+  margin-bottom: -1em;
+}
+div#topper1 h1 {
+  font-family: Arial;
+  width: 14em; 
+  font-weight: bold;
+  font-size: 4em;
+  text-align: left;
+  color: gold;
+  margin-top: -2em;
+  margin-left:  0.65em;
+  margin-bottom: 0.5em;
+}
+div#topper h1 {
+  font-family: Arial;
+  width: 14em; 
+  font-weight: bold;
+  font-size: 2.5em;
+  text-align: left;
+  color: gold;
+  margin-top: 0;
+  margin-left: -22px; 
+  margin-bottom: 0.5em;
+}
+
+div#topper h2{
+  font-family: Arial;
+  width: 14em; 
+  font-weight: bold;
+  font-size: 1.75em;
+  text-align: left;
+  color: gold;
+  margin-top: -0.5em;
+  margin-left: 3.25em; 
+  margin-bottom: 1em;
+}
+div#topper-ab h2{
+  font-family: Arial;
+  width: 14em; 
+  font-weight: bold;
+  font-size: 1.75em;
+  text-align: left;
+  color: gold;
+  margin-top: -0.5em;
+  margin-left: 3.75em; 
+  margin-bottom: 1em;
+
+}
+body.indexpage {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+}
+table.tomspeak {
+  margin-left:-0.90em;
+  margin-top: -10.25em;
+  margin-bottom: -1.25em;
+}
+
+table.tomspeak h1{
+  font-family: Arial;
+  width: 11.75em; 
+  font-weight: bold;
+  font-size: 2.5em;
+  text-align: center;
+  color: gold;
+  margin-left: -0.75em; 
+  margin-bottom: 0.5em;
+}
+table.tomspeak tr,td {
+}
+
+table.tomspeak img {
+  margin-left:2em;
+  text-align: center;
+}
+
+#leftpic1 {
+  text-align: center;
+  margin-top: 0.5em;
+  margin-left: -1em;
+}
+
+#rightpic1 {
+  text-align: center;
+  margin-top: 0.5em;
+  margin-left: -3.75em;
+}
+
+div#about {
+  font-family: sans-serif;
+  text-align: left;
+  font-size: 0.80em;
+  width: 40em;
+  margin-left:1em;
+  margin-top: 0em;
+}
+
+h3{
+  color: gold;
+  margin-left: 11em;
+  margin-bottom: -0.35em;
+  font-family: sans-serif;
+  font-weight:bold;
+  border: 3px;
+}
+
+a#mailto {
+  font-family: Arial;
+  font-weight:bold;
+  font-size: 1em;
+  color: gold;
+}
+
+a#mailto:hover {
+  color: light green;
+}
+
+a#a-bout {
+  margin-left: 17em;
+  margin-top: 0.15em;
+}
+
+a#a-bout.button {
+  margin-left: 13.5em;
+  margin-top:0.75em;
+}
+
+a#a-bout.button:hover {
+  color: gold;
+  text-decoration: none;
+}
+
+h2#abt{
+  width: 18.5em;
+  margin-left: 2.5em;
+  font-size: 1.5em;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: gold;
+}
+
+.modalDialog {
+  position: fixed;
+//  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index: 99999;
+  opacity:0;
+  -webkit-transition: opacity 400ms ease-in;
+  -moz-transition: opacity 400ms ease-in;
+  transition: opacity 400ms ease-in;
+  pointer-events: none;
+}
+
+.modalDialog:target {
+  opacity:1;
+  pointer-events: auto;
+}
+
+.modalDialog > div {
+  width: 23em;
+  position: relative;
+  margin: 1.4em 0 0 -57.5em; 
+  padding: 5px 20px 13px 20px;
+  text-align: left;
+  border-radius: 10px;
+  background: #fff;
+  background: -moz-linear-gradient(#fff, #999);
+  background: -webkit-linear-gradient(#fff, #999);
+  background: -o-linear-gradient(#fff, #999);
+}
+
+.close {
+  background: #606061;
+  background: gray;
+  color: lightyellow;
+  line-height: 25px;
+  position: absolute;
+  right: -8px;
+  text-align: center;
+  top: -10px;
+  width: 42px;
+  text-decoration: none;
+  font-weight: bold;
+  -webkit-border-radius: 12px;
+  -moz-border-radius: 12px;
+  border-radius: 12px;
+  -moz-box-shadow: 1px 1px 3px #000;
+  -webkit-box-shadow: 1px 1px 3px #000;
+  box-shadow: 1px 1px 3px #000;
+}
+
+div#openModal p{
+  color: white;
+  margin-left: 1em;
+}
+
+span#spacer div#zz {
+  margin-top: 1.5em;
+}
+
+div#zz {
+  background: green;
+  width: 33em;
+  text-align: left;
+  margin-left: 0.75em;
+  margin-top: 0.5em;
+}
+.close:hover {
+  background: #00d9ff;
+  background: #000;
+}
+div#zz h2{
+  text-align: left;
+  margin: 0.5em 2em -0.25em 5.2em;
+}
+
+#zz p{
+  font-family: sans-serif;
+}
+
+div#copyright1 {
+  margin-top: 1.25em;
+  margin-left: 3em;
+}
+
+div#copyright1 a {
+  color: #ffffe0;
+}
+
+div#copyright1 {
+  margin-top: 1.25em;
+  margin-left: 0;
+}
+div#copyright1 p {
+  text-align: center;
+  width: 32em;
+  margin-left: 4.5em;
+  font-size: 0.75em;
+  color:lightyellow;
+  font-family: sans-serif;
+  margin-top: 0.25em;
+}
+
+div#copyright1 a {
+  color: #ffffe0;
+}
+
+p a#mmode {
+  color: lightyellow;
+  font-weight: 500;
+}
+p a#mmode:hover {
+  text-decoration: none;
+  color: gold;
+  font-weight: 500;
+}
+div#copyright1.p a:hover{
+  color: gold;
+  text-decoration: none;
+}
+
+div.daddy {
+  background-color: green;
+  margin-top: 10em;
+  margin-left: 3em;
+  margin-bottom: 4em;
+  height: 99em;
+}
+body {
+  background-color: green;
+}
