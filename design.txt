@@ -1,0 +1,229 @@
+Current questions
+
+1. Better (or best) way to setup mp3 files into Phrase
+   object.
+2. What goes into the routes.rb for the mp3file locations
+   (perhaps /public/sounds, as a root folder for
+   mp3 files)? Final location may be preceded by
+   path stored in Phrase object, root path = /public/sounds,
+   file location /public/sounds/mine/myfile.mp3).
+3. How to best transition from static pages (current)
+   to dynamic pages created based on categories?
+4. How to setup testing (rspec, minitest, etc...) 
+   for initial objects and methods on existing classes.
+5. Rails is not playing my mp3 files using the same javascript 
+   that the prototype version used. Is it simply a path problem 
+   or does rails require a specific format or tag, ( e.g. <audio> or 
+   something else) in order to pass the file to the clients 
+   mp3 playback program?
+
+
+
+
+Design of test to speech web app
+
+Ruby Objects
+
+
+class Word 
+
+text
+mp3file
+
+# ------------------------------------------------------
+# class User
+#
+# username
+# email (or use email for username)
+# encrypted password
+# language - user's preferred language
+# voice      - preference when different voices are available
+# ips[]      - array of ips that the user connects/has connected from 
+# browsers[] - browser(s) that the user connects/has connected from
+# devices[]  - array of devices that the user connects/has connected with
+# os         - user's operating system (linux, osx, android, windblows, etc...)
+# timezone   - user's time zone offset from UTC time 
+#              can be used for composing dynamic phrases related to 
+#              date/time of day.
+#            
+# last_login - datetime
+# updated_at - datetime
+# created_at - datetime
+#
+# end
+#
+#
+# ------------------------------------------------------
+# if we have more than one voice sampled 
+# (e.g. a male's voice collection of samples 
+#  and a female's voice collection)
+#  we can have the same filenames, but store them 
+#  in a different directory. If the default is male 
+#  voice and the female voice is selected, we change the 
+#  voice-path variable to the dir storing the female voice 
+#  mp3 files.
+# ------------------------------------------------------
+# ------------------------------------------------------
+# a Phrase can be anything from a single word to 
+# a silent spacer. Each will be stored in a 
+# similarly named mp3 file along with  the corresponding 
+# text. Each phrase (other than silent spacings) will 
+# be assigned 1 to x number of categories. 
+# ------------------------------------------------------
+class Phrase 
+  has one ptext - string of words separated by spaces,
+                  can be null for silent spacing of sounds.  
+  has zero or more categories
+  has one mp3 pfile
+  has one ppath
+
+  @ptext - string of text spoken in mp3 file
+  @pfile - string mp3 file containing spoken text
+  @ppath - string path to mp3 file
+  @categories[] - Array of categories to be included in
+end
+
+words << text (appended)
+mp3stream << mp3files (appended)
+
+# ------------------------------------------------------
+# a Statement will represent a buffer of phrases along 
+# with the corresponding mp3 data. Once assembled, the
+# statement should be able to be played, with the mp3 
+# data appending to the output mp3 file/buffer.
+#
+# A method will be written that concatenates all of the 
+# data contained in the sequential mp3 files and produces 
+# a single mp3 file with only one set of header data.
+# ------------------------------------------------------
+class Statement
+has many sentences
+has many mp3streams
+
+  @text = text
+  @audio = mp3 buffer or file containing 
+   all of the audio data for the phrases 
+   stored in the rtext buffer
+
+class Reply
+  has many Phrases
+  has many mp3files
+
+  @rtext = buffer of punctuated text
+  @stream = mp3 buffer or file containing 
+   all of the audio data for the phrases 
+   stored in the rtext buffer as phrases are selected
+
+# ------------------------------------------------------
+# Initially, there will be 2 modes, Speak and Compose.
+# Both modes should be selectable from any page and 
+# should remain in the current mode until explicity 
+# changed.
+#
+# Speak mode will play the mp3 file data when a link is
+# selected.
+#
+# Compose mode will copy the text and the mp3 filname to 
+# the Statement object, and will continue to append mp3
+# files and associated text until the Play command is 
+# issued.
+# ----------------------------------------------------------------
+# Future development
+#
+# Record mode  - TBD - simple recorder for recording speech,        
+#                so user or friend of user can overwrite or
+#                recreate sample in a familar voice
+# 
+# Edit mode    - TBD - Edit recorded mp3 data with simple trimming 
+#                and sound saturation level adjustments.
+# ----------------------------------------------------------------
+
+mp3 => file format
+  
+
+You should be able to get complete ID3 specification 
+at http://id3.org/
+
+Usually Mp3 file have the next format:
+
+[ID3 head(10 bytes) | ID3 tags | MP3 frames ]
+
+ID3 is not part of MP3 format, but it's kind of container which 
+is used to put information like artists, albums, etc...
+
+The audio data itself are stored in MP3 frames.Every frame starts 
+with 4 bytes header which provides meta info (codecs, bitrate, etc).
+
+Every frame has fixed size. So if there are not enough samples at 
+the end of last frame, coder adds silence to make frame have necessary 
+size. I also found there chunks like LAME3.97 (name and version of coder).
+
+So, all we need to do is to get rid of ID3 container. The following 
+solution works for me perfect, no warnings anymore and out file 
+became smaller:
+
+# Length of header that describes ID3 container
+ID3_HEADER_SIZE = 10
+
+# Get size of ID3 container.
+# Length is stored in 4 bytes, and the 7th bit of every byte is ignored.
+#
+# Example:
+#         Hex: 00       00       07       76
+#         Bin: 00000000 00000000 00000111 01110110
+#    Real bin:                        111  1110110
+#    Real dec: 1014
+#
+def get_id3_size(header)
+  result = 0
+  str = header[6..9]
+
+  # Read 4 size bytes from left to right applying bit mask to exclude 7th bit
+  # in every byte.
+  4.times do |i|
+    result += (str[i].ord & 0x7F) * (2 ** (7 * (3-i)))
+  end
+
+  result
+end
+
+def strip_mp3!(raw_mp3)
+  # 10 bytes that describe ID3 container.
+  id3_header = raw_mp3[0...ID3_HEADER_SIZE]
+  id3_size = get_id3_size(id3_header)
+
+  # Offset from which mp3 frames start
+  offset = id3_size + ID3_HEADER_SIZE
+
+  # Get rid of ID3 container
+  raw_mp3.slice!(0...offset)
+  raw_mp3
+end
+
+# Read raw mp3s
+hi  = File.binread('hi.mp3')
+bye = File.binread('bye.mp3')
+
+# Get rid of ID3 tags
+strip_mp3!(hi)
+strip_mp3!(bye)
+
+# Concatenate mp3 frames
+hi << bye
+
+# Save result to disk
+File.binwrite('out.mp3', hi)
+
+s
+
+dictionary => lookup words and do one of 2 things
+
+Program mode => Speak
+
+Links to mp3files containing whole phrases or complete sentences are played on click.
+
+Paste mode => Paste each word or words to an output buffer of text and
+concatenate the mp3 files as each word or phrase is added. When the SPEAK 
+button is pressed, all of the words in the Paste buffer are spoken.
+
+
