@@ -2,7 +2,7 @@ Current questions
 
 1. Better (or best) way to setup mp3 files into Phrase
    object. (Currently using @path and @file)
-2. What goes into the routes.rb for the mp3file locations
+2. DONE (not needed) What goes into the routes.rb for the mp3file locations
    (perhaps /public/sounds, as a root folder for
    mp3 files)? Final location may be preceded by
    path stored in Phrase object, root path = /public/sounds,
@@ -11,7 +11,8 @@ Current questions
    to dynamic pages created based on categories?
 4. How to setup testing (rspec, minitest, etc...) 
    for initial objects and methods on existing classes.
-5. Rails is not playing my mp3 files using the same javascript 
+5. DONE (moved file to public directory)
+   Rails is not playing my mp3 files using the same javascript 
    that the prototype version used. Is it simply a path problem 
    or does rails require a specific format or tag, ( e.g. <audio> or 
    something else) in order to pass the file to the clients 
