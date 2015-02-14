@@ -26,15 +26,7 @@
         <td><a href='#' onclick='return playSound("/sounds/phrases/moreThanThat.mp3")';>more than that</a></td>
       </tr>
       <tr>
-        <td><a href='#' onclick='return playSound("/sounds/phrases/aOneWayTicket.mp3")';>a one way ticket</a></td>
-        <td><a href='#' onclick='return playSound("/sounds/phrases/nearTheBank.mp3")';>near the bank</a></td>
-      </tr>
-      <tr>
-        <td><a href='#' onclick='return playSound("/sounds/phrases/aRoundTripTicket.mp3")';>a round trip ticket</a></td>
         <td><a href='#' onclick='return playSound("/sounds/phrases/onTheLeft.mp3")';>on the left</a></td>
-      </tr>
-      <tr>
-        <td><a href='#' onclick='return playSound("/sounds/phrases/about300Kilometers.mp3")';>about 300 kilometers</a></td>
         <td><a href='#' onclick='return playSound("/sounds/phrases/onTheRight.mp3")';>on the right</a></td>
       </tr>
       <tr>
@@ -43,11 +35,7 @@
       </tr>
       <tr>
         <td><a href='#' onclick='return playSound("/sounds/phrases/allDay.mp3")';>all day</a></td>
-        <td><a href='#' onclick='return playSound("/sounds/phrases/oneTicketToNYPlease.mp3")';>one ticket to NY please</a></td>
-      </tr>
-      <tr>
         <td><a href='#' onclick='return playSound("/sounds/phrases/beCareful.mp3")';>be careful</a></td>
-        <td><a href='#' onclick='return playSound("/sounds/phrases/oneWayOrRoundTrip.mp3")';>one way or round trip</a></td>
       </tr>
       <tr>
         <td><a href='#' onclick='return playSound("/sounds/phrases/beCarefulDriving.mp3")';>be careful driving</a></td>
@@ -56,10 +44,6 @@
       <tr>
         <td><a href='#' onclick='return playSound("/sounds/phrases/beQuiet.mp3")';>be quiet</a></td>
         <td><a href='#' onclick='return playSound("/sounds/phrases/openTheWindow.mp3")';>open the window</a></td>
-      </tr>
-      <tr>
-        <td><a href='#' onclick='return playSound("/sounds/phrases/behindTheBank.mp3")';>behind the bank</a></td>
-        <td><a href='#' onclick='return playSound("/sounds/phrases/outsideTheHotel.mp3")';>outside the hotel</a></td>
       </tr>
       <tr>
         <td><a href='#' onclick='return playSound("/sounds/phrases/callMe.mp3")';>call me</a></td>
@@ -90,10 +74,6 @@
         <td><a href='#' onclick='return playSound("/sounds/phrases/takeMeDowntown.mp3")';>take me downtown</a></td>
       </tr>
       <tr>
-        <td><a href='#' onclick='return playSound("/sounds/phrases/fromHereToThere.mp3")';>from here to there</a></td>
-        <td><a href='#' onclick='return playSound("/sounds/phrases/takeMeToTheMarriottHotel.mp3")';>take me to the Marriott hotel</a></td>
-      </tr>
-      <tr>
         <td><a href='#' onclick='return playSound("/sounds/phrases/fromTimeToTime.mp3")';>from time to time</a></td>
         <td><a href='#' onclick='return playSound("/sounds/phrases/takeThisMedicine.mp3")';>take this medicine</a></td>
       </tr>
@@ -121,8 +101,12 @@
         <td><a href='#' onclick='return playSound("/sounds/phrases/maybe.mp3")';>maybe</a></td>
         <td><a href='#' onclick='return playSound("/sounds/phrases/turnRight.mp3")';>turn right</a></td>
       </tr>
+      <tr>
+        <td><a href='#' onclick='return playSound("/sounds/phrases/fromHereToThere.mp3")';>from here to there</a></td>
+      </tr>
     </table>
-    <%= link_to 'Back', root_path, id: 'a-bout', class: 'button' %>
+    <%= link_to 'Back', root_path(:anchor => '#' ), id: 'a-bout', class: 'button', redirect_to: :back;%>
+
     <div id='copyright1'>
       <p>Copyright 2015, <a id='mmode' href='https://maintenancemode.com';>Maintenance Mode</a>. All rights reserved.</p>
     </div>
