@@ -133,7 +133,8 @@
         <td><a href='#' onclick='return playSound("/sounds/phrases/howMuchIsItToGoToMiami.mp3")';>is it to go to Miami?</a></td>
       </tr>
     </table>
-    <%= link_to 'Back', root_path, id: 'a-bout', class: 'button' %>
+    <%= link_to 'Back', root_path(:anchor => '#' ), id: 'a-bout', class: 'button', redirect_to: :back;%>
+
     <div id='copyright1'>
       <p>Copyright 2015, <a id='mmode' href='https://maintenancemode.com';>Maintenance Mode</a>. All rights reserved.</p>
     </div>
