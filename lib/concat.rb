@@ -6,7 +6,7 @@
 # that contains audio for speaking the
 # text aloud
 # ---
-module Concat
+module Speak
 
   class Statement
     ID3_HEADER_SIZE = 10
@@ -92,7 +92,7 @@ module Concat
           res << strip_mp3!(File.binread(mp3data.fname))
         end
       end
-      File.binwrite('mp3out.mp3', res)
+      File.binwrite('mp3out.mp3', res[0])
     end
   end
 end
