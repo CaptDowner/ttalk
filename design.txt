@@ -21,7 +21,20 @@ Current questions
    Phrase object? Use has_and_belongs_to_many to qualify
    categories as an array of strings? Or as an array or ENUMs 
    that are assigned (locally or globally)? 
-   
+7. Multiple language support? What are the best practices for adding 
+   multi language support to a rails app?   Would using the rails 
+   'globalize' gem be a good way to do this?
+
+The reason for this approace is that I'd like the initial design to include 
+a way for later support of multiple languages. Initially, only the link text 
+for the phrases would be translated, so that a Spanish user would read the link 
+in Spanish, but when clicked on, the English mp3 file would be output.
+
+Languages to support
+
+English, Spanish, Mandarin, Japanese, French, German, Italian, Arabic, Vietnamese, Dutch,
+Thai, Polish, Korean, Hindi, Russian, Portuguese, Hindustani, Malay-Indonesian
+
 
 
 
