@@ -8,8 +8,8 @@ class UsersController < ApplicationController
   end
 
   def initialize
-   @user.mode = :speak  # speak mode
-   @user.voice = :male  # male voice
+#   @user.mode = :speak  # speak mode
+#   @user.voice = :male  # male voice
   end
   def show
     @user = User.find(params[:id])
@@ -33,8 +33,6 @@ class UsersController < ApplicationController
     redirect_to users_path, :notice => "User deleted."
   end
 
-  def mode
-
   private
 
   def secure_params
@@ -42,14 +40,14 @@ class UsersController < ApplicationController
   end
 
 
-e callbacks to share common setup or constraints between actions.
-    def set_user
-      @user = User.find(params[:id])
-    end
+  # callbacks to share common setup or constraints between actions.
+  def set_user
+    @user = User.find(params[:id])
+  end
 
-    # Never trust parameters from the scary internet, only allow the white list through.
-    def user_params
-      params.require(:user).permit(:user_id, :mode, :voice)
-    end
+  # Never trust parameters from the scary internet, only allow the white list through.
+  def user_params
+    params.require(:user).permit(:user_id, :mode, :voice)
+  end
 
-END
+end
