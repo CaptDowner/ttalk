@@ -1,0 +1,2037 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+# English                        : en
+# Arabic (Egypt)                 : ar
+# Chinese (China)                : zh
+# French (France)                : fr
+# Greek (Greece)                 : el
+# German                         : de
+# Japanese (Japan)               : ja
+# Korean (South Korea)           : ko
+# Polish                         : pl
+# Russian                        : ru
+# Spanish                        : es
+# Portuguese                     : pt
+#---
+
+zh:
+  afew:                                                "几"                           
+  alittle:                                             "一点"
+  alongtimeago:                                        "很久以前"
+  aonewayticket:                                       "单程票"
+  aroundtripticket:                                    "往返车票"
+  aboutthreehundredkilometers:                         "约300公里"
+  acrossfromthepostoffice:                             "从邮局对面"
+  allday:                                              "整天"
+  amipronouncingitcorrectly:                           "我在正确的发音是"
+  amyisjohnsgirlfriend:                                "Amy是约翰的女友"
+  andyou:                                              "和你"
+  anythingelse:                                        "还要别的吗"
+  arethereanyconcerts:                                 "还有什么音乐会"
+  aretheycomingthisevening:                            "他们在未来今晚"
+  aretheythesame:                                      "他们是相同的"
+  areyouafraid:                                        "你怕"
+  areyouallergictoanything:                            "你对什么过敏"
+  areyouamerican:                                      "你是美国人"
+  areyoubusy:                                          "你忙吗"
+  areyoucomfortable:                                   "你舒服"
+  areyoucomingthisevening:                             "你来今晚"
+  areyoufreetonight:                                   "你今晚有空"
+  areyougoingtoattendtheirwedding:                     "你去参加他们的婚礼"
+  areyougoingtohelpher:                                "你要帮她"
+  areyougoingtotakeaplaneortrain:                      "你要乘坐飞机或火车"
+  areyouherealone:                                     "你一个人在这儿"
+  areyouhungry:                                        "你饿了吗"
+  areyoumarried:                                       "您结婚了吗"
+  areyouok:                                            "你还好吗"
+  areyouready:                                         "你准备好了吗"
+  areyousick:                                          "你生病"
+  areyousure:                                          "你确定吗"
+  areyouwaitingforsomeone:                             "你在等人"
+  areyouworkingtoday:                                  "你今天工作"
+  areyouworkingtomorrow:                               "你明天的工作"
+  areyourchildrenwithyou:                              "是你的孩子你"
+  assoonaspossible:                                    "尽早"
+  atwhattime:                                          "在什么时候"
+  atwhattimedidithappen:                               "在什么时候会发生这事"
+  at3oclock:                                           "在3点钟"
+  at3oclockintheafternoon:                             "下午3点钟，下午"
+  at5thstreet:                                         "在第5街"
+  at7oclockatnight:                                    "7点钟，晚上"
+  becareful:                                           "当心"
+  becarefuldriving:                                    "要小心驾驶"
+  bequiet:                                             "安静"
+  behindthebank:                                       "银行后面"
+  bringmemyshirtplease:                                "给我带来了我的衬衫，请"
+  businessisgood:                                      "生意好"
+  callme:                                              "打电话给我"
+  callthepolice:                                       "报警"
+  caniaccesstheinternethere:                           "我可以在这里上网吗??"
+  caniborrowsomemoney:                                 "我能借些钱？"
+  canibringmyfriend:                                   "我可以把我的朋友？"
+  canihaveaglassofwaterplease:                         "我能有水，请一杯？"
+  canihaveareceiptplease:                              "我可以要一张收据，请？"
+  canihavethebillplease:                               "我可以把帐单，请？"
+  canihelpyou:                                         "我可以帮你吗??"
+  canimakeanappointmentfornextwednesday:               "我可以预约下周三？"
+  caniseeyourpassportplease:                           "我可以看看你的护照吗??"
+  canitakeamessage:                                    "我可以捎个口信？"
+  canitryiton:                                         "我可以试试吗？"
+  caniuseyourphone:                                    "我可以用你的电话吗？"
+  canitbecheaper:                                      "可以在更便宜？"
+  canwehaveamenuplease:                                "我们可以有一个菜单吗？"
+  canwehavesomemorebreadplease:                        "我们可以有更多的面包吗？"
+  doyouhaveaboyfriend:                                 "你有男朋友吗？"
+  doyouhaveagirlfriend:                                "你有女朋友吗？"
+  doyouhaveapencil:                                    "你有铅笔吗？"
+  doyouhaveaproblem:                                   "你有什么问题吗？"
+  doyouhaveaswimmingpool:                              "你有一个游泳池？"
+  doyouhaveanappointment:                              "你有预约吗？"
+  doyouhaveanotherone:                                 "你有另外一个？"
+  doyouhaveanychildren:                                "你有孩子吗？"
+  doyouhaveanycoffee:                                  "你有什么咖啡？"
+  doyouhaveanymoney:                                   "你有什么钱？"
+  doyouhaveanyvacancies:                               "你们有空缺吗？"
+  doyouhaveanythingcheaper:                            "你有更便宜的东西吗？"
+  doyouhaveenoughmoney:                                "你有足够的钱？"
+  doyouhavethenumberforataxi:                          "你对出租车的数量？"
+  doyouhavethisinsizeeleven:                           "你在size11有这个？"
+  doyouhearthat:                                       "你听到了吗？"
+  doyouknowher:                                        "你认识她吗？"
+  doyouknowhowmuchitcosts:                             "你知道要花多少钱？"
+  doyouknowhowtocook:                                  "你知道如何做饭？"
+  doyouknowhowtogettothemarriotthotel:                 "你知道怎么去万豪酒店？"
+  doyouknowwhatthismeans:                              "你知道这是什么意思？"
+  doyouknowwhatthissays:                               "你知道这是什么说？"
+  doyouknowwhereicangetataxi:                          "你知道我在哪里可以打到出租车？"
+  doyouknowwheremyglassesare:                          "你知道我的眼镜？"
+  doyouknowwheresheis:                                 "你知道她在哪里？"
+  doyouknowwheretheresastorethatsellstowels:           "你知道那里有一个商店，卖毛巾？"
+  doyoulikeithere:                                     "你喜欢这里吗？"
+  doyoulikethebook:                                    "你喜欢这本书？"
+  doyouliketowatchtv:                                  "你喜欢看的T？V？"
+  doyoulikeyourboss:                                   "你喜欢你的老板？"
+  doyoulikeyourcoworkers:                              "你喜欢你的同事？"
+  doyouneedanything:                                   "你需要什么？"
+  doyouneedanythingelse:                               "你需要什么吗？"
+  doyouplayanysports:                                  "你玩什么运动？"
+  canwesitoverthere:                                   "我们可以坐在那边？"
+  canyoucallbacklater:                                 "你可以再打过来？"
+  canyoucarrythisforme:                                "你可以随身携带这个给我吗？"
+  canyoudomeafavor:                                    "你可以帮我一个忙？"
+  canyoufixthis:                                       "你能解决这个问题吗？"
+  canyougivemeanexample:                               "你可以给我一个例子吗？"
+  canyouhelpme:                                        "你能帮助我吗？"
+  canyouholdthisforme:                                 "你可以拿着这个给我吗？"
+  canyoupleasesaythatagain:                            "可以请你再说一遍吗？"
+  canyourecommendagoodrestaurant:                      "你能推荐一家好餐馆？"
+  canyourepeatthatplease:                              "你能再说一遍吗？"
+  canyoushowme:                                        "你能告诉我吗？"
+  canyouspeaklouderplease:                             "你能大声说话吗？"
+  canyouswim:                                          "你会游泳吗？"
+  canyouthrowthatawayforme:                            "你能扔掉这些给我吗？"
+  canyoutranslatethisforme:                            "你可以这样翻译的吗？"
+  certainly:                                           "当然"
+  cheers:                                              "干杯"
+  chicagoisverydifferentfromboston:                    "芝加哥是从波士顿很大的不同"
+  comehere:                                            "来这里"
+  diditsnowyesterday:                                  "昨天做了雪？"
+  didyoucomewithyourfamily:                            "你拿出你的家人吗？"
+  didyougetmyemail:                                    "你收到我的电子邮件？"
+  didyousendmeflowers:                                 "你送我花？"
+  didyoutakeyourmedicine:                              "你把你的药？"
+  didyourwifelikecalifornia:                           "做你的妻子像加州？"
+  doyouacceptusdollars:                                "你们接受美元？"
+  doyoubelievethat:                                    "你相信吗？"
+  doyoufeelbetter:                                     "你觉得更好吗？"
+  doyougotofloridaoften:                               "你去到佛罗里达州频繁？"
+  doyouhaveaboyfriend:                                 "你有男朋友吗？"
+  doyouhaveagirlfriend:                                "你有女朋友吗？"
+  doyouhaveapencil:                                    "你有铅笔吗？"
+  doyouhaveaproblem:                                   "你有什么问题吗？"
+  doyouhaveaswimmingpool:                              "你有一个游泳池？"
+  doyouhaveanappointment:                              "你有预约吗？"
+  doyouhaveanotherone:                                 "你有另外一个？"
+  doyouhaveanychildren:                                "你有孩子吗？"
+  doyouhaveanycoffee:                                  "你有什么咖啡？"
+  doyouhaveanymoney:                                   "你有什么钱？"
+  doyouhaveanyvacancies:                               "你们有空缺吗？"
+  doyouhaveanythingcheaper:                            "你有更便宜的东西吗？"
+  doyouhaveenoughmoney:                                "你有足够的钱？"
+  doyouhavethenumberforataxi:                          "你对出租车的数量？"
+  doyouhavethisinsizeeleven:                           "你在size11有这个？"
+  doyouhearthat:                                       "你听到了吗？"
+  doyouknowher:                                        "你认识她吗？"
+  doyouknowhowmuchitcosts:                             "你知道要花多少钱？"
+  doyouknowhowtocook:                                  "你知道如何做饭？"
+  doyouknowhowtogettothemarriotthotel:                 "你知道怎么去万豪酒店？"
+  doyouknowwhatthismeans:                              "你知道这是什么意思？"
+  doyouknowwhatthissays:                               "你知道这是什么说？"
+  doyouknowwhereicangetataxi:                          "你知道我在哪里可以打到出租车？"
+  doyouknowwheremyglassesare:                          "你知道我的眼镜？"
+  doyouknowwheresheis:                                 "你知道她在哪里？"
+  doyouknowwheretheresastorethatsellstowels:           "你知道那里有一个商店，卖毛巾？"
+  doyoulikeithere:                                     "你喜欢这里吗？"
+  doyoulikethebook:                                    "你喜欢这本书？"
+  doyouliketowatchtv:                                  "你喜欢看的T？V？"
+  doyoulikeyourboss:                                   "你喜欢你的老板？"
+  doyoulikeyourcoworkers:                              "你喜欢你的同事？"
+  doyouneedanything:                                   "你需要什么？"
+  doyouneedanythingelse:                               "你需要什么吗？"
+  doyouplayanysports:                                  "你玩什么运动？"
+  doyouplaybasketball:                                 "你打篮球吗？"
+  doyousellbatteries:                                  "你卖的电池？"
+  doyousellmedicine:                                   "你卖的药吗？"
+  doyousmoke:                                          "你抽烟吗？"
+  doyouspeakenglish:                                   "你会说英语吗？"
+  doyoustudyenglish:                                   "你学英语吗？"
+  doyoutakecreditcards:                                "你拿信用卡？"
+  doyouthinkitllraintoday:                             "你觉得今天会下雨吗？"
+  doyouthinkitsgoingtoraintoday:                       "你觉得它今天会下雨吗？"
+  doyouthinkitspossible:                               "你觉得它可能吗？"
+  doyouthinkyoullbebackbyeleventhirty:                 "你觉得你会回来了十一点半？"
+  doyouunderstand:                                     "你明白吗？"
+  doyouwantmetocomeandpickyouup:                       "你要我来接你？"
+  doyouwanttocomewithme:                               "你想和我一起去吗？"
+  doyouwanttogotothemovies:                            "你想去看电影？"
+  doyouwanttogowithme:                                 "你想和我一起去？"
+  doesanyoneherespeakenglish:                          "有没有人在这里说英语吗？"
+  doesheliketheschool:                                 "他喜欢学校？"
+  doesitoftensnowinthewinterinmassachusetts:           "不经常下雪的冬天在马萨诸塞州？"
+  doesthisroadgotonewyork:                             "没有这条路去纽约？"
+  dontdothat:                                          "不这样做"
+  dontworry:                                           "不用担心"
+  everyweek:                                           "每星期"
+  everydayigetupatsix:                                 "我每天六点起床"
+  everyoneknowsit:                                     "每个人都知道它"
+  everythingisready:                                   "一切准备就绪"
+  excellent:                                           "优秀"
+  excuseme:                                            "对不起"
+  excusemewhatdidyousay:                               "你说什么对不起"
+  expirationdate:                                      "截止日期"
+  fillitupplease:                                      "请给我加满汽油"
+  followme:                                            "跟我来"
+  forhowmanynights:                                    "多少个晚上"
+  forgetit:                                            "忘了它"
+  fromheretothere:                                     "从这里到那里"
+  fromtimetotime:                                      "时"
+  givemeacall:                                         "给我打电话"
+  givemethepen:                                        "给我笔"
+  gostraightahead:                                     "直行"
+  goodafternoon:                                       "下午好"
+  goodeveningsir:                                      "晚上好，先生"
+  goodidea:                                            "好主意"
+  goodluck:                                            "祝好运"
+  goodmorning:                                         "早安"
+  great:                                               "伟大"
+  happybirthday:                                       "生日快乐"
+  hasyourbrotherbeentocalifornia:                      "有你哥哥一直到加州"
+  haveagoodtrip:                                       "旅途愉快"
+  havetheymetheryet:                                   "他们有见过她吗？"
+  haveyouarrived:                                      "你来了吗？"
+  haveyoubeentoboston:                                 "你去过波士顿？"
+  haveyoubeenwaitinglong:                              "你已经等候多久？"
+  haveyoudonethisbefore:                               "你以前做过吗？"
+  haveyoueatenatthatrestaurant:                        "你在那家餐厅吃了吗？"
+  haveyoueatenyet:                                     "你吃过了吗？"
+  haveyoueverhadpotatosoup:                            "你有过土豆汤？"
+  haveyoufinishedstudying:                             "你学完？"
+  haveyouseenthismovie:                                "你看过这部电影？"
+  healwaysdoesthatforme:                               "他总是这样对我来说"
+  hebrokethewindow:                                    "他打破了窗户"
+  hedoesntlooklikeanurse:                              "他看起来并不像一个护士"
+  hehasanicecar:                                       "他有一辆好车"
+  helikesitverymuch:                                   "他喜欢很"
+  helikesjuicebuthedoesntlikemilk:                     "他喜欢的果汁，但他不喜欢牛奶"
+  heneedssomenewclothes:                               "他需要一些新衣服"
+  henevergivesmeanything:                              "他从来没有给我任何东西"
+  hesaidthisisaniceplace:                              "他说，这是一个不错的地方"
+  hesaidyouliketowatchmovies:                          "他说你喜欢看电影"
+  hestudiesatbostonuniversity:                         "他在波士顿大学学习"
+  hethinkswedontwanttogo:                              "他认为，我们不想去"
+  heworksatacomputercompanyinnewyork:                  "他的作品在一家电脑公司在纽约"
+  hesaverygoodstudent:                                 "他是一个非常优秀的学生"
+  hesanamerican:                                       "他是一个美国人"
+  hesanengineer:                                       "他是一个工程师"
+  hescomingsoon:                                       "他即将推出"
+  hesfasterthanme:                                     "他比我还快"
+  hesinthekitchen:                                     "他在厨房里"
+  hesneverbeentoamerica:                               "他从来没有去过美国"
+  hesnotinrightnow:                                    "他现在不在"
+  hesright:                                            "他是正确的"
+  hesveryannoying:                                     "他非常讨厌"
+  hesveryfamous:                                       "他是非常有名"
+  hesveryhardworking:                                  "他很努力工作"
+  hellbebackintwentyminutes:                           "地狱回到二十分钟"
+  hello:                                               "您好"
+  help:                                                "救命"
+  hereitis:                                            "这里是"
+  hereyouare:                                          "给你"
+  heresmynumber:                                       "这里是我的电话号码"
+  heresyourorder:                                      "这里是您的订单"
+  heresyoursalad:                                      "这里是你的沙拉"
+  hi,ismrs.smiththereplease:                           "是喜是史密斯夫人有请"
+  hisfamilyiscomingtomorrow:                           "他的家人来了，明天"
+  hisroomisverysmall:                                  "他的房间很小"
+  hisson:                                              "他的儿子"
+  howaboutsaturday:                                    "星期六怎么样？"
+  howareyou:                                           "你好吗？"
+  howareyoupaying:                                     "你怎么支付？"
+  howareyourparents:                                   "如何是你的父母呢？"
+  howdoigetthere:                                      "我如何到达那里？"
+  howdoigettodanielstreet:                             "我怎么丹尼尔街？"
+  howdoigettotheamericanembassy:                       "我怎么去美国大使馆？"
+  howdoiusethis:                                       "我该如何使用呢？"
+  howdoyouknow:                                        "你怎么知道？"
+  howdoyoupronouncethat:                               "你怎么发音的？"
+  howdoyousayitinenglish:                              "你怎么用英语说了吗？"
+  howdoyouspellit:                                     "你怎么拼？"
+  howdoyouspellthewordseattle:                         "你怎么拼写单词西雅图？"
+  howdoesittaste:                                      "它什么味？"
+  howfarisit:                                          "有多远呢？"
+  howfarisittochicago:                                 "多远是芝加哥？"
+  howisshe:                                            "她怎么样？"
+  howlongareyougoingtostay:                            "多久你要留下来？"
+  howlongareyougoingtostayincalifornia:                "多久你打算留在加州？"
+  howlongdoesittakebycar:                              "如何长时间才能开车？"
+  howlongdoesittaketogettogeorgia:                     "多长时间才能到达格鲁吉亚的？"
+  howlonghaveyoubeenhere:                              "怎么你在这里多久了？"
+  howlonghaveyouworkedhere:                            "多久了，你在这里工作？"
+  howlongisit:                                         "是多久？"
+  howlongistheflight:                                  "飞多长时间？"
+  howlongwillittake:                                   "它需要多长时间？"
+  howlongwillyoubestaying:                             "你会待多久？"
+  howmany:                                             "多少？"
+  howmanychildrendoyouhave:                            "有多少孩子，你呢？"
+  howmanyhoursaweekdoyouwork:                          "多少个小时，每周做你的工作？"
+  howmanylanguagesdoyouspeak:                          "有多少语言，你说话？"
+  howmanymilesisittopennsylvania:                      "多少英里是宾夕法尼亚州？"
+  howmanypeople:                                       "有多少人？"
+  howmanypeoplearethereinnewyork:                      "有多少人有在纽约吗？"
+  howmanypeopledoyouhaveinyourfamily:                  "有多少人，你有你的家人？"
+  howmuchalltogether:                                  "多少都在一起？"
+  howmucharetheseearrings:                             "多少钱，这些耳环？"
+  howmuchdoioweyou:                                    "多少钱，我欠你的？"
+  howmuchdoesitcostperday:                             "多少它每天的成本？"
+  howmuchdoesthiscost:                                 "多少费用？"
+  howmuchisit:                                         "多少钱？"
+  howmuchisittogotomiami:                              "多少钱去迈阿密？"
+  howmuchisthat:                                       "究竟是多少？"
+  howmuchisthis:                                       "这个多少钱？"
+  howmuchmoneydoyouhave:                               "多少钱，你有吗？"
+  howmuchmoneydoyoumake:                               "多少钱，你做什么呢？"
+  howmuchwillitcost:                                   "它要花多少钱？"
+  howmuchwouldyoulike:                                 "多少钱你愿意？"
+  howoldareyou:                                        "你多大了？"
+  howtallareyou:                                       "你有多高？"
+  howwasthemovie:                                      "怎么样的电影？"
+  howwasthetrip:                                       "怎么出行？"
+  howsbusiness:                                        "怎么样的业务？"
+  howstheweather:                                      "怎样的天气？"
+  howsworkgoing:                                       "怎样的工作打算？"
+  hurry:                                               "赶快"
+  iagree:                                              "我同意"
+  iatealready:                                         "我已经吃了"
+  ibelieveyou:                                         "我相信你"
+  iboughtashirtyesterday:                              "我买了一件衬衫昨天"
+  icamewithmyfamily:                                   "我带着我的家人"
+  icanswim:                                            "我可以游"
+  icanthearyou:                                        "我听不到您的声音"
+  icanthearyouclearly:                                 "我听不清楚"
+  idontcare:                                           "我不在乎"
+  idontfeelwell:                                       "我不舒服"
+  idonthaveagirlfriend:                                "我没有女朋友"
+  idonthaveanymoney:                                   "我没有什么钱"
+  idonthavetimerightnow:                               "我没有时间，现在"
+  idontknow:                                           "我不知道"
+  idontknowhowtouseit:                                 "我不知道如何使用它"
+  idontlikehim:                                        "我不喜欢他"
+  idontlikeit:                                         "我不喜欢它"
+  idontmind:                                           "我不介意"
+  idontspeakenglishverywell:                           "我不会说英语非常好"
+  idontspeakverywell:                                  "我不说话非常好"
+  idontthinkso:                                        "我不这么认为"
+  idontunderstand:                                     "我不明白"
+  idontunderstandwhatyoursaying:                       "我不明白你在说什么"
+  idontwantit:                                         "我不希望它"
+  idontwantthat:                                       "我不想说"
+  idontwanttobotheryou:                                "我不想打扰你"
+  ifeelgood:                                           "我感觉很好"
+  iforget:                                             "我忘了"
+  igetoffworkatsix:                                    "我下车六点工作"
+  igiveup:                                             "我放弃"
+  igotinanaccident:                                    "我在一次事故中得到了"
+  ihavetwosisters:                                     "我有两个姐姐"
+  ihaveacold:                                          "我感冒了"
+  ihaveaheadache:                                      "我头疼"
+  ihavealotofthingstodo:                               "我有很多事情要做"
+  ihaveaquestioniwanttoaskyou:                         "我有一个问题我想问你"
+  ihaveareservation:                                   "我预订了座位"
+  ihavemoney:                                          "我有钱"
+  ihaveoneinmycar:                                     "我在我的车有一个"
+  ihavepaininmyarm:                                    "我有痛苦在我的手臂"
+  ihavethreechildrentwogirlsandoneboy:                 "我有三个孩子两个女孩和一个男孩"
+  ihavetogotothepostoffice:                            "我得去邮局"
+  ihavetowashmyclothes:                                "我洗我的衣服"
+  ihaventbeenthere:                                    "我没有去过那里"
+  ihaventfinishedeating:                               "我还没有吃完"
+  ihaventhadlunchyet:                                  "我还没有吃午饭了"
+  ihopeyouandyourwifehaveanicetrip:                    "我希望你和你的妻子有一个很好的旅程"
+  iknow:                                               "我知道"
+  ilikeher:                                            "我喜欢她"
+  ilikeit:                                             "我喜欢它"
+  ilikeitalianfood:                                    "我喜欢意大利菜"
+  iliketowatchtv:                                      "我喜欢看电视"
+  iliveincalifornia:                                   "我住在加利福尼亚州"
+  ilostmywatch:                                        "我失去了我的手表"
+  iloveyou:                                            "我爱你"
+  imadeamistake:                                       "我犯了一个错误"
+  imadethiscake:                                       "我做了这个蛋糕"
+  ineedadoctor:                                        "我需要医生"
+  ineedanotherkey:                                     "我需要另一个关键"
+  ineedsometissues:                                    "我需要一些组织"
+  ineedthistogettherebytomorrow:                       "我需要这个明天到那里"
+  ineedtochangeclothes:                                "我需要换衣服"
+  ineedtogohome:                                       "我要回家"
+  ineedtogonow:                                        "我现在需要去"
+  ineedtopracticemyenglish:                            "我需要练习英语"
+  ionlyhavefivedollars:                                "我只有五块钱"
+  ionlywantasnack:                                     "我只想要一份快餐"
+  iremember:                                           "我记得"
+  ispeakalittleenglish:                                "我讲一点英语"
+  ispeaktwolanguages:                                  "我说两种语言"
+  istillhavealotofthingstobuy:                         "我还有很多东西要购买"
+  istillhavealotofworktodo:                            "我还有很多工作要做"
+  istillhavetobrushmyteethandtakeashower:              "我仍然要刷牙和洗澡"
+  istillhaventdecided:                                 "我还是决定性的havent"
+  ithinkineedtoseeadoctor:                             "我想我需要看医生"
+  ithinkittastesgood:                                  "我觉得它的味道不错"
+  ithinkitsverygood:                                   "我认为它非常好"
+  ithinkso:                                            "我想是这样"
+  ithinkthoseshoesareverygoodlooking:                  "我认为这些鞋子都非常好看"
+  ithinkyouhavetoomanyclothes:                         "我认为你有太多的衣服"
+  ithoughthesaidsomethingelse:                         "我以为他说的话"
+  ithoughttheclotheswerecheaper:                       "我以为衣服是更便宜"
+  itrustyou:                                           "我相信你"
+  iunderstand:                                         "我明白了"
+  iunderstandnow:                                      "我现在明白了"
+  iusuallydrinkcoffeeatbreakfast:                      "我平时喝咖啡早餐"
+  iwanttobuysomething:                                 "我想买的东西"
+  iwanttocontactourembassy:                            "我想联系我们的使馆"
+  iwanttogiveyouagift:                                 "我想给你的礼物"
+  iwanttosendthispackagetotheunitedstates:             "我想这个包发送到美国"
+  iwanttoshowyousomething:                             "我想告诉你的东西"
+  iwasabouttoleavetherestaurantwhenmyfriendsarrived:   "我正要离开餐厅时，我的朋友们抵达"
+  iwasgoingtothelibrary:                               "我去图书馆"
+  iwasinthelibrary:                                    "我是在图书馆"
+  iwenttothesupermarketandthentothecomputerstore:      "我去超市，然后到电脑商店"
+  iwishihadone:                                        "我希望我有一个"
+  idlikeamapofthecity:                                 "我想这个城市的地图"
+  idlikeanonsmokingroom:                               "我想一个非吸烟房间"
+  idlikearoom:                                         "我想要一间房"
+  idlikearoomwithtwobedsplease:                        "我想要一间有两张床，请"
+  idlikeasingleroom:                                   "我想要一间单人房"
+  idlikeatablenearthewindow:                           "我想靠窗的一张桌子"
+  idlikesomewatertooplease:                            "我想一些水过请"
+  idlikethenumberforthehiltonhotelplease:              "我想在希尔顿酒店的数量，请"
+  idliketobuyabottleofwaterplease:                     "我想买一瓶水，请"
+  idliketobuyaphonecardplease:                         "我想买一张手机卡，请"
+  idliketobuysomething:                                "我想购买的东西"
+  idliketocalltheunitedstates:                         "我想呼吁美国"
+  idliketoeatatfifthstreetrestaurant:                  "我喜欢吃的第五大街餐厅"
+  idliketoexchangethisfordollars:                      "我想这种交流对美元"
+  idliketogoforawalk:                                  "我想出去散散步"
+  idliketogohome:                                      "我想回家"
+  idliketogoshopping:                                  "我想去购物"
+  idliketogotothestore:                                "我想去商店"
+  idliketomakeaphonecall:                              "我想打个电话"
+  idliketomakeareservation:                            "我想预约"
+  idliketorentacar:                                    "我想租一辆车"
+  idliketosendafax:                                    "我想发送传真"
+  idliketosendthistoamerica:                           "我想送这个给美国"
+  idliketospeaktomrsmithplease:                        "我想和史密斯先生，请"
+  idliketousetheinternet:                              "我想使用互联网"
+  imtwentysixyearsold:                                 "我26年岁"
+  imthirtytwo:                                         "我32"
+  imsixfoottwo:                                        "我是6英尺2"
+  imabeginner:                                         "我是个初学者"
+  imasizeeight:                                        "我是一个大小八"
+  imateacher:                                          "我是一名教师"
+  imallergictoseafood:                                 "我对海鲜过敏"
+  imamerican:                                          "我是美国人"
+  imanamerican:                                        "我是美国人"
+  imbored:                                             "我很无聊"
+  imcleaningmyroom:                                    "我打扫我的房间"
+  imcold:                                              "我觉得冷"
+  imcomingrightnow:                                    "我马上来"
+  imcomingtopickyouup:                                 "我来接你"
+  imfineandyou:                                        "我很好，你呢"
+  imfromamerica:                                       "我从美国很"
+  imfull:                                              "我饱"
+  imgettingreadytogoout:                               "我正准备出门"
+  imgoinghomeinfourdays:                               "我要回家了四天"
+  imgoingtoamericanextyear:                            "我去美国明年"
+  imgoingtobed:                                        "我要睡觉"
+  imgoingtogohavedinner:                               "我要去吃饭"
+  imgoingtoleave:                                      "我要离开"
+  imgood:                                              "我很好"
+  imgoodandyou:                                        "我很好，你"
+  imhappy:                                             "我很高兴"
+  imhereonbusiness:                                    "我在这里出差"
+  imhungry:                                            "我饿了"
+  imjustkidding:                                       "我只是在开玩笑"
+  imjustlooking:                                       "我只是随便看看"
+  imleavingtomorrow:                                   "我明天就要走了"
+  imlookingforthepostoffice:                           "我在寻找邮局"
+  imlost:                                              "我迷路了"
+  immarried:                                           "我已结婚"
+  imnotafraid:                                         "我不害怕"
+  imnotamerican:                                       "我不是美国人"
+  imnotbusy:                                           "我不忙"
+  imnotgoing:                                          "我不打算"
+  imnotmarried:                                        "我还没结婚"
+  imnotreadyyet:                                       "我还没准备好"
+  imnotsure:                                           "我不知道"
+  imok:                                                "我可以"
+  imonhold:                                            "我搁置"
+  imready:                                             "我准备好了"
+  imselfemployed:                                      "我自雇"
+  imsick:                                              "我生病了"
+  imsingle:                                            "我单身"
+  imsorry:                                             "对不起"
+  imsorryweresoldout:                                  "对不起，我们卖完了"
+  imthirsty:                                           "我渴了"
+  imtired:                                             "我累了"
+  imverybusy:                                          "我很忙"
+  imverybusyidonthavetimenow:                          "我很忙，我没有时间了"
+  imverywellthankyou:                                  "我很感谢你"
+  imwaitingforyou:                                     "我在等你"
+  imworriedtoo:                                        "我担心过"
+  ivealreadyseenit:                                    "我已经看到它"
+  ivebeenherefortwodays:                               "我已经在这里两天了"
+  ivebeenthere:                                        "我去过那儿"
+  iveheardtexasisabeautifulplace:                      "我听说德州是一个美丽的地方"
+  iveneverdonethat:                                    "我从来没有做到这一点"
+  iveneverseenthatbefore:                              "我从来没有看到过"
+  iveseenit:                                           "我已经看到了"
+  iveworkedthereforfiveyears:                          "我已经五年没有工作"
+  ifyoulikeiticanbuymore:                              "如果你喜欢它，我可以买更多"
+  ifyouneedmyhelppleaseletmeknow:                      "如果你需要我的帮助，请让我知道"
+  illberightback:                                      "我马上就回来"
+  illcallbacklater:                                    "我稍后会再打来"
+  illcallyouonfriday:                                  "我会打电话给你上周五"
+  illcallyouwhenileave:                                "当我离开，我会打电话给你"
+  illcomebacklater:                                    "我稍后再来"
+  illgiveyouacall:                                     "我给你打个电话"
+  illhaveacupofteaplease:                              "我要一杯茶，请"
+  illhaveaglassofwaterplease:                          "我要一杯水，请"
+  illhavethesamething:                                 "我要点同样的菜"
+  illpay:                                              "我会付"
+  illpayfordinner:                                     "我会付晚餐"
+  illpayforthetickets:                                 "我会付门票"
+  illtakeit:                                           "我要买它"
+  illtakethatonealso:                                  "我就买那种还"
+  illtakeyoutothebusstop:                              "我会带你到公共汽车站"
+  illtalktoyousoon:                                    "我会跟您的到来"
+  illteachyou:                                         "我教你"
+  illtellhimyoucalled:                                 "我会告诉他，你叫"
+  inthirtyminutes:                                     "在30分钟内"
+  isanyoneelsecoming:                                  "是别人来？"
+  iseverythingok:                                      "一切OK？"
+  isitclose:                                           "它是近？"
+  isitcoldoutside:                                     "它是外面冷？"
+  isitfarfromhere:                                     "它离这儿远吗？"
+  isithot:                                             "热吗？"
+  isitnearby:                                          "它是在附近吗？"
+  isitpossible:                                        "是否有可能？"
+  isitraining:                                         "是下雨吗？"
+  isitready:                                           "是准备好？"
+  isitsupposedtoraintomorrow:                          "是它应该明天下雨？"
+  isjohnhere:                                          "是约翰吗？"
+  isjohnthereplease:                                   "约翰有吗？"
+  ismr.smithanamerican:                                "是史密斯先生是美国人吗？"
+  isthatenough:                                        "是否足够呢？"
+  isthatok:                                            "是，OK？"
+  isthebankfar:                                        "是银行多远？"
+  isthereamovietheaternearby:                          "附近有电影院吗？"
+  isthereanightclubintown:                             "有没有在城里一家夜总会？"
+  istherearestaurantinthehotel:                        "有没有在酒店的餐厅？"
+  isthereastorenearhere:                               "是附近有商店吗？"
+  isthereairconditioningintheroom:                     "有空调的房间？"
+  isthereanenglishspeakingguide:                       "有一个讲英语的导游？"
+  isthereanymailforme:                                 "有没有我的信？"
+  isthereanythingcheaper:                              "有什么便宜一点的吗？"
+  isthisasafearea:                                     "这是一个安全的地方？"
+  isthismr.smith:                                      "这是史密斯先生？"
+  isthispenyours:                                      "这是笔你的吗？"
+  isthisthebustony:                                    "这是公交车到纽约？"
+  isthisyourbook:                                      "这是你的书吗？"
+  isyourfatherhome:                                    "是你爸爸在家吗？"
+  isyourhouselikethisone:                              "是你的房子是这样吗？"
+  isyourhusbandalsofromboston:                         "是你的丈夫也从波士顿？"
+  isyoursonhere:                                       "是你的儿子吗？"
+  isntit:                                              "是不是？"
+  itcoststwentydollarsperhour:                         "它的成本是每小时20美元"
+  itdependsontheweather:                               "它依赖于天气"
+  ithurtshere:                                         "这里疼"
+  itrainedveryhardtoday:                               "今天下雨很辛苦"
+  ittakestwohoursbycar:                                "它需要两个小时的车程"
+  itwillarriveshortly:                                 "它会很快到来"
+  itllbecoldthisevening:                               "这将是寒冷的晚上"
+  itsaugusttwentyfifth:                                "这是八月第二十五"
+  itsdelicious:                                        "它的美味"
+  itseightforty-five:                                  "这是845"
+  itseleventhirty:                                     "这是十一点半"
+  itsfarfromhere:                                      "它离这儿远"
+  itsgoingtobehottoday:                                "它今天会是热"
+  itsgoingtosnowtoday:                                 "它会今天下雪"
+  itshalfpasteleven:                                   "这是十一时半"
+  itshere:                                             "它在这里"
+  itslessthanfivedollars:                              "这是不到五块钱"
+  itslongerthantwomiles:                               "这是超过两英里长"
+  itsmine:                                             "这是我的"
+  itsmorethanfivedollars:                              "它比五块钱"
+  itsnearthesupermarket:                               "它的附近有超市"
+  itsnorthofhere:                                      "它是在这里北边"
+  itsnotsupposedtoraintoday:                           "它不应该在今天下雨"
+  itsnottoofar:                                        "那儿不太远"
+  itsnotveryexpensive:                                 "这是不是很昂贵"
+  itsok:                                               "没关系"
+  itsonseventhstreet:                                  "它是在第七街"
+  itsoverthere:                                        "这是在那边"
+  itsquarterpastnine:                                  "这是九时一刻"
+  itsquartertoseven:                                   "这是六时三刻"
+  itsraining:                                          "下雨了"
+  itsreallyhot:                                        "这是真热"
+  itsseventeendollars:                                 "这是17美元"
+  itsshorterthanthreemiles:                            "它是短于3英里"
+  itssix:                                              "这是6"
+  itssupposedtoraintomorrow:                           "它应该明天下雨"
+  itsthere:                                            "它的存在"
+  itstoolate:                                          "为时已晚"
+  itsverycoldtoday:                                    "今天非常冷"
+  itsveryimportant:                                    "这是非常重要的"
+  itsverywindy:                                        "这是非常多风"
+  johnisgoingonvacationtomorrow:                       "约翰是去度假的明天"
+  junethird:                                           "第三个月"
+  justalittle:                                         "只是一点点"
+  justamoment:                                         "一会儿"
+  letmecheck:                                          "让我查"
+  letmethinkaboutit:                                   "让我想想"
+  letsgo:                                              "我们走吧"
+  letsgohavealook:                                     "让我们去看看"
+  letsmeetinfrontofthehotel:                           "让我们在酒店门前见面"
+  letspracticeenglish:                                 "让我们来练习英语"
+  letsshare:                                           "让我们分享"
+  maleorfemale:                                        "男女不限"
+  mayispeaktomrs.smithplease:                          "我可以给史密斯太太说话，请"
+  maybe:                                               "可能是"
+  morethantwohundredmiles:                             "超过200英里"
+  morethanthat:                                        "更重要的是"
+  mybirthdayisaugusttwentyth:                          "我的生日是八月twentyth"
+  mycarisntworking:                                    "我的车不工作"
+  mycarwashitbyanothercar:                             "我的车被击中另一辆汽车"
+  mycellphonedoesnthavegoodreception:                  "我的手机可是没有良好的接待"
+  mycellphonedoesntwork:                               "我的手机不工作"
+  mydaughterishere:                                    "我的女儿是在这里"
+  myfatherhasbeenthere:                                "我的父亲一直有"
+  myfatherisalawyer:                                   "我的父亲是一名律师"
+  myfriendisamerican:                                  "我的朋友是美国人"
+  mygrandmotherpassedawaylastyear:                     "奶奶去年去世"
+  myhouseisclosetothebank:                             "我的房子是靠近岸边"
+  myluggageismissing:                                  "我的行李丢失"
+  mynameisjohnsmith:                                   "我的名字叫约翰·史密斯"
+  myson:                                               "我的儿子"
+  mysonstudiescomputers:                               "我的儿子学习电脑"
+  mystomachhurts:                                      "我肚子疼"
+  mythroatissore:                                      "我的嗓子喊疼"
+  mywatchhasbeenstolen:                                "我的手表被偷"
+  nearthebank:                                         "在银行附近"
+  nevermind:                                           "没关系"
+  nexttime:                                            "下一次"
+  nicetomeetyou:                                       "很高兴认识你"
+  no:                                                  "没有"
+  noproblem:                                           "没问题"
+  nothankyou:                                          "不，谢谢"
+  no,imamerican:                                       "不，我是美国人"
+  no,thisisthefirsttime:                               "没有，这是第一次"
+  nobodyishelpingus:                                   "没有人帮助我们"
+  nobodyisthererightnow:                               "没有人有现在"
+  nonsense:                                            "废话"
+  notrecently:                                         "最近没有"
+  notyet:                                              "还没"
+  nothingelse:                                         "闲来无事"
+  noworlater:                                          "现在或以后"
+  octobertwentysecond:                                 "十月第二十二"
+  ofcourse:                                            "当然"
+  ok:                                                  "行"
+  ontheleft:                                           "在左侧"
+  ontheright:                                          "在右侧"
+  onthesecondfloor:                                    "在thesecond地板"
+  onelikethat:                                         "这样的一套"
+  onetickettonewyorkplease:                            "一票到纽约，请"
+  onewayorroundtrip:                                   "单程或往返"
+  openthedoor:                                         "开门"
+  openthewindow:                                       "在打开的窗口"
+  ourchildrenareinamerica:                             "我们的孩子在美国"
+  outsidethehotel:                                     "酒店外"
+  overhere:                                            "在这里"
+  overthere:                                           "在那边"
+  pickupyourclothes:                                   "皮卡你的衣服"
+  please:                                              "请"
+  pleasecallme:                                        "请给我打电话"
+  pleasecomein:                                        "请进来"
+  pleasecountthisforme:                                "请算上这对我来说"
+  pleasefilloutthisform:                               "请填写此表格"
+  pleasesitdown:                                       "请坐"
+  pleasespeakenglish:                                  "请讲英语"
+  pleasespeakmoreslowly:                               "请说得慢一点"
+  pleasespeakslower:                                   "请说慢"
+  pleasetakemetotheairport:                            "请带我到机场"
+  pleasetakemetothisaddress:                           "请带我去这个地址"
+  pleasetakeoffyourshoes:                              "请脱鞋"
+  pleasetellherjohncalled:                             "请告诉她叫约翰"
+  pleasetellme:                                        "请告诉我"
+  pleasewaitforme:                                     "请等待我"
+  pleasewriteitdown:                                   "请写下来"
+  really:                                              "真"
+  righthere:                                           "就在这里"
+  rightthere:                                          "正确的有"
+  seeyoulater:                                         "回头见"
+  seeyoutomorrow:                                      "明天见"
+  seeyoutonight:                                       "看你今晚"
+  shewantstoknowwhenyourcoming:                        "她想知道，当你的到来"
+  shesanexpert:                                        "她的一位专家"
+  shesgoingwithmetomorrow:                             "她明天会跟我"
+  shesolderthanme:                                     "她比我大"
+  shespretty:                                          "她的漂亮"
+  shouldiwait:                                         "我应该等待"
+  somebooks:                                           "有些书"
+  someonedoesthatforme:                                "有人做了我"
+  someoneiscoming:                                     "有人来了"
+  sometimesigotosleepatelevensometimesateleventhirty:  "有时我去十一点睡觉，有时十一点三十分"
+  sorry,ididnthearclearly:                             "对不起，我没有听清楚"
+  sorry,idonthaveapencil:                              "对不起，我没有铅笔"
+  sorry,ithinkihavethewrongnumber:                     "对不起，我想我有错号码"
+  sorry,tobotheryou:                                   "很抱歉打扰你"
+  sorry,wedontacceptcreditcards:                       "很抱歉，我们不接受信用卡"
+  sorry,wedonthaveany:                                 "对不起，我们没有任何"
+  sorry,wedonthaveanyvacancies:                        "对不起，我们没有任何空缺"
+  sorry,weonlyacceptcash:                              "对不起，我们只接受现金"
+  startthecar:                                         "启动汽车"
+  stop:                                                "停止"
+  takeachance:                                         "碰运气"
+  takeitoutside:                                       "把它外面"
+  takemedowntown:                                      "把我闹"
+  takemetothemarriotthotel:                            "带我去万豪酒店"
+  takethismedicine:                                    "服用此药"
+  tellhimthatineedtotalktohim:                         "告诉他，我需要和他谈谈"
+  tellme:                                              "告诉我"
+  thankyou:                                            "谢谢"
+  thankyoumiss:                                        "谢谢你错过"
+  thankyousir:                                         "谢谢主席先生"
+  thankyouverymuch:                                    "非常感谢"
+  thanks:                                              "谢谢"
+  thanksforeverything:                                 "感谢一切"
+  thanksforyourhelp:                                   "感谢您的帮助"
+  thatcarissimilartomycar:                             "那车是类似我的车"
+  thatcaroverthereismine:                              "那车那边是我的"
+  thatlooksgreat:                                      "这看起来很棒"
+  thatlooksold:                                        "看起来老"
+  thatmeansfriend:                                     "这意味着朋友"
+  thatrestaurantisnotexpensive:                        "那家餐厅也不贵"
+  thatsmellsbad:                                       "说味道不好"
+  thatway:                                             "这样"
+  thatsagoodschool:                                    "这是一个好学校"
+  thatsalright:                                        "这是正常的"
+  thatsenough:                                         "足够了"
+  thatsfair:                                           "这是公平的"
+  thatsfine:                                           "没关系"
+  thatsherbook:                                        "那是她的书"
+  thatsit:                                             "就是这样"
+  thatsnotenough:                                      "这还不够"
+  thatsnotfair:                                        "这是不公平的"
+  thatsnotright:                                       "这是不对的"
+  thatsright:                                          "这是正确的"
+  thatstoobad:                                         "这太糟糕了"
+  thatstooexpensive:                                   "这就是太贵了"
+  thatstoolate:                                        "这是为时已晚"
+  thatstoomany:                                        "这是太多"
+  thatstoomuch:                                        "这是太多"
+  thatswrong:                                          "这是错误的"
+  theaccidenthappenedattheintersection:                "事故发生在十字路口"
+  thebigoneorthesmallone:                              "大单还是小单"
+  thebookisbehindthetable:                             "这本书是在桌子后面"
+  thebookisinfrontofthetable:                          "书是在表中的前"
+  thebookisnearthetable:                               "这本书是表附近"
+  thebooksareexpensive:                                "图书价格昂贵"
+  thecarisfixed:                                       "汽车是固定的"
+  thecarsareamerican:                                  "汽车是美国"
+  thefoodwasdelicious:                                 "食物很美味"
+  theplanedepartsat530:                                "飞机起飞at530"
+  theroadsareslippery:                                 "道路湿滑"
+  thetvisbroken:                                       "电视机坏了"
+  thewholeday:                                         "全日"
+  therearemanypeoplehere:                              "也有很多人在这里"
+  therearesomeapplesintherefrigerator:                 "有在冰箱一些苹果"
+  therearesomebooksonthetable:                         "也有在桌子上有些书"
+  therehasbeenacaraccident:                            "出现了车祸"
+  theresabookunderthetable:                            "有桌子底下一本书"
+  theresarestaurantnearhere:                           "有附近有餐厅"
+  theresarestaurantovertherebutidontthinkitsverygood:  "有一间餐厅那边，但我不认为它非常好"
+  theresplentyoftime:                                  "有足够的时间"
+  thesebooksareours:                                   "这些书是我们的"
+  theyarrivedyesterday:                                "他们昨天抵达"
+  theychargetwentysixdollarsperday:                    "他们收取每天26元"
+  theyhaventmetheryet:                                 "他们还没有碰到她了"
+  theyllberightback:                                   "他们马上就回来"
+  theyreplanningtocomenextyear:                        "他们计划明年来"
+  theyrethesame:                                       "它们是相同的"
+  theyreverybusy:                                      "他们非常忙"
+  theyrewaitingforus:                                  "他们在等着我们"
+  thisdoesntwork:                                      "这不起作用"
+  thishouseisverybig:                                  "这房子是非常大的"
+  thisismrs.smith:                                     "这是史密斯夫人"
+  thisismymother:                                      "这是我的母亲"
+  thisisthefirsttimeivebeenhere:                       "这是我第一次在这里过"
+  thisisverydifficult:                                 "这是非常困难的"
+  thisisveryimportant:                                 "这是非常重要的"
+  thisroomisamess:                                     "这个房间是一个烂摊子"
+  thosemenarespeakingenglish:                          "那些人说英语"
+  tryit:                                               "试试吧"
+  tryiton:                                             "试试"
+  trytosayit:                                          "试试再说吧"
+  turnaround:                                          "回转"
+  turnleft:                                            "左转"
+  turnright:                                           "右转"
+  verygoodthanks:                                      "很不错的感谢"
+  waiter:                                              "服务员"
+  waitress:                                            "小姐"
+  wecaneatitalianorchinesefood:                        "我们可以吃意大利和中国菜"
+  wehavetwoboysandonegirl:                             "我们有两个男孩和一个女孩"
+  welikeitverymuch:                                    "我们非常喜欢它"
+  wellhavetwoglassesofwaterplease:                     "我们将有两杯水，请"
+  werefromcalifornia:                                  "我们是来自加利福尼亚州"
+  werelate:                                            "我们迟到了"
+  werethereanyproblems:                                "是有什么问题呢？"
+  wereyouatthelibrarylastnight:                        "你是不是在图书馆昨晚？"
+  whatareyoudoing:                                     "你在干什么？"
+  whatareyougoingtodotonight:                          "你有什么打算今晚做什么？"
+  whatareyougoingtohave:                               "你有什么打算有哪些？"
+  whatareyouthinkingabout:                             "你在想什么呢？"
+  whatareyoutwotalkingabout:                           "什么是你们两个在说什么？"
+  whatareyourhobbies:                                  "你有什么爱好吗？"
+  whatcanidoforyou:                                    "我能为你做什么？"
+  whatcoloristhatcar:                                  "是什么颜色的车？"
+  whatdayaretheycomingover:                            "他们在未来的什么日子了？"
+  whatdayoftheweekisit:                                "本周是什么日子吗？"
+  whatdidyoudolastnight:                               "那你昨晚做了？"
+  whatdidyoudoyesterday:                               "你做了什么昨天？"
+  whatdidyouthink:                                     "你是怎么想的？"
+  whatdopeopleusuallydointhesummerinlosangeles:        "做的人通常做在洛杉矶的夏季呢？"
+  whatdotheystudy:                                     "他们怎么学习？"
+  whatdoyoudoforwork:                                  "你是做什么工作的？"
+  whatdoyouhave:                                       "你有什么？"
+  whatdoyourecommend:                                  "你有什么建议吗？"
+  whatdoyoustudy:                                      "你学什么？"
+  whatdoyouthinkoftheseshoes:                          "您怎么看这些鞋？"
+  whatdoyouthink:                                      "你有什么感想？"
+  whatdoyouwanttobuy:                                  "你想要什么买？"
+  whatdoyouwanttodo:                                   "你想让我做什么？"
+  whatdoyourparentsdoforwork:                          "你父母是做什么工作的？"
+  whatdoeshedoforwork:                                 "他做什么工作？"
+  whatdoesthismean:                                    "这是什么意思？"
+  whatdoesthissay:                                     "这是什么说的？"
+  whatdoesthiswordmean:                                "这是什么字是什么意思？"
+  whatdoesyourfatherdoforwork:                         "你爸爸是做工作的？"
+  whathappened:                                        "发生了什么事？"
+  whatisit:                                            "它是什么？"
+  whatisthat:                                          "那是什么？"
+  whatistheareacode:                                   "什么是区号？"
+  whatistodaysdate:                                    "什么是今天的日期？"
+  whatkindofmusicdoyoulike:                            "你喜欢什么样的音乐？"
+  whatschooldidyougoto:                                "你去什么学校？"
+  whatshouldiwear:                                     "我应该怎么穿？"
+  whatsize:                                            "什么规模？"
+  whattimearetheyarriving:                             "他们在到达什么时候？"
+  whattimeareyougoingtothebusstation:                  "你要去汽车站什么时候？"
+  whattimedidyougetup:                                 "你得到了什么时候了？"
+  whattimedidyougotosleep:                             "你去什么时候睡觉？"
+  whattimedidyouwakeup:                                "你醒来是什么时候呢？"
+  whattimedoyougotoworkeveryday:                       "你去什么时候去上班？"
+  whattimedoyouthinkyoullarrive:                       "什么时候你觉得你会到达？"
+  whattimedoesitstart:                                 "它什么时候开始的？"
+  whattimedoesthemoviestart:                           "请问电影什么时候开始？"
+  whattimedoesthestoreopen:                            "商店几点开门什么时候？"
+  whattimeischeckout:                                  "现在是什么时候结账？"
+  whattimeisit:                                        "现在是几奌？"
+  whatwilltheweatherbeliketomorrow:                    "明天天气是什么样的明天？"
+  whatwouldyouliketodrink:                             "你想喝点什么？"
+  whatwouldyouliketoeat:                               "你会喜欢吃什么？"
+  whatstheaddress:                                     "什么是地址？"
+  whatsthechargepernight:                              "什么是每晚收费？"
+  whatsthedate:                                        "什么日期？"
+  whatstheexchangeratefordollars:                      "什么是汇率的美元？"
+  whatstheexchangerate:                                "什么是汇率？"
+  whatsthematter:                                      "怎么了？"
+  whatsthenameofthecompanyyouworkfor:                  "什么是你工作的公司的名称？"
+  whatsthephonenumber:                                 "什么电话号码？"
+  whatstheroomrate:                                    "什么是房价？"
+  whatsthetemperature:                                 "什么温度？"
+  whatsthis:                                           "这是什么？"
+  whatstodaysdate:                                     "什么是今天的日期？"
+  whatsup:                                             "这是怎么回事？"
+  whatswrong:                                          "怎么了？"
+  whatsyouraddress:                                    "什么是你的地址是什么？"
+  whatsyourfavoritefood:                               "什么是你最喜欢的食物是什么？"
+  whatsyourfavoritemovie:                              "什么是你最喜欢的电影？"
+  whatsyourlastname:                                   "什么是你的姓？"
+  whatsyourname:                                       "你叫什么名字？"
+  whatsyourreligion:                                   "什么是你的宗教？"
+  whatsinit:                                           "什么的呢？"
+  whenaretheycoming:                                   "他们什么时候来？"
+  whenareyoucomingback:                                "你什么时候回来？"
+  whenareyougoingtopickupyourfriend:                   "当你要拿起你的朋友吗？"
+  whenareyouleaving:                                   "你什么时候离开？"
+  whenareyoumoving:                                    "当你感动？"
+  whendidthishappen:                                   "当出现这种情况？"
+  whendidyouarriveinboston:                            "当你在波士顿的时候？"
+  whendowearrive:                                      "我们什么时候到达？"
+  whendoyouarriveintheunitedstates:                    "当你在美国到达？"
+  whendoyougetoffwork:                                 "你什么时候下班？"
+  whendoeshearrive:                                    "他什么时候到？"
+  whendoesitarrive:                                    "当它到达？"
+  whendoesitleave:                                     "当它离开？"
+  whendoesthebankopen:                                 "什么时候银行开？"
+  whendoesthebusleave:                                 "什么时候公交车离开？"
+  whendoestheplanearrive:                              "飞机何时到达？"
+  wheniwenttothestoretheydidnthaveanyapples:           "当我去商店，他们没有任何的苹果？"
+  whenisthenextbustophiladelphia:                      "当是下一个公交车到费城？"
+  whenisyourbirthday:                                  "你的生日是什么时候？"
+  whenwillitbeready:                                   "什么时候能准备好？"
+  whenwouldyouliketomeet:                              "当你想见面吗？"
+  wherearethet-shirts:                                 "那里是T恤？"
+  whereareyoufrom:                                     "你从哪里来？"
+  whereareyougoingtogo:                                "你要去哪儿去了？"
+  whereareyougoing:                                    "你要去哪里？"
+  whereareyou:                                         "你在哪里？"
+  wherecanibuytickets:                                 "我在哪里可以买到票？"
+  wherecaniexchangeusdollars:                          "我在哪里可以兑换美元？"
+  wherecanifindahospital:                              "我在哪里可以找到一家医院？"
+  wherecanimailthis:                                   "我在哪里可以廉价？"
+  wherecanirentacar:                                   "我可以在哪里租车？"
+  wheredidithappen:                                    "在哪发生的？"
+  wheredidyougo:                                       "你去哪儿？"
+  wheredidyoulearnenglish:                             "你在哪里学习英语？"
+  wheredidyoulearnit:                                  "你在哪里学的？"
+  wheredidyouputit:                                    "你在哪里放呢？"
+  wheredidyouworkbeforeyouworkedhere:                  "在那里，你在这里工作之前，你的工作？"
+  wheredoyoulive:                                      "你住在哪里？"
+  wheredoyouwanttogo:                                  "你在哪里还想感谢我们去吗？"
+  wheredoyouwork:                                      "你在哪里工作？"
+  wheredoesithurt:                                     "哪里疼？"
+  wheredoesyourwifework:                               "在那里你太太工作吗？"
+  whereishefrom:                                       "他从哪里来？"
+  whereishe:                                           "他在哪里？"
+  whereisit:                                           "它在哪里？"
+  whereismainstreet:                                   "哪里是主要街道？"
+  whereismyshirt:                                      "哪里是我的衬衫吗？"
+  whereisshefrom:                                      "她在哪儿的呢？"
+  whereistheairport:                                   "其中，在机场？"
+  whereisthebathroom:                                  "厕所在哪里？"
+  whereisthebusstation:                                "哪里是公交车站？"
+  whereisthereadoctorwhospeaksenglish:                 "哪有谁讲英语的医生？"
+  whereisthereanatm:                                   "其中，有一个一吨米？"
+  whereisthereanatm:                                   "其中，有一个ATM？"
+  wherewouldyouliketogo:                               "在那里你会喜欢去？"
+  wherewouldyouliketomeet:                             "在那里你想见面吗？"
+  wherewereyou:                                        "当时你在哪里？"
+  wherestheclosestrestaurant:                          "哪来的最近的餐厅？"
+  wheresthemailbox:                                    "哪来的邮箱？"
+  wheresthenearesthospital:                            "哪来的最近的医院？"
+  wheresthepharmacy:                                   "哪来的药店？"
+  wheresthepostoffice:                                 "哪来的邮局？"
+  whichisbetterthespaghettiorchickensalad:             "这是更好的面条或鸡肉沙拉？"
+  whichisbetter:                                       "哪个更好？"
+  whichisthebest:                                      "这是最好的？"
+  whichonedoyouwant:                                   "哪一个你想要什么？"
+  whichoneisbetter:                                    "哪一个更好？"
+  whichoneischeaper:                                   "哪一个更便宜？"
+  whichoneisthebest:                                   "哪一个是最好的？"
+  whichone:                                            "哪一个？"
+  whichroadshoulditake:                                "我应该走哪一条路？"
+  whichschooldoeshegoto:                               "他是否去哪个学校？"
+  whoarethey:                                          "他们是谁？"
+  whoisit:                                             "是谁？"
+  whoisthat:                                           "那是谁？"
+  whosentthisletter:                                   "谁送这封信？"
+  whotaughtyouthat:                                    "谁教你的？"
+  whotaughtyou:                                        "谁教你的？"
+  whowasthat:                                          "是谁？"
+  whowasyourteacher:                                   "谁是你的老师？"
+  whowon:                                              "谁赢了？"
+  whowouldyouliketospeakto:                            "你要和谁讲话？"
+  whosbookisthat:                                      "谁的书是什么？"
+  whosthatmanoverthere:                                "那是谁的人在那里？"
+  whyareyoulaughing:                                   "你笑什么？"
+  whyarentyougoing:                                    "为什么的arent你要去哪里？"
+  whydidyoudothat:                                     "你为什么这样做呢？"
+  whydidyousaythat:                                    "你为什么这么说？"
+  whynot:                                              "为什么不呢？"
+  willyoucallmeataxiplease:                            "你会打电话给我一辆出租车吗？"
+  willyouhandmeatowelplease:                           "你会递给我一条毛巾吗？"
+  willyoupassmethesaltplease:                          "将你把盐递给我好吗？"
+  willyouputthisinthecarforme:                         "将你把这个在车上给我吗？"
+  willyouremindme:                                     "你会想起我吗？"
+  willyoutakemehome:                                   "你会带我回家吗？"
+  wouldyouaskhimtocallmebackplease:                    "你会问他给我回电话好吗？"
+  wouldyouaskhimtocomehere:                            "你会问他到这里来？"
+  wouldyoulikeaglassofwater:                           "您想一杯水？"
+  wouldyoulikecoffeeortea:                             "您想咖啡还是茶？"
+  wouldyoulikesomewater:                               "你想喝点水吗？"
+  wouldyoulikesomewine:                                "您想喝点酒？"
+  wouldyoulikesomethingtodrink:                        "你想喝点什么吗？"
+  wouldyoulikesomethingtoeat:                          "你想吃点什么吗？"
+  wouldyouliketobuythis:                               "你想buythis？"
+  wouldyouliketogoforawalk:                            "你想出去散散步吗？"
+  wouldyouliketohavedinnerwithme:                      "你想一起吃晚饭吗？"
+  wouldyouliketorentamovie:                            "你想租一部电影？"
+  wouldyouliketowatchtv:                               "您想观看的T？V？"
+  wouldyoulikewaterormilk:                             "您想水或牛奶？"
+  wouldyoutakeamessageplease:                          "你带个口信吗？"
+  yes:                                                 "是的"
+  yesreally:                                           "是真的"
+  youhaveaverynicecar:                                 "你有一个非常漂亮的车"
+  youlooklikemysister:                                 "你看起来像我的妹妹"
+  youlooktired:                                        "你看腻了"
+  youspeakenglishverywell:                             "你会说英语非常好"
+  yourebeautiful:                                      "你非常美"
+  youreright:                                          "你说得对"
+  youresmarterthanhim:                                 "你比他更聪明"
+  youreverynice:                                       "您非常友善"
+  youreverysmart:                                      "你很聪明"
+  yourewelcome:                                        "别客气"
+  yourchildrenareverywellbehaved:                      "您的孩子很乖"
+  yourdaughter:                                        "你的女儿"
+  yourhouseisverynice:                                 "你的房子是非常好的"
+  yourthingsareallhere:                                "你的东西都在这里"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
