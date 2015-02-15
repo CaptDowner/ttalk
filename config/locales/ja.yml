@@ -1,0 +1,2036 @@
+# Files in the config/locales directory are used for internationalization
+# and are automatically loaded by Rails. If you want to use locales other
+# than English, add the necessary files in this directory.
+#
+# To use the locales, use `I18n.t`:
+#
+#     I18n.t 'hello'
+#
+# In views, this is aliased to just `t`:
+#
+#     <%= t('hello') %>
+#
+# To use a different locale, set it with `I18n.locale`:
+#
+#     I18n.locale = :es
+#
+# This would use the information in config/locales/es.yml.
+#
+# To learn more, please read the Rails Internationalization guide
+# available at http://guides.rubyonrails.org/i18n.html.
+# English                        : en
+# Arabic (Egypt)                 : ar
+# Chinese (China)                : zh
+# French (France)                : fr
+# Greek (Greece)                 : el
+# German                         : de
+# Japanese (Japan)               : ja
+# Korean (South Korea)           : ko
+# Polish                         : pl
+# Russian                        : ru
+# Spanish                        : es
+# Portuguese                     : pt
+#---
+
+ja:
+  afew:                                                  "少数"
+  alittle:                                               "少し"
+  alongtimeago:                                          "昔"
+  aonewayticket:                                         "片道切符"
+  aroundtripticket:                                      "往復乗車券"
+  aboutthreehundredkilometers:                           "約300キロ"
+  acrossfromthepostoffice:                               "郵便局の向かい"
+  allday:                                                "一日中"
+  amipronouncingitcorrectly:                             "私はそれを正しく発音しています"
+  amyisjohnsgirlfriend:                                  "エイミーは、ジョンズのガールフレンドである"
+  andyou:                                                "あなたも"
+  anythingelse:                                          "他に何か"
+  arethereanyconcerts:                                   "すべてのコンサートがあります"
+  aretheycomingthisevening:                              "彼らはこの夜を来ている"
+  aretheythesame:                                        "彼らに同じである"
+  areyouafraid:                                          "あなたが恐れてい"
+  areyouallergictoanything:                              "あなたは何にアレルギーがある"
+  areyouamerican:                                        "あなたはアメリカ人です"
+  areyoubusy:                                            "あなたは忙しいですか"
+  areyoucomfortable:                                     "あなたが快適である"
+  areyoucomingthisevening:                               "あなたはこの夜を来ている"
+  areyoufreetonight:                                     "あなたは無料で今夜です"
+  areyougoingtoattendtheirwedding:                       "あなたは彼らの結婚式に出席しようとしている"
+  areyougoingtohelpher:                                  "あなたは彼女を助けるためにしようとしている"
+  areyougoingtotakeaplaneortrain:                        "あなたが飛行機や電車に乗るしようとしている"
+  areyouherealone:                                       "一人でここにある"
+  areyouhungry:                                          "お腹hあすきましたか"
+  areyoumarried:                                         "あなたは結婚していますか"
+  areyouok:                                              "大丈夫ですか"
+  areyouready:                                           "準備はできたか"
+  areyousick:                                            "あなたが病気である"
+  areyousure:                                            "本気ですか"
+  areyouwaitingforsomeone:                               "あなたが誰かを待っている"
+  areyouworkingtoday:                                    "あなたは今日働いている"
+  areyouworkingtomorrow:                                 "あなたは明日作業している"
+  areyourchildrenwithyou:                                "あなたの子供はあなたとある"
+  assoonaspossible:                                      "できるだけ速やかに"
+  atwhattime:                                            "何時に"
+  atwhattimedidithappen:                                 "何時にそれは起こった"
+  at3oclock:                                             "3時頃に"
+  at3oclockintheafternoon:                               "午後3時頃に"
+  at5thstreet:                                           "第5回ストリートで"
+  at7oclockatnight:                                      "夜の7時頃で、"
+  becareful:                                             "注意してください"
+  becarefuldriving:                                      "安全運転であること"
+  bequiet:                                               "静かに"
+  behindthebank:                                         "銀行の背後にある"
+  bringmemyshirtplease:                                  "私に私のシャツを持ってきてください"
+  businessisgood:                                        "ビジネスは良いです"
+  callme:                                                "電話してね"
+  callthepolice:                                         "警察を呼ぶ"
+  caniaccesstheinternethere:                             "私はここでインターネットにアクセスできますか？"
+  caniborrowsomemoney:                                   "私はいくつかのお金を借りることができますか？"
+  canibringmyfriend:                                     "私は私の友人を持って来ることができる？"
+  canihaveaglassofwaterplease:                           "私がお願いし水のグラスを持つことができる？"
+  canihaveareceiptplease:                                "私は領収書をお願いしていることができますか？"
+  canihavethebillplease:                                 "私は法案くださいを持つことができます？"
+  canihelpyou:                                           "いかがなさいましたか??"
+  canimakeanappointmentfornextwednesday:                 "私は、次の水曜日のための約束をすることができますか？"
+  caniseeyourpassportplease:                             "パスポートを見せて頂けますか??"
+  canitakeamessage:                                      "私は、メッセージを取ることができますか？"
+  canitryiton:                                           "私はそれが試着できますか？"
+  caniuseyourphone:                                      "私は、お使いの携帯電話を使用できますか？"
+  canitbecheaper:                                        "それが安くなることができますか？"
+  canwehaveamenuplease:                                  "私たちは、メニューをお願い持つことができますか？"
+  canwehavesomemorebreadplease:                          "我々はいくつかのより多くのパンをお願い持つことができますか？"
+  doyouhaveaboyfriend:                                   "あなたは彼氏がいますか？"
+  doyouhaveagirlfriend:                                  "あなたはガールフレンドを持っていますか？"
+  doyouhaveapencil:                                      "あなたは鉛筆を持っていますか？"
+  doyouhaveaproblem:                                     "あなたが問題を抱えているのですか？"
+  doyouhaveaswimmingpool:                                "あなたは、スイミングプールがありますか？"
+  doyouhaveanappointment:                                "あなたが約束があるのですか？"
+  doyouhaveanotherone:                                   "あなたは別のものを持っていますか？"
+  doyouhaveanychildren:                                  "あなたが子を持っていますか？"
+  doyouhaveanycoffee:                                    "あなたはどんなコーヒーがありますか？"
+  doyouhaveanymoney:                                     "あなたがお金を持っていますか？"
+  doyouhaveanyvacancies:                                 "空きはありますか？"
+  doyouhaveanythingcheaper:                              "もっと安いのはありますか？"
+  doyouhaveenoughmoney:                                  "あなたは十分なお金を持っていますか？"
+  doyouhavethenumberforataxi:                            "あなたはタクシーの番号を持っていますか？"
+  doyouhavethisinsizeeleven:                             "あなたはsize11でこれを持っているのですか？"
+  doyouhearthat:                                         "あなたはそれを聞くか？"
+  doyouknowher:                                          "あなたは彼女を知っていますか？"
+  doyouknowhowmuchitcosts:                               "あなたはITコストをどのくらい知っていますか？"
+  doyouknowhowtocook:                                    "あなたが調理する方法を知っていますか？"
+  doyouknowhowtogettothemarriotthotel:                   "マリオットホテルに取得する方法を知っているのですか？"
+  doyouknowwhatthismeans:                                "あなたは、これが何を意味するのかを知っていますか？"
+  doyouknowwhatthissays:                                 "あなたはこれを言うことを知っていますか？"
+  doyouknowwhereicangetataxi:                            "私はタクシーを得ることができる場所知っていますか？"
+  doyouknowwheremyglassesare:                            "私の眼鏡がどこに知っていますか？"
+  doyouknowwheresheis:                                   "彼女はどこにあるか知っているのですか？"
+  doyouknowwheretheresastorethatsellstowels:             "タオルを販売している店をtheresのどこに知っていますか？"
+  doyoulikeithere:                                       "あなたはここでそれを好きですか？"
+  doyoulikethebook:                                      "あなたは本のようですか？"
+  doyouliketowatchtv:                                    "あなたは、T vを見るのが好きですか？"
+  doyoulikeyourboss:                                     "あなたは、あなたの上司が好きですか？"
+  doyoulikeyourcoworkers:                                "あなたの同僚は好きですか？"
+  doyouneedanything:                                     "あなたは何が必要なのですか？"
+  doyouneedanythingelse:                                 "あなたは他に何が必要なのでしょうか？"
+  doyouplayanysports:                                    "あなたはどんなスポーツをしますか？"
+  canwesitoverthere:                                     "我々はあそこに座ることができますか？"
+  canyoucallbacklater:                                   "後でコールバックすることができますか？"
+  canyoucarrythisforme:                                  "あなたは私のためにこれを運ぶことができますか？"
+  canyoudomeafavor:                                      "あなたは私が好意を行うことができますか？"
+  canyoufixthis:                                         "直せますか？"
+  canyougivemeanexample:                                 "あなたは私の例を与えることができますか？"
+  canyouhelpme:                                          "手伝って頂けますか？"
+  canyouholdthisforme:                                   "あなたは私のためにこれを保持することができますか？"
+  canyoupleasesaythatagain:                              "あなたは再びそれを言うしてくださいすることができますか？"
+  canyourecommendagoodrestaurant:                        "あなたは良いレストランをお勧めすることができます？"
+  canyourepeatthatplease:                                "あなたはお願いすることを繰り返すことができます？"
+  canyoushowme:                                          "あなたは私を見ることができますか？"
+  canyouspeaklouderplease:                               "あなたがしてください大声で話すことができる？"
+  canyouswim:                                            "泳げますか？"
+  canyouthrowthatawayforme:                              "あなたは私のためにそれを捨てることができますか？"
+  canyoutranslatethisforme:                              "あなたは私のためにこれを翻訳することができますか？"
+  certainly:                                             "確かに"
+  cheers:                                                "喝采"
+  chicagoisverydifferentfromboston:                      "シカゴ、ボストンとは非常に異なっている"
+  comehere:                                              "ここに来て"
+  diditsnowyesterday:                                    "昨日それを雪をやった？"
+  didyoucomewithyourfamily:                              "あなたがあなたの家族と一緒に来たの？"
+  didyougetmyemail:                                      "あなたは私の電子メールを取得したのですか？"
+  didyousendmeflowers:                                   "あなたは私に花を送ったのですか？"
+  didyoutakeyourmedicine:                                "あなたがあなたの薬を服用しましたか？"
+  didyourwifelikecalifornia:                             "カリフォルニアのようなあなたの妻をしました？"
+  doyouacceptusdollars:                                  "あなたは、米ドルを受け入れていますか？"
+  doyoubelievethat:                                      "あなたはそれを信じますか？"
+  doyoufeelbetter:                                       "あなたがより良い感じていますか？"
+  doyougotofloridaoften:                                 "あなたが頻繁にフロリダに行くのですか？"
+  doyouhaveaboyfriend:                                   "あなたは彼氏がいますか？"
+  doyouhaveagirlfriend:                                  "あなたはガールフレンドを持っていますか？"
+  doyouhaveapencil:                                      "あなたは鉛筆を持っていますか？"
+  doyouhaveaproblem:                                     "あなたが問題を抱えているのですか？"
+  doyouhaveaswimmingpool:                                "あなたは、スイミングプールがありますか？"
+  doyouhaveanappointment:                                "あなたが約束があるのですか？"
+  doyouhaveanotherone:                                   "あなたは別のものを持っていますか？"
+  doyouhaveanychildren:                                  "あなたが子を持っていますか？"
+  doyouhaveanycoffee:                                    "あなたはどんなコーヒーがありますか？"
+  doyouhaveanymoney:                                     "あなたがお金を持っていますか？"
+  doyouhaveanyvacancies:                                 "空きはありますか？"
+  doyouhaveanythingcheaper:                              "もっと安いのはありますか？"
+  doyouhaveenoughmoney:                                  "あなたは十分なお金を持っていますか？"
+  doyouhavethenumberforataxi:                            "あなたはタクシーの番号を持っていますか？"
+  doyouhavethisinsizeeleven:                             "あなたはsize11でこれを持っているのですか？"
+  doyouhearthat:                                         "あなたはそれを聞くか？"
+  doyouknowher:                                          "あなたは彼女を知っていますか？"
+  doyouknowhowmuchitcosts:                               "あなたはITコストをどのくらい知っていますか？"
+  doyouknowhowtocook:                                    "あなたが調理する方法を知っていますか？"
+  doyouknowhowtogettothemarriotthotel:                   "マリオットホテルに取得する方法を知っているのですか？"
+  doyouknowwhatthismeans:                                "あなたは、これが何を意味するのかを知っていますか？"
+  doyouknowwhatthissays:                                 "あなたはこれを言うことを知っていますか？"
+  doyouknowwhereicangetataxi:                            "私はタクシーを得ることができる場所知っていますか？"
+  doyouknowwheremyglassesare:                            "私の眼鏡がどこに知っていますか？"
+  doyouknowwheresheis:                                   "彼女はどこにあるか知っているのですか？"
+  doyouknowwheretheresastorethatsellstowels:             "タオルを販売している店をtheresのどこに知っていますか？"
+  doyoulikeithere:                                       "あなたはここでそれを好きですか？"
+  doyoulikethebook:                                      "あなたは本のようですか？"
+  doyouliketowatchtv:                                    "あなたは、T vを見るのが好きですか？"
+  doyoulikeyourboss:                                     "あなたは、あなたの上司が好きですか？"
+  doyoulikeyourcoworkers:                                "あなたの同僚は好きですか？"
+  doyouneedanything:                                     "あなたは何が必要なのですか？"
+  doyouneedanythingelse:                                 "あなたは他に何が必要なのでしょうか？"
+  doyouplayanysports:                                    "あなたはどんなスポーツをしますか？"
+  doyouplaybasketball:                                   "あなたがバスケットボールをプレイしますか？"
+  doyousellbatteries:                                    "あなたは、電池を販売していますか？"
+  doyousellmedicine:                                     "あなたは薬を販売していますか？"
+  doyousmoke:                                            "タバコは吸いますか？"
+  doyouspeakenglish:                                     "英語を話せますか？"
+  doyoustudyenglish:                                     "あなたは英語を勉強するのですか？"
+  doyoutakecreditcards:                                  "あなたはクレジットカードを取るのですか？"
+  doyouthinkitllraintoday:                               "あなたはそれが今日は雨だろうと思いますか？"
+  doyouthinkitsgoingtoraintoday:                         "あなたは、その今日は雨が降りそうだと思いますか？"
+  doyouthinkitspossible:                                 "あなたはその可能だと思いますか？"
+  doyouthinkyoullbebackbyeleventhirty:                   "あなたはyoullは戻って1130年によるものであってだと思いますか？"
+  doyouunderstand:                                       "わかりますか？"
+  doyouwantmetocomeandpickyouup:                         "あなたは私が来て、あなたをピックアップしたいですか？"
+  doyouwanttocomewithme:                                 "私と一緒に来ますか？"
+  doyouwanttogotothemovies:                              "あなたは映画を見に行きたいですか？"
+  doyouwanttogowithme:                                   "あなたは私と一緒に行きたいですか？"
+  doesanyoneherespeakenglish:                            "誰もがここで英語を話すのですか？"
+  doesheliketheschool:                                   "彼は学校が好きなのですか？"
+  doesitoftensnowinthewinterinmassachusetts:             "それはマサチューセッツ州の冬にしばしば雪のでしょうか？"
+  doesthisroadgotonewyork:                               "この道はニューヨークに行くのですか？"
+  dontdothat:                                            "ことをしない"
+  dontworry:                                             "心配しないでください"
+  everyweek:                                             "毎週"
+  everydayigetupatsix:                                   "日常の私は6時に起きる"
+  everyoneknowsit:                                       "誰もがそれを知っている"
+  everythingisready:                                     "すべてが準備ができている"
+  excellent:                                             "優れた"
+  excuseme:                                              "すみません"
+  excusemewhatdidyousay:                                 "あなたが言ったの何恐れ入り"
+  expirationdate:                                        "有効期限"
+  fillitupplease:                                        "満タンにして下さい"
+  followme:                                              "フォローしてください"
+  forhowmanynights:                                      "何泊ですか"
+  forgetit:                                              "忘れてください"
+  fromheretothere:                                       "ここからそこへ"
+  fromtimetotime:                                        "時々"
+  givemeacall:                                           "私に電話を与える"
+  givemethepen:                                          "私にペンを与える"
+  gostraightahead:                                       "直進する"
+  goodafternoon:                                         "こんにちは"
+  goodeveningsir:                                        "こんばんは先生"
+  goodidea:                                              "良いアイデア"
+  goodluck:                                              "幸運"
+  goodmorning:                                           "おはよう"
+  great:                                                 "素晴らしい"
+  happybirthday:                                         "お誕生日おめでとうございます"
+  hasyourbrotherbeentocalifornia:                        "あなたの兄弟は、カリフォルニアになっている"
+  haveagoodtrip:                                         "良い旅を持っている"
+  havetheymetheryet:                                     "彼らはまだ彼女に会ったか？"
+  haveyouarrived:                                        "あなたが到着した？"
+  haveyoubeentoboston:                                   "あなたがボストンに行ったことがある？"
+  haveyoubeenwaitinglong:                                "あなたは長い間待っていた？"
+  haveyoudonethisbefore:                                 "あなたは前にこれを行っている？"
+  haveyoueatenatthatrestaurant:                          "あなたはそのレストランで食べている？"
+  haveyoueatenyet:                                       "あなたはまだ食べている？"
+  haveyoueverhadpotatosoup:                              "あなたは今までにポテトのスープを持っていた？"
+  haveyoufinishedstudying:                               "あなたは勉強し終えた？"
+  haveyouseenthismovie:                                  "あなたはこの映画を見たことがありますか？"
+  healwaysdoesthatforme:                                 "彼はいつも私のためにそれを行います"
+  hebrokethewindow:                                      "彼は窓を割った"
+  hedoesntlooklikeanurse:                                "彼は看護師のようにしていません"
+  hehasanicecar:                                         "彼はいい車を持ってい"
+  helikesitverymuch:                                     "彼は非常にそれが好き"
+  helikesjuicebuthedoesntlikemilk:                       "彼はジュースが好き、彼は牛乳が好きではありません"
+  heneedssomenewclothes:                                 "彼はいくつかの新しい服を必要とします"
+  henevergivesmeanything:                                "彼は私に何かを与えたことがない"
+  hesaidthisisaniceplace:                                "彼は、これは素晴らしい場所であることを特徴とする"
+  hesaidyouliketowatchmovies:                            "彼はあなたが映画を見るのが好きと述べ"
+  hestudiesatbostonuniversity:                           "彼はボストン大学で研究"
+  hethinkswedontwanttogo:                                "彼は我々が行きたくないと考えている"
+  heworksatacomputercompanyinnewyork:                    "彼はニューヨークでのコンピュータ会社で働いて"
+  hesaverygoodstudent:                                   "彼は非常に優秀な生徒だ"
+  hesanamerican:                                         "彼はアメリカ人です"
+  hesanengineer:                                         "彼はエンジニアの"
+  hescomingsoon:                                         "彼はすぐに来て"
+  hesfasterthanme:                                       "彼は私よりも高速です"
+  hesinthekitchen:                                       "彼は台所でだ"
+  hesneverbeentoamerica:                                 "彼はアメリカに行ったことがないだ"
+  hesnotinrightnow:                                      "彼は今ではありません"
+  hesright:                                              "彼は正しいです"
+  hesveryannoying:                                       "彼は非常に迷惑なんだ"
+  hesveryfamous:                                         "彼は非常に有名だ"
+  hesveryhardworking:                                    "彼は非常に一生懸命働いている"
+  hellbebackintwentyminutes:                             "地獄戻って20分であること"
+  hello:                                                 "こんにちは"
+  help:                                                  "助けて"
+  hereitis:                                              "ここにあります"
+  hereyouare:                                            "はい、どうぞ"
+  heresmynumber:                                         "ここに私の電話番号です"
+  heresyourorder:                                        "ここにご注文です"
+  heresyoursalad:                                        "ここにあなたのサラダです"
+  hi,ismrs.smiththereplease:                             "こんにちは夫人スミスお願いします"
+  hisfamilyiscomingtomorrow:                             "彼の家族は明日来ている"
+  hisroomisverysmall:                                    "彼の部屋は非常に小さい"
+  hisson:                                                "彼の息子"
+  howaboutsaturday:                                      "どのように土曜日はどうですか？"
+  howareyou:                                             "お元気ですか？"
+  howareyoupaying:                                       "あなたはどのように払っている？"
+  howareyourparents:                                     "どのようにあなたの両親はありますか？"
+  howdoigetthere:                                        "どのように私はそこに着くのですか？"
+  howdoigettodanielstreet:                               "どのように私はダニエル通りに取得するのですか？"
+  howdoigettotheamericanembassy:                         "どのように私はアメリカ大使館に取得するのですか？"
+  howdoiusethis:                                         "私はこれをどのように使うのですか？"
+  howdoyouknow:                                          "どうして知っていますか？"
+  howdoyoupronouncethat:                                 "あなたはそれをどのように発音しますか？"
+  howdoyousayitinenglish:                                "どのように英語でそれを言うのですか？"
+  howdoyouspellit:                                       "綴りはどうなりますか？"
+  howdoyouspellthewordseattle:                           "どのように単語シアトルを綴るのですか？"
+  howdoesittaste:                                        "味はいかがですか？"
+  howfarisit:                                            "それはどこまでですか？"
+  howfarisittochicago:                                   "シカゴにどこまでですか？"
+  howisshe:                                              "彼女はどのように？"
+  howlongareyougoingtostay:                              "どのくらい滞在するつもりですか？"
+  howlongareyougoingtostayincalifornia:                  "どのくらいあなたはカリフォルニアに滞在するつもりですか？"
+  howlongdoesittakebycar:                                "どのくらいの時間、車でかかりますか？"
+  howlongdoesittaketogettogeorgia:                       "どのくらい時間がグルジアに到達するために時間がかかりますか？"
+  howlonghaveyoubeenhere:                                "どのくらいここにいた？"
+  howlonghaveyouworkedhere:                              "どのくらいあなたがここに働いている？"
+  howlongisit:                                           "それはどのくらいですか？"
+  howlongistheflight:                                    "飛行はどのくらいですか？"
+  howlongwillittake:                                     "どのくらい時間がかかりますか？"
+  howlongwillyoubestaying:                               "どのくらい滞在しますか？"
+  howmany:                                               "幾つ？"
+  howmanychildrendoyouhave:                              "あなたはどのように多くの子供を持っていますか？"
+  howmanyhoursaweekdoyouwork:                            "あなたは何時間週働くのですか？"
+  howmanylanguagesdoyouspeak:                            "あなたはどのように多くの言語を話すのですか？"
+  howmanymilesisittopennsylvania:                        "ペンシルベニア州にどのように多くのマイルです？"
+  howmanypeople:                                         "何人？"
+  howmanypeoplearethereinnewyork:                        "ニューヨークでどのように多くの人がいる？"
+  howmanypeopledoyouhaveinyourfamily:                    "どのように多くの人々、あなたの家族を持っているのですか？"
+  howmuchalltogether:                                    "どのくらいのすべて一緒に？"
+  howmucharetheseearrings:                               "これらのイヤリングはどのくらいですか？"
+  howmuchdoioweyou:                                      "私は、あなたがどのくらい借りているのですか？"
+  howmuchdoesitcostperday:                               "どのくらいそれが一日あたりの費用は？"
+  howmuchdoesthiscost:                                   "このコストどのくらいいますか？"
+  howmuchisit:                                           "いくらですか？"
+  howmuchisittogotomiami:                                "マイアミに行くことはいくらですか？"
+  howmuchisthat:                                         "それはいくらですか？"
+  howmuchisthis:                                         "これはいくらですか？"
+  howmuchmoneydoyouhave:                                 "あなたはどのくらいのお金を持っていますか？"
+  howmuchmoneydoyoumake:                                 "あなたはどのくらいのお金を作るのですか？"
+  howmuchwillitcost:                                     "いくらかかるでしょうか？"
+  howmuchwouldyoulike:                                   "あなたはどのくらいの希望ですか？"
+  howoldareyou:                                          "あなたは何歳ですか？"
+  howtallareyou:                                         "あなたの身長はどれくらいですか？"
+  howwasthemovie:                                        "どのように映画でしたか？"
+  howwasthetrip:                                         "どのように旅でしたか？"
+  howsbusiness:                                          "事業はどのようにですか？"
+  howstheweather:                                        "どのように天気がですか？"
+  howsworkgoing:                                         "仕事はどのように起こっているの？"
+  hurry:                                                 "急ぐ"
+  iagree:                                                "同意する"
+  iatealready:                                           "私はすでに食べた"
+  ibelieveyou:                                           "私はあなたを信じています"
+  iboughtashirtyesterday:                                "私は昨日のシャツを買った"
+  icamewithmyfamily:                                     "私は私の家族と一緒に来た"
+  icanswim:                                              "私は泳ぐことができます"
+  icanthearyou:                                          "聞こえません"
+  icanthearyouclearly:                                   "私はあなたにはっきりと聞くことはできません"
+  idontcare:                                             "私は気にしない"
+  idontfeelwell:                                         "具合がよくありません"
+  idonthaveagirlfriend:                                  "私はガールフレンドを持っていない"
+  idonthaveanymoney:                                     "私はお金を持っていない"
+  idonthavetimerightnow:                                 "私は今の時間を持っていない"
+  idontknow:                                             "私は知らない"
+  idontknowhowtouseit:                                   "私はそれを使用する方法がわからない"
+  idontlikehim:                                          "私は彼が好きではない"
+  idontlikeit:                                           "私はそれが気に入りません"
+  idontmind:                                             "私は気にしません"
+  idontspeakenglishverywell:                             "私は非常によく英語を話すことはありません"
+  idontspeakverywell:                                    "私は非常によく話すことはありません"
+  idontthinkso:                                          "私はそうは思わない"
+  idontunderstand:                                       "理解できません"
+  idontunderstandwhatyoursaying:                         "私はあなたが言って理解していない"
+  idontwantit:                                           "私はそれをしたくない"
+  idontwantthat:                                         "私はそれをしたくない"
+  idontwanttobotheryou:                                  "私はあなたを気にする必要はありません"
+  ifeelgood:                                             "良い感じ"
+  iforget:                                               "私は忘れる"
+  igetoffworkatsix:                                      "私は6で仕事を降りる"
+  igiveup:                                               "あきらめる"
+  igotinanaccident:                                      "私は事故で得た"
+  ihavetwosisters:                                       "私は2人の姉妹を持っている"
+  ihaveacold:                                            "私は風邪を持っている"
+  ihaveaheadache:                                        "私は頭痛を持っている"
+  ihavealotofthingstodo:                                 "私は観光名所がたくさんある"
+  ihaveaquestioniwanttoaskyou:                           "私がお聞きしたい質問があります"
+  ihaveareservation:                                     "私は予約を持っている"
+  ihavemoney:                                            "私はお金を持っている"
+  ihaveoneinmycar:                                       "私は自分の車の中で1を持っている"
+  ihavepaininmyarm:                                      "私は私の腕に痛みがある"
+  ihavethreechildrentwogirlsandoneboy:                   "私は三人の子供二人の女の子と1男の子を持っている"
+  ihavetogotothepostoffice:                              "私は郵便局に行かなければならない"
+  ihavetowashmyclothes:                                  "私は私の服を洗うことがある"
+  ihaventbeenthere:                                      "私はそこにはなかった"
+  ihaventfinishedeating:                                 "私は食べることを終えていない"
+  ihaventhadlunchyet:                                    "私はまだ昼食を持っていなかった"
+  ihopeyouandyourwifehaveanicetrip:                      私はあなたとあなたの妻は素晴らしい旅を持っていることを望みます  
+  iknow:                                                 "知っている"
+  ilikeher:                                              "私は彼女が好き"
+  ilikeit:                                               "それはいいですね"
+  ilikeitalianfood:                                      "私はイタリア料理が好きです"
+  iliketowatchtv:                                        "私はテレビを見るのが好き"
+  iliveincalifornia:                                     "私はカリフォルニア州に住んでいる"
+  ilostmywatch:                                          "私は私の時計を失った"
+  iloveyou:                                              "わたしは、あなたを愛しています"
+  imadeamistake:                                         "私はミスを犯した"
+  imadethiscake:                                         "私はこのケーキを作った"
+  ineedadoctor:                                          "私は医者を必要とする"
+  ineedanotherkey:                                       "私は別のキーが必要です"
+  ineedsometissues:                                      "私はいくつかの組織が必要です"
+  ineedthistogettherebytomorrow:                         "私は、これは明日そこに取得する必要があります"
+  ineedtochangeclothes:                                  "私は服を変更する必要があります"
+  ineedtogohome:                                         "私は家に行く必要がある"
+  ineedtogonow:                                          "私は今行く必要がある"
+  ineedtopracticemyenglish:                              "私は自分の英語を練習する必要があります"
+  ionlyhavefivedollars:                                  "私は5ドルを持っている"
+  ionlywantasnack:                                       "私はおやつが欲しい"
+  iremember:                                             "私は覚えています"
+  ispeakalittleenglish:                                  "私は少し英語を話す"
+  ispeaktwolanguages:                                    "私は2つの言語を話す"
+  istillhavealotofthingstobuy:                           "私はまだ購入する多くのものを持っている"
+  istillhavealotofworktodo:                              "私はまだやるべき仕事がたくさんある"
+  istillhavetobrushmyteethandtakeashower:                "私はまだ私の歯を磨くとシャワーを取らなければならない"
+  istillhaventdecided:                                   "私はまだ決定されたhaventは"
+  ithinkineedtoseeadoctor:                               "私は、医師の診察をする必要があると思う"
+  ithinkittastesgood:                                    "私はそれが良い味と思う"
+  ithinkitsverygood:                                     "私は、その非常に良いと思う"
+  ithinkso:                                              "私はそう思う"
+  ithinkthoseshoesareverygoodlooking:                    "私はそれらの靴は見て非常に優れていると思います"
+  ithinkyouhavetoomanyclothes:                           "私はあなたがあまりにも多くの服を持っていると思う"
+  ithoughthesaidsomethingelse:                           "私は彼が言ったと思った何か他のもの"
+  ithoughttheclotheswerecheaper:                         "私は服が安くと思っていた"
+  itrustyou:                                             "あなたを信頼する"
+  iunderstand:                                           "わかります"
+  iunderstandnow:                                        "私が今理解"
+  iusuallydrinkcoffeeatbreakfast:                        "私は通常の朝食でコーヒーを飲む"
+  iwanttobuysomething:                                   "私は何かを購入したい"
+  iwanttocontactourembassy:                              "私は、私たちの大使館に連絡したい"
+  iwanttogiveyouagift:                                   "私はあなたに贈り物を与えたい"
+  iwanttosendthispackagetotheunitedstates:               "私は米国にこのパッケージを送信したい"
+  iwanttoshowyousomething:                               "私はあなたに何かを表示したい"
+  iwasabouttoleavetherestaurantwhenmyfriendsarrived:     "私の友人が到着したとき、私はレストランを出ようとしていた"
+  iwasgoingtothelibrary:                                 "私は図書館に行っていた"
+  iwasinthelibrary:                                      "私は図書館にいた"
+  iwenttothesupermarketandthentothecomputerstore:        "私は、コンピュータストアにその後スーパーに行き、"
+  iwishihadone:                                          "私は1を持っていた希望"
+  idlikeamapofthecity:                                   "私は街の地図をみたい"
+  idlikeanonsmokingroom:                                 "私は禁煙の部屋をお願いし"
+  idlikearoom:                                           "私は部屋が欲しい"
+  idlikearoomwithtwobedsplease:                          "私は2つのベッド付きの部屋をお願いしたいと思います"
+  idlikeasingleroom:                                     "私はシングルルームをしたい"
+  idlikeatablenearthewindow:                             "私は窓の近くにテーブルが欲しい"
+  idlikesomewatertooplease:                              "私もいくつかの水をお願いしたいと思います"
+  idlikethenumberforthehiltonhotelplease:                "私はヒルトンホテルの番号をお願いしたいと思います"
+  idliketobuyabottleofwaterplease:                       "私は、水のボトルを購入することをお願いしたいのですが"
+  idliketobuyaphonecardplease:                           "私は電話カードを購入することをお願いしたいのですが"
+  idliketobuysomething:                                  "私が何かを購入したいのですが"
+  idliketocalltheunitedstates:                           "私は米国を呼び出すしたいと思います"
+  idliketoeatatfifthstreetrestaurant:                    "私は第五通りのレストランで食事をしたいのですが"
+  idliketoexchangethisfordollars:                        "私はドルのためにこれを交換したいのですが"
+  idliketogoforawalk:                                    "私は散歩に行きたい"
+  idliketogohome:                                        "私は家に帰りたいのですが"
+  idliketogoshopping:                                    "私は買い物に行きたい"
+  idliketogotothestore:                                  "私は店に行きたい"
+  idliketomakeaphonecall:                                "私は電話をかけたいのですが"
+  idliketomakeareservation:                              "私は予約をしたいのですが"
+  idliketorentacar:                                      "私は車を借りたいのですが"
+  idliketosendafax:                                      "私は、FAXを送信したいのですが"
+  idliketosendthistoamerica:                             "私はアメリカにこれを送りたいのですが"
+  idliketospeaktomrsmithplease:                          "スミスさんを話すようにお願いします"
+  idliketousetheinternet:                                "私はインターネットを使用したいのですが"
+  imtwentysixyearsold:                                   "私は26歳だ"
+  imthirtytwo:                                           "私は32だよ"
+  imsixfoottwo:                                          "私は6フィート2よ"
+  imabeginner:                                           "私は初心者だ"
+  imasizeeight:                                          "私はサイズだ8"
+  imateacher:                                            "私は教師です"
+  imallergictoseafood:                                   "私はシーフードにアレルギーだ"
+  imamerican:                                            "私はアメリカ人です"
+  imanamerican:                                          "私はアメリカ人です"
+  imbored:                                               "私は退屈です"
+  imcleaningmyroom:                                      "私は自分の部屋を掃除してい"
+  imcold:                                                "寒いです"
+  imcomingrightnow:                                      "私は今来ている"
+  imcomingtopickyouup:                                   "私はあなたを迎えに来ている"
+  imfineandyou:                                          "私は元気です、あなたは"
+  imfromamerica:                                         "私はアメリカから来たんだ"
+  imfull:                                                "私は完全なよ"
+  imgettingreadytogoout:                                 "私は行く準備ができて取得しています"
+  imgoinghomeinfourdays:                                 "私は4日間で家に行くよ"
+  imgoingtoamericanextyear:                              "私は来年アメリカに行くよ"
+  imgoingtobed:                                          "私はベッドに行くよ"
+  imgoingtogohavedinner:                                 "私が夕食を持って行くつもりです"
+  imgoingtoleave:                                        "私は去るつもりだ"
+  imgood:                                                "私は大丈夫です"
+  imgoodandyou:                                          "私は良いよ、あなた"
+  imhappy:                                               "私は満足しています"
+  imhereonbusiness:                                      "私はビジネスにここにいるよ"
+  imhungry:                                              "お腹が空きました"
+  imjustkidding:                                         "ほんの冗談です"
+  imjustlooking:                                         "私はちょうど探しています"
+  imleavingtomorrow:                                     "私は明日残している"
+  imlookingforthepostoffice:                             "私は郵便局を探しています"
+  imlost:                                                "道に迷いました"
+  immarried:                                             "私は結婚しています"
+  imnotafraid:                                           "私は恐れていません"
+  imnotamerican:                                         "私はアメリカ人じゃない"
+  imnotbusy:                                             "私は忙しいないんだけど"
+  imnotgoing:                                            "私はつもりはない"
+  imnotmarried:                                          "私は結婚していないよ"
+  imnotreadyyet:                                         "私はまだ準備ができていないよ"
+  imnotsure:                                             "よく分かりません"
+  imok:                                                  "私は大丈夫"
+  imonhold:                                              "私は保留によ"
+  imready:                                               "準備できました"
+  imselfemployed:                                        "私は自営業だ"
+  imsick:                                                "うんざりだ"
+  imsingle:                                              "私は独身です"
+  imsorry:                                               "ごめんなさい"
+  imsorryweresoldout:                                    "私たちは完売しているごめんなさい"
+  imthirsty:                                             "喉が渇いた"
+  imtired:                                               "私は疲れている"
+  imverybusy:                                            "私は非常に忙しい"
+  imverybusyidonthavetimenow:                            "私は今時間がない非常に忙しい"
+  imverywellthankyou:                                    "私はあなたに感謝非常によくね"
+  imwaitingforyou:                                       "私はあなたを待っています"
+  imworriedtoo:                                          "私も心配している"
+  ivealreadyseenit:                                      "私はすでにそれを見てきました"
+  ivebeenherefortwodays:                                 "私は2日間ここにしてきた"
+  ivebeenthere:                                          "私はそこにしてきた"
+  iveheardtexasisabeautifulplace:                        "私は、テキサス州は美しい場所です聞いたことがある"
+  iveneverdonethat:                                      "私がいることをやったことがない"
+  iveneverseenthatbefore:                                "私は前にそれを見たことがない"
+  iveseenit:                                             "私はそれを見てきました"
+  iveworkedthereforfiveyears:                            "私は5年間そこに働いてきた"
+  ifyoulikeiticanbuymore:                                "あなたがそれを好めば、私はより多くを購入することができます"
+  ifyouneedmyhelppleaseletmeknow:                        "あなたは私の助けが必要な場合は私に教えてください"
+  illberightback:                                        "私は右戻ってきます"
+  illcallbacklater:                                      "私は後で戻って電話するよ"
+  illcallyouonfriday:                                    "私は金曜日に電話します"
+  illcallyouwhenileave:                                  "私が去るとき、私はあなたを呼ぶことにします"
+  illcomebacklater:                                      "また来ます"
+  illgiveyouacall:                                       "私はあなたに電話を与えるだろう"
+  illhaveacupofteaplease:                                "私はお茶をしてください必要があります"
+  illhaveaglassofwaterplease:                            "私は、水のガラスをしてください必要があります"
+  illhavethesamething:                                   "私は同じことがあるでしょう"
+  illpay:                                                "私が支払います"
+  illpayfordinner:                                       "私は夕食のために支払う"
+  illpayforthetickets:                                   "私はチケットを支払います"
+  illtakeit:                                             "買います"
+  illtakethatonealso:                                    "私もその1を取るよ"
+  illtakeyoutothebusstop:                                "私はバス停のページへ移動します"
+  illtalktoyousoon:                                      "私はすぐにあなたに話しましょう"
+  illteachyou:                                           "私はあなたを教えてあげる"
+  illtellhimyoucalled:                                   "私はあなたが呼ばれる彼に教えてあげましょう"
+  inthirtyminutes:                                       "30分で"
+  isanyoneelsecoming:                                    "他の誰が来ている？"
+  iseverythingok:                                        "すべてがOKです？"
+  isitclose:                                             "それは近い？"
+  isitcoldoutside:                                       "それが外に寒いのですか？"
+  isitfarfromhere:                                       "それはここから遠いですか？"
+  isithot:                                               "暑いですか？"
+  isitnearby:                                            "それは近くにある？"
+  isitpossible:                                          "出来ますか？"
+  isitraining:                                           "それは雨が降っていますか？"
+  isitready:                                             "それは準備ができている？"
+  isitsupposedtoraintomorrow:                            "それは明日は雨になっている？"
+  isjohnhere:                                            "ジョンはここですか？"
+  isjohnthereplease:                                     "ジョンはそこにしてくださいますか？"
+  ismr.smithanamerican:                                  "スミス氏は、アメリカのでしょうか？"
+  isthatenough:                                          "それは十分でしょうか？"
+  isthatok:                                              "それはOKです？"
+  isthebankfar:                                          "銀行は遠い？"
+  isthereamovietheaternearby:                            "映画館近くあるのでしょうか？"
+  isthereanightclubintown:                               "町のナイトクラブはありますか？"
+  istherearestaurantinthehotel:                          "ホテル内にレストランはありますか？"
+  isthereastorenearhere:                                 "この近くに店はありますか？"
+  isthereairconditioningintheroom:                       "エアコンが部屋にあるのでしょうか？"
+  isthereanenglishspeakingguide:                         "英語を話すガイドはありますか？"
+  isthereanymailforme:                                   "私宛のメールはありますか？"
+  isthereanythingcheaper:                                "もっと安いのはありますか？"
+  isthisasafearea:                                       "これは安全なエリアです？"
+  isthismr.smith:                                        "このスミス氏は何ですか？"
+  isthispenyours:                                        "このペンあなたは何ですか？"
+  isthisthebustony:                                      "これはNYへのバスですか？"
+  isthisyourbook:                                        "これはあなたの本です？"
+  isyourfatherhome:                                      "あなたのお父さんは家にある？"
+  isyourhouselikethisone:                                "あなたの家は、この1のようなものです？"
+  isyourhusbandalsofromboston:                           "あなたの夫は、ボストンからもある？"
+  isyoursonhere:                                         "あなたの息子はここですか？"
+  isntit:                                                "そうではありませんか？"
+  itcoststwentydollarsperhour:                           "それは時間あたり20ドルの費用"
+  itdependsontheweather:                                 "それは天候に依存します"
+  ithurtshere:                                           "ここが痛い"
+  itrainedveryhardtoday:                                 "今日は非常に難しい雨が降った"
+  ittakestwohoursbycar:                                  "それは、車で2時間かかります"
+  itwillarriveshortly:                                   "それはまもなく到着します"
+  itllbecoldthisevening:                                 "それはこの夜寒いだろう"
+  itsaugusttwentyfifth:                                  "それは8月第二十五だ"
+  itsdelicious:                                          "それはおいしいです"
+  itseightforty-five:                                    "それは8四〇から五だ"
+  itseleventhirty:                                       "それは1130年だ"
+  itsfarfromhere:                                        "それはここから遠いです"
+  itsgoingtobehottoday:                                  "今日は暑いことになるだろう"
+  itsgoingtosnowtoday:                                   "それは雪今日になるだろう"
+  itshalfpasteleven:                                     "それは半分過去の11のだ"
+  itshere:                                               "それがここにある"
+  itslessthanfivedollars:                                "未満では5ドルです"
+  itslongerthantwomiles:                                 "それは2マイルより長いです"
+  itsmine:                                               "それは私のものだ"
+  itsmorethanfivedollars:                                "それ以上の5ドルの"
+  itsnearthesupermarket:                                 "それはスーパーマーケットの近くです"
+  itsnorthofhere:                                        "それはここから北のだ"
+  itsnotsupposedtoraintoday:                             "それが今日は雨になっていない"
+  itsnottoofar:                                          "そんなに遠くはありません"
+  itsnotveryexpensive:                                   "それは非常に高価ではありません"
+  itsok:                                                 "大丈夫です"
+  itsonseventhstreet:                                    "それはセブンスストリート上にある"
+  itsoverthere:                                          "それはあそこだ"
+  itsquarterpastnine:                                    "それは九時十五だ"
+  itsquartertoseven:                                     "それは六時四十五だ"
+  itsraining:                                            "雨が降っている"
+  itsreallyhot:                                          "それは本当に暑い"
+  itsseventeendollars:                                   "それは17ドルだ"
+  itsshorterthanthreemiles:                              "それはより短い3マイルです"
+  itssix:                                                "それは6のだ"
+  itssupposedtoraintomorrow:                             "それは明日は雨ことになっている"
+  itsthere:                                              "それがあります"
+  itstoolate:                                            "それは手遅れ"
+  itsverycoldtoday:                                      "今日はとても寒い"
+  itsveryimportant:                                      "それは非常に重要です"
+  itsverywindy:                                          "それは非常に風が強いです"
+  johnisgoingonvacationtomorrow:                         "ジョンは休暇明日に起こっている"
+  junethird:                                             "6月の第三"
+  justalittle:                                           "ほんの少し"
+  justamoment:                                           "一瞬"
+  letmecheck:                                            "私はチェックしてみましょう"
+  letmethinkaboutit:                                     "私はそれについて考えてみましょう"
+  letsgo:                                                "行きましょう"
+  letsgohavealook:                                       "それでは見て行きましょう"
+  letsmeetinfrontofthehotel:                             "のは、ホテルの目の前に会おう"
+  letspracticeenglish:                                   "それでは英語を練習しましょう"
+  letsshare:                                             "の共有しましょう"
+  maleorfemale:                                          "男性か女性"
+  mayispeaktomrs.smithplease:                            "私は夫人スミスに話してください"
+  maybe:                                                 "多分"
+  morethantwohundredmiles:                               "以上の200マイル"
+  morethanthat:                                          "それ以上"
+  mybirthdayisaugusttwentyth:                            "私の誕生日は8月のtwentythです"
+  mycarisntworking:                                      "私の車が動作していません"
+  mycarwashitbyanothercar:                               "私の車は、別の車にはねられた"
+  mycellphonedoesnthavegoodreception:                    "私の携帯電話は、良好な受信を持っているdoesntの"
+  mycellphonedoesntwork:                                 "私の携帯電話doesntの仕事"
+  mydaughterishere:                                      "私の娘はこちら"
+  myfatherhasbeenthere:                                  "私の父はあった"
+  myfatherisalawyer:                                     "私の父は弁護士です"
+  myfriendisamerican:                                    "私の友人はアメリカ人です"
+  mygrandmotherpassedawaylastyear:                       "私の祖母は昨年亡くなった"
+  myhouseisclosetothebank:                               "私の家は、銀行に近い"
+  myluggageismissing:                                    "私の荷物が見つかりません"
+  mynameisjohnsmith:                                     "私の名前はジョン·スミスです"
+  myson:                                                 "私の息子"
+  mysonstudiescomputers:                                 "私の息子はコンピューターを研究"
+  mystomachhurts:                                        "私の胃が痛い"
+  mythroatissore:                                        "私の喉が痛いです"
+  mywatchhasbeenstolen:                                  "私の時計が盗まれた"
+  nearthebank:                                           "銀行近く"
+  nevermind:                                             "気にしないで"
+  nexttime:                                              "次回"
+  nicetomeetyou:                                         "始めまして"
+  no:                                                    "いいえ"
+  noproblem:                                             "問題ない"
+  nothankyou:                                            "全くあなたに感謝しない"
+  no,imamerican:                                         "いいえ、私はアメリカ人です"
+  no,thisisthefirsttime:                                 "いいえ、これは初めてです"
+  nobodyishelpingus:                                     "誰も私たちを助けていない"
+  nobodyisthererightnow:                                 "誰もが、今はありません"
+  nonsense:                                              "ナンセンス"
+  notrecently:                                           "しない最近"
+  notyet:                                                "未だに"
+  nothingelse:                                           "他に何もない"
+  noworlater:                                            "今以降"
+  octobertwentysecond:                                   "月第二十二"
+  ofcourse:                                              "もちろん"
+  ok:                                                    "ok"
+  ontheleft:                                             "左に"
+  ontheright:                                            "右に"
+  onthesecondfloor:                                      "第2の床に"
+  onelikethat:                                           "そのような1"
+  onetickettonewyorkplease:                              "ニューヨークに1枚のチケット下さい"
+  onewayorroundtrip:                                     "片道または往復"
+  openthedoor:                                           "ドアを開ける"
+  openthewindow:                                         "ウィンドウを開く"
+  ourchildrenareinamerica:                               "私たちの子供たちはアメリカにあり"
+  outsidethehotel:                                       "ホテルの外"
+  overhere:                                              "こっちに"
+  overthere:                                             "あそこ"
+  pickupyourclothes:                                     "ピックアップあなたの服"
+  please:                                                "お願いします"
+  pleasecallme:                                          "私に電話してください"
+  pleasecomein:                                          "で来てください"
+  pleasecountthisforme:                                  "私のためにこれをカウントしてください"
+  pleasefilloutthisform:                                 "このフォームに必要事項を記入してください"
+  pleasesitdown:                                         "座ってください"
+  pleasespeakenglish:                                    "英語で話してください"
+  pleasespeakmoreslowly:                                 "もっとゆっくり話して下さい"
+  pleasespeakslower:                                     "遅い話す下さい"
+  pleasetakemetotheairport:                              "空港に私を取るしてください"
+  pleasetakemetothisaddress:                             "このアドレスに私を取るしてください"
+  pleasetakeoffyourshoes:                                "靴を脱いで下さい"
+  pleasetellherjohncalled:                               "彼女のジョンと呼ばを教えてください"
+  pleasetellme:                                          "教えてください"
+  pleasewaitforme:                                       "私のために待ってください"
+  pleasewriteitdown:                                     "それを書き留めてください"
+  really:                                                "本当に"
+  righthere:                                             "右ここに"
+  rightthere:                                            "すぐそこ"
+  seeyoulater:                                           "じゃあまたね"
+  seeyoutomorrow:                                        "また明日ね"
+  seeyoutonight:                                         "あなたに今夜を参照してください"
+  shewantstoknowwhenyourcoming:                          "彼女はあなたが来る時に知りたい"
+  shesanexpert:                                          "彼女は専門家の"
+  shesgoingwithmetomorrow:                               "彼女は明日私と一緒になるだろう"
+  shesolderthanme:                                       "彼女は私よりも古いです"
+  shespretty:                                            "彼女はきれいだ"
+  shouldiwait:                                           "私は待つ必要があります"
+  somebooks:                                             "いくつかの本"
+  someonedoesthatforme:                                  "誰かが私のためにそれを行います"
+  someoneiscoming:                                       "誰かが来ている"
+  sometimesigotosleepatelevensometimesateleventhirty:    "時々私は1130年で、時には11で眠りにつく"
+  sorry,ididnthearclearly:                               "申し訳ありませんが、私ははっきり聞くdidntの"
+  sorry,idonthaveapencil:                                "申し訳ありませんが、私は鉛筆を持っていない"
+  sorry,ithinkihavethewrongnumber:                       "申し訳ありませんが、私は私が間違った番号を持っていると思う"
+  sorry,tobotheryou:                                     "お邪魔して申し訳ありません"
+  sorry,wedontacceptcreditcards:                         "申し訳ございませんが、クレジットカードはご利用頂けません"
+  sorry,wedonthaveany:                                   "申し訳ありませんが、我々はすべてを持っていない"
+  sorry,wedonthaveanyvacancies:                          "申し訳ありませんが、我々はすべての欠員を持っていない"
+  sorry,weonlyacceptcash:                                "申し訳ありませんが、私たちは現金のみを受け入れる"
+  startthecar:                                           "車のエンジンをかける"
+  stop:                                                  "停止"
+  takeachance:                                           "チャンスをつかむ"
+  takeitoutside:                                         "外にそれを取る"
+  takemedowntown:                                        "私に繁華街を取る"
+  takemetothemarriotthotel:                              "マリオットホテルに私を取る"
+  takethismedicine:                                      "この薬を飲む"
+  tellhimthatineedtotalktohim:                           "私は彼に話をする必要があることを彼に伝える"
+  tellme:                                                "教えてください"
+  thankyou:                                              "ありがとう"
+  thankyoumiss:                                          "あなたが逃す感謝"
+  thankyousir:                                           "あなたの先生に感謝"
+  thankyouverymuch:                                      "どうもありがとうございました"
+  thanks:                                                "感謝"
+  thanksforeverything:                                   "すべてをありがとう"
+  thanksforyourhelp:                                     "ご協力いただきありがとうございます"
+  thatcarissimilartomycar:                               "その車は私の車に似ている"
+  thatcaroverthereismine:                                "その車地雷があるの上"
+  thatlooksgreat:                                        "それは素晴らしいに見える"
+  thatlooksold:                                          "それは、古い見える"
+  thatmeansfriend:                                       "それは友人を意味し、"
+  thatrestaurantisnotexpensive:                          "そのレストランは、高価ではない"
+  thatsmellsbad:                                         "それが臭い"
+  thatway:                                               "そのように"
+  thatsagoodschool:                                      "それは良い学校だ"
+  thatsalright:                                          "それは大丈夫だ"
+  thatsenough:                                           "もういい"
+  thatsfair:                                             "それは公平だ"
+  thatsfine:                                             "それはいいです"
+  thatsherbook:                                          "それは彼女の本だ"
+  thatsit:                                               "それでおしまい"
+  thatsnotenough:                                        "それは十分ではありません"
+  thatsnotfair:                                          "それは公正ではない"
+  thatsnotright:                                         "それは右ではありません"
+  thatsright:                                            "そのとおり"
+  thatstoobad:                                           "それは残念だ"
+  thatstooexpensive:                                     "それはあまりにも高価だ"
+  thatstoolate:                                          "それは手遅れ"
+  thatstoomany:                                          "それはあまりにも多くのです"
+  thatstoomuch:                                          "それはあまりにも多くのです"
+  thatswrong:                                            "それは間違っている"
+  theaccidenthappenedattheintersection:                  "事故は交差点で起こった"
+  thebigoneorthesmallone:                                "大きなものや小さな1"
+  thebookisbehindthetable:                               "本はテーブルの背後にある"
+  thebookisinfrontofthetable:                            "本表の前にある"
+  thebookisnearthetable:                                 "本はテーブルの近くにある"
+  thebooksareexpensive:                                  "本は高価で"
+  thecarisfixed:                                         "車が固定され"
+  thecarsareamerican:                                    "車はアメリカ人です"
+  thefoodwasdelicious:                                   "食べ物がおいしかった"
+  theplanedepartsat530:                                  "飛行機はat530を出発"
+  theroadsareslippery:                                   "道路が滑りやすい"
+  thetvisbroken:                                         "テレビが壊れている"
+  thewholeday:                                           "一日"
+  therearemanypeoplehere:                                "多くの人々がここにあります"
+  therearesomeapplesintherefrigerator:                   "冷蔵庫でいくつかのリンゴがあります"
+  therearesomebooksonthetable:                           "テーブルの上にいくつかの本があります"
+  therehasbeenacaraccident:                              "車の事故があった"
+  theresabookunderthetable:                              "本がテーブルの下にあります"
+  theresarestaurantnearhere:                             "この近くにレストランがあります"
+  theresarestaurantovertherebutidontthinkitsverygood:    "そこあそこレストランですが、私はその非常に良いとは思わない"
+  theresplentyoftime:                                    "時間がたくさんあります"
+  thesebooksareours:                                     "これらの本は、私たちのものである"
+  theyarrivedyesterday:                                  "彼らは昨日到着した"
+  theychargetwentysixdollarsperday:                      "彼らは一日あたり26ドルを請求する"
+  theyhaventmetheryet:                                   "彼らはまだ彼女に会っていない"
+  theyllberightback:                                     "彼らは右戻ってきます"
+  theyreplanningtocomenextyear:                          "彼らは来年来ることを計画している"
+  theyrethesame:                                         "それらは同じだ"
+  theyreverybusy:                                        "彼らは非常に忙しくしている"
+  theyrewaitingforus:                                    "彼らは私たちを待っている"
+  thisdoesntwork:                                        "これは動作しません"
+  thishouseisverybig:                                    "この家は非常に大きいです"
+  thisismrs.smith:                                       "これは夫人スミスです"
+  thisismymother:                                        "これは私の母である"
+  thisisthefirsttimeivebeenhere:                         "これは私がここにいたのは初めてです"
+  thisisverydifficult:                                   "これは非常に困難である"
+  thisisveryimportant:                                   "これは非常に重要です"
+  thisroomisamess:                                       "この部屋は混乱です"
+  thosemenarespeakingenglish:                            "それらの人は英語を話している"
+  tryit:                                                 "それを試してみてください"
+  tryiton:                                               "それをみて"
+  trytosayit:                                            "それを言うしよう"
+  turnaround:                                            "振り向く"
+  turnleft:                                              "左折してください"
+  turnright:                                             "右折"
+  verygoodthanks:                                        "非常に良いおかげで"
+  waiter:                                                "ウェイター"
+  waitress:                                              "ウエイトレス"
+  wecaneatitalianorchinesefood:                          "我々はイタリアや中華料理を食べることができる"
+  wehavetwoboysandonegirl:                               "私たちは二人の少年と一人の女の子を持っている"
+  welikeitverymuch:                                      "私たちはそれをとても好きで"
+  wellhavetwoglassesofwaterplease:                       "私たちは水を2杯お願いします"
+  werefromcalifornia:                                    "私たちは、カリフォルニア州から来た"
+  werelate:                                              "我々は遅れている"
+  werethereanyproblems:                                  "何か問題があった？"
+  wereyouatthelibrarylastnight:                          "あなたは昨夜図書館にいた？"
+  whatareyoudoing:                                       "あなたはなにをしているのですか？"
+  whatareyougoingtodotonight:                            "何を今夜をするつもりですか？"
+  whatareyougoingtohave:                                 "何を持っているつもりですか？"
+  whatareyouthinkingabout:                               "あなたは何を考えている？"
+  whatareyoutwotalkingabout:                             "何二人は話をしている？"
+  whatareyourhobbies:                                    "あなたの趣味は何ですか？"
+  whatcanidoforyou:                                      "どういうご用件ですか？"
+  whatcoloristhatcar:                                    "その車は何色ですか？"
+  whatdayaretheycomingover:                              "彼らは何の日の上に来ている？"
+  whatdayoftheweekisit:                                  "それは何曜日ですか？"
+  whatdidyoudolastnight:                                 "何を昨晩しましたか？"
+  whatdidyoudoyesterday:                                 "あなたは昨日何をしたのですか？"
+  whatdidyouthink:                                       "あなたはどう思いましたか？"
+  whatdopeopleusuallydointhesummerinlosangeles:          "人々は通常、ロサンゼルスの夏に何をしますか？"
+  whatdotheystudy:                                       "彼らは何を勉強しますか？"
+  whatdoyoudoforwork:                                    "あなたが仕事のために何をしますか？"
+  whatdoyouhave:                                         "あなたは何がありますか？"
+  whatdoyourecommend:                                    "何がお勧めですか？"
+  whatdoyoustudy:                                        "あなたは何を勉強してますか？"
+  whatdoyouthinkoftheseshoes:                            "あなたはこれらの靴をどう思いますか？"
+  whatdoyouthink:                                        "どう思いますか？"
+  whatdoyouwanttobuy:                                    "あなたは何を購入したいのですか？"
+  whatdoyouwanttodo:                                     "何をしたいですか？"
+  whatdoyourparentsdoforwork:                            "あなたの両親は仕事のために何をしますか？"
+  whatdoeshedoforwork:                                   "彼は仕事のために何をするのでしょうか？"
+  whatdoesthismean:                                      "これは何を意味するのでしょうか？"
+  whatdoesthissay:                                       "これは何を言っていますか？"
+  whatdoesthiswordmean:                                  "この言葉は何を意味するのでしょうか？"
+  whatdoesyourfatherdoforwork:                           "あなたのお父さんは、仕事のために何をするのでしょうか？"
+  whathappened:                                          "何が起こった？"
+  whatisit:                                              "それは何ですか？"
+  whatisthat:                                            "それは何ですか？"
+  whatistheareacode:                                     "市外局番は何ですか？"
+  whatistodaysdate:                                      "今日の日は何ですか？"
+  whatkindofmusicdoyoulike:                              "どんな音楽がお好きですか？"
+  whatschooldidyougoto:                                  "あなたはどのような学校にするために行きましたか？"
+  whatshouldiwear:                                       "私は何を着るべきか？"
+  whatsize:                                              "どのようなサイズ？"
+  whattimearetheyarriving:                               "彼らは何時に到着している？"
+  whattimeareyougoingtothebusstation:                    "何時にすると、バスステーションに行くの？"
+  whattimedidyougetup:                                   "あなたは何時に起きたのですか？"
+  whattimedidyougotosleep:                               "何時にあなたがスリープ状態に入るのですか？"
+  whattimedidyouwakeup:                                  "あなたは何時に目覚めたのですか？"
+  whattimedoyougotoworkeveryday:                         "何時にあなたが毎日仕事に行くのですか？"
+  whattimedoyouthinkyoullarrive:                         "あなたは何時に到着するyoullのだと思いますか？"
+  whattimedoesitstart:                                   "何時に始まりますか？"
+  whattimedoesthemoviestart:                             "映画は何時に開始しますか？"
+  whattimedoesthestoreopen:                              "店は何時に開くのですか？"
+  whattimeischeckout:                                    "チェックアウトは何時ですか？"
+  whattimeisit:                                          "今何時ですか？"
+  whatwilltheweatherbeliketomorrow:                      "天気は明日のように何になりますか？"
+  whatwouldyouliketodrink:                               "飲み物は何にしますか？"
+  whatwouldyouliketoeat:                                 "何を食べたい？"
+  whatstheaddress:                                       "アドレスは何ですか？"
+  whatsthechargepernight:                                "一泊料金は何ですか？"
+  whatsthedate:                                          "日付は何ですか？"
+  whatstheexchangeratefordollars:                        "ドルの為替レートは何ですか？"
+  whatstheexchangerate:                                  "為替レートは何ですか？"
+  whatsthematter:                                        "どうしたのですか？"
+  whatsthenameofthecompanyyouworkfor:                    "あなたが働いている会社の名前は何ですか？"
+  whatsthephonenumber:                                   "電話番号は何ですか？"
+  whatstheroomrate:                                      "客室料金は何ですか？"
+  whatsthetemperature:                                   "温度は何ですか？"
+  whatsthis:                                             "これは何ですか？"
+  whatstodaysdate:                                       "今日の日は何ですか？"
+  whatsup:                                               "どうしたの？"
+  whatswrong:                                            "どうしましたか？"
+  whatsyouraddress:                                      "あなたの住所は何ですか？"
+  whatsyourfavoritefood:                                 "あなたの好きな食べ物は何ですか？"
+  whatsyourfavoritemovie:                                "あなたの好きな映画は何ですか？"
+  whatsyourlastname:                                     "あなたの名字は何ですか？"
+  whatsyourname:                                         "あなたの名前は何ですか？"
+  whatsyourreligion:                                     "あなたの宗教は何ですか？"
+  whatsinit:                                             "いただきました！それで？"
+  whenaretheycoming:                                     "彼らは時に来ている？"
+  whenareyoucomingback:                                  "ときに戻って来ている？"
+  whenareyougoingtopickupyourfriend:                     "ときにあなたの友人をピックアップするつもりですか？"
+  whenareyouleaving:                                     "あなたは時を残していますか？"
+  whenareyoumoving:                                      "あなたは時を移動している？"
+  whendidthishappen:                                     "ときこれが起こるのですか？"
+  whendidyouarriveinboston:                              "あなたがボストンのときに到着しましたか？"
+  whendowearrive:                                        "ときに我々が到着しますか？"
+  whendoyouarriveintheunitedstates:                      "ときに米国に到着しますか？"
+  whendoyougetoffwork:                                   "ときに仕事をオフに取得するのですか？"
+  whendoeshearrive:                                      "ときに彼が到着しますか？"
+  whendoesitarrive:                                      "時それが到着しますか？"
+  whendoesitleave:                                       "とき、それは残していますか？"
+  whendoesthebankopen:                                   "時銀行は開いていますか？"
+  whendoesthebusleave:                                   "ときバスは残していますか？"
+  whendoestheplanearrive:                                "とき飛行機が到着しますか？"
+  wheniwenttothestoretheydidnthaveanyapples:             "私は店に行ったとき、彼らはすべてのリンゴを持っていなかった？"
+  whenisthenextbustophiladelphia:                        "時フィラデルフィアの次のバスはありますか？"
+  whenisyourbirthday:                                    "あなたの誕生日はいつですか？"
+  whenwillitbeready:                                     "とき、それは準備ができて？"
+  whenwouldyouliketomeet:                                "ときに会いたい？"
+  wherearethet-shirts:                                   "ここで、tシャツはありますか？"
+  whereareyoufrom:                                       "出身はどちらですか？"
+  whereareyougoingtogo:                                  "どこに行くつもりですか？"
+  whereareyougoing:                                      "どこに行くの？"
+  whereareyou:                                           "どこにいますか？"
+  wherecanibuytickets:                                   "チケットはどこで買えますか？"
+  wherecaniexchangeusdollars:                            "どこで私は、米国ドルを交換することができますか？"
+  wherecanifindahospital:                                "どこで私は病院を見つけることができますか？"
+  wherecanimailthis:                                     "私はこれをどこに郵送することができますか？"
+  wherecanirentacar:                                     "どこで私は車を借りることができますか？"
+  wheredidithappen:                                      "それはどこで起きましたか？"
+  wheredidyougo:                                         "あなたは何処に行きましたか？"
+  wheredidyoulearnenglish:                               "どこで英語を学びましたか？"
+  wheredidyoulearnit:                                    "どこであなたはそれを学びましたか？"
+  wheredidyouputit:                                      "どこであなたはそれを置くのですか？"
+  wheredidyouworkbeforeyouworkedhere:                    "あなたがここで働い前にどこが動作したのですか？"
+  wheredoyoulive:                                        "どこに住んでいますか？"
+  wheredoyouwanttogo:                                    "どこに行くwanttoのですか？"
+  wheredoyouwork:                                        "あなたはどこで働いてますか？"
+  wheredoesithurt:                                       "どこが痛みますか？"
+  wheredoesyourwifework:                                 "どこにあなたの妻に動作しますか？"
+  whereishefrom:                                         "彼はどこから来ましたか？"
+  whereishe:                                             "彼はどこにいますか？"
+  whereisit:                                             "それはどこにある？"
+  whereismainstreet:                                     "どこにメインストリートである？"
+  whereismyshirt:                                        "私のシャツはどこにある？"
+  whereisshefrom:                                        "彼女はどこからですか？"
+  whereistheairport:                                     "空港はどこにありますか？"
+  whereisthebathroom:                                    "バスルームはどこにある？"
+  whereisthebusstation:                                  "どこにバス停がありますか？"
+  whereisthereadoctorwhospeaksenglish:                   "どこで英語を話し医者はありますか？"
+  whereisthereanatm:                                     "ここで、t mはあるのでしょうか？"
+  whereisthereanatm:                                     "どこにATMはありますか？"
+  wherewouldyouliketogo:                                 "どこに行きたいですか？"
+  wherewouldyouliketomeet:                               "どこに会いたい？"
+  wherewereyou:                                          "あなたはどこにいた？"
+  wherestheclosestrestaurant:                            "どこに最も近いレストランがですか？"
+  wheresthemailbox:                                      "どこでメールボックスがですか？"
+  wheresthenearesthospital:                              "どこに最寄りの病院はですか？"
+  wheresthepharmacy:                                     "薬局はどこにありますか？"
+  wheresthepostoffice:                                   "どこで郵便局はですか？"
+  whichisbetterthespaghettiorchickensalad:               "これは、スパゲティやチキンサラダ良いですか？"
+  whichisbetter:                                         "これは良いですか？"
+  whichisthebest:                                        "最高のはどれですか？"
+  whichonedoyouwant:                                     "あなたはどれをしたいですか？"
+  whichoneisbetter:                                      "どちらが良いですか？"
+  whichoneischeaper:                                     "どちらが安いです？"
+  whichoneisthebest:                                     "最高のは、一つです？"
+  whichone:                                              "どれ？"
+  whichroadshoulditake:                                  "私は、どの道を取るべきですか？"
+  whichschooldoeshegoto:                                 "どの学校に彼はに行くのですか？"
+  whoarethey:                                            "彼らは誰なの？"
+  whoisit:                                               "どなた？"
+  whoisthat:                                             "あれは誰？"
+  whosentthisletter:                                     "誰がこの手紙を送った？"
+  whotaughtyouthat:                                      "誰があなたにそれを教えて？"
+  whotaughtyou:                                          "誰があなたを教えた？"
+  whowasthat:                                            "それは誰でしたか？"
+  whowasyourteacher:                                     "あなたの先生は誰でしたか？"
+  whowon:                                                "誰が勝った？"
+  whowouldyouliketospeakto:                              "誰にお繋ぎいたしましょうか？"
+  whosbookisthat:                                        "本はそれは誰ですか？"
+  whosthatmanoverthere:                                  "あそこの人は誰ですか？"
+  whyareyoulaughing:                                     "なぜ笑っている？"
+  whyarentyougoing:                                      "なぜあなたは行くアレント？"
+  whydidyoudothat:                                       "なぜあなたはそれを行うのですか？"
+  whydidyousaythat:                                      "なぜあなたはそれが言ったの？"
+  whynot:                                                "何故なの？"
+  willyoucallmeataxiplease:                              "あなたは私はタクシー下さい呼び出します？"
+  willyouhandmeatowelplease:                             "あなたは私のタオルをしてください手のだろうか？"
+  willyoupassmethesaltplease:                            "あなたは私に塩をこちらに渡します？"
+  willyouputthisinthecarforme:                           "あなたは私のために車の中でこれを置くのだろうか？"
+  willyouremindme:                                       "あなたは私を思い出させるのだろうか？"
+  willyoutakemehome:                                     "あなたは家に私を取るのだろうか？"
+  wouldyouaskhimtocallmebackplease:                      "あなたは私をしてください呼び出すために彼に尋ねるでしょうか？"
+  wouldyouaskhimtocomehere:                              "あなたがここに来て彼を求めるのでしょうか？"
+  wouldyoulikeaglassofwater:                             "あなたは、水のガラスをご希望ですか？"
+  wouldyoulikecoffeeortea:                               "あなたはコーヒーや紅茶をご希望ですか？"
+  wouldyoulikesomewater:                                 "あなたはいくつかの水をご希望ですか？"
+  wouldyoulikesomewine:                                  "あなたは、いくつかのワインをご希望ですか？"
+  wouldyoulikesomethingtodrink:                          "何かお飲み物はいかがですか？"
+  wouldyoulikesomethingtoeat:                            "あなたが何か食べるものをご希望ですか？"
+  wouldyouliketobuythis:                                 "あなたがbuythisしたいですか？"
+  wouldyouliketogoforawalk:                              "あなたは散歩に行きたいですか？"
+  wouldyouliketohavedinnerwithme:                        "あなたは私と一緒に夕食を持っていると思います？"
+  wouldyouliketorentamovie:                              "あなたは映画を借りたいですか？"
+  wouldyouliketowatchtv:                                 "あなたは、T Vを見たいですか？"
+  wouldyoulikewaterormilk:                               "あなたは、水や牛乳をご希望ですか？"
+  wouldyoutakeamessageplease:                            "あなたは、メッセージをお願いかかるだろう？"
+  yes:                                                   "はい"
+  yesreally:                                             "はい、本当に"
+  youhaveaverynicecar:                                   "あなたは非常に素晴らしい車を持って"
+  youlooklikemysister:                                   "あなたは私の妹のように見える"
+  youlooktired:                                          "あなたが疲れて見える"
+  youspeakenglishverywell:                               "あなたは非常によく英語を話す"
+  yourebeautiful:                                        "あなたは美しいです"
+  youreright:                                            "あなたが正しい"
+  youresmarterthanhim:                                   "あなたは彼よりも賢いね"
+  youreverynice:                                         "あなたはとても優しい"
+  youreverysmart:                                        "あなたは非常にスマートだ"
+  yourewelcome:                                          "どういたしまして"
+  yourchildrenareverywellbehaved:                        "あなたの子供は非常によく振る舞っている"
+  yourdaughter:                                          "あなたの娘"
+  yourhouseisverynice:                                   "あなたの家は非常にいいです"
+  yourthingsareallhere:                                  "あなたの事はすべてここにある"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
