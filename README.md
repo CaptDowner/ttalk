@@ -34,3 +34,22 @@ We need a good designer, other language speakers to implemnt
 phrases and recording of phrases in their native language.
 Ruby and Rails contributors are always welcome, so 
 please fork away.
+
+
+Can you please help me?
+Fuck that!
+I need to go to bed.
+I need to go to the bathroom.
+Let's eat.
+now
+I'm hot.
+Please help me?
+That's good.
+That's great.
+What do you want?
+You look great.
+Judy
+Julianne
+Heather
+Sarah
+
