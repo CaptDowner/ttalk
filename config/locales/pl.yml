@@ -1,3 +1,6 @@
+###
+# Polish language
+#
 # Files in the config/locales directory are used for internationalization
 # and are automatically loaded by Rails. If you want to use locales other
 # than English, add the necessary files in this directory.
@@ -33,18 +36,17 @@
 #---
 
 pl:
-  afew:                                                 "kilka"
-  alittle:                                              "trochę"
-  alongtimeago:                                         "Dawno, dawno temu"
-  aonewayticket:                                        "Bilet w jedną stronę"
-  aroundtripticket:                                     "bilet powrotny"
   aboutthreehundredkilometers:                          "około 300 km"
   acrossfromthepostoffice:                              "naprzeciwko urzędu pocztowego"
+  afew:                                                 "kilka"
+  alittle:                                              "trochę"
   allday:                                               "cały dzień"
+  alongtimeago:                                         "Dawno, dawno temu"
   amipronouncingitcorrectly:                            "ja go poprawnie wymawiając"
   amyisjohnsgirlfriend:                                 "Amy jest dziewczyną Johns"
   andyou:                                               "a ty"
   anythingelse:                                         "wszystko inne"
+  aonewayticket:                                        "Bilet w jedną stronę"
   arethereanyconcerts:                                  "czy są jakieś koncerty"
   aretheycomingthisevening:                             "są nadchodzi ten wieczór"
   aretheythesame:                                       "są takie same"
@@ -62,24 +64,25 @@ pl:
   areyouhungry:                                         "jesteś głodny"
   areyoumarried:                                        "Czy jest Pan żonaty"
   areyouok:                                             "jesteś o k"
+  areyourchildrenwithyou:                               "są twoje dzieci z tobą"
   areyouready:                                          "jesteś gotowy"
   areyousick:                                           "jesteś chory"
   areyousure:                                           "są na pewno"
   areyouwaitingforsomeone:                              "czekasz na kogoś"
   areyouworkingtoday:                                   "masz już działa"
   areyouworkingtomorrow:                                "ty jutro pracy"
-  areyourchildrenwithyou:                               "są twoje dzieci z tobą"
+  aroundtripticket:                                     "bilet powrotny"
   assoonaspossible:                                     "jak najszybciej"
-  atwhattime:                                           "o której godzinie"
-  atwhattimedidithappen:                                "w jakim czasie to się stało,"
   at3oclock:                                            "w 3 oclock"
   at3oclockintheafternoon:                              "w 3 oclock w godzinach popołudniowych"
   at5thstreet:                                          "przy 5th ulicy"
   at7oclockatnight:                                     "o 7 oclock w nocy"
+  atwhattime:                                           "o której godzinie"
+  atwhattimedidithappen:                                "w jakim czasie to się stało,"
   becareful:                                            "być ostrożnym"
   becarefuldriving:                                     "być ostrożnym jazdy"
-  bequiet:                                              "be quiet"
   behindthebank:                                        "za bank"
+  bequiet:                                              "be quiet"
   bringmemyshirtplease:                                 "przynieś mi moją koszulkę prosimy"
   businessisgood:                                       "biznes jest dobry"
   callme:                                               "zadzwoń do mnie"
@@ -94,45 +97,11 @@ pl:
   canimakeanappointmentfornextwednesday:                "Mogę umówić się na następny środa ??"
   caniseeyourpassportplease:                            "Widzę paszport proszę ??"
   canitakeamessage:                                     "Mogę przyjąć wiadomość ??"
+  canitbecheaper:                                       "może to być tańsze?"
   canitryiton:                                          "Mogę spróbować się?"
   caniuseyourphone:                                     "mogę skorzystać z telefonu?"
-  canitbecheaper:                                       "może to być tańsze?"
   canwehaveamenuplease:                                 "możemy mieć menu proszę?"
   canwehavesomemorebreadplease:                         "możemy mieć trochę więcej chleba proszę?"
-  doyouhaveaboyfriend:                                  "masz chłopaka?"
-  doyouhaveagirlfriend:                                 "Czy masz dziewczynę?"
-  doyouhaveapencil:                                     "masz ołówek?"
-  doyouhaveaproblem:                                    "masz problem?"
-  doyouhaveaswimmingpool:                               "masz basen?"
-  doyouhaveanappointment:                               "pan umówiony?"
-  doyouhaveanotherone:                                  "masz inny?"
-  doyouhaveanychildren:                                 "Czy masz dzieci?"
-  doyouhaveanycoffee:                                   "Czy masz jakieś kawy?"
-  doyouhaveanymoney:                                    "czy masz jakieś pieniądze?"
-  doyouhaveanyvacancies:                                "masz jakieś oferty pracy?"
-  doyouhaveanythingcheaper:                             "Czy masz coś tańszego?"
-  doyouhaveenoughmoney:                                 "Czy masz wystarczająco dużo pieniędzy?"
-  doyouhavethenumberforataxi:                           "masz numer na taksówkę?"
-  doyouhavethisinsizeeleven:                            "masz to w size11?"
-  doyouhearthat:                                        "Słyszysz?"
-  doyouknowher:                                         "znasz ją?"
-  doyouknowhowmuchitcosts:                              "wiesz ile to kosztuje?"
-  doyouknowhowtocook:                                   "wiesz jak gotować?"
-  doyouknowhowtogettothemarriotthotel:                  "wiesz, jak dostać się do hotelu Marriott?"
-  doyouknowwhatthismeans:                               "Czy wiesz, co to oznacza?"
-  doyouknowwhatthissays:                                "wiesz co to mówi?"
-  doyouknowwhereicangetataxi:                           "Czy wiesz, gdzie mogę dostać taksówkę?"
-  doyouknowwheremyglassesare:                           "Czy wiesz, gdzie są moje okulary?"
-  doyouknowwheresheis:                                  "Czy wiesz, gdzie ona jest?"
-  doyouknowwheretheresastorethatsellstowels:            "Czy wiesz, gdzie jest tam sklep, który sprzedaje ręczniki?"
-  doyoulikeithere:                                      "podoba ci się tutaj?"
-  doyoulikethebook:                                     "lubisz książki?"
-  doyouliketowatchtv:                                   "lubisz oglądać t v?"
-  doyoulikeyourboss:                                    "lubisz swojego szefa?"
-  doyoulikeyourcoworkers:                               "lubisz twoi współpracownicy?"
-  doyouneedanything:                                    "Potrzebujesz czegoś?"
-  doyouneedanythingelse:                                "nie trzeba nic więcej?"
-  doyouplayanysports:                                   "grasz jakieś sporty?"
   canwesitoverthere:                                    "możemy usiąść tam?"
   canyoucallbacklater:                                  "można zadzwonić później?"
   canyoucarrythisforme:                                 "możesz nosić to dla mnie?"
@@ -141,6 +110,7 @@ pl:
   canyougivemeanexample:                                "możesz dać mi przykład?"
   canyouhelpme:                                         "możesz mi pomóc?"
   canyouholdthisforme:                                  "można trzymać to dla mnie?"
+  canyoupleasehelpme:                                   "Czy możesz mi pomóc?"
   canyoupleasesaythatagain:                             "czy możesz powiedzieć, że jeszcze raz?"
   canyourecommendagoodrestaurant:                       "można polecić dobrą restaurację?"
   canyourepeatthatplease:                               "można powtórzyć, że proszę?"
@@ -156,25 +126,31 @@ pl:
   diditsnowyesterday:                                   "nie pada śnieg wczoraj?"
   didyoucomewithyourfamily:                             "to się stało z rodziną?"
   didyougetmyemail:                                     "to masz mój e-mail?"
+  didyourwifelikecalifornia:                            "nie swoją żonę jak Kalifornia?"
   didyousendmeflowers:                                  "wysłałeś mi kwiaty?"
   didyoutakeyourmedicine:                               "zabrałeś swój lek?"
-  didyourwifelikecalifornia:                            "nie swoją żonę jak Kalifornia?"
+  doesanyoneherespeakenglish:                           "Czy ktoś tu mówi po angielsku?"
+  doesheliketheschool:                                  "on lubi szkołę?"
+  doesitoftensnowinthewinterinmassachusetts:            "robi to często śnieg w zimie w Massachusetts?"
+  doesthisroadgotonewyork:                              "nie ta droga jechać do Nowego Jorku?"
+  dontdothat:                                           "nie rób tego"
+  dontworry:                                            "nie martw się"
   doyouacceptusdollars:                                 "akceptujecie dolarów?"
   doyoubelievethat:                                     "Czy wierzysz, że?"
   doyoufeelbetter:                                      "czujesz się lepiej?"
   doyougotofloridaoften:                                "idziesz na Florydę często?"
   doyouhaveaboyfriend:                                  "masz chłopaka?"
   doyouhaveagirlfriend:                                 "Czy masz dziewczynę?"
-  doyouhaveapencil:                                     "masz ołówek?"
-  doyouhaveaproblem:                                    "masz problem?"
-  doyouhaveaswimmingpool:                               "masz basen?"
   doyouhaveanappointment:                               "pan umówiony?"
   doyouhaveanotherone:                                  "masz inny?"
   doyouhaveanychildren:                                 "Czy masz dzieci?"
   doyouhaveanycoffee:                                   "Czy masz jakieś kawy?"
   doyouhaveanymoney:                                    "czy masz jakieś pieniądze?"
-  doyouhaveanyvacancies:                                "masz jakieś oferty pracy?"
   doyouhaveanythingcheaper:                             "Czy masz coś tańszego?"
+  doyouhaveanyvacancies:                                "masz jakieś oferty pracy?"
+  doyouhaveapencil:                                     "masz ołówek?"
+  doyouhaveaproblem:                                    "masz problem?"
+  doyouhaveaswimmingpool:                               "masz basen?"
   doyouhaveenoughmoney:                                 "Czy masz wystarczająco dużo pieniędzy?"
   doyouhavethenumberforataxi:                           "masz numer na taksówkę?"
   doyouhavethisinsizeeleven:                            "masz to w size11?"
@@ -213,34 +189,29 @@ pl:
   doyouwanttocomewithme:                                "chcesz iść ze mną?"
   doyouwanttogotothemovies:                             "chcesz iść do kina?"
   doyouwanttogowithme:                                  "chcesz iść ze mną?"
-  doesanyoneherespeakenglish:                           "Czy ktoś tu mówi po angielsku?"
-  doesheliketheschool:                                  "on lubi szkołę?"
-  doesitoftensnowinthewinterinmassachusetts:            "robi to często śnieg w zimie w Massachusetts?"
-  doesthisroadgotonewyork:                              "nie ta droga jechać do Nowego Jorku?"
-  dontdothat:                                           "nie rób tego"
-  dontworry:                                            "nie martw się"
-  everyweek:                                            "tygodniowo"
   everydayigetupatsix:                                  "codziennie wstaję o szóstej"
   everyoneknowsit:                                      "każdy to wie"
   everythingisready:                                    "wszystko jest gotowe"
+  everyweek:                                            "tygodniowo"
   excellent:                                            "doskonały"
   excuseme:                                             "przepraszam"
   excusemewhatdidyousay:                                "wybacz mi, co powiedziałaś"
   expirationdate:                                       "data przydatności"
   fillitupplease:                                       "wypełnić go proszę"
   followme:                                             "za mną"
-  forhowmanynights:                                     "Na ile nocy"
   forgetit:                                             "zapomnieć"
+  forhowmanynights:                                     "Na ile nocy"
   fromheretothere:                                      "stąd tam"
   fromtimetotime:                                       "niekiedy"
+  fuckthat:                                             "Pieprzyć to!"
   givemeacall:                                          "zadzwoń"
   givemethepen:                                         "podaj mi pióro"
-  gostraightahead:                                      "jechać prosto"
   goodafternoon:                                        "dzień dobry"
   goodeveningsir:                                       "Dobry wieczór panie"
   goodidea:                                             "dobry pomysł"
   goodluck:                                             "powodzenia"
   goodmorning:                                          "dzień dobry"
+  gostraightahead:                                      "jechać prosto"
   great:                                                "wielki"
   happybirthday:                                        "z okazji urodzin"
   hasyourbrotherbeentocalifornia:                       "jest twój brat byli w Kalifornii"
@@ -256,38 +227,39 @@ pl:
   haveyoufinishedstudying:                              "nie skończyłeś studia?"
   haveyouseenthismovie:                                 "Czy widziałeś ten film?"
   healwaysdoesthatforme:                                "on zawsze robi na mnie"
+  heather:                                              "wrzos"
   hebrokethewindow:                                     "złamał okno"
   hedoesntlooklikeanurse:                               "On nie wygląda jak pielęgniarki"
   hehasanicecar:                                        "ma ładny samochód"
   helikesitverymuch:                                    "lubi to bardzo"
   helikesjuicebuthedoesntlikemilk:                      "lubi sok, ale nie lubi mleka"
+  hellbebackintwentyminutes:                            "diabła z powrotem za dwadzieścia minut"
+  hello:                                                "cześć"
+  help:                                                 "pomoc"
   heneedssomenewclothes:                                "On potrzebuje nowych ubrań"
   henevergivesmeanything:                               "on nigdy nie daje mi niczego"
+  hereitis:                                             "tutaj jest"
+  heresmynumber:                                        "oto mój numer"
+  heresyourorder:                                       "tu jest twoje zamówienie"
+  heresyoursalad:                                       "tutaj masz sałatki"
+  hereyouare:                                           "tu jesteś"
   hesaidthisisaniceplace:                               "powiedział, że jest to miłe miejsce"
   hesaidyouliketowatchmovies:                           "powiedział lubisz oglądać filmy"
-  hestudiesatbostonuniversity:                          "studiuje na Uniwersytecie w Bostonie"
-  hethinkswedontwanttogo:                               "sądzi, że nie chcemy, aby przejść"
-  heworksatacomputercompanyinnewyork:                   "On pracuje w firmie komputerowej w Nowym Jorku"
-  hesaverygoodstudent:                                  "on jest bardzo dobrym uczniem"
   hesanamerican:                                        "on jest amerykański"
   hesanengineer:                                        "on jest inżynierem"
+  hesaverygoodstudent:                                  "on jest bardzo dobrym uczniem"
   hescomingsoon:                                        "on wkrótce"
   hesfasterthanme:                                      "on jest szybszy ode mnie"
   hesinthekitchen:                                      "że jest w kuchni"
   hesneverbeentoamerica:                                "że nigdy nie był w Ameryce"
   hesnotinrightnow:                                     "on nie jest w tej chwili"
   hesright:                                             "on ma rację"
+  hestudiesatbostonuniversity:                          "studiuje na Uniwersytecie w Bostonie"
   hesveryannoying:                                      "on jest bardzo denerwujące"
   hesveryfamous:                                        "on jest bardzo znany"
   hesveryhardworking:                                   "on bardzo ciężko pracuje"
-  hellbebackintwentyminutes:                            "diabła z powrotem za dwadzieścia minut"
-  hello:                                                "cześć"
-  help:                                                 "pomoc"
-  hereitis:                                             "tutaj jest"
-  hereyouare:                                           "tu jesteś"
-  heresmynumber:                                        "oto mój numer"
-  heresyourorder:                                       "tu jest twoje zamówienie"
-  heresyoursalad:                                       "tutaj masz sałatki"
+  hethinkswedontwanttogo:                               "sądzi, że nie chcemy, aby przejść"
+  heworksatacomputercompanyinnewyork:                   "On pracuje w firmie komputerowej w Nowym Jorku"
   hi,ismrs.smiththereplease:                            "hi jest Pani Smith nie należy"
   hisfamilyiscomingtomorrow:                            "jego rodzina przyjeżdża jutro"
   hisroomisverysmall:                                   "Jego pokój jest bardzo mały"
@@ -296,6 +268,7 @@ pl:
   howareyou:                                            "jak się masz?"
   howareyoupaying:                                      "jak płacisz?"
   howareyourparents:                                    "jak są twoi rodzice?"
+  howdoesittaste:                                       "jak to smakuje?"
   howdoigetthere:                                       "jak mam się tam dostać?"
   howdoigettodanielstreet:                              "jak mogę dostać się do ulicy daniel?"
   howdoigettotheamericanembassy:                        "jak mogę dostać się do amerykańskiej ambasady?"
@@ -305,7 +278,6 @@ pl:
   howdoyousayitinenglish:                               "jak to się mówi w języku angielskim?"
   howdoyouspellit:                                      "jak się to pisze?"
   howdoyouspellthewordseattle:                          "jak się pisze słowo Seattle?"
-  howdoesittaste:                                       "jak to smakuje?"
   howfarisit:                                           "jak daleko to jest?"
   howfarisittochicago:                                  "jak daleko jest do Chicago?"
   howisshe:                                             "jak ona jest?"
@@ -329,9 +301,9 @@ pl:
   howmanypeopledoyouhaveinyourfamily:                   "ile osób masz w swojej rodzinie?"
   howmuchalltogether:                                   "jak bardzo wszyscy razem?"
   howmucharetheseearrings:                              "jak bardzo są te kolczyki?"
-  howmuchdoioweyou:                                     "jak wiele zawdzięczam ci?"
   howmuchdoesitcostperday:                              "ile to kosztuje na dzień?"
   howmuchdoesthiscost:                                  "ile to kosztuje?"
+  howmuchdoioweyou:                                     "jak wiele zawdzięczam ci?"
   howmuchisit:                                          "ile to kosztuje?"
   howmuchisittogotomiami:                               "ile to kosztuje, aby przejść do Miami?"
   howmuchisthat:                                        "ile to jest?"
@@ -341,12 +313,12 @@ pl:
   howmuchwillitcost:                                    "ile to będzie kosztować?"
   howmuchwouldyoulike:                                  "ile chcesz?"
   howoldareyou:                                         "ile masz lat?"
-  howtallareyou:                                        "Ile masz wzrostu?"
-  howwasthemovie:                                       "jaki był film?"
-  howwasthetrip:                                        "Jak minęła podróż?"
   howsbusiness:                                         "Jak interesy?"
   howstheweather:                                       "Jak jest pogoda?"
   howsworkgoing:                                        "jak idzie praca?"
+  howtallareyou:                                        "Ile masz wzrostu?"
+  howwasthemovie:                                       "jaki był film?"
+  howwasthetrip:                                        "Jak minęła podróż?"
   hurry:                                                "śpieszyć się"
   iagree:                                               "Zgadzam się"
   iatealready:                                          "Ja już zjadłem"
@@ -356,94 +328,6 @@ pl:
   icanswim:                                             "Umiem pływać"
   icanthearyou:                                         "Nie mogę Cię usłyszeć"
   icanthearyouclearly:                                  "Nie słyszę cię wyraźnie"
-  idontcare:                                            "Nie obchodzi mnie to"
-  idontfeelwell:                                        "Nie czuję się dobrze"
-  idonthaveagirlfriend:                                 "Nie mam dziewczyny"
-  idonthaveanymoney:                                    "Nie mam pieniędzy"
-  idonthavetimerightnow:                                "Nie mam teraz czasu"
-  idontknow:                                            "Nie wiem"
-  idontknowhowtouseit:                                  "Nie wiem, jak go używać"
-  idontlikehim:                                         "Ja go nie lubię"
-  idontlikeit:                                          "I nie podoba"
-  idontmind:                                            "Nie mam nic przeciwko"
-  idontspeakenglishverywell:                            "Nie mówię po angielsku bardzo dobrze"
-  idontspeakverywell:                                   "Nie mówię bardzo dobrze"
-  idontthinkso:                                         "Nie sądzę, że tak"
-  idontunderstand:                                      "Nie rozumiem"
-  idontunderstandwhatyoursaying:                        "Nie rozumiem, co się mówi,"
-  idontwantit:                                          "Nie chcę go"
-  idontwantthat:                                        "Nie chcę, że"
-  idontwanttobotheryou:                                 "Nie chcę wam przeszkadzać"
-  ifeelgood:                                            "Czuję się dobrze"
-  iforget:                                              "zapomnę"
-  igetoffworkatsix:                                     "Kończę pracę o szóstej"
-  igiveup:                                              "Rezygnuję"
-  igotinanaccident:                                     "Mam w wypadku"
-  ihavetwosisters:                                      "Mam dwie siostry"
-  ihaveacold:                                           "Mam na zimno"
-  ihaveaheadache:                                       "Mam ból głowy"
-  ihavealotofthingstodo:                                "Mam wiele rzeczy do zrobienia"
-  ihaveaquestioniwanttoaskyou:                          "Mam pytanie, chcę zapytać"
-  ihaveareservation:                                    "Mam rezerwację"
-  ihavemoney:                                           "Mam pieniądze"
-  ihaveoneinmycar:                                      "Mam jeden w moim samochodzie"
-  ihavepaininmyarm:                                     "Mam ból w ramieniu"
-  ihavethreechildrentwogirlsandoneboy:                  "Mam troje dzieci, dwie dziewczynki i jeden chłopiec"
-  ihavetogotothepostoffice:                             "Muszę iść na pocztę"
-  ihavetowashmyclothes:                                 "Muszę myć moje ubrania"
-  ihaventbeenthere:                                     "Nie byłem tam"
-  ihaventfinishedeating:                                "Nie skończyłem jedzenia"
-  ihaventhadlunchyet:                                   "Nie miałem jeszcze obiad"
-  ihopeyouandyourwifehaveanicetrip:                     "Mam nadzieję, że ty i twoja żona ma piękny podróż"
-  iknow:                                                "wiem"
-  ilikeher:                                             "Lubię ją"
-  ilikeit:                                              "Podoba mi się"
-  ilikeitalianfood:                                     "Lubię włoskie jedzenie"
-  iliketowatchtv:                                       "Lubię oglądać telewizję"
-  iliveincalifornia:                                    "Mieszkam w Kalifornii"
-  ilostmywatch:                                         "Straciłem zegarek"
-  iloveyou:                                             "Kocham cię"
-  imadeamistake:                                        "Popełniłem błąd"
-  imadethiscake:                                        "Zrobiłam to ciasto"
-  ineedadoctor:                                         "Muszę się z lekarzem"
-  ineedanotherkey:                                      "Muszę inny klucz"
-  ineedsometissues:                                     "Potrzebuję tkanek"
-  ineedthistogettherebytomorrow:                        "Potrzebuję tego, aby dostać się tam jutro"
-  ineedtochangeclothes:                                 "Muszę zmienić ubranie"
-  ineedtogohome:                                        "Muszę iść do domu"
-  ineedtogonow:                                         "Muszę teraz iść"
-  ineedtopracticemyenglish:                             "Muszę ćwiczyć swój angielski"
-  ionlyhavefivedollars:                                 "Mam tylko pięć dolarów"
-  ionlywantasnack:                                      "Chcę tylko przekąskę"
-  iremember:                                            "pamiętam"
-  ispeakalittleenglish:                                 "Mówię trochę po angielsku"
-  ispeaktwolanguages:                                   "Mówię dwóch języków"
-  istillhavealotofthingstobuy:                          "Mam jeszcze dużo rzeczy do kupienia"
-  istillhavealotofworktodo:                             "Mam jeszcze dużo do zrobienia"
-  istillhavetobrushmyteethandtakeashower:               "Muszę jeszcze umyć zęby i wziąć prysznic"
-  istillhaventdecided:                                  "Wciąż miałaś zdecydowanym"
-  ithinkineedtoseeadoctor:                              "Myślę, że muszę iść do lekarza"
-  ithinkittastesgood:                                   "Myślę, że to smakuje"
-  ithinkitsverygood:                                    "Myślę, że to bardzo dobry"
-  ithinkso:                                             "Myślę, że tak"
-  ithinkthoseshoesareverygoodlooking:                   "Myślę, że te buty są bardzo przystojny"
-  ithinkyouhavetoomanyclothes:                          "Myślę, że masz zbyt wiele ubrań"
-  ithoughthesaidsomethingelse:                          "Myślałem, że powiedział coś innego"
-  ithoughttheclotheswerecheaper:                        "Myślałem, że ubrania były tańsze"
-  itrustyou:                                            "Ufam ci"
-  iunderstand:                                          "rozumiem"
-  iunderstandnow:                                       "Rozumiem teraz"
-  iusuallydrinkcoffeeatbreakfast:                       "I zwykle pić kawę na śniadanie"
-  iwanttobuysomething:                                  "Chcę kupić coś"
-  iwanttocontactourembassy:                             "Chcę się skontaktować z naszą ambasadą"
-  iwanttogiveyouagift:                                  "Chcę dać ci prezent"
-  iwanttosendthispackagetotheunitedstates:              "Chcę wysłać tę paczkę do USA"
-  iwanttoshowyousomething:                              "Chcę ci coś pokazać"
-  iwasabouttoleavetherestaurantwhenmyfriendsarrived:    "Już miałam wychodzić z restauracji, gdy moi przyjaciele przybyli"
-  iwasgoingtothelibrary:                                "Idę do biblioteki"
-  iwasinthelibrary:                                     "Byłem w bibliotece"
-  iwenttothesupermarketandthentothecomputerstore:       "Poszedłem do supermarketu, a potem do sklepu komputerowego"
-  iwishihadone:                                         "Chciałbym mieć jeden"
   idlikeamapofthecity:                                  "Chciałbym mapę miasta"
   idlikeanonsmokingroom:                                "Chciałbym pokój dla niepalących"
   idlikearoom:                                          "Chciałbym pokój"
@@ -469,15 +353,81 @@ pl:
   idliketosendthistoamerica:                            "Chciałbym, aby wysłać to ameryki"
   idliketospeaktomrsmithplease:                         "Chciałbym porozmawiać z Panem Michalikiem"
   idliketousetheinternet:                               "Chciałbym korzystać z internetu"
-  imtwentysixyearsold:                                  "Mam dwadzieścia sześć lat"
-  imthirtytwo:                                          "Jestem trzydzieści dwa"
-  imsixfoottwo:                                         "Jestem sześć stóp i dwa"
+  idontcare:                                            "Nie obchodzi mnie to"
+  idontfeelwell:                                        "Nie czuję się dobrze"
+  idonthaveagirlfriend:                                 "Nie mam dziewczyny"
+  idonthaveanymoney:                                    "Nie mam pieniędzy"
+  idonthavetimerightnow:                                "Nie mam teraz czasu"
+  idontknow:                                            "Nie wiem"
+  idontknowhowtouseit:                                  "Nie wiem, jak go używać"
+  idontlikehim:                                         "Ja go nie lubię"
+  idontlikeit:                                          "I nie podoba"
+  idontmind:                                            "Nie mam nic przeciwko"
+  idontspeakenglishverywell:                            "Nie mówię po angielsku bardzo dobrze"
+  idontspeakverywell:                                   "Nie mówię bardzo dobrze"
+  idontthinkso:                                         "Nie sądzę, że tak"
+  idontunderstand:                                      "Nie rozumiem"
+  idontunderstandwhatyoursaying:                        "Nie rozumiem, co się mówi,"
+  idontwantit:                                          "Nie chcę go"
+  idontwantthat:                                        "Nie chcę, że"
+  idontwanttobotheryou:                                 "Nie chcę wam przeszkadzać"
+  ifeelgood:                                            "Czuję się dobrze"
+  iforget:                                              "zapomnę"
+  ifyoulikeiticanbuymore:                               "jeśli chcesz to mogę kupić więcej"
+  ifyouneedmyhelppleaseletmeknow:                       "jeśli potrzebujesz mojej pomocy, proszę dać mi znać"
+  igetoffworkatsix:                                     "Kończę pracę o szóstej"
+  igiveup:                                              "Rezygnuję"
+  igotinanaccident:                                     "Mam w wypadku"
+  ihaveacold:                                           "Mam na zimno"
+  ihaveaheadache:                                       "Mam ból głowy"
+  ihavealotofthingstodo:                                "Mam wiele rzeczy do zrobienia"
+  ihaveaquestioniwanttoaskyou:                          "Mam pytanie, chcę zapytać"
+  ihaveareservation:                                    "Mam rezerwację"
+  ihavemoney:                                           "Mam pieniądze"
+  ihaventbeenthere:                                     "Nie byłem tam"
+  ihaventfinishedeating:                                "Nie skończyłem jedzenia"
+  ihaventhadlunchyet:                                   "Nie miałem jeszcze obiad"
+  ihaveoneinmycar:                                      "Mam jeden w moim samochodzie"
+  ihavepaininmyarm:                                     "Mam ból w ramieniu"
+  ihavethreechildrentwogirlsandoneboy:                  "Mam troje dzieci, dwie dziewczynki i jeden chłopiec"
+  ihavetogotothepostoffice:                             "Muszę iść na pocztę"
+  ihavetowashmyclothes:                                 "Muszę myć moje ubrania"
+  ihavetwosisters:                                      "Mam dwie siostry"
+  ihopeyouandyourwifehaveanicetrip:                     "Mam nadzieję, że ty i twoja żona ma piękny podróż"
+  iknow:                                                "wiem"
+  ilikeher:                                             "Lubię ją"
+  ilikeit:                                              "Podoba mi się"
+  ilikeitalianfood:                                     "Lubię włoskie jedzenie"
+  iliketowatchtv:                                       "Lubię oglądać telewizję"
+  iliveincalifornia:                                    "Mieszkam w Kalifornii"
+  illberightback:                                       "Będę z powrotem"
+  illcallbacklater:                                     "Zadzwonię później"
+  illcallyouonfriday:                                   "Zadzwonię do ciebie w piątek"
+  illcallyouwhenileave:                                 "Zadzwonię do ciebie, kiedy wyjadę"
+  illcomebacklater:                                     "Wrócę później"
+  illgiveyouacall:                                      "Dam ci telefon"
+  illhaveacupofteaplease:                               "Poproszę herbatę należy"
+  illhaveaglassofwaterplease:                           "Poproszę szklankę wody należy"
+  illhavethesamething:                                  "Będę miał to samo"
+  illpay:                                               "Zapłacę"
+  illpayfordinner:                                      "Zapłacę za obiad"
+  illpayforthetickets:                                  "Zapłacę za bilety"
+  illtakeit:                                            "Wezmę"
+  illtakethatonealso:                                   "Wezmę też, że jeden"
+  illtakeyoutothebusstop:                               "Zabiorę cię do przystanku autobusowego"
+  illtalktoyousoon:                                     "Porozmawiamy wkrótce"
+  illteachyou:                                          "Nauczę cię"
+  illtellhimyoucalled:                                  "Powiem mu, że nazywa się"
+  ilostmywatch:                                         "Straciłem zegarek"
+  iloveyou:                                             "Kocham cię"
   imabeginner:                                          "Jestem początkujący"
-  imasizeeight:                                         "Jestem rozmiar osiem"
-  imateacher:                                           "Jestem nauczycielem"
+  imadeamistake:                                        "Popełniłem błąd"
+  imadethiscake:                                        "Zrobiłam to ciasto"
   imallergictoseafood:                                  "Jestem uczulony na owoce morza"
   imamerican:                                           "Jestem amerykański"
   imanamerican:                                         "Jestem Amerykaninem"
+  imasizeeight:                                         "Jestem rozmiar osiem"
+  imateacher:                                           "Jestem nauczycielem"
   imbored:                                              "Jestem znudzona"
   imcleaningmyroom:                                     "Jestem sprzątanie mojego pokoju"
   imcold:                                               "Jest mi zimno"
@@ -496,6 +446,7 @@ pl:
   imgoodandyou:                                         "Jestem dobry i"
   imhappy:                                              "Jestem szczęśliwy"
   imhereonbusiness:                                     "Jestem tu w interesach"
+  imhot:                                                "Jestem gorąca."
   imhungry:                                             "Jestem głodny"
   imjustkidding:                                        "Ja tylko żartowałem"
   imjustlooking:                                        "Po prostu szukam"
@@ -516,44 +467,32 @@ pl:
   imselfemployed:                                       "Jestem na własny rachunek"
   imsick:                                               "Jestem chory"
   imsingle:                                             "Jestem singlem"
+  imsixfoottwo:                                         "Jestem sześć stóp i dwa"
   imsorry:                                              "Przykro mi"
   imsorryweresoldout:                                   "Przykro mi, mamy wyprzedane"
   imthirsty:                                            "Jestem spragniony"
+  imthirtytwo:                                          "Jestem trzydzieści dwa"
   imtired:                                              "Jestem zmęczony"
+  imtwentysixyearsold:                                  "Mam dwadzieścia sześć lat"
   imverybusy:                                           "Jestem bardzo zajęty"
   imverybusyidonthavetimenow:                           "Jestem bardzo zajęty, nie mam teraz czasu"
   imverywellthankyou:                                   "Jestem bardzo dobrze, dziękuję"
   imwaitingforyou:                                      "Czekam na Ciebie"
   imworriedtoo:                                         "Martwię się zbyt"
-  ivealreadyseenit:                                     "Już widziałem go"
-  ivebeenherefortwodays:                                "Byłem tu przez dwa dni"
-  ivebeenthere:                                         "Byłem tam"
-  iveheardtexasisabeautifulplace:                       "Słyszałem, Teksas jest piękne miejsce"
-  iveneverdonethat:                                     "Nigdy nie robiłem, że"
-  iveneverseenthatbefore:                               "Nigdy nie widziałem, że przed"
-  iveseenit:                                            "Widziałem go"
-  iveworkedthereforfiveyears:                           "Pracowałem tam przez pięć lat"
-  ifyoulikeiticanbuymore:                               "jeśli chcesz to mogę kupić więcej"
-  ifyouneedmyhelppleaseletmeknow:                       "jeśli potrzebujesz mojej pomocy, proszę dać mi znać"
-  illberightback:                                       "Będę z powrotem"
-  illcallbacklater:                                     "Zadzwonię później"
-  illcallyouonfriday:                                   "Zadzwonię do ciebie w piątek"
-  illcallyouwhenileave:                                 "Zadzwonię do ciebie, kiedy wyjadę"
-  illcomebacklater:                                     "Wrócę później"
-  illgiveyouacall:                                      "Dam ci telefon"
-  illhaveacupofteaplease:                               "Poproszę herbatę należy"
-  illhaveaglassofwaterplease:                           "Poproszę szklankę wody należy"
-  illhavethesamething:                                  "Będę miał to samo"
-  illpay:                                               "Zapłacę"
-  illpayfordinner:                                      "Zapłacę za obiad"
-  illpayforthetickets:                                  "Zapłacę za bilety"
-  illtakeit:                                            "Wezmę"
-  illtakethatonealso:                                   "Wezmę też, że jeden"
-  illtakeyoutothebusstop:                               "Zabiorę cię do przystanku autobusowego"
-  illtalktoyousoon:                                     "Porozmawiamy wkrótce"
-  illteachyou:                                          "Nauczę cię"
-  illtellhimyoucalled:                                  "Powiem mu, że nazywa się"
+  ineedadoctor:                                         "Muszę się z lekarzem"
+  ineedanotherkey:                                      "Muszę inny klucz"
+  ineedsometissues:                                     "Potrzebuję tkanek"
+  ineedthistogettherebytomorrow:                        "Potrzebuję tego, aby dostać się tam jutro"
+  ineedtochangeclothes:                                 "Muszę zmienić ubranie"
+  ineedtogohome:                                        "Muszę iść do domu"
+  ineedtogonow:                                         "Muszę teraz iść"
+  ineedtogotobed:                                       "Muszę iść do łóżka"
+  ineedtogotothebathroom:                               "Muszę iść do łazienki"
+  ineedtopracticemyenglish:                             "Muszę ćwiczyć swój angielski"
   inthirtyminutes:                                      "trzydzieści minut"
+  ionlyhavefivedollars:                                 "Mam tylko pięć dolarów"
+  ionlywantasnack:                                      "Chcę tylko przekąskę"
+  iremember:                                            "pamiętam"
   isanyoneelsecoming:                                   "jest ktoś jeszcze przyjdzie?"
   iseverythingok:                                       "jest wszystko OK?"
   isitclose:                                            "to jest blisko?"
@@ -568,34 +507,47 @@ pl:
   isjohnhere:                                           "tu jest John?"
   isjohnthereplease:                                    "John nie należy?"
   ismr.smithanamerican:                                 "jest Pan Smith amerykański?"
+  isntit:                                               "czyż nie?"
+  ispeakalittleenglish:                                 "Mówię trochę po angielsku"
+  ispeaktwolanguages:                                   "Mówię dwóch języków"
   isthatenough:                                         "czy to wystarczy?"
   isthatok:                                             "jest OK?"
   isthebankfar:                                         "jest daleko w banku?"
-  isthereamovietheaternearby:                           "jest tam kino w pobliżu?"
-  isthereanightclubintown:                              "jest tam klub nocny w mieście?"
-  istherearestaurantinthehotel:                         "Jest tam restauracja w hotelu?"
-  isthereastorenearhere:                                "Sklep nie jest tu w pobliżu?"
   isthereairconditioningintheroom:                      "tam jest klimatyzacja w pokoju?"
+  isthereamovietheaternearby:                           "jest tam kino w pobliżu?"
   isthereanenglishspeakingguide:                        "tam jest przewodnik mówiący angielski?"
+  isthereanightclubintown:                              "jest tam klub nocny w mieście?"
   isthereanymailforme:                                  "Czy jest jakiś elektronicznej dla mnie?"
   isthereanythingcheaper:                               "jest coś tańszego?"
+  istherearestaurantinthehotel:                         "Jest tam restauracja w hotelu?"
+  isthereastorenearhere:                                "Sklep nie jest tu w pobliżu?"
   isthisasafearea:                                      "Jest to obszar bezpieczny?"
   isthismr.smith:                                       "to pan Smith?"
   isthispenyours:                                       "to pióro twoje?"
   isthisthebustony:                                     "jest to autobus do NY?"
   isthisyourbook:                                       "jest ta książka?"
+  istillhavealotofthingstobuy:                          "Mam jeszcze dużo rzeczy do kupienia"
+  istillhavealotofworktodo:                             "Mam jeszcze dużo do zrobienia"
+  istillhaventdecided:                                  "Wciąż miałaś zdecydowanym"
+  istillhavetobrushmyteethandtakeashower:               "Muszę jeszcze umyć zęby i wziąć prysznic"
   isyourfatherhome:                                     "mieszka twój ojciec?"
   isyourhouselikethisone:                               "jest twój dom jak ten?"
   isyourhusbandalsofromboston:                          "jest twój mąż też z Bostonu?"
   isyoursonhere:                                        "tu jest twój syn?"
-  isntit:                                               "czyż nie?"
   itcoststwentydollarsperhour:                          "Kosztuje dwadzieścia dolarów za godzinę"
   itdependsontheweather:                                "zależy od warunków pogodowych"
+  ithinkineedtoseeadoctor:                              "Myślę, że muszę iść do lekarza"
+  ithinkitsverygood:                                    "Myślę, że to bardzo dobry"
+  ithinkittastesgood:                                   "Myślę, że to smakuje"
+  ithinkso:                                             "Myślę, że tak"
+  ithinkthoseshoesareverygoodlooking:                   "Myślę, że te buty są bardzo przystojny"
+  ithinkyouhavetoomanyclothes:                          "Myślę, że masz zbyt wiele ubrań"
+  ithoughthesaidsomethingelse:                          "Myślałem, że powiedział coś innego"
+  ithoughttheclotheswerecheaper:                        "Myślałem, że ubrania były tańsze"
   ithurtshere:                                          "boli tutaj"
-  itrainedveryhardtoday:                                "padało bardzo ciężko dziś"
-  ittakestwohoursbycar:                                 "zajmuje dwie godziny jazdy samochodem"
-  itwillarriveshortly:                                  "będzie to już niedługo"
   itllbecoldthisevening:                                "to będzie ten wieczór na zimno"
+  itrainedveryhardtoday:                                "padało bardzo ciężko dziś"
+  itrustyou:                                            "Ufam ci"
   itsaugusttwentyfifth:                                 "to sierpień, dwudziestego piątego"
   itsdelicious:                                         "to jest pyszne"
   itseightforty-five:                                   "to osiem czterdzieści pięć lat"
@@ -630,22 +582,48 @@ pl:
   itsverycoldtoday:                                     "jest bardzo zimno dziś"
   itsveryimportant:                                     "to bardzo ważne,"
   itsverywindy:                                         "to bardzo wietrzna"
+  ittakestwohoursbycar:                                 "zajmuje dwie godziny jazdy samochodem"
+  itwillarriveshortly:                                  "będzie to już niedługo"
+  iunderstand:                                          "rozumiem"
+  iunderstandnow:                                       "Rozumiem teraz"
+  iusuallydrinkcoffeeatbreakfast:                       "I zwykle pić kawę na śniadanie"
+  ivealreadyseenit:                                     "Już widziałem go"
+  ivebeenherefortwodays:                                "Byłem tu przez dwa dni"
+  ivebeenthere:                                         "Byłem tam"
+  iveheardtexasisabeautifulplace:                       "Słyszałem, Teksas jest piękne miejsce"
+  iveneverdonethat:                                     "Nigdy nie robiłem, że"
+  iveneverseenthatbefore:                               "Nigdy nie widziałem, że przed"
+  iveseenit:                                            "Widziałem go"
+  iveworkedthereforfiveyears:                           "Pracowałem tam przez pięć lat"
+  iwanttobuysomething:                                  "Chcę kupić coś"
+  iwanttocontactourembassy:                             "Chcę się skontaktować z naszą ambasadą"
+  iwanttogiveyouagift:                                  "Chcę dać ci prezent"
+  iwanttosendthispackagetotheunitedstates:              "Chcę wysłać tę paczkę do USA"
+  iwanttoshowyousomething:                              "Chcę ci coś pokazać"
+  iwasabouttoleavetherestaurantwhenmyfriendsarrived:    "Już miałam wychodzić z restauracji, gdy moi przyjaciele przybyli"
+  iwasgoingtothelibrary:                                "Idę do biblioteki"
+  iwasinthelibrary:                                     "Byłem w bibliotece"
+  iwenttothesupermarketandthentothecomputerstore:       "Poszedłem do supermarketu, a potem do sklepu komputerowego"
+  iwishihadone:                                         "Chciałbym mieć jeden"
   johnisgoingonvacationtomorrow:                        "John dzieje się jutro wakacje"
+  judy:                                                 "Judy"
+  julianne:                                             "Julianne"
   junethird:                                            "trzeci czerwca"
   justalittle:                                          "troszeczkę"
   justamoment:                                          "chwileczkę"
   letmecheck:                                           "pozwól mi sprawdzić"
   letmethinkaboutit:                                    "pozwól mi myśleć o tym"
+  letseat:                                              "Jedzmy"
   letsgo:                                               "chodźmy"
   letsgohavealook:                                      "chodźmy spojrzeć"
   letsmeetinfrontofthehotel:                            "spotkajmy się przed hotelem"
   letspracticeenglish:                                  "niech ćwiczyć angielski"
   letsshare:                                            "Podzielmy"
   maleorfemale:                                         "mężczyzna czy kobieta"
-  mayispeaktomrs.smithplease:                           "mogę mówić do pani Smith należy"
   maybe:                                                "może"
-  morethantwohundredmiles:                              "więcej niż dwieście mil"
+  mayispeaktomrs.smithplease:                           "mogę mówić do pani Smith należy"
   morethanthat:                                         "więcej niż"
+  morethantwohundredmiles:                              "więcej niż dwieście mil"
   mybirthdayisaugusttwentyth:                           "moje urodziny to twentyth sierpnia"
   mycarisntworking:                                     "mój samochód nie działa"
   mycarwashitbyanothercar:                              "mój samochód został uderzony przez inny samochód"
@@ -668,27 +646,28 @@ pl:
   nevermind:                                            "nieważne"
   nexttime:                                             "następnym razem"
   nicetomeetyou:                                        "miło"
-  no:                                                   "nie"
-  noproblem:                                            "nie ma problemu"
-  nothankyou:                                           "nie, dziękuję"
   no,imamerican:                                        "nie, jestem amerykański"
   no,thisisthefirsttime:                                "Nie jest to pierwszy raz"
   nobodyishelpingus:                                    "nikt nie pomaga nam"
   nobodyisthererightnow:                                "nikt nie jest tam teraz"
   nonsense:                                             "nonsens"
+  noo:                                                  "nie"
+  noproblem:                                            "nie ma problemu"
+  nothankyou:                                           "nie, dziękuję"
+  nothingelse:                                          "nic więcej"
   notrecently:                                          "ostatnio brak"
   notyet:                                               "jeszcze nie"
-  nothingelse:                                          "nic więcej"
+  now:                                                  "teraz"
   noworlater:                                           "teraz, czy później"
   octobertwentysecond:                                  "październik dwadzieścia sekund"
   ofcourse:                                             "oczywiście"
   ok:                                                   "w porządku"
-  ontheleft:                                            "po lewej"
-  ontheright:                                           "po prawej"
-  onthesecondfloor:                                     "na thesecond piętrze"
   onelikethat:                                          "jeden tak"
   onetickettonewyorkplease:                             "jeden bilet do Nowego Jorku, prosimy"
   onewayorroundtrip:                                    "w jedną lub w obie strony"
+  ontheleft:                                            "po lewej"
+  ontheright:                                           "po prawej"
+  onthesecondfloor:                                     "na thesecond piętrze"
   openthedoor:                                          "otworzyć drzwiczki"
   openthewindow:                                        "otwarcie okna"
   ourchildrenareinamerica:                              "nasze dzieci są w Ameryce"
@@ -701,6 +680,7 @@ pl:
   pleasecomein:                                         "proszę wejść"
   pleasecountthisforme:                                 "Proszę to dla mnie liczyć"
   pleasefilloutthisform:                                "wypełnij ten formularz"
+  pleasehelpme:                                         "Proszę mi pomóc?"
   pleasesitdown:                                        "Proszę usiąść"
   pleasespeakenglish:                                   "proszę mówić po angielsku"
   pleasespeakmoreslowly:                                "proszę mówić wolniej"
@@ -715,14 +695,15 @@ pl:
   really:                                               "naprawdę"
   righthere:                                            "tutaj"
   rightthere:                                           "tam"
+  sarah:                                                "Sara"
   seeyoulater:                                          "na razie"
   seeyoutomorrow:                                       "do zobaczenia jutro"
   seeyoutonight:                                        "Do zobaczenia wieczorem"
-  shewantstoknowwhenyourcoming:                         "chce wiedzieć, kiedy przyjeżdżasz"
   shesanexpert:                                         "ona jest ekspertem"
   shesgoingwithmetomorrow:                              "ona będzie ze mną jutro"
   shesolderthanme:                                      "ona jest starsza ode mnie"
   shespretty:                                           "ona jest ładna"
+  shewantstoknowwhenyourcoming:                         "chce wiedzieć, kiedy przyjeżdżasz"
   shouldiwait:                                          "muszę czekać"
   somebooks:                                            "niektóre książki"
   someonedoesthatforme:                                 "ktoś robi to dla mnie"
@@ -745,28 +726,29 @@ pl:
   takethismedicine:                                     "przyjmować tego leku"
   tellhimthatineedtotalktohim:                          "powiedz mu, że muszę z nim porozmawiać"
   tellme:                                               "powiedz mi,"
+  thanks:                                               "dzięki"
+  thanksforeverything:                                  "dzięki za wszystko"
+  thanksforyourhelp:                                    "dzięki za pomoc"
   thankyou:                                             "dziękuję"
   thankyoumiss:                                         "dziękuję przegap"
   thankyousir:                                          "Dziękuję panie"
   thankyouverymuch:                                     "Dziękuję bardzo"
-  thanks:                                               "dzięki"
-  thanksforeverything:                                  "dzięki za wszystko"
-  thanksforyourhelp:                                    "dzięki za pomoc"
   thatcarissimilartomycar:                              "że samochód jest podobny do mojego samochodu"
   thatcaroverthereismine:                               "że samochód tam jest moje"
   thatlooksgreat:                                       "że wygląda świetnie"
   thatlooksold:                                         "że wygląda staro"
   thatmeansfriend:                                      "to oznacza znajomego"
   thatrestaurantisnotexpensive:                         "że restauracja nie jest drogie"
-  thatsmellsbad:                                        "że brzydko pachnie"
-  thatway:                                              "w ten sposób"
   thatsagoodschool:                                     "to dobra szkoła"
   thatsalright:                                         "to nic nie szkodzi"
   thatsenough:                                          "dość już"
   thatsfair:                                            "to jest sprawiedliwe"
   thatsfine:                                            "w porządku"
+  thatsgood:                                            "To dobrze"
+  thatsgreat:                                           "To świetnie"
   thatsherbook:                                         "to jej książka"
   thatsit:                                              "to jest to"
+  thatsmellsbad:                                        "że brzydko pachnie"
   thatsnotenough:                                       "to nie wystarczy"
   thatsnotfair:                                         "to nie fair"
   thatsnotright:                                        "że nie jest w porządku"
@@ -777,6 +759,7 @@ pl:
   thatstoomany:                                         "to zbyt wiele"
   thatstoomuch:                                         "to za dużo"
   thatswrong:                                           "że jest nie tak"
+  thatway:                                              "w ten sposób"
   theaccidenthappenedattheintersection:                 "Wypadek miał miejsce na skrzyżowaniu"
   thebigoneorthesmallone:                               "duży jeden lub mały"
   thebookisbehindthetable:                              "Książka jest za stołem"
@@ -787,9 +770,6 @@ pl:
   thecarsareamerican:                                   "samochody są amerykański"
   thefoodwasdelicious:                                  "Jedzenie było smaczne"
   theplanedepartsat530:                                 "Samolot odlatuje at530"
-  theroadsareslippery:                                  "drogi są śliskie"
-  thetvisbroken:                                        "Telewizor jest uszkodzony"
-  thewholeday:                                          "Cały dzień"
   therearemanypeoplehere:                               "jest wiele osób tutaj"
   therearesomeapplesintherefrigerator:                  "istnieją pewne jabłka w lodówce"
   therearesomebooksonthetable:                          "istnieje kilka książek na stole"
@@ -798,7 +778,10 @@ pl:
   theresarestaurantnearhere:                            "znajduje się restauracja w pobliżu tutaj"
   theresarestaurantovertherebutidontthinkitsverygood:   "znajduje się restauracja tam, ale nie sądzę, jego bardzo dobry"
   theresplentyoftime:                                   "jest mnóstwo czasu"
+  theroadsareslippery:                                  "drogi są śliskie"
   thesebooksareours:                                    "Książki te są nasze"
+  thetvisbroken:                                        "Telewizor jest uszkodzony"
+  thewholeday:                                          "Cały dzień"
   theyarrivedyesterday:                                 "dotarli wczoraj"
   theychargetwentysixdollarsperday:                     "że za dwadzieścia sześć dolarów dziennie"
   theyhaventmetheryet:                                  "nie zostały one ją spotkałem jeszcze"
@@ -836,9 +819,9 @@ pl:
   whatareyoudoing:                                      "co ty robisz?"
   whatareyougoingtodotonight:                           "co masz zamiar robić dziś wieczorem?"
   whatareyougoingtohave:                                "co masz zamiar mieć?"
+  whatareyourhobbies:                                   "jakie są twoje hobby?"
   whatareyouthinkingabout:                              "co myślisz?"
   whatareyoutwotalkingabout:                            "co wy mówicie?"
-  whatareyourhobbies:                                   "jakie są twoje hobby?"
   whatcanidoforyou:                                     "Co mogę dla ciebie zrobić?"
   whatcoloristhatcar:                                   "jakiego koloru jest ten samochód?"
   whatdayaretheycomingover:                             "co dzień są oni przyjeżdżają?"
@@ -846,22 +829,23 @@ pl:
   whatdidyoudolastnight:                                "co robiłeś zeszłej nocy?"
   whatdidyoudoyesterday:                                "co robiłeś wczoraj?"
   whatdidyouthink:                                      "co myślisz?"
-  whatdopeopleusuallydointhesummerinlosangeles:         "co ludzie zazwyczaj robią latem w Los Angeles?"
-  whatdotheystudy:                                      "co oni studiować?"
-  whatdoyoudoforwork:                                   "co robisz w pracy?"
-  whatdoyouhave:                                        "co masz?"
-  whatdoyourecommend:                                   "co polecacie?"
-  whatdoyoustudy:                                       "Co studiujesz?"
-  whatdoyouthinkoftheseshoes:                           "co myślicie o tych butach?"
-  whatdoyouthink:                                       "Co o tym sądzisz?"
-  whatdoyouwanttobuy:                                   "Co chcesz kupić?"
-  whatdoyouwanttodo:                                    "Co chcesz zrobić?"
-  whatdoyourparentsdoforwork:                           "co twoi rodzice do pracy?"
   whatdoeshedoforwork:                                  "co robi w pracy?"
   whatdoesthismean:                                     "co to znaczy?"
   whatdoesthissay:                                      "co to znaczy?"
   whatdoesthiswordmean:                                 "co znaczy to słowo?"
   whatdoesyourfatherdoforwork:                          "Co robi twój ojciec do pracy?"
+  whatdopeopleusuallydointhesummerinlosangeles:         "co ludzie zazwyczaj robią latem w Los Angeles?"
+  whatdotheystudy:                                      "co oni studiować?"
+  whatdoyoudoforwork:                                   "co robisz w pracy?"
+  whatdoyouhave:                                        "co masz?"
+  whatdoyourecommend:                                   "co polecacie?"
+  whatdoyourparentsdoforwork:                           "co twoi rodzice do pracy?"
+  whatdoyoustudy:                                       "Co studiujesz?"
+  whatdoyouthink:                                       "Co o tym sądzisz?"
+  whatdoyouthinkoftheseshoes:                           "co myślicie o tych butach?"
+  whatdoyouwant:                                        "Czego chcesz?"
+  whatdoyouwanttobuy:                                   "Co chcesz kupić?"
+  whatdoyouwanttodo:                                    "Co chcesz zrobić?"
   whathappened:                                         "co się stało?"
   whatisit:                                             "co to jest?"
   whatisthat:                                           "co to jest?"
@@ -870,27 +854,13 @@ pl:
   whatkindofmusicdoyoulike:                             "jaką muzykę lubisz?"
   whatschooldidyougoto:                                 "co szkoły nie chodzisz?"
   whatshouldiwear:                                      "Co należy nosić?"
+  whatsinit:                                            "Co w nim jest?"
   whatsize:                                             "jaki rozmiar?"
-  whattimearetheyarriving:                              "co czas ich przybyciu?"
-  whattimeareyougoingtothebusstation:                   "co razem idziesz do dworca autobusowego?"
-  whattimedidyougetup:                                  "jakim czasie dostałeś się?"
-  whattimedidyougotosleep:                              "co razem nie idziesz spać?"
-  whattimedidyouwakeup:                                 "jakim czasie udało się obudzić?"
-  whattimedoyougotoworkeveryday:                        "co razem idziesz do pracy na co dzień?"
-  whattimedoyouthinkyoullarrive:                        "co czas myślisz, będziesz przyjeżdżać?"
-  whattimedoesitstart:                                  "jakim czasie to się zaczęło?"
-  whattimedoesthemoviestart:                            "jakim czasie zaczyna się film?"
-  whattimedoesthestoreopen:                             "jakim czasie ma sklep otworzyć?"
-  whattimeischeckout:                                   "co czas jest kasa?"
-  whattimeisit:                                         "która godzina?"
-  whatwilltheweatherbeliketomorrow:                     "co będzie pogoda jutro?"
-  whatwouldyouliketodrink:                              "co chcesz do picia?"
-  whatwouldyouliketoeat:                                "co lubisz jeść?"
   whatstheaddress:                                      "co jest adres?"
   whatsthechargepernight:                               "jaka jest opłata za noc?"
   whatsthedate:                                         "co dzień?"
-  whatstheexchangeratefordollars:                       "co kurs na dolary?"
   whatstheexchangerate:                                 "co jest kurs?"
+  whatstheexchangeratefordollars:                       "co kurs na dolary?"
   whatsthematter:                                       "Co się stało?"
   whatsthenameofthecompanyyouworkfor:                   "jaka jest nazwa firmy, w której pracujesz?"
   whatsthephonenumber:                                  "co jest numer telefonu?"
@@ -906,7 +876,21 @@ pl:
   whatsyourlastname:                                    "jak masz na nazwisko?"
   whatsyourname:                                        "jak masz na imię?"
   whatsyourreligion:                                    "jaka jest twoja religia?"
-  whatsinit:                                            "Co w nim jest?"
+  whattimearetheyarriving:                              "co czas ich przybyciu?"
+  whattimeareyougoingtothebusstation:                   "co razem idziesz do dworca autobusowego?"
+  whattimedidyougetup:                                  "jakim czasie dostałeś się?"
+  whattimedidyougotosleep:                              "co razem nie idziesz spać?"
+  whattimedidyouwakeup:                                 "jakim czasie udało się obudzić?"
+  whattimedoesitstart:                                  "jakim czasie to się zaczęło?"
+  whattimedoesthemoviestart:                            "jakim czasie zaczyna się film?"
+  whattimedoesthestoreopen:                             "jakim czasie ma sklep otworzyć?"
+  whattimedoyougotoworkeveryday:                        "co razem idziesz do pracy na co dzień?"
+  whattimedoyouthinkyoullarrive:                        "co czas myślisz, będziesz przyjeżdżać?"
+  whattimeischeckout:                                   "co czas jest kasa?"
+  whattimeisit:                                         "która godzina?"
+  whatwilltheweatherbeliketomorrow:                     "co będzie pogoda jutro?"
+  whatwouldyouliketodrink:                              "co chcesz do picia?"
+  whatwouldyouliketoeat:                                "co lubisz jeść?"
   whenaretheycoming:                                    "gdy są nadchodzi?"
   whenareyoucomingback:                                 "kiedy wracasz?"
   whenareyougoingtopickupyourfriend:                    "gdy idziesz odebrać przyjaciela?"
@@ -914,25 +898,25 @@ pl:
   whenareyoumoving:                                     "gdy jesteś w ruchu?"
   whendidthishappen:                                    "kiedy to się stało?"
   whendidyouarriveinboston:                             "kiedy po przyjeździe do Bostonu?"
-  whendowearrive:                                       "kiedy mamy przyjechać?"
-  whendoyouarriveintheunitedstates:                     "kiedy należy przybyć w Stanach Zjednoczonych?"
-  whendoyougetoffwork:                                  "kiedy kończysz pracę?"
   whendoeshearrive:                                     "gdy ma on przybyć?"
   whendoesitarrive:                                     "kiedy to przyjechać?"
   whendoesitleave:                                      "kiedy to zostawić?"
   whendoesthebankopen:                                  "kiedy to bank otworzy?"
   whendoesthebusleave:                                  "kiedy odjeżdża autobus?"
   whendoestheplanearrive:                               "kiedy to samolot przyjechać?"
-  wheniwenttothestoretheydidnthaveanyapples:            "kiedy poszedłem do sklepu, nie mieli żadnych jabłek?"
+  whendowearrive:                                       "kiedy mamy przyjechać?"
+  whendoyouarriveintheunitedstates:                     "kiedy należy przybyć w Stanach Zjednoczonych?"
+  whendoyougetoffwork:                                  "kiedy kończysz pracę?"
   whenisthenextbustophiladelphia:                       "kiedy jest następny autobus do Filadelfii?"
   whenisyourbirthday:                                   "kiedy są twoje urodziny?"
+  wheniwenttothestoretheydidnthaveanyapples:            "kiedy poszedłem do sklepu, nie mieli żadnych jabłek?"
   whenwillitbeready:                                    "kiedy będzie gotowy?"
   whenwouldyouliketomeet:                               "jeśli chcesz się spotkać?"
   wherearethet-shirts:                                  "gdzie są koszulki?"
-  whereareyoufrom:                                      "gdzie jesteś?"
-  whereareyougoingtogo:                                 "gdzie masz zamiar iść?"
-  whereareyougoing:                                     "gdzie idziesz?"
   whereareyou:                                          "gdzie jesteś?"
+  whereareyoufrom:                                      "gdzie jesteś?"
+  whereareyougoing:                                     "gdzie idziesz?"
+  whereareyougoingtogo:                                 "gdzie masz zamiar iść?"
   wherecanibuytickets:                                  "gdzie można kupić bilety?"
   wherecaniexchangeusdollars:                           "gdzie mogę wymienić dolary?"
   wherecanifindahospital:                               "gdzie mogę znaleźć szpital?"
@@ -944,13 +928,13 @@ pl:
   wheredidyoulearnit:                                   "gdzie się tego nauczyłeś?"
   wheredidyouputit:                                     "gdzie się umieścić go?"
   wheredidyouworkbeforeyouworkedhere:                   "gdzie pan pracuje, zanim tu pracował?"
+  wheredoesithurt:                                      "gdzie boli?"
+  wheredoesyourwifework:                                "gdzie twoja żona pracuje?"
   wheredoyoulive:                                       "gdzie mieszkasz?"
   wheredoyouwanttogo:                                   "skąd wantto iść?"
   wheredoyouwork:                                       "gdzie pracujesz?"
-  wheredoesithurt:                                      "gdzie boli?"
-  wheredoesyourwifework:                                "gdzie twoja żona pracuje?"
-  whereishefrom:                                        "gdzie on jest z?"
   whereishe:                                            "gdzie on jest?"
+  whereishefrom:                                        "gdzie on jest z?"
   whereisit:                                            "gdzie to jest?"
   whereismainstreet:                                    "gdzie jest główna ulica?"
   whereismyshirt:                                       "Gdzie jest moja koszula?"
@@ -959,40 +943,39 @@ pl:
   whereisthebathroom:                                   "gdzie jest łazienka?"
   whereisthebusstation:                                 "gdzie jest przystanek autobusowy?"
   whereisthereadoctorwhospeaksenglish:                  "gdzie jest tam lekarz, który mówi po angielsku?"
-  whereisthereanatm:                                    "gdzie tam jest t m?"
   whereisthereanatm:                                    "gdzie tam jest bankomat?"
-  wherewouldyouliketogo:                                "gdzie chcesz iść?"
-  wherewouldyouliketomeet:                              "gdzie chcesz się spotkać?"
-  wherewereyou:                                         "gdzie "prawda?"
   wherestheclosestrestaurant:                           "gdzie jest najbliższa restauracja?"
   wheresthemailbox:                                     "gdzie jest skrzynka na listy?"
   wheresthenearesthospital:                             "gdzie jest najbliższy szpital?"
   wheresthepharmacy:                                    "gdzie jest apteka?"
   wheresthepostoffice:                                  "gdzie jest poczta?"
-  whichisbetterthespaghettiorchickensalad:              "co jest lepsze spaghetti lub kurczakiem?"
+  wherewereyou:                                         "gdzie byłeś?"
+  wherewouldyouliketogo:                                "gdzie chcesz iść?"
+  wherewouldyouliketomeet:                              "gdzie chcesz się spotkać?"
   whichisbetter:                                        "co jest lepsze?"
+  whichisbetterthespaghettiorchickensalad:              "co jest lepsze spaghetti lub kurczakiem?"
   whichisthebest:                                       "co jest najlepsze?"
+  whichone:                                             "który?"
   whichonedoyouwant:                                    "który z nich chcesz?"
   whichoneisbetter:                                     "co jest lepsze?"
   whichoneischeaper:                                    "jednym z nich jest tańsze?"
   whichoneisthebest:                                    "który z nich jest najlepszy?"
-  whichone:                                             "który?"
   whichroadshoulditake:                                 "które drogi należy podjąć?"
   whichschooldoeshegoto:                                "która szkoła ma iść do?"
   whoarethey:                                           "kim oni są?"
   whoisit:                                              "kto to jest?"
   whoisthat:                                            "kto to jest?"
+  whosbookisthat:                                       "kto książka jest, że?"
   whosentthisletter:                                    "kto wysłał ten list?"
-  whotaughtyouthat:                                     "którzy Cię uczył, że?"
+  whosthatmanoverthere:                                 "kto to jest człowiek, tam?"
   whotaughtyou:                                         "kto cię uczył?"
+  whotaughtyouthat:                                     "którzy Cię uczył, że?"
   whowasthat:                                           "Kto to był?"
   whowasyourteacher:                                    "kto był twoim nauczycielem?"
   whowon:                                               "kto wygrał?"
   whowouldyouliketospeakto:                             "który chcesz rozmawiać?"
-  whosbookisthat:                                       "kto książka jest, że?"
-  whosthatmanoverthere:                                 "kto to jest człowiek, tam?"
-  whyareyoulaughing:                                    "Dlaczego się śmiejesz?"
   whyarentyougoing:                                     "dlaczego arent wybierasz?"
+  whyareyoulaughing:                                    "Dlaczego się śmiejesz?"
   whydidyoudothat:                                      "Dlaczego to zrobiłeś?"
   whydidyousaythat:                                     "Dlaczego tak mówisz?"
   whynot:                                               "dlaczego nie?"
@@ -1006,10 +989,10 @@ pl:
   wouldyouaskhimtocomehere:                             "by poprosić go, aby tu przyjechać?"
   wouldyoulikeaglassofwater:                            "chcesz szklankę wody?"
   wouldyoulikecoffeeortea:                              "chcesz kawę lub herbatę?"
-  wouldyoulikesomewater:                                "chcesz trochę wody?"
-  wouldyoulikesomewine:                                 "chcesz trochę wina?"
   wouldyoulikesomethingtodrink:                         "chcesz coś do picia?"
   wouldyoulikesomethingtoeat:                           "chcesz coś zjeść?"
+  wouldyoulikesomewater:                                "chcesz trochę wody?"
+  wouldyoulikesomewine:                                 "chcesz trochę wina?"
   wouldyouliketobuythis:                                "chcesz buythis?"
   wouldyouliketogoforawalk:                             "chcesz iść na spacer?"
   wouldyouliketohavedinnerwithme:                       "chcesz się ze mną na kolację?"
@@ -1017,1020 +1000,20 @@ pl:
   wouldyouliketowatchtv:                                "chcesz oglądać t v?"
   wouldyoulikewaterormilk:                              "chcesz wodę lub mleko?"
   wouldyoutakeamessageplease:                           "zabrałbyś wiadomość proszę?"
-  yes:                                                  "tak"
   yesreally:                                            "tak naprawdę"
+  yess:                                                 "tak"
   youhaveaverynicecar:                                  "masz bardzo ładny samochód"
+  youlookgreat:                                         "Wyglądasz świetnie"
   youlooklikemysister:                                  "wyglądasz jak moja siostra"
   youlooktired:                                         "Wyglądasz na zmęczoną"
-  youspeakenglishverywell:                              "mówisz po angielsku bardzo dobrze"
+  yourchildrenareverywellbehaved:                       "Twoje dzieci są bardzo dobrze wychowane"
+  yourdaughter:                                         "Twoja córka"
   yourebeautiful:                                       "jesteś piękna"
   youreright:                                           "masz rację"
   youresmarterthanhim:                                  "jesteś mądrzejszy od niego"
   youreverynice:                                        "jesteś bardzo ładna"
   youreverysmart:                                       "jesteś bardzo inteligentny"
   yourewelcome:                                         "proszę bardzo"
-  yourchildrenareverywellbehaved:                       "Twoje dzieci są bardzo dobrze wychowane"
-  yourdaughter:                                         "Twoja córka"
   yourhouseisverynice:                                  "Twój dom jest bardzo ładny"
   yourthingsareallhere:                                 "Twoje rzeczy są tutaj"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  youspeakenglishverywell:                              "mówisz po angielsku bardzo dobrze"
