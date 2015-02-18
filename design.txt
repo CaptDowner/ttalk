@@ -1,39 +1,116 @@
+1. Dropped mode column from Users.
+2. Dropped voice column from Users.
+3. I would like to have MP3_PATH default to the 
+   male voice samples, and be optionally changed  
+   by the user, rather than storing identical paths
+   for every mp3 file. Then I could access the mp3file 
+   preceded by the path which would represent 
+   different voices(e.g. male, female, child, cartoon)
+
+   voices = %w[male,female.child,cartoon]
+
+   eg. - /rails/app/assets/sounds/male
+         /rails/app/assets/sounds/female
+         /rails/app/assets/sounds/child
+         /rails/app/assets/sounds/cartoon
+
+# abstract this to a program var determined at sign-in
+# can be changed during the course of the program by the user
+audio_dir = /app/assets/sounds/ # same for all audio files
+
+# user selectable, with default stored in user's Option object.
+# and would be appended to the audio_dir at runtime
+paths = %w[male/, female/, child/, cartoon/] 
+
+# then, only the audio_fname needs to be stored in the database,
+# as each voice would use the same filename for mp3 audio files.
+
+class Option
+  #voice:string       # user's preferred default voice: male,female,child,cartoon
+  #language:string    # user's preferred full language name, eg. English, Spanish, Russian, ...
+  #lang_abbrev:string # user's preferred language abbreviation, eg. "en", "sp", "ru",
+  # 
+end
+
+
+
 Current questions
 
 1. Better (or best) way to setup mp3 files into Phrase
-   object. (Currently using @path and @file)
+   object. (Currently plans to use @path and @file)
+   * ../assets/media/phrases/en/0001/phrase_1.mp3
+   * ../assets/media/phrases/de/0001/phrase_1.mp3
+
+I don't have any current plans to support mp3 files 
+for additional languages other than English.
+The translations are text-only translations in order 
+that other language users who may not have complete 
+or any knowledge of English can read the phrase in their 
+native language, and select the linkt to have that phrase 
+spoken in English.
+
 2. DONE (not needed) What goes into the routes.rb for the mp3file locations
    (perhaps /public/sounds, as a root folder for
    mp3 files)? Final location may be preceded by
    path stored in Phrase object, root path = /public/sounds,
    file location /public/sounds/mine/myfile.mp3).
+
 3. How to best transition from static pages (current)
    to dynamic pages created based on categories?
+   * ruby script to read in yml
+
 4. How to setup testing (rspec, minitest, etc...) 
    for initial objects and methods on existing classes.
+
 5. DONE (moved file to public directory)
    Rails is not playing my mp3 files using the same javascript 
    that the prototype version used. Is it simply a path problem 
    or does rails require a specific format or tag, ( e.g. <audio> or 
    something else) in order to pass the file to the clients 
    mp3 playback program?
+
 6. How to best implement the #categories member of the
    Phrase object? Use has_and_belongs_to_many to qualify
    categories as an array of strings? Or as an array or ENUMs 
    that are assigned (locally or globally)? 
-7. Multiple language support? What are the best practices for adding 
+
+   A: via the tag:references member of the Phrase class
+
+7. DONE (via Rails i18n support)Multiple language support? What are the best practices for adding 
    multi language support to a rails app?   Would using the rails 
    'globalize' gem be a good way to do this?
 
-The reason for this approace is that I'd like the initial design to include 
+8. I'd like to transition the app (keep it running while) to be database driven,
+   so that phrases, categories, translations, etc... would come from the database 
+   and the pages will be built dynamically, based on category and sort order.
+   The translation strings are each a Hash, so lookups are fast. What advantages 
+   would there be by storing the translations in a database (HSTORE in PostgreSQL)?
+   Or am I better off storing all the translation in .yml files in the 
+   ../rails/config/locales dir?
+
+   A: move string translations from static yml files into Postgres db.
+
+9. Store locale in the database (user information) and load the appropriate language 
+   translation at sign-in (or is there a better way)?
+
+   ?? - Is locale a user preference or should we determine it from the users's browser settings?
+   ?? - or simply store it as an Option for each user?
+
+The reason for this approach is that I'd like the initial design to include 
 a way for later support of multiple languages. Initially, only the link text 
 for the phrases would be translated, so that a Spanish user would read the link 
 in Spanish, but when clicked on, the English mp3 file would be output.
 
-Languages to support
+Languages supported now:
 
-English, Spanish, Mandarin, Japanese, French, German, Italian, Arabic, Vietnamese, Dutch,
-Thai, Polish, Korean, Hindi, Russian, Portuguese, Hindustani, Malay-Indonesian
+English, Spanish, Mandarin, Japanese, French, German, Polish, Korean, 
+Russian, Portuguese, Arabic, Polish
+
+Languages to support later
+
+Italian, Vietnamese, Dutch, Thai, Hindi, Hindustani, Malay-Indonesian
+
+
 
 
 
@@ -89,17 +166,24 @@ mp3file
 # be assigned 1 to x number of categories. 
 # ------------------------------------------------------
 class Phrase 
-  has one ptext - string of words separated by spaces,
-                  can be null for silent spacing of sounds.  
-  has zero or more categories
-  has one mp3 pfile
-  has one ppath
+  has_many :tags
+  belongs_to :language
 
-  @ptext - string of text spoken in mp3 file
-  @pfile - string mp3 file containing spoken text
-  @ppath - string path to mp3 file
-  @categories[] - Array of categories to be included in
+  #text:string - string of text spoken in mp3 file
+  #audio_path:string - mp3 filename
+  #tag:references - categories to be included in (I'm not sure how this fits in???)
+
+
 end
+
+class Language
+  #name:string
+  #abbrv:string
+
+
+end
+
+
 
 words << text (appended)
 mp3stream << mp3files (appended)
