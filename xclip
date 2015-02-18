@@ -1,0 +1,621 @@
+change-prompt simple
+change-prompt
+change-prompt normal
+change-prompt long
+change-prompt help
+change-prompt --help
+liste-prompts 
+list-prompts 
+change-prompt nav
+change-prompt default
+!rvm list rubies
+src .pryrc
+edit .pryrc
+.ls
+.rvm list rubies
+exit
+def doit
+  x = 14 -3
+end
+back
+b
+back 1
+doit
+exit
+c
+n
+c
+n
+=c
+c
+params
+params[:pix_order]
+params[:json]
+params['json']
+params['pix_order']
+params.each do |p|
+  puts p
+end
+params.each do |p|
+  puts p.fname
+end
+params.each do |p|
+  puts p[:fname]
+end
+params.each do |p|
+  puts p['fname']
+end
+params.each do |p|
+  puts p
+end
+puts params['pix_order']
+puts params[:pix_order]
+params
+js = params.to_json
+js = params.to_hash
+js.Class
+js.class
+js['pix_order']
+js[:pix_order]
+js[:fname]
+jsar = js.to_ary
+js
+js2 = js.invert
+js1[0]
+js2[0]
+js2[1]
+js2[0]['order']
+js2['pix_order'][0]['order']
+js.invert
+js.each |k,v|
+js.each_pair do |k,v|
+  p 'key = ' << k <<', value = ' << v
+end
+js.class
+js.each_pair do |k,v|
+  p k + v
+end
+params
+params.each do |p|
+  puts p
+end
+puts p; puts;
+end
+params.each do |p|
+  puts p; puts;
+end
+params[1]
+params.first
+params.first['pix_order']
+params.first.each |p|
+puts p
+end
+params.first.each_pair |p|
+puts p
+end
+params.first.each_pair do |p|
+  puts p
+end
+params.first.each do |p|
+  puts p
+end
+puts params.first['pix_order']
+puts params.first[0]
+puts params.first[1]
+puts params.first[1].class
+puts params.first[1]
+puts params.first[1][0]
+puts params.first[1][1]
+puts params.first[1]['fname']]
+puts params.first[1]['fname']
+puts params.first[2]['fname']
+puts params.first[2]['fname'].class
+puts params.first[2].class
+puts params.first.class
+puts params.first.length
+puts params.first[0]
+puts params.first[1]
+puts params.first[1].class
+puts params.first[1].each |p|
+end
+params.first[1].each do |p|
+  puts p
+end
+params.first[1]
+params.first[1][:pix_order]
+params.first[1]['pix_order']
+params.first[1]['pix_order'][0]
+params.first[1]['pix_order'].each do |p|
+  puts p
+end
+params
+params[0].class
+params.class
+params[1].class
+params[2].class
+params['_json']
+params['_json'].class
+params['_json']['fname']
+params['_json'][:fname]
+params['_json']['order']
+parsed = ActiveSupport::JSON.decode(params)
+parsed = ActiveSupport::JSON.decode(params['_json')
+parsed = ActiveSupport::JSON.decode(params['_json'])
+parsed['pix_order'].each do |k,v|
+  puts 'key = ' << k
+  puts 'value = ' << v
+end
+parsed['pix_order'].each do |k|
+  puts k
+end
+parsed['pix_order'].each do |rec|
+  puts rec['fname']
+end
+parsed['pix_order'].each do |rec|
+  puts rec['fname'] << ' => ' << rec['order']
+end
+parsed['pix_order'].each do |rec|
+  puts rec['fname'] << ' => ' << rec['order'].to_s
+end
+parsed['pix_order'].each do |rec|
+  puts rec['fname']
+  puts rec['prder'].to_s
+end
+parsed = ActiveSupport::JSON.decode(params['_json']
+params
+parsed = ActiveSupport::JSON.decode(params['_json']
+  ;
+parsed = ActiveSupport::JSON.decode(params['_json'])
+parsed['pix_order'].each do |rec|
+  puts rec['fname'] + " => " + rec['order'].to_s
+end
+p = Photo.find(params[fname: rec['fname'])
+p = Photo.find(params[fname: rec['fname']])
+parsed['pix_order'].each do |rec|
+  p = Photo.find(params[fname: rec['fname']])
+  puts 'filename = ' << p.filename
+  puts 'id = ' << p.id
+  puts 'img_order = ' << p.img
+end
+parsed['pix_order'].each do |rec|
+  p = Photo.where(params[fname: rec['fname']])
+  puts 'filename = ' << p.filename
+end
+parsed['pix_order'].each do |rec|
+  p = Photo.where(params[filename: rec['fname']])
+  puts 'filename = ' << p.filename
+end
+p = Photo.where(filename: 'pic1.jpg')
+p
+p = Photo.where(filename: 'pic1.png')
+p.filename
+p
+p[:filename]
+p['filename']
+p.filename
+p[filename:]
+p[filename]
+p.filename
+p.each do |d|
+  puts d
+end
+p[0][2]
+p[2]
+p[0]
+p[0][0]
+p[0]['filename']
+p[0]['img_order']
+c
+params
+n
+parsed_json
+n
+c
+n
+x
+n
+parsed_json
+s
+c
+n
+rec['order']
+c
+n
+parsed_json['pix_order']
+n
+parsed
+parsed_json
+parsed_json['pix_order']
+parsed_json['pix_order'].each do |rec|
+  puts rec['fname'] + ' => ' + rec['order'].to_s
+end
+s
+rec['order']
+n
+parsed_json['pix_order'].each do |r|
+  p = Photo.where(filename: r['fname']
+    puts p
+    end
+parsed_json['pix_order'].each do |r|
+  p = Photo.where(filename: r['fname'])
+  puts p
+end
+n
+c
+n
+parsed_json['pix_order'].each do |r|
+  p = Photo.where(filename: r['fname'])
+  puts p.filename
+  puts p.img_order.to_s
+end
+c
+n
+parsed_json['pix_order'].each do |rec|
+  p = Photo.where(filename: rec['fname'])
+  puts p.filename
+  puts p.img_order.to_s
+end
+c
+n
+reload
+exit
+n
+c
+n
+c
+rec
+@photo
+n
+@photo
+n
+c
+rec
+n
+@photo
+@photo.img_order
+rec['order']
+@photo[:img_order]
+@photo
+@photo[img_order:]
+@photo.img_order
+@photo['img_order']
+@photo
+@photo[:img_order]
+@photo
+@photo.id
+@photo[id:]
+@photo.id:
+@photo.id
+@photo.home_id
+c
+n
+@photo.filename
+@photo[:filename]
+@photo[filename:]
+c
+n
+@photo.filename
+c
+n
+@photo.filename
+@photo
+@photo=Photo.find(id: 1)
+@photo=Photo.find(filename: 'pic1.png')
+c
+cd Photo
+first
+p = Photo.first
+p.filename
+p
+p[filename]
+p['filename']
+c
+n
+@photo['filename']
+@photo['img_order']
+n
+@photo['img_order']
+n
+c
+n
+@photo['img_order']
+n
+@photo['img_order']
+n
+c
+exit
+c
+n
+@photo['img_order']
+n
+@photo['img_order']
+n
+c
+@photo
+n
+@photo
+rec['order']
+n
+@photo['img_order']
+s
+n
+c
+n
+c
+n
+c
+n
+c
+s
+c
+params['home_id']
+c
+n
+home_id
+c
+n
+home_id
+c
+n
+c
+flash
+c
+flash
+c
+n
+c
+@photos
+@pix = @photos.sort_by(img_order)
+@pix = @photos.sort_by(:img_order)
+@photos.sort! { |a,b| a.img_order <=> b.img_order }
+@photos.class
+c
+2photos
+@photos
+n
+@photos
+c
+@photos
+c
+2photos
+@photos
+n
+@photos1
+c
+@photos
+n
+photos1
+x = @photos.sort_by{ |p| p.img_order }
+x
+x.each do |y|
+  p y
+end
+x[0]
+x[1]
+x[2]
+Time.now
+@photos.size
+@photos.sort!
+@photos.sort! {|p| p.img_order }
+@photos.sort_by! {|p| p.img_order }
+@photos.sort_by {|p| p.img_order }
+@photos.where(img_order: 0)
+c
+@photos
+n
+p
+c
+@photos
+c
+p
+c
+p
+c
+@photos
+res = @photos.sort_by { |p| p.img_order }
+res
+res.class
+c
+@photos
+c
+n
+c
+n
+photos1
+c
+photos1
+c
+photos1
+p[:filename]
+c
+p[:filename]
+c
+p[:filename]
+c
+c\
+c
+\q
+exit
+c
+c\
+c
+e /home/sdownie/.rvm/gems/ruby-2.1.2@rd-roles/gems/autogen_rspec-1.0.1/lib/autogen_rspec.rb
+c
+Dir.glob('.')
+Dir.glob('/home/sdownie')
+Dir.glob('/home/sdownie') do |f|
+  puts f
+end
+Dir.glob
+Dir.glob .
+Dir.glob('/home/sdownie/mp3')
+Expanding on Dejw's answer (edit2):
+File.open(filename,'w'){ |f|
+uri = URI.parse(url)
+Net::HTTP.start(uri.host,uri.port){ |http| 
+  http.request_get(uri.path){ |res| 
+    res.read_body{ |seg|
+      f << seg
+      #hack -- adjust to suit:
+      sleep 0.005 
+    }
+  }
+}
+exit
+input_dir= File.join('/home/sdownie/mp3/', "*.mp3")
+Dir.glob(input_dir) do |f|
+  if /\.mp3$/i.match f
+    puts f
+  end
+end
+exit
+input_dir = File.join('http://www.englishspeak.com/instantspeak/English/wordsComplete/', "*.mp3")
+Dir.glob(input_dir) do |f|
+  if /\.mp3$/i.match f
+    puts f
+  end
+end
+require 'open-uri'
+content = open('http://www.englishspeak.com/instantspeak/English/wordsComplete/').read
+require 'net/http'
+File.write("file_name", Net::HTTP.get(URI.parse("http://www.englishspeak.com/instantspeak/English/wordsComplete/")))
+.pwd
+exit
+help commands
+help load
+l browser.rb
+l "./browser.rb"
+browser
+browser_detection
+n
+env
+exit
+l '/home/sdownie/tommytalker/browser.rb'
+res= browser_detection
+g
+c
+res = env['HTTP_USER_AGENT']
+Rails.env
+Request.env
+request.env
+Rails.Request.env
+ENV['HTTP_USER_AGENT']
+ENV
+ENV['PWD']
+puts 'sys-type = ' + ENV['system_type'] + 'sys-name = ' + ENV['_system_name'] + 'sys-version = ' + ENV['_system_version' + 'sys-arch = ' + ENV['_system_arch']
+puts 'sys-type = ' << ENV['system_type'] << 'sys-name = ' << ENV['_system_name'] << 'sys-version = ' << ENV['_system_version'] << 'sys-arch = ' + ENV['_system_arch']
+puts 'sys-type = ' << ENV['system_type'] 
+ENV['system_type'] 
+ENV["_system_type"] 
+ENV['_system_type'] 
+puts 'sys-type = ' << ENV['_system_type'] << 'sys-name = ' << ENV['_system_name'] << 'sys-version = ' << ENV['_system_version'] << 'sys-arch = ' + ENV['_system_arch']
+puts '\nsys-type = ' << ENV['_system_type'] << '\nsys-name = ' << ENV['_system_name'] << '\nsys-version = ' << ENV['_system_version'] << '\nsys-arch = ' + ENV['_system_arch']
+puts '\\nsys-type = ' << ENV['_system_type'] << '\\nsys-name = ' << ENV['_system_name'] << '\\nsys-version = ' << ENV['_system_version'] << '\\nsys-arch = ' + ENV['_system_arch']
+p[2~uts '\\nsys-type = ' << ENV['_system_type'] << '\\nsys-name = ' << ENV['_system_name'] << '\\nsys-version = ' << ENV['_system_version'] << '\\nsys-arch = ' + ENV['_system_arch']
+ENV['_system_type'] lcscscer
+ENV['_system_type']
+ENV
+ENV['_system_name']
+ENV['_system_version']
+ENV['_system_arch']
+exit
+ENV
+END[GMAIL_PASSWORD']
+ENV[GMAIL_PASSWORD']
+ENV['GMAIL_PASSWORD']
+ENV['GMAIL_USERNAME']
+l '/home/sdownie/tommytalker/browser.rb'
+browser_detection
+n
+exit
+\q
+exit
+c
+exit
+user
+exit
+u = User.new
+u = User.find_by(:id 1)
+u = User.find_by(id: 1 )
+u.user_speak?
+u.methods
+u.methods.grep /speak/
+exit
+c
+exit
+c
+exit
+c
+exit
+c
+exit
+c
+exit
+c
+exit
+c
+exit
+c
+exit
+c
+exit
+gem install bond
+ar = []
+ar << "This is a long string and will eventually contains mp3 data which will be transferred to a binary array and passed to a file wirting function to be saved as an mp3 file."
+ar[0].to_s
+ar[0]
+exit
+c
+exit
+c
+exit
+c
+exit
+c
+exit
+c
+exit
+c
+exit
+Language
+exit
+Language
+Phrase
+Phrase.inspect
+Phrase.connection
+Phrase.inspect
+exit
+ymls = ar.yml        devise.en.yml  el.yml  es.yml  i18n-locales.lst  ko.yml  ru.yml
+ymls= %w[ar.yml        devise.en.yml  el.yml  es.yml  i18n-locales.lst  ko.yml  ru.yml basei18n.yml  de.yml         en.yml  fr.yml  ja.yml            pt.yml  zh.yml]
+ymls.count
+ymls
+ymls = ymls - %w[i18n-locales.lst]
+ymls = ymls.select {|path| path =~ /\.yml/}
+ymls << "sdfdsfsdf"
+ymls = ymls.select {|path| path =~ /\.yml/}
+langs = ymls.select {|fname| fname.split(".")[0] }
+langs = ymls.map {|fname| fname.split(".")[0] }
+langs = ymls.select {|fname| fname.split(".")[0].length ==2 }
+langs = ymls.map {|fname| fname.split(".")[0].length == 2 }
+langs = ymls.map {|fname| fname if fname.split(".")[0].length == 2 }
+langs = ymls.map {|fname| fname.split(".")[0] }
+langs = ymls.select {|fname| fname.split(".")[0].length == 0 }.map {|fname| fname.split(".")[0] }
+langs = ymls.select {|fname| fname.split(".")[0].length == 0 }
+langs = ymls.select {|fname| fname.split(".")[0].length == 2 }.map {|fname| fname.split(".")[0] }
+two_letters_only = ->(array) { array.select {|file| file.split(".").length == 2) }
+two_letters_only = ->(array) { array.select {|file| file.split(".").length == 2) }}
+two_letters_only = ->(array) { array.select {|file| file.split(".").length == 2 }}
+split_on_dot = ->(string) { string.split(".") }
+langs_only = ->(array, splitter) { array.map {|file| splitter.call(file)[0] }
+langs_only = ->(array, splitter) { array.map {|file| splitter.call(file)[0] }}
+ymls= %w[ar.yml        devise.en.yml  el.yml  es.yml  i18n-locales.lst  ko.yml  ru.yml basei18n.yml  de.yml         en.yml  fr.yml  ja.yml            pt.yml  zh.yml]
+two_letters_only = ->(array, splitter) { array.select {|file| splitter.(file).length == 2 }}
+splitter = split_on_dot
+two_letters_only.(ymls, split_on_dot)
+two_letters_only = ->(array, splitter) { array.select {|file| splitter.(file)[0].length == 2 }}
+two_letters_only.(ymls, split_on_dot)
+langs_only.(two_letters_only.(ymls, split_on_dot), split_on_dot)
+class AnythingGoes
+Object.methods
+two_letters_only = ->(array, splitter) { array.select {|file| splitter.(file).length == 2 }}
+exit
