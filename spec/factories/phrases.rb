@@ -1,9 +1,8 @@
 FactoryGirl.define do
   factory :phrase do
-    txt "MyString"
-fname "MyString"
-path "MyString"
-categories "MyString"
+    text "MyString"
+audio_file "MyString"
+language nil
   end
 
 end
