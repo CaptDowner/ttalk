@@ -46,11 +46,9 @@ The application is currently under active development and evolving daily. Some o
 include the following:
 
 - more common phrases
-- categories
-- user ordering
-- additional voices
-- other languages
-- text-to speech to be combined
-  with point and click phrases
+- categories, specialized pages for food, sports, music
+- allow user to arrange the order and remember it
+- additional voices, female, child, cartoon
+- need contributors to support non-English languages
 
 If you are comeone, or you know someone who might be interested in contributing, please contact me by email to: captdowner@gmail.com
