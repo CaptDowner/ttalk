@@ -14,19 +14,19 @@ Here is the list of languages and associated files that require review and corre
 All of these YAML files are located in talker/config/locales/.
 | Language     | file     | Language       | file   |
 | -------------| -------- | -------------- | ------ |
-| __Arabic__   |  ar.yml  | __Lithuanian__ | lt.yml |
-| __Bosnian__  |  ba.yml  | __Norwegian__  | no.yml |
-| __Chinese__  |  zh.yml  | __Polish__     | pl.yml |
-| __Croatian__ |  hr.yml  | __Portuguese__ | pt.yml |
-| __Czech__    |  cs.yml  | __Romanian__   | ro.yml |
-| __Dutch__    |  nl.yml  | __Russian__    | ru.yml |
-| __French__   |  fr.yml  | __Spanish__    | es.yml |
-| __German__   |  de.yml  | __Swedish__    | sv.yml |
-| __Greek__    |  el.yml  | __Thai__       | th.yml |
-| __Hungarian__|  hu.yml  | __Turkish__    | tr.yml |
-| __Italian__  |  it.yml  | __Ukrainian__  | uk.yml |
-| __Japanese__ |  ja.yml  | __Vietnamese__ | vi.yml |
-| __Korean__   |  ko.yml  |
+| **Arabic**   |  ar.yml  | **Lithuanian** | lt.yml |
+| **Bosnian**  |  ba.yml  | **Norwegian**  | no.yml |
+| **Chinese**  |  zh.yml  | **Polish**     | pl.yml |
+| **Croatian** |  hr.yml  | **Portuguese** | pt.yml |
+| **Czech**    |  cs.yml  | **Romanian**   | ro.yml |
+| **Dutch**    |  nl.yml  | **Russian**    | ru.yml |
+| **French**   |  fr.yml  | **Spanish**    | es.yml |
+| **German**   |  de.yml  | **Swedish**    | sv.yml |
+| **Greek**    |  el.yml  | **Thai**       | th.yml |
+| **Hungarian**|  hu.yml  | **Turkish**    | tr.yml |
+| **Italian**  |  it.yml  | **Ukrainian**  | uk.yml |
+| **Japanese** |  ja.yml  | **Vietnamese** | vi.yml |
+| **Korean**   |  ko.yml  |
 
 If you have some spare time to do this or even if you know someone who has the non-English language skills to tackle this, please email me at: captdowner@gmail.com
 
