@@ -36,6 +36,108 @@ end
 
 Current questions
 
+1. For i18n translations, will the default locale be stored in the user model?
+   If so, pages can be loaded with a before statment to take the local into
+   account. 
+
+   http://blog.lingohub.com/2013/08/internationalization-for-ruby-i18n-gem/
+
+
+
+Passing the locale as a domain name or a subdomain
+
+
+The information on the current locale can be passed through:
+
+    URL query parameter  ( http://example.com/?locale=sr )
+    URL path  ( http://example.com/sr/ )
+    domain name  ( http://example.sr )
+    subdomain name  ( http://sr.example.com )
+    client supplied information
+
+Setting the locale from the domain name or subdomain makes the locale of the current page very obvious and search engines also like this approach.
+
+It is easy to implement it in Rails by adding a before_action to ApplicationController:
+
+before_action :set_locale
+
+def set_locale
+  #extracting from the domain name
+  I18n.locale = extract_locale_from_tld || I18n.default_locale
+
+  #extracting from subdomain:
+  #I18n.locale = extract_locale_from_subdomain || I18n.default_locale
+end
+
+def extract_locale_from_tld
+  parsed_locale = request.host.split('.').last
+  I18n.available_locales.include?(parsed_locale.to_sym) ? parsed_locale  : nil
+end
+
+def extract_locale_from_subdomain
+  parsed_locale = request.subdomains.first
+  I18n.available_locales.include?(parsed_locale.to_sym) ? parsed_locale : nil
+end
+-----------------------------------------------------------
+Rails adds all .rb and .yml files from the config/locales directory to translations load path, automatically. The I18n library will use English as a default locale (if different locale is not set, :en will be used for looking up translations).
+
+By default, Rails expects that all the resource files are kept in config/locales. On the other hand, we prefer to keep them organized in the subdirectories that correspond to the locale names. You might find some other mode of organization better suited, for example separating the models localization from the views localization.
+
+Let’s change some settings by overriding the defaults in application.rb:
+
+    let’s organize the resource files in the subdirectories corresponding to locales instead of storing everything in config/locales,
+    set :de as the default locale and
+    :en, :de and :fr as available locales
+
+config.i18n.load_path += Dir[Rails.root.join('config/locales/**/*.{rb,yml}').to_s]
+config.i18n.default_locale = :de
+config.i18n.available_locales = [:en, :de, :fr]
+
+Rails is localized to numerous locales (meaning, all the static text originating from Rails). For a complete list of available locales and information on missing translations or pluralization, you can check this page.
+
+For multilingual applications it is necessary to allow the user to change the current locale and to keep track of this choice. The chosen locale can be stored in a session or a cookie, but this practice is not recommended. The reason is, that locales should be RESTful – transparent and a part of the URL. For example, when a user saves or shares a link to a page that he viewed in a non default locale, visiting that link should show the page in that same locale and not fall back to the default.
+
+The information on the current locale can be passed through:
+
+    URL query parameter  ( http://example.com/?locale=sr )
+    URL path  ( http://example.com/sr/ )
+    domain name  ( http://example.sr )
+    subdomain name  ( http://sr.example.com )
+    client supplied information
+-----------------------------------------------------------------------
+Passing the locale as a query parameter within the URL
+
+If the locale information is passed in the URL as a query parameter, setting the locale can be done in before_action (before_filter prior to Rails 4) in the ApplicationController:
+
+before_action :set_locale
+
+def set_locale
+  I18n.locale = params[:locale] || I18n.default_locale
+end
+
+This requires passing the locale as a URL query parameter and adding it to all the links within the application.
+
+Doing this manually ( for example: link_to( books_url :locale => I18n.locale ) ) is not very convenient. Fortunately, Rails comes with a helper method that can be overridden: ApplicationController#default_url_options:
+
+# app/controllers/application_controller.rb
+def default_url_options(options={})
+  { :locale => I18n.locale }
+end
+
+As a result, every helper method dependent to url_for (e.g. helpers for named routes like root_path or root_url, resource routes like books_path or books_url, etc.) will now automatically include the locale in the query string, like this: http://localhost:3000/?locale=sr.
+--------------------------------------------
+A trivial implementation of using an Accept-Language header would be:
+
+def set_locale
+  I18n.locale = extract_locale_from_accept_language_header
+  end
+
+  private
+  def extract_locale_from_accept_language_header
+    request.env['HTTP_ACCEPT_LANGUAGE'].scan(/^[a-z]{2}/).first
+  end
+--------------------------------------------------------------------
+
 1. Better (or best) way to setup mp3 files into Phrase
    object. (Currently plans to use @path and @file)
    * ../assets/media/phrases/en/0001/phrase_1.mp3
