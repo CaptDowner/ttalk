@@ -15,19 +15,19 @@ All of these YAML files are located in talker/config/locales/.
 
  Language     | file     | Language       | file  
  -------------| -------- | -------------- | ------
- _Arabic_   |  ar.yml  | _Lithuanian_ | lt.yml
- _Bosnian_  |  ba.yml  | _Norwegian_  | no.yml
- _Chinese_  |  zh.yml  | _Polish_     | pl.yml
- _Croatian_ |  hr.yml  | _Portuguese_ | pt.yml
- _Czech_    |  cs.yml  | _Romanian_   | ro.yml
- _Dutch_    |  nl.yml  | _Russian_    | ru.yml
- _French_   |  fr.yml  | _Spanish_    | es.yml
- _German_   |  de.yml  | _Swedish_    | sv.yml
- _Greek_    |  el.yml  | _Thai_       | th.yml
- _Hungarian_|  hu.yml  | _Turkish_    | tr.yml
- _Italian_  |  it.yml  | _Ukrainian_  | uk.yml
- _Japanese_ |  ja.yml  | _Vietnamese_ | vi.yml
- _Korean_   |  ko.yml  |
+ ~~Arabic~~_  |  ar.yml  | _Lithuanian_ | lt.yml
+ ~~Bosnian~~  |  ba.yml  | _Norwegian_  | no.yml
+ ~~Chinese~~  |  zh.yml  | _Polish_     | pl.yml
+ ~~Croatian~~ |  hr.yml  | _Portuguese_ | pt.yml
+ ~~Czech~~_    |  cs.yml  | _Romanian_   | ro.yml
+ ~~Dutch~~_    |  nl.yml  | _Russian_    | ru.yml
+ ~~French~~   |  fr.yml  | _Spanish_    | es.yml
+ ~~German~~   |  de.yml  | _Swedish_    | sv.yml
+ ~~Greek~~   |  el.yml  | _Thai_       | th.yml
+ ~~Hungarian~~|  hu.yml  | _Turkish_    | tr.yml
+ ~~Italian~~  |  it.yml  | _Ukrainian_  | uk.yml
+ ~~Japanese~~ |  ja.yml  | _Vietnamese_ | vi.yml
+ ~~Korean~~   |  ko.yml  |
 
 If you have some spare time to do this or even if you know someone who has the non-English language skills to tackle this, please email me at: captdowner@gmail.com
 
