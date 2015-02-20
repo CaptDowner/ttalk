@@ -1,0 +1,32 @@
+###
+# English categories
+###
+category:
+  are_you:        "Are you"
+  can_will_you:   "Can You"
+  chat:           "Chat"
+  directions:     "Directions"
+  do_did_you:     "Do you"
+  excuses:        "Excuses"
+  foods:          "Food"
+  greetings:      "Greetings"
+  he_she:         "He"
+  she:            "She"
+  how:            "How"
+  i_im_ive:       "I"
+  is:             "Is"
+  it:             "It"
+  kudos_boos:     "Kudos and Insults"
+  my_may:         "My or May"
+  please:         "Please"
+  q_and_a:        "Questions and Answers"
+  ratings:        "Ratings"
+  sports:         "Sports"
+  tech:           "Tech"
+  thats:          "That''s"
+  this_there:     "This or There"
+  top_50:         "Top 50"
+  travel:         "Travel"
+  weather:        "Weather"
+  what:           "What"
+  you:            "You

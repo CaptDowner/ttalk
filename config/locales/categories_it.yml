@@ -1,0 +1,33 @@
+###
+# Italian categories
+###
+
+category:
+  are_you:        "sei"
+  can_will_you:   "Can Lei"
+  chat:           "chiacchierare"
+  directions:     "Indicazioni"
+  do_did_you:     "Fai"
+  excuses:        "Scuse"
+  foods:          "cibo"
+  greetings:      "Saluti"
+  he_she:         "lui"
+  she:            "lei"
+  how:            "come"
+  i_im_ive:       "io"
+  is:             "è"
+  it:             "esso"
+  kudos_boos:     "Kudos e insulti"
+  my_may:         "Il mio o maggio"
+  please:         "Per Favore"
+  q_and_a:        "Domande e risposte"
+  ratings:        "Valutazioni"
+  sports:         "sportivo"
+  tech:           "Tech"
+  thats:          "Questo è"
+  this_there:     "Questo o non vi"
+  top_50:         "Top 50"
+  travel:         "viaggi"
+  weather:        "tempo"
+  what:           "che Cosa"
+  you:            "voi"
