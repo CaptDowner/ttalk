@@ -1,11 +1,144 @@
-1. Dropped mode column from Users.
-2. Dropped voice column from Users.
-3. I would like to have MP3_PATH default to the 
-   male voice samples, and be optionally changed  
-   by the user, rather than storing identical paths
-   for every mp3 file. Then I could access the mp3file 
-   preceded by the path which would represent 
-   different voices(e.g. male, female, child, cartoon)
+A. Spend some time on rspec testing and test
+setups.
+
+B. Decide on how to implement locale.
+
+C. Setup come categories and how to use the 
+   foreign keys to populate/access phrases by 
+   tag category(ies).
+
+D. setup a skeleton of a page that loads phrases 
+   dynamically, based on category.
+
+Potential categories might include:
+
+are_you
+can_will_you
+chat
+directions
+do_did_you
+excuses
+foods
+greetings
+he_she
+how
+i_im_ive
+is
+it
+kudos_boos
+my_may
+please
+q_and_a
+ratings
+sports
+tech
+thats
+this_there
+top_50
+travel
+weather
+what
+you
+
+Alpha distribution of phrases
+by first letter of phrase
+
+a -  43
+b -   6
+c -  40
+d -  66
+e -   7
+f -   8
+g -   9
+h - 108
+i - 228
+j -   5
+k -   0
+l -   7
+m -  26
+n -  16
+o -  15
+p -  20
+q -   0
+r -   3
+s -  23
+t -  84
+u -   0
+v -   1
+w - 194
+x -   0
+y -  16
+z -   0
+
+
+order of presentation will be English alpha ASC sorted
+column layout will adapt to screen sizes, from small phone 
+to large format displays.
+
+1. DONE: Got audio working using Rails. I need a better solution, as I ended 
+up using a symbolic link from the ../public/ dir to point to the ../assets/sounds dir.
+
+Should I setup a route specifically for the audio files?
+
+2. Completed 26 i18n translation files. I would like to 
+decide on how to store the user's locale information.
+
+The information on the current locale can be passed through:
+
+    URL query parameter  ( http://example.com/?locale=sr )
+    URL path  ( http://example.com/sr/ )
+    domain name  ( http://example.sr )
+    subdomain name  ( http://sr.example.com )
+    client supplied information
+
+The subdomain name might be the cleanest, as I can use it now to 
+indicate which i18n file to present the translated phrases in while still 
+using the current set of audio files and speaking English only all locales.
+
+The site would default to English, so both urls:
+
+http://tommytalker.com and
+http://en.tommytalker.com 
+
+should present the default pages in English.
+
+The translations would present as:
+
+http://ja.tommytalker.com for Japanese
+http://de.tommytalker.com for German
+...
+http://zh.tommytalker.com for Chinese (simplified)
+
+I still need to store the locale somewhere.
+Obvious choices are:
+
+1. Store it as a user param in the user model.
+  user.locale='fr'
+  or
+  options.locale
+
+2. Detect locale from the user's browser.
+# A trivial implementation of using an Accept-Language header would be:
+
+  def set_locale
+    I18n.locale = extract_locale_from_accept_language_header
+  end
+
+  private
+  def extract_locale_from_accept_language_header
+    request.env['HTTP_ACCEPT_LANGUAGE'].scan(/^[a-z]{2}/).first
+  end
+
+3. Store locale in a session var. But we still need to save it somewhere between sessions.
+
+4. I think that whichever method we use to detect/set it, we should 
+still store it as a user param, or an option param, as some browsers 
+may say 'en' when the user would prefer 'es'(Spanish).
+
+
+Long term goals:
+
+1.  different voices(e.g. male, female, child, cartoon)
 
    voices = %w[male,female.child,cartoon]
 
@@ -23,16 +156,24 @@ audio_dir = /app/assets/sounds/ # same for all audio files
 paths = %w[male/, female/, child/, cartoon/] 
 
 # then, only the audio_fname needs to be stored in the database,
-# as each voice would use the same filename for mp3 audio files.
+# as each voice would use the same filename for mp3 audio files, 
+# served out of a special path for voice selection.
 
 class Option
   #voice:string       # user's preferred default voice: male,female,child,cartoon
   #language:string    # user's preferred full language name, eg. English, Spanish, Russian, ...
+      or              # we can infer one of these next two from the one, 
+                      # so one one needs to be stored
   #lang_abbrev:string # user's preferred language abbreviation, eg. "en", "sp", "ru",
-  # 
+  #ips                - array or string of ips that the user connects/has connected from 
+  #browsers            - browser(s) that the user connects/has connected from
+  #devices             - array or string of devices that the user connects/has connected with
+  # os                 - user's operating system (linux, osx, android, windblows, etc...)
+  # timezone           - user's time zone offset from UTC time 
+  #                      can be used for composing dynamic phrases related to 
+  #                      date/time of day.
+  #  # 
 end
-
-
 
 Current questions
 
@@ -42,10 +183,11 @@ Current questions
 
    http://blog.lingohub.com/2013/08/internationalization-for-ruby-i18n-gem/
 
+     before_action :set_locale
 
-
-Passing the locale as a domain name or a subdomain
-
+     def set_locale
+       I18n.locale = params[:locale] || I18n.default_locale
+     end
 
 The information on the current locale can be passed through:
 
@@ -55,9 +197,12 @@ The information on the current locale can be passed through:
     subdomain name  ( http://sr.example.com )
     client supplied information
 
-Setting the locale from the domain name or subdomain makes the locale of the current page very obvious and search engines also like this approach.
+Setting the locale from the domain name or subdomain makes the 
+locale of the current page very obvious and search engines also 
+like this approach.
 
-It is easy to implement it in Rails by adding a before_action to ApplicationController:
+It is easy to implement it in Rails by adding a before_action 
+to ApplicationController:
 
 before_action :set_locale
 
@@ -93,9 +238,19 @@ config.i18n.load_path += Dir[Rails.root.join('config/locales/**/*.{rb,yml}').to_
 config.i18n.default_locale = :de
 config.i18n.available_locales = [:en, :de, :fr]
 
-Rails is localized to numerous locales (meaning, all the static text originating from Rails). For a complete list of available locales and information on missing translations or pluralization, you can check this page.
+Rails is localized to numerous locales (meaning, all the static text 
+originating from Rails). For a complete list of available locales 
+and information on missing translations or pluralization, you can 
+check this page.
 
-For multilingual applications it is necessary to allow the user to change the current locale and to keep track of this choice. The chosen locale can be stored in a session or a cookie, but this practice is not recommended. The reason is, that locales should be RESTful – transparent and a part of the URL. For example, when a user saves or shares a link to a page that he viewed in a non default locale, visiting that link should show the page in that same locale and not fall back to the default.
+For multilingual applications it is necessary to allow the user to 
+change the current locale and to keep track of this choice. The 
+chosen locale can be stored in a session or a cookie, but this 
+practice is not recommended. The reason is, that locales should 
+be RESTful – transparent and a part of the URL. For example, when 
+a user saves or shares a link to a page that he viewed in a non 
+default locale, visiting that link should show the page in that 
+same locale and not fall back to the default.
 
 The information on the current locale can be passed through:
 
@@ -107,7 +262,9 @@ The information on the current locale can be passed through:
 -----------------------------------------------------------------------
 Passing the locale as a query parameter within the URL
 
-If the locale information is passed in the URL as a query parameter, setting the locale can be done in before_action (before_filter prior to Rails 4) in the ApplicationController:
+If the locale information is passed in the URL as a query parameter, 
+setting the locale can be done in before_action (before_filter prior 
+to Rails 4) in the ApplicationController:
 
 before_action :set_locale
 
@@ -115,16 +272,22 @@ def set_locale
   I18n.locale = params[:locale] || I18n.default_locale
 end
 
-This requires passing the locale as a URL query parameter and adding it to all the links within the application.
+This requires passing the locale as a URL query parameter and adding it 
+to all the links within the application.
 
-Doing this manually ( for example: link_to( books_url :locale => I18n.locale ) ) is not very convenient. Fortunately, Rails comes with a helper method that can be overridden: ApplicationController#default_url_options:
+Doing this manually (example: link_to( books_url :locale => I18n.locale ) ) 
+is not very convenient. Fortunately, Rails comes with a helper method that 
+can be overridden: ApplicationController#default_url_options:
 
 # app/controllers/application_controller.rb
 def default_url_options(options={})
   { :locale => I18n.locale }
 end
 
-As a result, every helper method dependent to url_for (e.g. helpers for named routes like root_path or root_url, resource routes like books_path or books_url, etc.) will now automatically include the locale in the query string, like this: http://localhost:3000/?locale=sr.
+As a result, every helper method dependent to url_for (e.g. helpers for named 
+routes like root_path or root_url, resource routes like books_path or 
+books_url, etc.) will now automatically include the locale in the query string, 
+like this: http://localhost:3000/?locale=sr.
 --------------------------------------------
 A trivial implementation of using an Accept-Language header would be:
 
@@ -138,24 +301,13 @@ def set_locale
   end
 --------------------------------------------------------------------
 
-1. Better (or best) way to setup mp3 files into Phrase
-   object. (Currently plans to use @path and @file)
-   * ../assets/media/phrases/en/0001/phrase_1.mp3
-   * ../assets/media/phrases/de/0001/phrase_1.mp3
-
 I don't have any current plans to support mp3 files 
 for additional languages other than English.
 The translations are text-only translations in order 
 that other language users who may not have complete 
 or any knowledge of English can read the phrase in their 
-native language, and select the linkt to have that phrase 
+native language, and select the link to have that phrase 
 spoken in English.
-
-2. DONE (not needed) What goes into the routes.rb for the mp3file locations
-   (perhaps /public/sounds, as a root folder for
-   mp3 files)? Final location may be preceded by
-   path stored in Phrase object, root path = /public/sounds,
-   file location /public/sounds/mine/myfile.mp3).
 
 3. How to best transition from static pages (current)
    to dynamic pages created based on categories?
@@ -164,68 +316,20 @@ spoken in English.
 4. How to setup testing (rspec, minitest, etc...) 
    for initial objects and methods on existing classes.
 
-5. DONE (moved file to public directory)
-   Rails is not playing my mp3 files using the same javascript 
-   that the prototype version used. Is it simply a path problem 
-   or does rails require a specific format or tag, ( e.g. <audio> or 
-   something else) in order to pass the file to the clients 
-   mp3 playback program?
-
 6. How to best implement the #categories member of the
    Phrase object? Use has_and_belongs_to_many to qualify
    categories as an array of strings? Or as an array or ENUMs 
    that are assigned (locally or globally)? 
 
    A: via the tag:references member of the Phrase class
+   example implementation needed.
 
-7. DONE (via Rails i18n support)Multiple language support? What are the best practices for adding 
-   multi language support to a rails app?   Would using the rails 
-   'globalize' gem be a good way to do this?
-
-8. I'd like to transition the app (keep it running while) to be database driven,
-   so that phrases, categories, translations, etc... would come from the database 
-   and the pages will be built dynamically, based on category and sort order.
-   The translation strings are each a Hash, so lookups are fast. What advantages 
-   would there be by storing the translations in a database (HSTORE in PostgreSQL)?
-   Or am I better off storing all the translation in .yml files in the 
-   ../rails/config/locales dir?
-
-   A: move string translations from static yml files into Postgres db.
-
-9. Store locale in the database (user information) and load the appropriate language 
-   translation at sign-in (or is there a better way)?
-
-   ?? - Is locale a user preference or should we determine it from the users's browser settings?
-   ?? - or simply store it as an Option for each user?
+   A: DONE: moved string translations from static yml files into Postgres db.
 
 The reason for this approach is that I'd like the initial design to include 
 a way for later support of multiple languages. Initially, only the link text 
 for the phrases would be translated, so that a Spanish user would read the link 
 in Spanish, but when clicked on, the English mp3 file would be output.
-
-Languages supported now:
-
-English, Spanish, Mandarin, Japanese, French, German, Polish, Korean, 
-Russian, Portuguese, Arabic, Polish
-
-Languages to support later
-
-Italian, Vietnamese, Dutch, Thai, Hindi, Hindustani, Malay-Indonesian
-
-
-
-
-
-
-Design of test to speech web app
-
-Ruby Objects
-
-
-class Word 
-
-text
-mp3file
 
 # ------------------------------------------------------
 # class User
@@ -249,17 +353,6 @@ mp3file
 #
 # end
 #
-#
-# ------------------------------------------------------
-# if we have more than one voice sampled 
-# (e.g. a male's voice collection of samples 
-#  and a female's voice collection)
-#  we can have the same filenames, but store them 
-#  in a different directory. If the default is male 
-#  voice and the female voice is selected, we change the 
-#  voice-path variable to the dir storing the female voice 
-#  mp3 files.
-# ------------------------------------------------------
 # ------------------------------------------------------
 # a Phrase can be anything from a single word to 
 # a silent spacer. Each will be stored in a 
@@ -275,7 +368,6 @@ class Phrase
   #audio_path:string - mp3 filename
   #tag:references - categories to be included in (I'm not sure how this fits in???)
 
-
 end
 
 class Language
@@ -284,8 +376,6 @@ class Language
 
 
 end
-
-
 
 words << text (appended)
 mp3stream << mp3files (appended)
@@ -304,25 +394,17 @@ class Statement
 has many sentences
 has many mp3streams
 
-  @text = text
+  # an array of Phrase objects
+  @text[] = text
+  # a buffer of mp3 audio data/files
   @audio = mp3 buffer or file containing 
    all of the audio data for the phrases 
    stored in the rtext buffer
-
-class Reply
-  has many Phrases
-  has many mp3files
-
-  @rtext = buffer of punctuated text
-  @stream = mp3 buffer or file containing 
-   all of the audio data for the phrases 
-   stored in the rtext buffer as phrases are selected
-
 # ------------------------------------------------------
-# Initially, there will be 2 modes, Speak and Compose.
-# Both modes should be selectable from any page and 
-# should remain in the current mode until explicity 
-# changed.
+# Initially, there will be 2 modes, Speak mode and 
+# Compose mode. Both modes should be selectable from any 
+# page and should remain in the current mode until 
+# explicity changed.
 #
 # Speak mode will play the mp3 file data when a link is
 # selected.
@@ -334,7 +416,7 @@ class Reply
 # ----------------------------------------------------------------
 # Future development
 #
-# Record mode  - TBD - simple recorder for recording speech,        
+# Record mode  - TBD - simple recorder for recording speech,
 #                so user or friend of user can overwrite or
 #                recreate sample in a familar voice
 # 
@@ -345,8 +427,7 @@ class Reply
 mp3 => file format
   
 
-You should be able to get complete ID3 specification 
-at http://id3.org/
+Complete ID3 specification at http://id3.org/
 
 Usually Mp3 file have the next format:
 
@@ -417,10 +498,6 @@ hi << bye
 
 # Save result to disk
 File.binwrite('out.mp3', hi)
-
-s
-
-dictionary => lookup words and do one of 2 things
 
 Program mode => Speak
 
