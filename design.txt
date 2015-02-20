@@ -10,6 +10,10 @@ C. Setup come categories and how to use the
 D. setup a skeleton of a page that loads phrases 
    dynamically, based on category.
 
+E: If not in db, where to put global accessible arrays, hashes for things like
+   categories list, languages list, voices list, etc...
+   use YAML file or Application.rb?
+
 Potential categories might include:
 
 are_you
@@ -112,12 +116,12 @@ http://zh.tommytalker.com for Chinese (simplified)
 I still need to store the locale somewhere.
 Obvious choices are:
 
-1. Store it as a user param in the user model.
+a. Store it as a user param in the user model.
   user.locale='fr'
   or
   options.locale
 
-2. Detect locale from the user's browser.
+b. Detect locale from the user's browser.
 # A trivial implementation of using an Accept-Language header would be:
 
   def set_locale
@@ -129,16 +133,16 @@ Obvious choices are:
     request.env['HTTP_ACCEPT_LANGUAGE'].scan(/^[a-z]{2}/).first
   end
 
-3. Store locale in a session var. But we still need to save it somewhere between sessions.
+c. Store locale in a session var. But we still need to save it somewhere between sessions.
 
-4. I think that whichever method we use to detect/set it, we should 
+d. I think that whichever method we use to detect/set it, we should 
 still store it as a user param, or an option param, as some browsers 
 may say 'en' when the user would prefer 'es'(Spanish).
 
 
 Long term goals:
 
-1.  different voices(e.g. male, female, child, cartoon)
+different voices(e.g. male, female, child, cartoon)
 
    voices = %w[male,female.child,cartoon]
 
@@ -160,20 +164,27 @@ paths = %w[male/, female/, child/, cartoon/]
 # served out of a special path for voice selection.
 
 class Option
-  #voice:string       # user's preferred default voice: male,female,child,cartoon
+  # user_id
+  # voice:string      # user's preferred default voice: male,female,child,cartoon
+  # lang_abbrv:string # user's preferred language abbreviation, eg. "en", "sp", "ru",
+  # browsers          # browser(s) that the user is connected/has connected from
+  # devices           # array or string of devices that the user connects/has connected with
+  # os                # user's last used operating system (linux, osx, android, windblows, etc...)
+  # timezone          # user's time zone offset from UTC time 
+  #                     can be used for composing dynamic phrases related to 
+  #                     date/time of day.
+  ###
+end
+
+devices  enum %w[android,pc,mac,notebook,tablet,cellphone,other]
+os       enum %w[android,linux,osx,windows]
+browsers enum%w[ie,safari,chrome,mozilla,tor,opera,torch,maxthon,sea_monkey,avant,deepnet_ex]
+
+
+
   #language:string    # user's preferred full language name, eg. English, Spanish, Russian, ...
       or              # we can infer one of these next two from the one, 
                       # so one one needs to be stored
-  #lang_abbrev:string # user's preferred language abbreviation, eg. "en", "sp", "ru",
-  #ips                - array or string of ips that the user connects/has connected from 
-  #browsers            - browser(s) that the user connects/has connected from
-  #devices             - array or string of devices that the user connects/has connected with
-  # os                 - user's operating system (linux, osx, android, windblows, etc...)
-  # timezone           - user's time zone offset from UTC time 
-  #                      can be used for composing dynamic phrases related to 
-  #                      date/time of day.
-  #  # 
-end
 
 Current questions
 
