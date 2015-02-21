@@ -1,0 +1,2 @@
+class CategoryPhrasesController < ApplicationController
+end
