@@ -11,8 +11,7 @@ D. setup a skeleton of a page that loads phrases
    dynamically, based on category.
 
 E: If not in db, where to put global accessible arrays, hashes for things like
-   categories list, languages list, voices list, etc...
-   use YAML file or Application.rb?
+   categories list, languages list, voices list in YAML files?
 
 Potential categories might include:
 
