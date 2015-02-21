@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :category_phrases
+
+  resources :categories
+
   get '/about', to: 'high_voltage/pages#show', id: 'about'
   get '/faq', to: 'high_voltage/pages#show', id: 'faq'
   get '/top26', to:  'high_voltage/pages#show', id: 'top26'
