@@ -5,4 +5,5 @@ langs_only = ->(array, splitter) { array.map {|file| splitter.call(file)[0] }}
 two_letters_only = ->(array, splitter) { array.select {|file| splitter.(file).length == 2 }}
 
 
-puts "ok"
+
+
