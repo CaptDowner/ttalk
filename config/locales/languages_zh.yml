@@ -1,3 +1,6 @@
+###
+# Chinese Languages list
+###
 language:
   ar:     "阿拉伯语"
   cs:     "波斯尼亚"
@@ -26,30 +29,3 @@ language:
   uk:     "乌克兰"
   vi:     "越南"
   zh:     "中国"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
