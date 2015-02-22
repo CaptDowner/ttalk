@@ -6,12 +6,10 @@
 # than English, add the necessary files in this directory.
 #
 # To use the locales, use `I18n.t`:
-#
-#     I18n.t 'hello'  lang_arr = %w[ar, de, el, en, fr, ja, ko, pl, pt, ru, es, zh, it, hr, iw, ro]
+#     I18n.t 'hello'
 #
 # In views, this is aliased to just `t`:
-#
-#     < % = t('hello') %>
+#     <%= t('hello') %>
 #
 # To use a different locale, set it with `I18n.locale`:
 #
@@ -21,18 +19,21 @@
 #
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
-# English                        : en    Itallian         : it
-# Arabic (Egypt)                 : ar    Croatian         : hr
-# Chinese (China)                : zh    Hebrew           : iw
-# French (France)                : fr    Vietnamese       : 
-# Greek (Greece)                 : el
-# German                         : de
-# Japanese (Japan)               : ja
-# Korean (South Korea)           : ko
-# Polish                         : pl
-# Russian                        : ru
-# Spanish                        : es
-# Portuguese                     : pt
+#
+# Arabic      :ar   Lithuanian         :lt
+# Bulgarian   :bg   Dutch              :nl
+# Czech       :cs   Norwegian          :no
+# Croatian    :cz   Polish             :pl
+# German      :de   Portuguese         :pt
+# Greek       :el   Brazilian(Ptguese) :pt-br
+# English     :en   Romanian           :ro
+# Spanish     :es   Russian            :ru
+# French      :fr   Swedish            :sv
+# Croatian    :hr   Thai               :th
+# Hungarian   :hu   Turkish            :tr
+# Italian     :it   Ukranian           :uk
+# Japanese    :ja   Vietnamese         :vi
+# Korean      :ko   Chinese (China)    :zh
 ###
 
 ro:

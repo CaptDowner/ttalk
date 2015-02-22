@@ -6,11 +6,9 @@
 # than English, add the necessary files in this directory.
 #
 # To use the locales, use `I18n.t`:
-#
 #     I18n.t 'hello'
 #
 # In views, this is aliased to just `t`:
-#
 #     <%= t('hello') %>
 #
 # To use a different locale, set it with `I18n.locale`:
@@ -21,19 +19,22 @@
 #
 # To learn more, please read the Rails Internationalization guide
 # available at http://guides.rubyonrails.org/i18n.html.
-# English                        : en
-# Arabic (Egypt)                 : ar
-# Chinese (China)                : zh
-# French (France)                : fr
-# Greek (Greece)                 : el
-# German                         : de
-# Japanese (Japan)               : ja
-# Korean (South Korea)           : ko
-# Polish                         : pl
-# Russian                        : ru
-# Spanish                        : es
-# Portuguese                     : pt
-#---
+#
+# Arabic      :ar  Dutch              :nl    
+# Bulgarian   :bg  Norwegian          :no    
+# Czech       :cs  Polish             :pl    
+# Croatian    :hr  Portuguese         :pt    
+# German      :de  Brazilian(Ptguese) :pt-br 
+# Greek       :el  Romanian           :ro    
+# English     :en  Russian            :ru    
+# Spanish     :es  Swedish            :sv    
+# French      :fr  Thai               :th    
+# Hungarian   :hu  Turkish            :tr    
+# Italian     :it  Ukranian           :uk    
+# Japanese    :ja  Vietnamese         :vi    
+# Korean      :ko  Chinese (China)    :zh 
+# Lithuanian  :lt
+###
 
 en:
   aboutthreehundredkilometers:                        "about three hundred kilometers"
@@ -1017,61 +1018,3 @@ en:
   yourhouseisverynice:                                "your house is very nice"
   yourthingsareallhere:                               "your things are all here"
   youspeakenglishverywell:                            "you speak English very well"
-  ar:    "Arabic"
-  cs:    "Bosnian"
-  cz:    "Croatian"
-  de:    "German"
-  el:    "Czech"
-  en:    "Dutch"
-  es:    "Spanish"
-  fr:    "French"
-  hr:    "Greek"
-  hu:    "Hungarian"
-  it:    "Italian"
-  ja:    "Japanese"
-  ko:    "Korean"
-  lt:    "Lithuanian"
-  nl:    "Dutch"
-  no:    "Norwegian"
-  pl:    "Polish"
-  pt:    "Portuguese"
-  pt-br: "Portuguese (Brazilian)"
-  ro:    "Romanian"
-  ru:    "Russian"
-  sv:    "Swedish"
-  th:    "Thai"
-  tr:    "Turkish"
-  uk:    "Ukrainian"
-  vi:    "Vietnamese"
-  zh:    "Chinese"
-
-
-
-  ar:    "Arabic"
-  cs:    "Bosnian"
-  cz:    "Croatian"
-  de:    "German"
-  el:    "Czech"
-  en:    "English"
-  es:    "Spanish"
-  fr:    "French"
-  hr:    "Greek"
-  hu:    "Hungarian"
-  it:    "Italian"
-  ja:    "Japanese"
-  ko:    "Korean"
-  lt:    "Lithuanian"
-  nl:    "Dutch"
-  no:    "Norwegian"
-  pl:    "Polish"
-  pt:    "Portuguese"
-  pt-br: "Portuguese (Brazilian)"
-  ro:    "Romanian"
-  ru:    "Russian"
-  sv:    "Swedish"
-  th:    "Thai"
-  tr:    "Turkish"
-  uk:    "Ukrainian"
-  vi:    "Vietnamese"
-  zh:    "Chinese"
-
