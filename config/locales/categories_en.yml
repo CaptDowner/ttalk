@@ -1,5 +1,5 @@
 ###
-# English categories
+# English categories list
 ###
 category:
   are_you:        "Are you"
@@ -29,4 +29,4 @@ category:
   travel:         "Travel"
   weather:        "Weather"
   what:           "What"
-  you:            "You
+  you:            "You"
