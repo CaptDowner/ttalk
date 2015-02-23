@@ -36,7 +36,7 @@
 # Korean      :ko   Chinese (China)    :zh
 ###
 
-no:
+"no":
   aboutthreehundredkilometers:                              "omtrent tre hundre kilometer"
   acrossfromthepostoffice:                                  "over fra postkontoret"
   afew:                                                     "noen"
@@ -652,7 +652,7 @@ no:
   nobodyishelpingus:                                        "ingen hjelper oss"
   nobodyisthererightnow:                                    "ingen er der akkurat nå"
   nonsense:                                                 "tull"
-  noo:                                                      "ikke"
+  "no":                                                      "ikke"
   noproblem:                                                "ikke noe problem"
   nothankyou:                                               "nei takk"
   nothingelse:                                              "ingenting annet"
@@ -1002,7 +1002,7 @@ no:
   wouldyoulikewaterormilk:                                  "ønsker du vann eller melk?"
   wouldyoutakeamessageplease:                               "ville du ta en melding please?"
   yesreally:                                                "ja virkelig"
-  yess:                                                     "ja"
+  "yes":                                                     "ja"
   youhaveaverynicecar:                                      "du har en veldig fin bil"
   youlookgreat:                                             "du ser flott ut!"
   youlooklikemysister:                                      "du ser ut som min søster"
