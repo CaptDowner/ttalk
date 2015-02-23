@@ -1,0 +1,124 @@
+talk_dev=# \d
+                    List of relations
+ Schema |          Name           |   Type   |   Owner    
+--------+-------------------------+----------+------------
+ public | categories              | table    | captdowner
+ public | categories_id_seq       | sequence | captdowner
+ public | category_phrases        | table    | captdowner
+ public | category_phrases_id_seq | sequence | captdowner
+ public | languages               | table    | captdowner
+ public | languages_id_seq        | sequence | captdowner
+ public | options                 | table    | captdowner
+ public | options_id_seq          | sequence | captdowner
+ public | phrases                 | table    | captdowner
+ public | phrases_id_seq          | sequence | captdowner
+ public | schema_migrations       | table    | captdowner
+ public | users                   | table    | captdowner
+ public | users_id_seq            | sequence | captdowner
+(13 rows)
+-----------------------------------------------------------------------------------------------------------
+talk_dev=# \d phrases;
+                                      Table "public.phrases"
+   Column    |            Type             |                      Modifiers                       
+-------------+-----------------------------+------------------------------------------------------
+ id          | integer                     | not null default nextval('phrases_id_seq'::regclass)
+ text        | character varying           | 
+ audio_file  | character varying           | 
+ language_id | integer                     | 
+ created_at  | timestamp without time zone | not null
+ updated_at  | timestamp without time zone | not null
+ abbrev      | integer                     | 
+ key         | character varying           | 
+Indexes:
+    "phrases_pkey" PRIMARY KEY, btree (id)
+    "index_phrases_on_language_id" btree (language_id)
+Foreign-key constraints:
+    "fk_rails_5ef5e92a24" FOREIGN KEY (language_id) REFERENCES languages(id)
+Referenced by:
+    TABLE "category_phrases" CONSTRAINT "fk_rails_821fe64491" FOREIGN KEY (phrase_id) REFERENCES phrases(id)
+
+----------------------------------------------------------------------------------------------------
+talk_dev=# \d categories;
+                                     Table "public.categories"
+   Column   |            Type             |                        Modifiers                        
+------------+-----------------------------+---------------------------------------------------------
+ id         | integer                     | not null default nextval('categories_id_seq'::regclass)
+ name       | character varying           | 
+ created_at | timestamp without time zone | not null
+ updated_at | timestamp without time zone | not null
+Indexes:
+    "categories_pkey" PRIMARY KEY, btree (id)
+Referenced by:
+    TABLE "category_phrases" CONSTRAINT "fk_rails_1b808d5570" FOREIGN KEY (category_id) REFERENCES categories(id)
+----------------------------------------------------------------------------------------------------
+\d category_phrases;
+                                      Table "public.category_phrases"
+   Column    |            Type             |                           Modifiers                           
+-------------+-----------------------------+---------------------------------------------------------------
+ id          | integer                     | not null default nextval('category_phrases_id_seq'::regclass)
+ category_id | integer                     | 
+ phrase_id   | integer                     | 
+ created_at  | timestamp without time zone | not null
+ updated_at  | timestamp without time zone | not null
+Indexes:
+    "category_phrases_pkey" PRIMARY KEY, btree (id)
+    "index_category_phrases_on_category_id" btree (category_id)
+    "index_category_phrases_on_phrase_id" btree (phrase_id)
+Foreign-key constraints:
+    "fk_rails_1b808d5570" FOREIGN KEY (category_id) REFERENCES categories(id)
+    "fk_rails_821fe64491" FOREIGN KEY (phrase_id) REFERENCES phrases(id)
+
+---------------------------------------------------------------------------
+talk_dev=# \d languages;
+                                     Table "public.languages"
+   Column   |            Type             |                       Modifiers                        
+------------+-----------------------------+--------------------------------------------------------
+ id         | integer                     | not null default nextval('languages_id_seq'::regclass)
+ name       | character varying           | 
+ abbrv      | character varying           | 
+ created_at | timestamp without time zone | not null
+ updated_at | timestamp without time zone | not null
+Indexes:
+    "languages_pkey" PRIMARY KEY, btree (id)
+Referenced by:
+    TABLE "phrases" CONSTRAINT "fk_rails_5ef5e92a24" FOREIGN KEY (language_id) REFERENCES languages(id)
+
+----------------------------------------------------------------------------
+talk_dev=# \d options;
+                                     Table "public.options"
+   Column   |            Type             |                      Modifiers                       
+------------+-----------------------------+------------------------------------------------------
+ id         | integer                     | not null default nextval('options_id_seq'::regclass)
+ user_id    | integer                     | 
+ voice      | character varying           | default 'male'::character varying
+ lang_abbrv | character varying           | default 'en'::character varying
+ created_at | timestamp without time zone | not null
+ updated_at | timestamp without time zone | not null
+Indexes:
+    "options_pkey" PRIMARY KEY, btree (id)
+
+-------------------------------------------------------------------------------------------------
+talk_dev=# \d users;
+                                           Table "public.users"
+         Column         |            Type             |                     Modifiers                      
+------------------------+-----------------------------+----------------------------------------------------
+ id                     | integer                     | not null default nextval('users_id_seq'::regclass)
+ email                  | character varying           | not null default ''::character varying
+ encrypted_password     | character varying           | not null default ''::character varying
+ reset_password_token   | character varying           | 
+ reset_password_sent_at | timestamp without time zone | 
+ remember_created_at    | timestamp without time zone | 
+ sign_in_count          | integer                     | not null default 0
+ current_sign_in_at     | timestamp without time zone | 
+ last_sign_in_at        | timestamp without time zone | 
+ current_sign_in_ip     | character varying           | 
+ last_sign_in_ip        | character varying           | 
+ created_at             | timestamp without time zone | 
+ updated_at             | timestamp without time zone | 
+ name                   | character varying           | 
+ role                   | integer                     | 
+Indexes:
+    "users_pkey" PRIMARY KEY, btree (id)
+    "index_users_on_email" UNIQUE, btree (email)
+    "index_users_on_reset_password_token" UNIQUE, btree (reset_password_token)
+------------------------------------------------------------------------------------------------------------
