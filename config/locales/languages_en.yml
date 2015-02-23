@@ -17,7 +17,7 @@ language:
   ko:    "Korean"
   lt:    "Lithuanian"
   nl:    "Dutch"
-  no:    "Norwegian"
+  "no":    "Norwegian"
   pl:    "Polish"
   pt:    "Portuguese"
   pt-br: "Portuguese (Brazilian)"

@@ -18,7 +18,7 @@ language:
   ko:    "korejski"
   lt:    "litvanski"
   nl:    "holandski"
-  no:    "Norvežanin"
+  "no":    "Norvežanin"
   pl:    "poljski"
   pt:    "portugalski"
   pt-br: "Portugalski (Brazil)"

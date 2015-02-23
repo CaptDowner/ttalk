@@ -17,7 +17,7 @@ language:
   ko:      "korejština"
   lt:      "litevský"
   nl:      "holandský"
-  no:      "norský"
+  "no":      "norský"
   pl:      "polský"
   pt:      "portugalština"
   pt-br:   "Portugalština (Brazílie)"

@@ -17,7 +17,7 @@ language:
   ko:     "Koreaans"
   lt:     "Litouws"
   nl:     "Nederlands"
-  no:     "Noors"
+  "no":     "Noors"
   pl:     "Pools"
   pt:     "Portugees"
   pt-br:  "Portugees (Braziliaans)"
