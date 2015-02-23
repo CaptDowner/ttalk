@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150221002828) do
+ActiveRecord::Schema.define(version: 20150222221053) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -22,3 +22,57 @@ ActiveRecord::Schema.define(version: 20150221002828) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "category_phrases", force: :cascade do |t|
+    t.integer  "category_id"
+    t.integer  "phrase_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+  end
+
+  add_index "category_phrases", ["category_id"], name: "index_category_phrases_on_category_id", using: :btree
+  add_index "category_phrases", ["phrase_id"], name: "index_category_phrases_on_phrase_id", using: :btree
+
+  create_table "languages", force: :cascade do |t|
+    t.string   "name"
+    t.string   "abbrv"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "phrases", force: :cascade do |t|
+    t.string   "text"
+    t.string   "audio_file"
+    t.integer  "language_id"
+    t.datetime "created_at",  null: false
+    t.datetime "updated_at",  null: false
+    t.integer  "abbrev"
+    t.string   "key"
+  end
+
+  add_index "phrases", ["language_id"], name: "index_phrases_on_language_id", using: :btree
+
+  create_table "users", force: :cascade do |t|
+    t.string   "email",                  default: "", null: false
+    t.string   "encrypted_password",     default: "", null: false
+    t.string   "reset_password_token"
+    t.datetime "reset_password_sent_at"
+    t.datetime "remember_created_at"
+    t.integer  "sign_in_count",          default: 0,  null: false
+    t.datetime "current_sign_in_at"
+    t.datetime "last_sign_in_at"
+    t.string   "current_sign_in_ip"
+    t.string   "last_sign_in_ip"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "name"
+    t.integer  "role"
+    t.integer  "language_id"
+  end
+
+  add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
+  add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
+
+  add_foreign_key "category_phrases", "categories"
+  add_foreign_key "category_phrases", "phrases"
+  add_foreign_key "phrases", "languages"
+end
