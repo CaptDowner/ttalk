@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
-  resources :category_phrases
-
-  resources :categories
+#  root :to => "pages#redirect_to_sign_up"
+  root to: 'visitors#index'
 
   get '/about', to: 'high_voltage/pages#show', id: 'about'
   get '/faq', to: 'high_voltage/pages#show', id: 'faq'
@@ -16,8 +15,10 @@ Rails.application.routes.draw do
   get '/wwwww', to: 'high_voltage/pages#show', id: 'wwwww'
 
 #  get '/sounds', to: '/app/assets/sounds', id: 'sounds'
-
-  root to: 'visitors#index'
   devise_for :users
   resources :users
+  resources :category_phrases
+  resources :categories
+
+
 end
