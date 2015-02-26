@@ -47,32 +47,44 @@ Alpha distribution of phrases
 by first letter of phrase
 
 a -  43
+
 b -   6
 c -  40
+
 d -  66
+
 e -   7
 f -   8
 g -   9
+
 h - 108
+
 i - 228
+
 j -   5
 k -   0
 l -   7
 m -  26
 n -  16
 o -  15
+
 p -  20
 q -   0
 r -   3
 s -  23
+
 t -  84
 u -   0
 v -   1
+
 w - 194
+
+
 x -   0
 y -  16
 z -   0
-
+----------
+    925
 
 order of presentation will be English alpha ASC sorted
 column layout will adapt to screen sizes, from small phone 
