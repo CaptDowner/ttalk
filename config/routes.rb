@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 #  root :to => "pages#redirect_to_sign_up"
+#  get '/:locale', to: 'visitors#index'
   root to: 'visitors#index'
+#  get  to: '/:locale(.:format)/visitors#index'
 
   get '/about', to: 'high_voltage/pages#show', id: 'about'
   get '/faq', to: 'high_voltage/pages#show', id: 'faq'
@@ -13,7 +15,6 @@ Rails.application.routes.draw do
   get '/i', to: 'high_voltage/pages#show', id: 'i'
   get '/what', to: 'high_voltage/pages#show', id: 'what'
   get '/wwwww', to: 'high_voltage/pages#show', id: 'wwwww'
-
 #  get '/sounds', to: '/app/assets/sounds', id: 'sounds'
   devise_for :users
   resources :users
