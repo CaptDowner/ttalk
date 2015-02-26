@@ -1,0 +1,15 @@
+###
+# Main menu in Romanian
+###
+ro:
+  visitors:
+    index:
+      about:         "despre"
+      are:           "Sunt?"
+      caniyou:       "Poate?"
+      directions:    "Direcții"
+      doyou:         "Tu?"
+      how:           "Cum?"
+      i:             "eu"
+      top26:         "Top 26"
+      wherewhen:     "Când? În cazul în care?"

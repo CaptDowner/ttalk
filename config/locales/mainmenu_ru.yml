@@ -1,0 +1,15 @@
+###
+# Main menu in Russian
+###
+ru:
+  visitors:
+    index:
+      about:         "о"
+      are:           "Есть?"
+      caniyou:       "Может?"
+      directions:    "Направления"
+      doyou:         "Вы?"
+      how:           "Как?"
+      i:             "я"
+      top26:         "Топ 26"
+      wherewhen:     "Когда? Где?"

@@ -1,0 +1,15 @@
+###
+# Main menu in Croatian
+###
+hr:
+  visitors:
+    index:
+      about:         "O"
+      are:           "Jesu li?"
+      caniyou:       "Može li?"
+      directions:    "Upute"
+      doyou:         "Znate li?"
+      how:           "Kako?"
+      i:             "Ja"
+      top26:         "Top 26"
+      wherewhen:     "Kada? Gdje?"

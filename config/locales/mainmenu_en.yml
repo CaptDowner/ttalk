@@ -1,0 +1,15 @@
+###
+# Main menu in English
+###
+en:
+  visitors:
+    index:
+      about:         "About"
+      are:           "Are?"
+      caniyou:       "Can?"
+      directions:    "Directions"
+      doyou:         "Do you?"
+      how:           "How?"
+      i:             "I"
+      top26:         "Top 26"
+      wherewhen:     "When? Where?"

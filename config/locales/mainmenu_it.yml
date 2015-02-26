@@ -1,0 +1,15 @@
+###
+# Main menu in  Italian
+###
+it:
+  visitors:
+    index:
+      about:         "su"
+      are:           "Sono?"
+      caniyou:       "Can?"
+      directions:    "Indicazioni"
+      doyou:         "Fai?"
+      how:           "Come?"
+      i:             "io"
+      top26:         "Top 26"
+      wherewhen:     "Quando? Dove?"

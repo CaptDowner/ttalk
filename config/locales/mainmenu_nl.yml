@@ -1,0 +1,15 @@
+###
+# Main menu in Dutch
+###
+nl:
+  visitors:
+    index:
+      about:         "over"
+      are:           "Zijn?"
+      caniyou:       "Kan?"
+      directions:    "Routebeschrijving"
+      doyou:         "Heeft u?"
+      how:           "Hoe?"
+      i:             "ik"
+      top26:         "Top 26"
+      wherewhen:     "Wanneer? Waar?"

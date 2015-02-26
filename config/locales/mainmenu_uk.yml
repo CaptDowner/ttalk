@@ -1,0 +1,15 @@
+###
+# Main menu in Ukranian
+###
+uk:
+  visitors:
+    index:
+      about:         "Про"
+      are:           "Є?"
+      caniyou:       "Може?"
+      directions:    "напрямки"
+      doyou:         "Ви?"
+      how:           "Як?"
+      i:             "Я"
+      top26:         "Топ 26"
+      wherewhen:     "Коли? Де?"

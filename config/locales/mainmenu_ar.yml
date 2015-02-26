@@ -1,0 +1,15 @@
+###
+# Main menu in Arabic 
+###
+ar:
+  visitors:
+    index:
+      about:         "حول"
+      are:           "هل؟"
+      caniyou:       "يمكن؟"
+      directions:    "الاتجاهات"
+      doyou:         "هل؟"
+      how:           "كيف؟"
+      i:             "أنا"
+      top26:         "أعلى 26"
+      wherewhen:     " أين؟ متى؟"

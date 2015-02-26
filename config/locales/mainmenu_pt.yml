@@ -1,0 +1,15 @@
+###
+# Main menu in Portuguese
+###
+pt:
+  visitors:
+    index:
+      about:         "sobre"
+      are:           "É?"
+      caniyou:       "Pode?"
+      directions:    "instruções"
+      doyou:         "Você?"
+      how:           "Como?"
+      i:             "eU"
+      top26:         "Top 26"
+      wherewhen:     "Quando? Onde?"

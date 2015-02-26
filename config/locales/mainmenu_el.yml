@@ -1,0 +1,15 @@
+###
+# Main menu in Greek
+###
+el:
+  visitors:
+    index:
+      about:         "περίπου"
+      are:           "Είναι;"
+      caniyou:       "Μπορεί;"
+      directions:    "οδηγίες"
+      doyou:         "Εσείς;"
+      how:           "Πώς;"
+      i:             "εγώ"
+      top26:         "Top 26"
+      wherewhen:     "Πότε; Πού;"

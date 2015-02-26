@@ -1,0 +1,15 @@
+###
+# Main menu in Czech
+###
+cs:
+  visitors:
+    index:
+      about:         "o"
+      are:           "Jsou?"
+      caniyou:       "Může?"
+      directions:    "instrukce"
+      doyou:         "Líbí se vám?"
+      how:           "Jak na to?"
+      i:             "já"
+      top26:         "Top 26"
+      wherewhen:     "Kdy? Kde?"

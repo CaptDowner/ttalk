@@ -1,0 +1,15 @@
+###
+# Main menu in Korean
+###
+ko:
+  visitors:
+    index:
+      about:         "약"
+      are:           "이 있습니까?"
+      caniyou:       "수 있습니까?"
+      directions:    "오시는 길"
+      doyou:         "당신은?"
+      how:           "어떻게?"
+      i:             "나는"
+      top26:         "톱 26"
+      wherewhen:     "언제? 어디?"

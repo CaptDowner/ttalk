@@ -1,0 +1,15 @@
+###
+# Main menu in French
+###
+fr:
+  visitors:
+    index:
+      about:         "sur"
+      are:           "Etes?"
+      caniyou:       "Pouvoir?"
+      directions:    "instructions"
+      doyou:         "Le faites vous?"
+      how:           "Comment?"
+      i:             "je"
+      top26:         "Top 26"
+      wherewhen:     "Quand? Où?"

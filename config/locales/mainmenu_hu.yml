@@ -1,0 +1,15 @@
+###
+# Main menu in Hungarian
+###
+hu:
+  visitors:
+    index:
+      about:         "körülbelül"
+      are:           "Biztos?"
+      caniyou:       "Lehet?"
+      directions:    "Directions"
+      doyou:         "Ha szeretnél?"
+      how:           "Hogyan?"
+      i:             "én"
+      top26:         "Top 26"
+      wherewhen:     "Mikor? Hol?"

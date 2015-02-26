@@ -1,0 +1,15 @@
+###
+# Main menu in Polish
+###
+pl:
+  visitors:
+    index:
+      about:         "o"
+      are:           "Czy?"
+      caniyou:       "Może?"
+      directions:    "Wskazówki"
+      doyou:         "Czy?"
+      how:           "W jaki sposób?"
+      i:             "ja"
+      top26:         "Top 26"
+      wherewhen:     "Kiedy? Gdzie?"

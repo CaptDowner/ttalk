@@ -1,0 +1,15 @@
+###
+# Main menu in Lithuanian
+###
+lt:
+  visitors:
+    index:
+      about:         "apie"
+      are:           "Ar?"
+      caniyou:       "Ar?"
+      directions:    "nurodymai"
+      doyou:         "Ar jūs?"
+      how:           "Kaip?"
+      i:             "aš"
+      top26:         "Top 26"
+      wherewhen:     "Kada? Kur?"

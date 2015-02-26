@@ -1,0 +1,15 @@
+###
+# Main menu in  Spanish
+###
+es:
+  visitors:
+    index:
+      about:         "acerca de"
+      are:           "Son?"
+      caniyou:       "Puede?"
+      directions:    "instrucciones"
+      doyou:         "Vos si?"
+      how:           "Cómo?"
+      i:             "yO"
+      top26:         "Top 26"
+      wherewhen:     "Cuándo? Dónde?"

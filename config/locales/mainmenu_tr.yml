@@ -1,0 +1,15 @@
+###
+# Main menu in Turkish
+###
+tr:
+  visitors:
+    index:
+      about:         "hakkında"
+      are:           "Mısınız?"
+      caniyou:       "Can?"
+      directions:    "Yol"
+      doyou:         "Öyle mi?"
+      how:           "Nasıl?"
+      i:             "ben"
+      top26:         "En 26"
+      wherewhen:     "Ne Zaman? Nerede?"

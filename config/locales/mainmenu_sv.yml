@@ -1,0 +1,15 @@
+###
+# Main menu in Swedish
+###
+sv:
+  visitors:
+    index:
+      about:         "om"
+      are:           "Är?"
+      caniyou:       "Kan?"
+      directions:    "Avstånd"
+      doyou:         "Tycker du?"
+      how:           "Hur?"
+      i:             "jag"
+      top26:         "Topp 26"
+      wherewhen:     "När? Var?"

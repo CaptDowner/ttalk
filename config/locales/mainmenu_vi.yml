@@ -1,0 +1,15 @@
+###
+# Main menu in Vietnamese
+###
+vi:
+  visitors:
+    index:
+      about:         "về"
+      are:           "Là?"
+      caniyou:       "Có thể?"
+      directions:    "Chỉ Dẫn"
+      doyou:         "Bạn?"
+      how:           "Làm thế nào?"
+      i:             "tôi"
+      top26:         "Top 26"
+      wherewhen:     "Khi nào? Ở đâu?"

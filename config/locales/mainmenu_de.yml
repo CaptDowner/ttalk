@@ -1,0 +1,15 @@
+###
+# Main menu in German
+###
+de:
+  visitors:
+    index:
+      about:         "über"
+      are:           "Sind?"
+      caniyou:       "Kann?"
+      directions:    "Anfahrt"
+      doyou:         "Sie tun?"
+      how:           "Wie?"
+      i:             "iCH A"
+      top26:         "Top 26"
+      wherewhen:     "Wann? Wo?"

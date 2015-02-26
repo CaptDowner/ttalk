@@ -1,0 +1,15 @@
+###
+# Main menu in Chinese (Simplified)
+###
+zh:
+  visitors:
+    index:
+      about:         "大约"
+      are:           "是谁？"
+      caniyou:       "可以吗？"
+      directions:    "方向"
+      doyou:         "你呢？"
+      how:           "怎么样？"
+      i:             "我"
+      top26:         "前26"
+      wherewhen:     "什么时候？ 在哪里？"

@@ -1,0 +1,15 @@
+###
+# Main menu in Japanese
+###
+ja:
+  visitors:
+    index:
+      about:         "約"
+      are:           "ていますか？"
+      caniyou:       "できますか？"
+      directions:    "方向"
+      doyou:         "あなたは？"
+      how:           "どうやって？"
+      i:             "私"
+      top26:         "トップ26"
+      wherewhen:     "いつ？ どこ？"
