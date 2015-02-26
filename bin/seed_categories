@@ -1,0 +1,10 @@
+#! /usr/bin/env ruby
+# seed categories from categories_??.yml files
+
+# assume untested/non-working code
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+split_on_dot = ->(string) { string.split(".") }
+categories_only = ->(array, splitter) { array.map {|file| splitter.call(file)[0] }}
+two_letters_only = ->(array, splitter) { array.select {|file| splitter.(file).length == 2 }}
+# XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
