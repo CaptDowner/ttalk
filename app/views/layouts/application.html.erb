@@ -7,8 +7,32 @@
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
+    <style type='text/css'>
+    <% if I18n.locale == :zh %>
+      div.main { background-color: #00008B; }
+      body { background-color: #00008B; }
+      div#white { background-color: #00008B;}
+      div#zz { background-color: #00008B;}
+      div.daddy { background-color: #00008B; }
+    <% end %>
+    <% if I18n.locale == :ar %>
+      table.talker {
+       width: 50em;
+       margin-right: 0.15em;
+       margin-left: -14em;
+       text-align: left;
+     }
+     table.talker th{ text-align: right; margin-left: 4em; }
+     table.talker td{
+       font-family: Arial;
+       font-size: 1em;
+       text-align: right;
+       margin: 0;
+     }
+    <% end %>
+    </style>
+
   </head>
-  <body>
     <header>
       <%= render 'layouts/navigation' %>
     </header>
