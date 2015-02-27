@@ -25,11 +25,13 @@ div.main {
   height: 160em;
 }
 ul.nav.navbar-nav a:hover {
-  color:white;
+// color: white;
+  color: gold;
   font-weight: 900;
 }
 ul.nav.navbar-nav a:hover {
-  color:#ffff00;
+//  color:#ffff00;
+  color: gold;
 }
 ul.li {
   margin: 0 0 0 0;
@@ -42,11 +44,13 @@ ul.li {
   font-weight: 400;
 }
 .navbar-header a.navbar-brand:hover {
-  color: #ffff00;
+//  color: #ffff00;
+  color: gold;
   font-weight: 900;
 }
 .navbar-nav.nav.ul.li  a:hover{
-  color: #ffff00;
+//  color: #ffff00;
+    color: gold;
 }
 @font-face {
     font-family: 'EfonRegular';
@@ -68,7 +72,7 @@ body {
 }
 
 .button {
-  width: 8.8em;
+  width: 12em;
   line-height: 1.3em;
   color: white;
   text-decoration: none;
@@ -174,7 +178,7 @@ a:hover {
 }
 
 table.talker {
-  width: 42em;
+  width: 50em;
   margin-left: 0.15em;
   text-align: left;
 }
@@ -242,7 +246,7 @@ div#topper h1 {
 
 div#topper h2{
   font-family: Courier New;
-  width: 18em; 
+  width: 22em; 
   font-weight: bold;
   font-size: 1.75em;
   text-align: left;
@@ -341,7 +345,7 @@ a#a-bout {
 }
 
 a#a-bout.button {
-  margin-left: 13.5em;
+  margin-left: 18.25em;
   margin-top:0.75em;
 }
 
@@ -459,7 +463,7 @@ div#copyright1 {
 div#copyright1 p {
   text-align: center;
   width: 32em;
-  margin-left: 4.5em;
+  margin-left: 11em;
   font-size: 0.75em;
   color:lightyellow;
   font-family: sans-serif;
@@ -493,4 +497,72 @@ div.daddy {
 }
 body {
   background-color: green;
+}
+nav ul ul {
+  display: none;
+}
+nav ul li:hover > ul {
+  display: block;
+}
+nav ul {
+  list-style: none;
+  position: relative;
+  display: inline-table;
+}
+nav ul:after {
+  content: ""; clear: both; display: block;
+}
+nav ul li {
+  float: left;
+}
+.dropdown-toggle a:hover{
+  color: gold;
+}
+nav ul li:hover {
+  color: gold;
+}
+nav ul li:hover a {
+  color: gold;
+}
+nav ul li a {
+  display: block;
+  padding: 25px 40px;
+  color: #757575;
+  text-decoration: none;
+}
+nav ul ul {
+  background: #5f6975;
+  border-radius: 0px;
+  padding: 0;
+  position:
+  absolute;
+  top: 100%;
+}
+nav ul ul li {
+  float: none;
+  border-top: 1px solid #6b727c;
+  border-bottom: 1px solid #575f6a;
+  position: relative;
+}
+nav ul ul li a {
+  padding: 15px 40px;
+  color: #fff;
+}
+nav ul ul li a:hover {
+  background: #4b545f;
+  color: gold;
+}
+ul.dropdown-menu {
+  max-height: 18.4em;
+  overflow: auto;
+}
+
+ul.dropdown-menu li, ul.dropdown-menu a {
+  background-color: #000;
+  color: #fff;
+}
+
+ul.dropdown-menu a:hover {
+  color: black;
+  background-color: #004060;
 }
