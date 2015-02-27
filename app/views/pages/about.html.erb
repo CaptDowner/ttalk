@@ -6,24 +6,32 @@
   <div id='white'>
     <br/>
     <div id='topper-ab'>
-      <h2>About Tommy Talker</h2>
+      <h2><%=t '.about' %> Tommy Talker</h2>
     </div>
   </div> <!-- end white -->
   <div class='container'>
     <div id='zz'>
-      <p>TommyTalker is a program that can speak for you. Some people have 
+      <p>TommyTalker <%=t '.tt_is_a' %></p>
+<!-- TommyTalker is a program that can speak for you. Some people have 
         problems speaking. Whether temporary or permanent, TommyTalker helps by 
-        allowing you to select a word or phrase that you wish to say and TommyTalker says it. 
+        allowing you to select a phrase that you wish to say and TommyTalker speaks it for you. -->
       <p> </p>
-      <p>You don't have to type at all. Just click on a phrase, and that phrase is spoken.
-        This is a proof of concept/beta version. Suggestions for features, words, and phrases
-        to added can be emailed to <a id='mailto' href="mailto:s.d@comcast.net">TommyTalker</a>.</p>
+      <p><%=t '.donttype' %>
+<!-- You don't have to type at all. Just click or touch a phrase, and that phrase is spoken.
+      Suggestions for features, words, and phrases to added can be emailed to -->
+      <a id='mailto' href="mailto:sdownie@tommytalker.com">TommyTalker</a>.</p>
       <p> </p>
-      <p>I'd like to add support for other languages, but I'll need a volunteer (maybe you) who can handle 
-        both translation and speech recording for each translation.
+      <p><%=t '.supportfor' %></p>
+<!-- We've added support for 26 languages. The text can be presented in all of them, and when links are selected, they are spoken in English. 
+      This can be a big help for non-English speakers, and by selecting an appropriate phrase, they can be understood in English.
+      This expands the use of the program to both speech impaired folks along with non-English folks who'd like to communicate in English.
+-->
       <p> </p>
-      <p>Let me know by email if you'd like to know as features are added and I'll keep you in the loop.</p>
-      <p> Enjoy your visit to TommyTalker!</p>
+      <p><%=t '.letusknow' %></p>
+<!-- Let us know by email if you'd like to know as features are added and we'll keep you in the loop. -->
+      <p><%= t '.enjoyvisit' %> TommyTalker!</p>
+
+<!-- Enjoy your visit to -->
     </div> <!-- end zz -->
     </span>
     <%= link_to 'Back', root_path(:anchor => '#' ), id: 'a-bout', class: 'button', redirect_to: :back;%>
