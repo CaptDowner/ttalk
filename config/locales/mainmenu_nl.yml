@@ -4,12 +4,13 @@
 nl:
   visitors:
     index:
-      about:         "over"
+      about:         "Over"
       are:           "Zijn?"
       caniyou:       "Kan?"
       directions:    "Routebeschrijving"
       doyou:         "Heeft u?"
       how:           "Hoe?"
-      i:             "ik"
-      top26:         "Top 26"
+      i:             "Ik"
+      oftenused:     "Vaak"
       wherewhen:     "Wanneer? Waar?"
+      welcometo:     "Welkom bij"

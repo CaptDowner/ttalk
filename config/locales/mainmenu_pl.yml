@@ -4,12 +4,13 @@
 pl:
   visitors:
     index:
-      about:         "o"
+      about:         "O"
       are:           "Czy?"
       caniyou:       "Może?"
       directions:    "Wskazówki"
       doyou:         "Czy?"
       how:           "W jaki sposób?"
-      i:             "ja"
-      top26:         "Top 26"
+      i:             "Ja"
+      oftenused:     "Często stosowane"
       wherewhen:     "Kiedy? Gdzie?"
+      welcometo:     "Zapraszamy do"

@@ -4,12 +4,13 @@
 tr:
   visitors:
     index:
-      about:         "hakkında"
+      about:         "Hakkında"
       are:           "Mısınız?"
       caniyou:       "Can?"
       directions:    "Yol"
       doyou:         "Öyle mi?"
       how:           "Nasıl?"
-      i:             "ben"
-      top26:         "En 26"
+      i:             "Ben"
+      oftenused:     "Sık kullanılan"
       wherewhen:     "Ne Zaman? Nerede?"
+      welcometo:     "Hoşgeldiniz"

@@ -4,12 +4,13 @@
 sv:
   visitors:
     index:
-      about:         "om"
+      about:         "Om"
       are:           "Är?"
       caniyou:       "Kan?"
       directions:    "Avstånd"
       doyou:         "Tycker du?"
       how:           "Hur?"
-      i:             "jag"
-      top26:         "Topp 26"
+      i:             "Jag"
+      oftenused:     "Används ofta"
       wherewhen:     "När? Var?"
+      welcometo:     "Välkommen till"

@@ -4,12 +4,13 @@
 ro:
   visitors:
     index:
-      about:         "despre"
+      about:         "Despre"
       are:           "Sunt?"
       caniyou:       "Poate?"
       directions:    "Direcții"
       doyou:         "Tu?"
       how:           "Cum?"
-      i:             "eu"
-      top26:         "Top 26"
+      i:             "Eu"
+      oftenused:     "Desea folosit"
       wherewhen:     "Când? În cazul în care?"
+      welcometo:     "Добро пожаловать"

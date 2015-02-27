@@ -4,12 +4,13 @@
 it:
   visitors:
     index:
-      about:         "su"
+      about:         "Su"
       are:           "Sono?"
       caniyou:       "Can?"
       directions:    "Indicazioni"
       doyou:         "Fai?"
       how:           "Come?"
-      i:             "io"
-      top26:         "Top 26"
+      i:             "Io"
+      oftenused:     "Spesso usato"
       wherewhen:     "Quando? Dove?"
+      welcometo:     "Benvenuti a"
