@@ -1,32 +1,32 @@
 ###
-# German categories list
+# German categories
 ###
 category:
-  are_you:        "bist du"
-  can_will_you:   "kannst Du"
-  chat:           "Unterhaltung"
-  directions:     "Anfahrt"
-  do_did_you:     "Sie tun"
+  are_you:        "bist Du"
+  can_will_you:   "kannst Du" ### also "wirst Du"
+  chat:           "Unterhaltung" ### Also "Gespräch"
+  directions:     "Wegbeschreibung" ### more generally "Anweisungen"
+  do_did_you:     "Sie tun" ### not sure what is meant here, is this a phrase or three alternative words?
   excuses:        "Ausflüchte"
   foods:          "Lebensmittel"
-  greetings:      "Sei Gegrüßt"
+  greetings:      "Viele Grüße" ### literally only "Grüße" but when used at the end of a message then it's rather the phrase I used.
   he_she:         "er"
   she:            "sie"
   how:            "wie"
-  i_im_ive:       "iCH A"
+  i_im_ive:       "Ich" ### "I'm" -> "Ich bin", "I've" -> "Ich habe", still not sure what is meant.
   is:             "ist"
   it:             "es"
-  kudos_boos:     "Kudos und Beleidigungen"
-  my_may:         "Meine oder Mai"
-  please:         "Sie Bitte"
+  kudos_boos:     "Lob und Tadel"
+  my_may:         "Meinystemd oder Mai" ### unclear what this is supposed to mean
+  please:         "Bitte"
   q_and_a:        "Fragen und Antworten"
-  ratings:        "Bewertungen"
+  ratings:        "Bewertungen" ### or "Beurteilungen" depending on context
   sports:         "Sport"
-  tech:           "Tech"
-  thats:          "Das ist,"
-  this_there:     "Diese oder gibt"
+  tech:           "Technik"
+  thats:          "Das ist"
+  this_there:     "Dieses dort" ### That does not seem to make much sense.  What is meant?
   top_50:         "Top 50"
   travel:         "Reise"
   weather:        "Wetter"
-  what:           "Ach Was"
-  you:            "Sie"
+  what:           "Ach Was" ### lots of options depending on context
+  you:            "Sie" ### also "Du" depending on the context and personal relationship
