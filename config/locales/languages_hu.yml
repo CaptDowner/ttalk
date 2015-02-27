@@ -3,14 +3,13 @@
 ###
 language:
   ar:      "arab"
-  cs:      "bosnyák"
-  cz:      "horvát"
+  cs:      "cseh"
   de:      "német"
-  el:      "cseh"
+  el:      "görög"
   en:      "angol"
   es:      "spanyol"
   fr:      "francia"
-  hr:      "görög"
+  hr:      "horvát"
   hu:      "magyar"
   it:      "olasz"
   ja:      "japán"

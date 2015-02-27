@@ -3,14 +3,13 @@
 ###
 language:
   ar:    "Arabic"
-  cs:    "Bosnian"
-  cz:    "Croatian"
+  cs:    "Czech"
   de:    "German"
-  el:    "Czech"
+  el:    "Greek"
   en:    "English"
   es:    "Spanish"
   fr:    "French"
-  hr:    "Greek"
+  hr:    "Croatian"
   hu:    "Hungarian"
   it:    "Italian"
   ja:    "Japanese"
