@@ -15,13 +15,13 @@ $(document).ready(function(){
   <a href='#'></a>
   <br/>
   <div id='topper'>
-    <h2>Welcome to Tommy Talker</h2>
+    <h2><%=t '.welcometo' %> Tommy Talker</h2>
   </div>
   </div> <!-- end white -->
   <div class='container'>
     <table id='mbuttons'>
       <tr>
-        <td><a href="./top26" class="button"><%=t '.top26' %></a></td>
+        <td><a href="./oftenused" class="button"><%=t '.oftenused' %></a></td>
         <td><a href="./are" class="button"><%=t '.are' %></a></td>
         <td><a href="./do-you" class="button"><%=t '.doyou' %></a></td>
         <td><a href="./how" class="button"><%=t '.how' %></a></td>
@@ -37,6 +37,8 @@ $(document).ready(function(){
     <div id='copyright1'>
       <p>Copyright 2015, <a id='mmode'; href='https://maintenancemode.com';>Maintenance Mode</a>. All rights reserved.</p>
     </div>
+    <!--    <p>I18n.locale = < %= I18n.locale % ></p> -->
+
   </div> <!-- end container -->
 </body>
 </html>
