@@ -1,0 +1,12 @@
+###
+# Messages for TommyTalker in Czech
+###
+cs:
+  pages:
+    about:
+      tt_is_a:      "je program, který může mluvit za vás. Někteří lidé mají problémy mluvit. Ať už dočasné nebo trvalé, TommyTalker pomáhá tím, že umožňuje vybrat frázi, kterou chcete říct, a TommyTalker mluví za vás."
+      donttype:     "Nemusíte psát vůbec. Stačí kliknout nebo se dotýkat frázi, a to věta, která mluví. Návrhy na rysy, slov a frází mohou být e-mailem na adresu:"
+      supportfor:   "Přidali jsme podporu pro 26 jazyků. Text může být prezentována ve všech z nich, a když jsou vybrány odkazy, které se hovoří v angličtině. To může být velká pomoc pro non-anglické reproduktory, a výběrem vhodného fráze, které lze chápat v angličtině. To rozšiřuje použití programu na obě vadou řeči lidí spolu s non-anglické lidi, kteří by chtěli komunikovat v angličtině. To rozšiřuje použití programu na obě vadou řeči lidí spolu s non-anglické lidi, kteří by chtěli komunikovat v angličtině."
+      letusknow:    "Dejte nám vědět e-mailem, pokud chcete vědět, jak se přidané funkce, a my vás budeme průběžně informuje."
+      enjoyvisit:   "Užijte si návštěvu"
+      about:        "O"

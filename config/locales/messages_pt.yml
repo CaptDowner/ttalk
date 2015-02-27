@@ -1,0 +1,12 @@
+###
+# Messages for TommyTalker in Portuguese
+###
+pt:
+  pages:
+    about:
+      tt_is_a:      "é um programa que pode falar para você. Algumas pessoas têm problemas de fala. Temporária ou permanente, TommyTalker ajuda, permitindo que você selecione uma frase que você gostaria de dizer e TommyTalker fala isso por você."
+      donttype:     "Você não precisa digitar nada. Basta clicar ou tocar uma frase, e essa frase é falada. Sugestões para recursos, palavras e frases podem ser enviadas para:"
+      supportfor:   "Nós adicionamos suporte para 26 idiomas. O texto pode ser apresentado em todos eles, e quando as ligações são selecionados, eles são falados em Inglês. Esta pode ser uma grande ajuda para quem não fala inglês, e escolhendo uma frase apropriada, que pode ser entendida em Inglês. Isso amplia o uso do programa para ambos os povos de fala prejudicada, juntamente com pessoas não-ingleses que gostaria de se comunicar em Inglês. Isso amplia o uso do programa para ambos os povos de fala prejudicada, juntamente com pessoas não-ingleses que gostaria de se comunicar em Inglês."
+      letusknow:    "Deixe-nos saber por e-mail, se você gostaria de saber como recursos são adicionados e vamos mantê-lo informado."
+      enjoyvisit:   "Aproveite a sua visita ao"
+      about:        "Sobre"

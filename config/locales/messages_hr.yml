@@ -1,0 +1,12 @@
+###
+# Messages for TommyTalker in Croatian
+###
+hr:
+  pages:
+    about:
+      tt_is_a:      "e program koji može govoriti za vas. Neki ljudi imaju problema govori. Bilo privremeno ili trajno, TommyTalker pomaže dopuštajući vam da odaberete frazu koju želite reći i TommyTalker govori za vas."
+      donttype:     "Ne morate se upisati na sve. Samo kliknite ili dodirnite izraz, a taj izraz je govorio. Prijedlozi za značajke, riječi i fraza može biti poslana na:"
+      supportfor:   "Dodali smo podršku za 26 jezika. Tekst može biti predstavljen u sve njih, i kad su izabrani linkovi, oni su govorili na engleskom jeziku. To može biti velika pomoć za ne-engleskog govornika, te odabirom odgovarajuće izraz, mogu se razumjeti na engleskom jeziku. To proširuje korištenje programa na obje poteškoćama u govoru ljudi, uz non-engleskog ljudi koji su željeli komunicirati na engleskom jeziku. To proširuje korištenje programa na obje poteškoćama u govoru ljudi, uz non-engleskog ljudi koji su željeli komunicirati na engleskom jeziku."
+      letusknow:    "Javite nam e-mail ako želite znati što su značajke dodano, a mi ćemo vas obavijestili."
+      enjoyvisit:   "Uživajte u posjet"
+      about:        "O"

@@ -1,0 +1,12 @@
+###
+# Messages for TommyTalker in English
+###
+en:
+  pages:
+    about:
+      tt_is_a:      "is a program that can speak for you. Some people have problems speaking. Whether temporary or permanent, TommyTalker helps by allowing you to select a phrase that you wish to say and TommyTalker speaks it for you."
+      donttype:     "You don't have to type at all. Just click or touch a phrase, and that phrase is spoken. Suggestions for features, words, and phrases to added can be emailed to: :"
+      supportfor:   "We've added support for 26 languages. The text can be presented in all of them, and when links are selected, they are spoken in English. This can be a big help for non-English speakers, and by selecting an appropriate phrase, they can be understood in English. This expands the use of the program to both speech impaired folks along with non-English folks who'd like to communicate in English. This expands the use of the program to both speech impaired folks along with non-English folks who'd like to communicate in English."
+      letusknow:    "Let us know by email if you'd like to know as features are added and we'll keep you in the loop."
+      enjoyvisit:   "Enjoy your visit to "
+      about:        "about"

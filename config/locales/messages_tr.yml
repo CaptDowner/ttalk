@@ -1,0 +1,12 @@
+###
+# Messages for TommyTalker in Turkish
+###
+tr:
+  pages:
+    about:
+      tt_is_a:      "Sizin için konuşabilir bir programdır. Bazı insanlar problemler konuşan var. Geçici veya kalıcı olsun, TommyTalker size söylemek istediğiniz ve TommyTalker sizin için konuşan bir ifade seçmek için izin vererek yardımcı olur."
+      donttype:     "Sen hiç yazmak zorunda değilsiniz. Sadece tıklayın veya bir ifade dokunun ve bu ifade konuşulmaktadır. Özellikleri, sözcük ve ifadeler için Öneriler e-postayla olabilir:"
+      supportfor:   "Biz 26 dil desteği ekledik. Metin hepsi sunulabilir ve linkler seçildiğinde, bunlar İngilizce konuşulur. Bu olmayan İngilizce konuşanlar için büyük bir yardım olabilir, ve uygun bir ifade seçerek, onlar İngilizce olarak anlaşılabilir. Bu İngilizce iletişim istiyorum İngilizce olmayan millet ile birlikte hem konuşma engelli millet programın kullanımını genişletiyor. Bu İngilizce iletişim istiyorum İngilizce olmayan millet ile birlikte hem konuşma engelli millet programın kullanımını genişletiyor."
+      letusknow:    "Eğer özellikler eklendikçe bilmek istiyorsanız bize e-posta ile bildirin ve biz haberdar devam edeceğiz."
+      enjoyvisit:   "Ziyaretinizi Enjoy"
+      about:        "Hakkında"

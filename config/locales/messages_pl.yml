@@ -1,0 +1,12 @@
+###
+# Messages for TommyTalker in Polish
+###
+pl:
+  pages:
+    about:
+      tt_is_a:      "to program, który może mówić do ciebie. Niektórzy ludzie mają problemy mówiąc. Czy tymczasowe lub stałe, TommyTalker pomaga, pozwalając, aby wybrać frazę, którą chcesz powiedzieć i TommyTalker przemawia to za Ciebie."
+      donttype:     "Nie musisz się w ogóle pisać. Po prostu kliknij lub dotknij frazę, i że zdanie mówi. Sugestie dotyczące cech, słów i zwrotów można przesyłać pocztą elektroniczną do:"
+      supportfor:   "Dodaliśmy wsparcie dla 26 języków. Tekst może być przedstawiony w każdym z nich, a po wybraniu linki, są wypowiedziane w języku angielskim. To może być bardzo pomocne dla nieznających angielskiego i wybierając odpowiednią frazę, mogą być one rozumiane w języku angielskim. To rozszerza wykorzystanie programu do obu mowy zaburzenia ludzi wraz z nieanglojęzycznych ludzi, którzy chcieliby, aby komunikować się w języku angielskim. To rozszerza wykorzystanie programu do obu mowy zaburzenia ludzi wraz z nieanglojęzycznych ludzi, którzy chcieliby, aby komunikować się w języku angielskim."
+      letusknow:    "Daj nam znać przez e-mail, jeśli chcesz wiedzieć, jak funkcje są dodawane i będziemy Cię informować na bieżąco."
+      enjoyvisit:   "Zapraszamy na wizytę"
+      about:        "O"

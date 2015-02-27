@@ -1,0 +1,12 @@
+###
+# Messages for TommyTalker in Vietnamese
+###
+vi:
+  pages:
+    about:
+      tt_is_a:      "là một chương trình mà có thể nói cho bạn. Một số người có vấn đề nói. Cho dù tạm thời hoặc vĩnh viễn, TommyTalker giúp bằng cách cho phép bạn chọn một cụm từ mà bạn muốn nói và TommyTalker nói điều đó cho bạn."
+      donttype:     "Bạn không cần phải gõ cả. Chỉ cần nhấp chuột hoặc chạm vào một cụm từ, và cụm từ được nói. Gợi ý cho các tính năng, từ, và cụm từ có thể được gửi qua email cho:"
+      supportfor:   "Chúng tôi đã thêm hỗ trợ cho 26 ngôn ngữ. Các văn bản có thể được trình bày trong tất cả chúng, và khi liên kết được lựa chọn, họ được nói bằng tiếng Anh. Đây có thể là một trợ giúp lớn cho những người không nói tiếng Anh, và bằng cách chọn một cụm từ thích hợp, chúng có thể được hiểu bằng tiếng Anh. Điều này mở rộng việc sử dụng các chương trình cho cả hai folks khiếm cùng với folks không phải tiếng Anh người muốn giao tiếp bằng tiếng Anh. Điều này mở rộng việc sử dụng các chương trình cho cả hai folks khiếm cùng với folks không phải tiếng Anh người muốn giao tiếp bằng tiếng Anh."
+      letusknow:    "Hãy cho chúng tôi biết bằng cách email nếu bạn muốn biết là tính năng được thêm vào và chúng tôi sẽ giữ cho bạn thông báo."
+      enjoyvisit:   "Tận hưởng chuyến đi của bạn"
+      about:        "Về"

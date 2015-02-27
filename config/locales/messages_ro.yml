@@ -1,0 +1,12 @@
+###
+# Messages for TommyTalker in Romanian
+###
+ro:
+  pages:
+    about:
+      tt_is_a:      "este un program care poate vorbi pentru tine. Unii oameni au probleme vorbind. Fie temporar sau permanent, TommyTalker ajută, permițându-vă să selectați o fraza pe care doriți să spui și TommyTalker vorbește pentru tine."
+      donttype:     "Nu trebuie să tastați deloc. Doar faceți clic sau atingeți o frază, iar acea frază este vorbită. Sugestii pentru caracteristici, cuvinte, fraze și pot fi trimise prin email la:"
+      supportfor:   "Am adăugat suport pentru 26 de limbi. Textul poate fi prezentat în toate, și atunci când sunt selectate link-uri, acestea sunt vorbite în limba engleză. Acest lucru poate fi un mare ajutor pentru non-vorbitori de limba engleză, precum și prin selectarea o frază caz, ele pot fi înțelese în limba engleză. Aceasta extinde utilizarea programului pentru ambele vorbire oameni, împreună cu oamenii non-engleză pe care ar dori să comunice în limba engleză. Aceasta extinde utilizarea programului pentru ambele vorbire oameni, împreună cu oamenii non-engleză pe care ar dori să comunice în limba engleză."
+      letusknow:    "Să ne anunțați prin e-mail dacă doriți să știți cum se adaugă elemente și vă vom ține la curent."
+      enjoyvisit:   "Bucurați-vă de vizita dumneavoastră la"
+      about:        "Despre"

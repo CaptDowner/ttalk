@@ -1,0 +1,12 @@
+###
+# Messages for TommyTalker in Lithuanian
+###
+lt:
+  pages:
+    about:
+      tt_is_a:      "yra programa, kuri gali kalbėti už jus. Kai kurie žmonės turi problemų kalbėti. Nesvarbu, ar laikinai arba visam laikui, TommyTalker padeda leidžiant pasirinkti frazę, kurią norite pasakyti ir TommyTalker kalbantį tai už jus."
+      donttype:     "Jūs neturite įvesti ne visi. Tiesiog spustelėkite ir nelieskite frazę, o frazė kalbėjau. Pasiūlymai funkcijų, žodžius ir frazes gali būti išsiųsta į:"
+      supportfor:   "Mes pridėjome paramą 26 kalbomis. Tekstas gali būti pateikiamas visų jų, ir kai nuorodos atrenkami, jie kalbėjo angliškai. Tai gali būti didelė pagalba ne anglų kalba, ir pasirenkant tinkamą frazę, jie gali būti suprantama anglų kalba. Tai išplečia programos naudojimą į abi sutrikusi kalbos žmonių, kartu su ne anglų žmonės, kurie norėtumėte bendrauti anglų kalba. Tai išplečia programos naudojimą į abi sutrikusi kalbos žmonių, kartu su ne anglų žmonės, kurie norėtumėte bendrauti anglų kalba."
+      letusknow:    "Leiskite mums žinoti, paštu, jei norite sužinoti, kaip funkcijų pridėta, ir mes jus informuoti."
+      enjoyvisit:   "Mėgaukitės savo vizitą į"
+      about:        "Apie"

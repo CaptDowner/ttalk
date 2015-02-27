@@ -1,0 +1,12 @@
+###
+# Messages for TommyTalker in Swedish
+###
+sv:
+  pages:
+    about:
+      tt_is_a:      "är ett program som kan tala för dig. Vissa människor har problem att tala. Vare tillfälligt eller permanent, TommyTalker hjälper genom att låta dig välja en fras som du vill säga och TommyTalker talar det för dig."
+      donttype:     "Du behöver inte skriva alls. Bara klicka eller röra en fras, och att frasen talas. Förslag på funktioner, ord och fraser kan mailas till:"
+      supportfor:   "Vi har lagt till stöd för 26 språk. Texten kan presenteras i dem alla, och när länkarna är utvalda, de talas i engelska. Detta kan vara en stor hjälp för icke-engelsktalande, och genom att välja en lämplig fras, kan de förstås på engelska. Detta utökar användningen av programmet till båda talsvårigheter folks tillsammans med icke-engelska folk som skulle vilja att kommunicera på engelska. Detta utökar användningen av programmet till båda talsvårigheter folks tillsammans med icke-engelska folk som skulle vilja att kommunicera på engelska."
+      letusknow:    "Låt oss veta via e-post om du vill veta så funktioner läggs och vi kommer att hålla er informerade."
+      enjoyvisit:   "Njut av ditt besök"
+      about:        "Om"

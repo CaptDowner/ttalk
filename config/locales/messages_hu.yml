@@ -1,0 +1,12 @@
+###
+# Messages for TommyTalker in Hungarian
+###
+hu:
+  pages:
+    about:
+      tt_is_a:      "egy olyan program, amely képes beszélni az Ön számára. Vannak, akik a problémákat beszél. Ideiglenes vagy állandó, TommyTalker segíti, lehetővé téve, hogy kiválassza azt a kifejezést, amit szeretnék mondani, és TommyTalker beszél az Ön számára."
+      donttype:     "Nem kell, hogy írja egyáltalán. Csak kattintson, vagy érintse meg a kifejezést, és ezt a kifejezést beszélik. Javaslatok a funkciók, szavak és mondatok lehet e-mailben:"
+      supportfor:   "Már hozzá és 26 nyelven. A szöveg lehet bemutatni mindegyiket, és amikor linkek választ ki, akkor beszélnek angolul. Ez lehet nagy segítség a nem angol anyanyelvű, és kiválasztja a megfelelő kifejezést, úgy is lehet érteni angolul. Ez megnöveli a használata a program mind beszéd felület emberek együtt nem angol emberek, akik szeretnék, hogy kommunikálni angolul. Ez megnöveli a használata a program mind beszéd felület emberek együtt nem angol emberek, akik szeretnék, hogy kommunikálni angolul."
+      letusknow:    "Tudassa velünk e-mailben, ha szeretné tudni, mint funkciókkal egészül ki, és mi folyamatosan tájékoztatjuk."
+      enjoyvisit:   "Élvezze a látogatás"
+      about:        "Körülbelül"
