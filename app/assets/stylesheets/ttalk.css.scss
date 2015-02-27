@@ -44,12 +44,10 @@ ul.li {
   font-weight: 400;
 }
 .navbar-header a.navbar-brand:hover {
-//  color: #ffff00;
   color: gold;
   font-weight: 900;
 }
 .navbar-nav.nav.ul.li  a:hover{
-//  color: #ffff00;
     color: gold;
 }
 @font-face {
@@ -517,6 +515,7 @@ nav ul li {
 }
 .dropdown-toggle a:hover{
   color: gold;
+  background-color: #004060;
 }
 nav ul li:hover {
   color: gold;
@@ -565,4 +564,8 @@ ul.dropdown-menu li, ul.dropdown-menu a {
 ul.dropdown-menu a:hover {
   color: black;
   background-color: #004060;
+}
+
+ul.dropdown-menu a:hover{
+  background-color: #004160;
 }
