@@ -8,28 +8,14 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
     <style type='text/css'>
-    <% if I18n.locale == :zh %>
-      div.main { background-color: #00008B; }
-      body { background-color: #00008B; }
-      div#white { background-color: #00008B;}
-      div#zz { background-color: #00008B;}
-      div.daddy { background-color: #00008B; }
-    <% end %>
+    // Change alignment for Arabic language
+    // which reads from right to left
     <% if I18n.locale == :ar %>
-      table.talker {
-       width: 50em;
-       margin-right: 0.15em;
-       margin-left: -14em;
-       text-align: left;
-     }
-     table.talker th{ text-align: right; margin-left: 4em; }
-     table.talker td{
-       font-family: Arial;
-       font-size: 1em;
-       text-align: right;
-       margin: 0;
-     }
+      table.talker { width: 50em; margin-right: 0.15em; margin-left: -14em; text-align: left; }
+      table.talker th{ text-align: right; margin-left: 4em; }
+      table.talker td{ font-family: Arial; font-size: 1em; text-align: right;  margin: 0; }
     <% end %>
+
     </style>
 
   </head>
@@ -43,7 +29,3 @@
 
    </div>  </body>
 </html>
-
-
-<!--      <main role='main'>  -->
-<!--    </main>   end main1 -->
