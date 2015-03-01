@@ -21,9 +21,10 @@ div#white a{
   font-weight: bold;
 }
 div.main {
-//  background-color: green;
   background-color: #000088;
-  width: 100%;
+// width: 100%;
+//  trying 300em for width
+  width: 300em;
   height: 160em;
 }
 ul.nav.navbar-nav a:hover {
@@ -35,7 +36,7 @@ ul.nav.navbar-nav a:hover {
 //  color:#ffff00;
   color: gold;
 }
-ul.li {
+l.li {
   margin: 0 0 0 0;
 }
 .navbar-header a:navbar-brand {
@@ -61,15 +62,12 @@ ul.li {
 } 
 
 body {
-  width: 100%;
+//  width: 100%;
   height: 100%;
   margin-top: 200px;
   margin-left:2.5em; 
   background-color: #000088;
   color: white;
-//  background: #666;
-//  background: green;
-//  background-color: green;
 }
 
 .button {
@@ -214,7 +212,7 @@ table.talker th {
 }
 div#topper{
   padding-top: 0;
-  margin-top: -.25em;
+  margin-top: 1.5em;
   margin-bottom: -1em;
 }
 div#topper-ab{
@@ -322,7 +320,7 @@ div#about {
 
 h3{
   color: #ffff00;
-  margin-left: 11em;
+  margin-left: -44em;
   margin-bottom: -0.35em;
   font-family: sans-serif;
   font-weight:bold;
@@ -346,8 +344,9 @@ a#a-bout {
 }
 
 a#a-bout.button {
+//  position: absolute;
   margin-left: 18.25em;
-  margin-top:0.75em;
+  margin-top: 0.75em;
 }
 
 a#a-bout.button:hover {
@@ -450,7 +449,7 @@ div#zz h2{
 }
 
 div#copyright1 {
-  margin-top: 1.25em;
+  margin-top: 400em;
   margin-left: 3em;
 }
 
@@ -498,11 +497,6 @@ div.daddy {
   margin-bottom: 4em;
   height: 99em;
 }
-/*
-body {
-  background-color: green;
-}
-*/
 nav ul ul {
   display: none;
 }
@@ -573,4 +567,57 @@ ul.dropdown-menu a:hover {
   background-color: #004060;
 }
 
+div.authform{
+  margin-left: 6em;
+  height: 100%;
+}
+
+div.authform h3{
+  margin-top: -0.5em;
+  margin-left: 3.5em;
+}
+
+div.authform .right {
+  margin-right: 3.5em;
+}
+
+input.button.right {
+  margin-top: 0em;
+}
+
+div.checkbox label{
+  margin-top: -6em;
+}
+
+form.new_user {
+  height: 28em;
+}
+
+form.new_user.signup  {
+  @extend form.new_user;
+  height: 24em;
+}
+
+div.authform2{
+  margin-left: 6em;
+}
+
+div.authform2 form#new_user.new_user {
+  height: 20em;
+}
+div.authform2 h3{
+  margin-top: -0.5em;
+  margin-left: 3.5em;
+}
+
+div.authform2 .right {
+  margin-right: 3.5em;
+}
+div.authform2 form#new_user.new_user {
+  width: 22em;
+}
+
+form#new_user.new_user input.button.right{
+  margin-left: 3.25em;
+}
 
