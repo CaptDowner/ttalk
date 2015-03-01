@@ -1,3 +1,9 @@
+translation to Czech, email mlcek:
+http://mvlcek.bplaced.net
+----------------------------------
+
+
+
 A. Spend some time on rspec testing and test
 setups.
 
