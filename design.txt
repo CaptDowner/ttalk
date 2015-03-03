@@ -2,14 +2,35 @@ translation to Czech, email mlcek:
 http://mvlcek.bplaced.net
 ----------------------------------
 
+1. US_Idioms contain many phrases that can be used in multiple 
+scenarios. The beginning of each phrase might be I|He|She|We|They.
+So, either we record each pronoun indificually and combine them 
+on the fly for mp3 output or we record them 5 times, each using a 
+different context.
 
+  a. If we record each pronoun and combine the mp3 data at run time 
+     there would be more computational load on the server
 
-A. Spend some time on rspec testing and test
+     wheras
+
+  b. If we records multiple versions, there will be more storage 
+     required, but no extra compoutational load on the server as 
+     it would simply play one of the 5 mp3 files.
+
+     "( I | You | He | She | They | It ) think|thinks that 'Buffalo Soldiers' is a great song."
+
+  c. File selection could be set to each of the pronouns, which 
+     would speak a different file depending on which pronoun was selected.
+
+Conclusion: since storage is not an issue at this time, we'll opt for 
+the extra files and endure the audio file storage.
+
+A. DONE: Spend some time on rspec functional testing and test
 setups.
 
-B. Decide on how to implement locale.
+B. DONE: Decide on how to implement locale.
 
-C. Setup come categories and how to use the 
+C. DONE: Setup come categories and how to use the 
    foreign keys to populate/access phrases by 
    tag category(ies).
 
