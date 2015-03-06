@@ -40,6 +40,22 @@ D. setup a skeleton of a page that loads phrases
 E: If not in db, where to put global accessible arrays, hashes for things like
    categories list, languages list, voices list in YAML files?
 
+Categories
+
+ 0 - All (default category)
+ 1 - Frequent
+ 2 - Q_and_A
+ 3 - Chat
+ 4 - Food
+ 5 - Health
+ 6 - Kudos_Boos
+ 7 - Weather
+ 8 - Sports
+ 9 - Travel
+10 - Wants_Needs
+
+more can be added later
+
 Potential categories might include:
 
 are_you
