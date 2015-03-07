@@ -30,7 +30,17 @@ $(document).ready(function(){
         <td><a href="./wwwww" class="button"><%=t '.wherewhen' %></a></td>
       </tr>
     </table>
-    <a href='about.html' id='a-bout' class="button";><%=t '.about' %></a>
+  <div class="actions2">
+    <table>
+      <tr>
+        <td><%= link_to 'About', about_path, :class => 'button' %></td>
+        <% if true %> <!-- current_user_admin? --> 
+          <td><%= link_to 'Phrases', phrases_path, class: 'button' %></td>
+          <td><%= link_to 'Users', users_path, class: 'button' %></td>
+        <% end %>
+      </tr>
+    </table>
+  </div>
     <div id='copyright1'>
       <p>Copyright 2015, <a id='mmode'; href='https://maintenancemode.com';>Maintenance Mode</a>. All rights reserved.</p>
     </div>
