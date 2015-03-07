@@ -1,0 +1,93 @@
+<style type='text/css'>
+
+.button {
+  width: 8em;
+
+}
+input#phrase_language_id {
+  width: 3.5em;
+}
+
+table.edit-phrase {
+  border: 1px solid black;
+//  table-layout: fixed;
+  width: 600px;
+  margin-left: 5.75em;
+  margin-top: -0.5em;
+}
+table.edit-phrase th, table.edit-phrase td.label {
+  color: gold;
+  font-size: 1.05em;
+  font-weight: 900;
+  text-align: left;
+  margin-left: -0.75em;
+  margin-right: 5em;
+}
+
+table.edit-phrase td {
+  border: 1px solid black;
+  color: #000;
+  width: 36em;
+}
+input#phrase_key, input#phrase_audio_file {
+  width: 40.75em;
+}
+
+div.actions {
+  margin-top: 1em;
+  margin-left: 5.75em;
+}
+</style>
+<div id='topper2'>
+  <h2>Edit Phrase in <%= l = Language.where(id: 10).first.name %></h2>
+</div>
+<%= form_for(@phrase) do |f| %>
+  <% if @phrase.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@phrase.errors.count, "error") %> prohibited this phrase from being saved:</h2>
+      <ul>
+      <% @phrase.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <fieldset>
+    <table class='edit-phrase'>
+<!--
+<tr class="required">
+        <td class='label'>< % = f.label :language_id %>: < % = l = Language.where(id: 10).first.name %></td>
+        <td></td>
+      </tr>
+-->
+      <tr class="required">
+        <td class='label'><%= f.label :phrase_text %>:</td>
+        </tr>
+        <tr>
+        <td><%= f.text_area(:phrase_text, :size => "68x2") %> </td>
+      </tr>
+      <tr class="required">
+        <td class='label'><%= f.label :audio_file %>:</td>
+        </tr><tr>
+        <td><%= f.text_field :audio_file %>  </td>
+      </tr>
+      <tr class="required">
+        <td class='label'><%= f.label :key %>:</td>
+        </tr><tr>
+        <td style="width:34em;"><%= f.text_field :key %> </td>
+      </tr>
+    </table>
+  </fieldset>
+  <div class="actions">
+    <table>
+      <tr>
+        <td><%= f.submit 'Update',              :class => 'button' %></td>
+        <td><%= button_to 'Show', @phrase,      :class => 'button' %></td>
+<!--        <td>< % = button 'Back', phrases_path, :class => 'button' %></td> -->
+        <td><%= link_to 'Back', phrases_path, class: 'button' %></td>
+      </tr>
+    </table>
+  </div>
+<% end %>
+
+<!-- < % = render 'form<F2>' % > -->
