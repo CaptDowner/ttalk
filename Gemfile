@@ -9,6 +9,11 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
 gem 'coffee-rails', '~> 4.1.0'
+# added to correct missing_method errors with kaminari
+gem "activeadmin", git: "https://github.com/gregbell/active_admin"
+# add kaminari gem for pagination
+gem 'kaminari', '0.16.3'
+
 # add to support html5 elements
 #gem "rails-boilerplate"
 # Use jquery as the JavaScript library
@@ -32,8 +37,8 @@ group :development, :test do
   gem 'byebug'
   # Spring speeds up development by keeping 
   # your application running in the background
-  gem 'spring'
-  gem 'spring-commands-rspec'
+#  gem 'spring'
+#  gem 'spring-commands-rspec'
   gem 'gist'
   gem 'pry'
   gem 'pry-byebug'
