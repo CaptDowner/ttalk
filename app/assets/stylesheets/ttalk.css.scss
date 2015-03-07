@@ -25,7 +25,8 @@ div.main {
 // width: 100%;
 //  trying 300em for width
   width: 300em;
-  height: 160em;
+// height: 160em;
+  height: 100%;
 }
 ul.nav.navbar-nav a:hover {
 // color: white;
@@ -70,7 +71,7 @@ body {
   color: white;
 }
 
-.button {
+.button, .button_to {
   width: 12em;
   line-height: 1.3em;
   color: white;
@@ -81,7 +82,8 @@ body {
   display: block;
   text-align: center;
   position: relative;
-  padding: 6px;
+  padding: 4px;
+  margin-right: 0.35em;
   /* BACKGROUND GRADIENTS */
   background: #014464;
   background: -moz-linear-gradient(top, #0D658E, #0C577A 50%, #014D71 51%, #003E5C);
@@ -619,5 +621,60 @@ div.authform2 form#new_user.new_user {
 
 form#new_user.new_user input.button.right{
   margin-left: 3.25em;
+}
+table#allphrases {
+  margin-left: 5.5em;
+  margin-top: -1em;
+}
+
+table#allphrases td{
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+table#allphrases a{
+  color: gold;
+  margin-right: -0.15em;
+  margin-left: -0.15em;
+}
+table#allphrases th{
+  color: gold;
+  padding-left: 0.5em;
+}
+table#allphrases a:hover{
+  font-weight: 900;
+  margin-left: -0.15em;
+  margin-right: -0.15em;
+  text-decoration: none;
+}
+div#topper2 h2{
+  font-family: Courier New;
+  width: 22em; 
+  font-weight: bold;
+  font-size: 1.75em;
+  text-align: left;
+  line-height: 2em;
+  color: gold;
+  margin-top: 1em;
+  margin-left: 3.25em;
+  margin-bottom: 0.25em;
+}
+div.pnation{
+  margin-left: 22em;
+}
+
+div.pnation td{
+  line-height: 0.25em;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+div.pnation a{
+  color: gold;
+}
+
+div.pnation a:hover{
+  font-weight: 900;
+  color: gold;
+  text-decoration: none;
 }
 
