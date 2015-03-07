@@ -1,2 +1,47 @@
-<h1>Phrases#show</h1>
-<p>Find me in app/views/phrases/show.html.erb</p>
+<div id='topper2'>
+  <h2><%= l = Language.where(id: 10).first.name %> Phrase</h2>
+</div>
+<%= form_for(@phrase) do |f| %>
+  <% if @phrase.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@phrase.errors.count, "error") %> prohibited this phrase from being saved:</h2>
+      <ul>
+      <% @phrase.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <fieldset>
+    <table class='show-phrase'>
+      <tr class="required">
+        <td class='show-label'><%= f.label :id %>:</td>
+        <td style="width: 34em;"><%= @phrase.id %></td>
+      </tr>
+      <tr class="required">
+        <td class='show-label'><%= f.label :phrase_text %>:</td>
+        <td style="width: 34em;"><%= @phrase.phrase_text %></td>
+      </tr>
+      <tr class="required">
+        <td class='show-label'><%= f.label :audio_file %>:</td>
+        <td><%= @phrase.audio_file %></td>
+      </tr>
+      <tr class="required">
+        <td class='show-label'><%= f.label :key %>:</td>
+        <td style="width:34em;"><%= @phrase.key %></td>
+      </tr>
+    </table>
+  </fieldset>
+  <div class="actions">
+    <table>
+      <tr>
+        <td><%= link_to 'Edit', edit_phrase_path, :class => 'button' %></td>
+        <td><%= link_to 'Back', phrases_path, class: 'button' %></td>
+        <td><%= link_to 'Home', root_path(:anchor => '#' ), class: 'button', redirect_to: :back;%>
+<!--       <td>< % = button_to 'Home', root_path, :class => 'button' %></td> -->
+      </tr>
+    </table>
+  </div>
+<% end %>
+
+
