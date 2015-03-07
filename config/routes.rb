@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'phrases/edit'
+
+  get 'phrases/show'
+
+  get 'phrases/new'
+
+  get 'phrases/create'
+
   get '/about', to: 'high_voltage/pages#show', id: 'about'
   get '/faq', to: 'high_voltage/pages#show', id: 'faq'
   get '/oftenused', to:  'high_voltage/pages#show', id: 'oftenused'
@@ -12,10 +20,11 @@ Rails.application.routes.draw do
   get '/wwwww', to: 'high_voltage/pages#show', id: 'wwwww'
 
   root to: 'visitors#index'
-
   devise_for :users
+  resources :phrases
   resources :users
   resources :category_phrases
   resources :categories
-
+#  get '/phrases', to: 'phrases#index', id: 'phrases'
+#  root to: 'phrases#index'
 end
