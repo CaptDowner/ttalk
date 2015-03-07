@@ -1,7 +1,7 @@
 class CreatePhrases < ActiveRecord::Migration
   def change
     create_table :phrases do |t|
-      t.string :text
+      t.string :phrase_text
       t.string :audio_file
       t.references :language, index: true
 
