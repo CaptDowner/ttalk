@@ -1,4 +1,8 @@
 class PhrasesController < ApplicationController
+# before_action :require_signin, except: [:index, :show]
+# before_action :require_admin, except: [:index, :show]
+  before_action :set_phrase, only: [:show, :edit, :update, :destroy]
+
   def new
     @phrase=Phrase.new
   end
@@ -44,5 +48,15 @@ class PhrasesController < ApplicationController
     phrase.destroy
     redirect_to phrases_path, :notice => "Phrase deleted."
   end
+  private
 
+private
+
+  def phrase_params
+    params.require(:phrase).permit(:phrase_text, :audio_file, :key, :language_id)
+  end
+
+  def set_phrase
+    @phrase = Phrase.where(slug: params[:id])
+  end
 end
