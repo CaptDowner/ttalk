@@ -18,8 +18,12 @@
         <td><%= phrase.audio_file %></td>
         <td><%= phrase.key %></td>
         <td><%= link_to 'Show', phrase %></td>
-        <td><%= link_to 'Edit', edit_phrase_path(phrase) %></td>
-        <td><%= link_to 'Destroy', phrase, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+<!-- admins only -->
+       <% if false %>
+          <td><%= link_to 'Edit', edit_phrase_path(phrase) %></td>
+          <td><%= link_to 'Destroy', phrase, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <% end %>
+<!-- end admins only -->
       </tr>
       <% end %>
 
