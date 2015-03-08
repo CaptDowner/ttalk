@@ -32,6 +32,8 @@ class PhrasesController < ApplicationController
   end
 
   def update
+#    binding.pry
+    @phrase = Phrase.find(params[:id])
     if @phrase.update(phrase_params)
       redirect_to @phrase, notice: "Phrase successfully updated!"
     else
@@ -57,6 +59,6 @@ private
   end
 
   def set_phrase
-    @phrase = Phrase.where(slug: params[:id])
+    @phrase = Phrase.where(id: params[:id])
   end
 end
