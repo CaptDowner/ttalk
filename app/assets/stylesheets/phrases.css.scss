@@ -1,0 +1,84 @@
+// Place all the styles related to the Phrases controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+html {
+  height: 62em;
+}
+
+body {
+  height: 62em;
+}
+.button {
+  width: 8em;
+}
+input#phrase_language_id {
+  width: 3.5em;
+}
+table.edit-phrase {
+  border: 1px solid black;
+  width: 600px;
+  margin-left: 5.75em;
+  margin-top: -0.5em;
+}
+table.edit-phrase th, table.edit-phrase td.label {
+  color: gold;
+  font-size: 1.05em;
+  font-weight: 900;
+  text-align: left;
+  margin-left: -0.75em;
+  margin-right: 5em;
+}
+table.edit-phrase td {
+  border: 1px solid black;
+  color: #000;
+  width: 36em;
+}
+input#phrase_key, input#phrase_audio_file {
+  width: 36.75em;
+}
+
+div.actions {
+  margin-top: 1em;
+  margin-left: 5.75em;
+}
+div.actions2 {
+  margin-top: 1em;
+  margin-left: 4.75em;
+}
+td.label {
+}
+table.show-phrase {
+  border: 1px solid black;
+  width: 600px;
+  margin-left: 5.75em;
+  margin-top: -0.5em;
+}
+table.show-phrase th, table.show-phrase td.show-label, td.label {
+  color: gold;
+  font-size: 1.05em;
+  font-weight: 900;
+  text-align: left;
+  margin-left: -0.75em;
+  padding-right: 0.25em;;
+  padding-top: 0.35m;
+  vertical-align: bottom;
+}
+td.show-label label{
+  text-align: right;
+  vertical-align: top;
+}
+
+td.label {
+  text-align: right;
+}
+td.label label{
+  text-align: right;
+  color: gold;
+}
+table.show-phrase td{
+  font-size: 1em;
+  padding-bottom: 0;
+  line-height: 1.2em;
+  padding-top: 0.15em;
+  vertical-align: top;
+}
