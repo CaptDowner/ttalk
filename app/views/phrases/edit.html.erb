@@ -23,7 +23,7 @@
       <tr class="required">
         <td class='label'><%= f.label :audio_file %>:</td>
         </tr><tr>
-        <td><%= f.text_field :audio_file %>  </td>
+        <td style="width:34em;"><%= f.text_field :audio_file %>  </td>
       </tr>
       <tr class="required">
         <td class='label'><%= f.label :key %>:</td>
@@ -35,7 +35,7 @@
   <div class="actions">
     <table>
       <tr>
-        <td><%= f.submit 'Update',              :class => 'button' %></td>
+        <td><%= f.submit 'Update', :class => 'button' %></td>
         <td><%= link_to 'Show', @phrase, class: 'button' %></td>
         <td><%= link_to 'Back', phrases_path, class: 'button' %></td>
       </tr>
