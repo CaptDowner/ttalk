@@ -22,6 +22,11 @@ ActiveRecord::Schema.define(version: 20150305160916) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "categories_users", id: false, force: :cascade do |t|
+    t.integer "category_id", null: false
+    t.integer "user_id",     null: false
+  end
+
   create_table "category_phrases", force: :cascade do |t|
     t.integer  "category_id"
     t.integer  "phrase_id"
