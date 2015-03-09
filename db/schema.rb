@@ -40,7 +40,7 @@ ActiveRecord::Schema.define(version: 20150305160916) do
   end
 
   create_table "phrases", force: :cascade do |t|
-    t.string   "text"
+    t.string   "phrase_text"
     t.string   "audio_file"
     t.integer  "language_id"
     t.datetime "created_at",  null: false
