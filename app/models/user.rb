@@ -13,7 +13,8 @@ class User < ActiveRecord::Base
 
   include ::Ownership
 
-  def moderator?
-    false
+  def is_admin?
+    true
   end
+
 end
