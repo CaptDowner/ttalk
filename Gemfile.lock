@@ -329,6 +329,9 @@ GEM
       rubyzip (~> 1.0)
       websocket (~> 1.0)
     shellany (0.0.1)
+    simple_form (3.1.0)
+      actionpack (~> 4.0)
+      activemodel (~> 4.0)
     slop (3.6.0)
     sprockets (2.12.3)
       hike (~> 1.2)
@@ -418,6 +421,7 @@ DEPENDENCIES
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   selenium-webdriver
+  simple_form (~> 3.1.0)
   therubyracer
   thin
   turbolinks

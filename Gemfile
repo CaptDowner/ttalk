@@ -32,7 +32,7 @@ gem 'bootstrap-sass'
 gem 'devise'
 gem 'pundit'
 gem 'high_voltage'
-
+gem 'simple_form', '~> 3.1.0'
 group :development, :test do
   gem 'byebug'
   # Spring speeds up development by keeping 
