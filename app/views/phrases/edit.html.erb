@@ -1,3 +1,41 @@
+<style type='text/css'>
+  #ttmenu {
+    padding:0;
+    margin-left: 5.5em;
+    color:#fff;
+    font-family: arial, helvetica, sans-serif;
+    white-space:nowrap;
+    list-style-type:none;
+  }
+  #ttmenu li {
+    display:inline;
+  }
+  #ttmenu li a{
+    padding:0.2em 1em;
+    background:#fc6;
+    color:#000;
+    text-decoration:none;
+    float:left;
+    border:1px solid #000;
+  }
+  #ttmenu li a:hover{
+    background:#08c;
+    color:#fff;
+  }
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+fieldset { height: 100%;}
+div.main{
+  min-height: 100%;
+}
+
+</style>
 <div id='topper2'>
   <h2>Edit Phrase in <%= l = Language.where(id: 10).first.name %></h2>
 </div>
@@ -30,8 +68,33 @@
         </tr><tr>
         <td style="width:34em;"><%= f.text_field :key %> </td>
       </tr>
-    </table>
+      <tr class="required">
+        <td class='label'><%= f.label "Categories" %>:</td>
+        </tr>
+        <tr>
+          <td style="width:34em;"><%= f.collection_select :id, Category.all, :id, :name, include_blank: false, selected: true %></td>
+        </tr>
+      </table>
+        <ul id='ttmenu'>
+          <%= simple_form_for @phrase do |f| %>
+          <li><%= f.association :categories, as: :check_boxes, collection: Category.all %></li>
+          <% end %>
+        </ul>
+
   </fieldset>
+
+<%#
+        <tr>
+        <td style="width:34em;"><%= f.collection_select :id, Category.all, :id, :name, include_blank: false, selected: true %>
+<%#        </tr>
+        </table>
+      <table>
+        <tr>
+        <td><%= check_box_tag(:categories) %>
+<%#            <%= categories_array.each do |c| { "check_box_tag(#{c.name}, #{c.id})" } %>
+<%#        </td>
+        </tr>
+    </table> %>
   <div class="actions">
     <table>
       <tr>
@@ -44,3 +107,7 @@
 <% end %>
 
 <!-- < % = render 'form' % > -->
+<!--      < % cats = Category.all % > -->
+
+<!--  < % categories_array = Category.all.map { |cat| [cat.name, cat.id] } % > -->
+
