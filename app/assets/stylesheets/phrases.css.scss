@@ -2,11 +2,20 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 html {
-  height: 62em;
+  height: 100%;
 }
 
 body {
-  height: 62em;
+  height: 100%;
+}
+
+fieldset { height: 100%;
+}
+fieldset form#edit_phrase {
+  height: 100em;
+}
+div.main{
+  height: 100%;
 }
 .button {
   width: 8em;
@@ -29,7 +38,7 @@ table.edit-phrase th, table.edit-phrase td.label {
   margin-right: 5em;
 }
 table.edit-phrase td {
-  border: 1px solid black;
+//  border: 1px solid black;
   color: #000;
   width: 36em;
 }

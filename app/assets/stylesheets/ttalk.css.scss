@@ -43,7 +43,26 @@ ul.nav.navbar-nav a:hover {
 l.li {
   margin: 0 0 0 0;
 }
-.navbar-header a:navbar-brand {
+.container{
+    -webkit-box-sizing: content-box;
+    border-bottom: 1px solid;
+    border-color: white;
+    border-width: 100%;
+    margin-left: -5em;
+}
+
+.navbar-fixed-top {
+    -webkit-box-sizing: content-box;
+    border-bottom: 1px solid;
+    border-color: white;
+    border-width: 100%;
+    margin-left: -5em;
+}
+
+div.navbar-header {
+  margin-left:5em;
+}
+.navbar-header navbar-brand {
 }
 // this affects the HOME link only
 .navbar-header a.navbar-brand {
