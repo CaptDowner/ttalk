@@ -8,8 +8,9 @@ class UsersController < ApplicationController
   end
 
   def initialize
-#   @user.mode = :speak  # speak mode
-#   @user.voice = :male  # male voice
+  # save these 2 line for later development
+  #   @user.mode = :speak  # speak mode
+  #   @user.voice = :male  # male voice
   end
   def show
     @user = User.find(params[:id])
@@ -47,7 +48,7 @@ class UsersController < ApplicationController
 
   # Never trust parameters from the scary internet, only allow the white list through.
   def user_params
-    params.require(:user).permit(:user_id, :mode, :voice)
+    params.require(:user).permit(:role)
   end
 
 end
