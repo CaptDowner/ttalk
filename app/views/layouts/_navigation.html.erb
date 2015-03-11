@@ -1,7 +1,26 @@
-<%# navigation styled for Bootstrap 3.0 %>
 <style type='text/css'>
+.container {
+  margin-left: 4em;
+}
+div#topspacer {
+  margin-left:3em;
+  padding-left: 14em;
+  font-size: 2em;
+  width: 3em;
+}
+.navbar-spacer {
+  margin-left:3em;
+  padding-left: 14em;
+  font-size: 2em;
+  width: 33em;
+}
+<%# navigation styled for Bootstrap 3.0 %>
 ul.dropdown-menu a:hover{
   background-color: #004160;
+}
+
+div.spaceee a.navbar-brand {
+  margin-left: 14em;
 }
 </style>
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -13,9 +32,14 @@ ul.dropdown-menu a:hover{
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <%= link_to 'Home', root_path, class: 'navbar-brand' %>
-      <%= render 'layouts/navigation_links' %>
-    </div>
+        <%= link_to '', root_path, class: 'navbar-brand' %>
+        <%= link_to '', root_path, class: 'navbar-brand' %>
+        <%= link_to '', root_path, class: 'navbar-brand' %>
+        <%= link_to '', root_path, class: 'navbar-brand' %>
+        <%= link_to ' ', root_path, class: 'navbar-spacer' %>
+        <%= link_to 'Home', root_path, class: 'navbar-brand' %>
+       <%= render 'layouts/navigation_links' %>
+
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
         <li class="dropdown">
@@ -56,5 +80,6 @@ ul.dropdown-menu a:hover{
         <% end %>  
       </ul>
     </div>
+  </div>
   </div>
 </nav>
