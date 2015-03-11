@@ -74,27 +74,17 @@ div.main{
         <tr>
           <td style="width:34em;"><%= f.collection_select :id, Category.all, :id, :name, include_blank: false, selected: true %></td>
         </tr>
-      </table>
+    </table>
+  </fieldset>
         <ul id='ttmenu'>
           <%= simple_form_for @phrase do |f| %>
-          <li><%= f.association :categories, as: :check_boxes, collection: Category.all %></li>
+          <li><%  cats = (f.association :categories, as: :check_boxes, collection: Category.all) %></li>
+<%#          <li><%= puts 'cats.class = #{cats.class}' % ></li> %>
+<%#          <% binding.pry % > %>
           <% end %>
         </ul>
 
-  </fieldset>
-
-<%#
-        <tr>
-        <td style="width:34em;"><%= f.collection_select :id, Category.all, :id, :name, include_blank: false, selected: true %>
-<%#        </tr>
-        </table>
-      <table>
-        <tr>
-        <td><%= check_box_tag(:categories) %>
-<%#            <%= categories_array.each do |c| { "check_box_tag(#{c.name}, #{c.id})" } %>
-<%#        </td>
-        </tr>
-    </table> %>
+<!--    </table>  -->
   <div class="actions">
     <table>
       <tr>
@@ -110,4 +100,15 @@ div.main{
 <!--      < % cats = Category.all % > -->
 
 <!--  < % categories_array = Category.all.map { |cat| [cat.name, cat.id] } % > -->
+<%#
+        <tr>
+          <td style="width:34em;"><%= f.collection_select :id, Category.all, :id, :name, include_blank: false, selected: true % > %>
+  <%#        </tr>
+        </table>
+      <table>
+        <tr>
+        <td><%= check_box_tag(:categories) % > %>
+<%#            <%= categories_array.each do |c| { "check_box_tag(#{c.name}, #{c.id})" } %>
+<%#        </td>
+        </tr>
 
