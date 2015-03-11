@@ -47,8 +47,8 @@ l.li {
     -webkit-box-sizing: content-box;
     border-bottom: 1px solid;
     border-color: white;
-    border-width: 100%;
-    margin-left: -5em;
+    border-width: 115%;
+    margin-left: -8em;
 }
 
 .navbar-fixed-top {
@@ -56,11 +56,12 @@ l.li {
     border-bottom: 1px solid;
     border-color: white;
     border-width: 100%;
-    margin-left: -5em;
+    margin-left: -7em;
+    padding-left:2em;
 }
 
 div.navbar-header {
-  margin-left:5em;
+  margin-left: 0.5em;
 }
 .navbar-header navbar-brand {
 }
@@ -702,4 +703,6 @@ div.pnation a:hover{
   color: gold;
   text-decoration: none;
 }
-
+div#flash-alert {
+  margin-bottom: 2em;
+}
