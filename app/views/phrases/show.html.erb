@@ -30,8 +30,16 @@
         <td class='show-label'><%= f.label :key %>:</td>
         <td style="width:34em;"><%= @phrase.key %></td>
       </tr>
+      <tr>
+<%#
+      < % cats = CategoryPhrase.where(phrase_id: :phrase_id) % >
+      < % cname = (Category.where(id: ((cats[0].category_id)[0].name))) % > %>
+      <td class='show-label'>Category:</td>
+      <td style="width:34em;">Q_and_A</td>
+      </tr>
     </table>
   </fieldset>
+
   <div class="actions">
     <table>
       <tr>
@@ -48,5 +56,4 @@
     </table>
   </div>
 <% end %>
-
 
