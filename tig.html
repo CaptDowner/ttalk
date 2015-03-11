@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+<head>
+<script>
+  function showhide(myid) {
+    var div = document.getElementById(myid);
+      div.style.display = (div.style.display != 'none' ? 'none' : 'block');
+  };
+</script>
+<link rel="stylesheet" type="text/css" href="./style.css"> 
+<style type='text/css'>
+html, body { height: 100%; background-color: #000088; color: white;}
+table { margin-left: 1em; }
+h1{ font-family:courier;font-size:2em;font-weight: 900;color: gold;margin-bottom: 0.25em;}
+table th{ text-align: left;font-family: Arial; font-size: 1.2em; font-weight: 900; padding-left: 0.5em; padding-right: 0.5em; width: 5em;}
+table td { font-family: Arial; padding-left: 0.25em; padding-right: 0.25em; width: 3em;}
+table td.cmd { width: 1em; vertical-align: top; text-align: left; margin-left: 3em; margin-right:1.2em;}
+table td.cmd b{ text-align: center; width: 3em;}
+table td.cmd2 { width: 10em; vertical-align: top; text-align: left;}
+table td.cmd3 { width: 8em; vertical-align: top; text-align: left;}
+table td.cmd5 { width: 1em; vertical-align: top; text-align: right;}
+table td.action { width: 12em;}
+table td.action3 { width: 14em;}
+table td.bvar { width: 11em;}
+table td.splain { width: 24em;}
+table th.act { width: 5em;}
+table th.key1 { width: 16px; color: gold;}
+table th.key2 { text-align: left width: 4em; color: gold;}
+table th.key3 { text-align: left; width: 4em; color: gold;}
+table th.key4 { text-align: left; width: 7em; color: gold;}
+table th.key5 { text-align: right; width: 3em; color: gold;}
+table th.short1 { width: 2em;}
+table th.long1 { text-align: center; width: 42em;}
+table td.long1 { width: 36em;}
+h4 { font-family: Arial; color: gold; font-size: 1.4em; margin-top: 0.25em; margin-bottom: 0.25em;}
+</style>
+
+</head>
+<body>
+<h1>Tig Commands</h1>
+<div id='kbind'>
+  <span onclick="showhide('kb')"><h4>Keybindings (default)</h4>
+  <div id='kb' style="display: none">
+    <table>
+      <tbody>
+        <tr><th class='key5'>Key</th><th class='key4'>Action</th><th class='key2' colspan='2'>Browsing state variables</th></tr>
+        <tr><td class='cmd5'><b>m</b></td><td class='action'> main view.            </td><td class='bvar'><b>%(head)          </b></td><td class='splain'>viewed head ID/Defaults to HEAD                              </td></tr> 
+        <tr><td class='cmd5'><b>d</b></td><td class='action'> diff view.            </td><td class='bvar'><b>%(commit)        </b></td><td class='splain'>selected commit ID                                           </td></tr>
+        <tr><td class='cmd5'><b>l</b></td><td class='action'> log view.             </td><td class='bvar'><b>%(blob)          </b></td><td class='splain'>selected blob ID                                             </td></tr>
+        <tr><td class='cmd5'><b>p</b></td><td class='action'> pager view.           </td><td class='bvar'><b>%(branch)        </b></td><td class='splain'>selected branch name                                         </td></tr>
+        <tr><td class='cmd5'><b>t</b></td><td class='action'> (directory) tree view.</td><td class='bvar'><b>%(stash)         </b></td><td class='splain'>selected stash name                                          </td></tr>
+        <tr><td class='cmd5'><b>f</b></td><td class='action'> (file) blob view.     </td><td class='bvar'><b>%(directory)     </b></td><td class='splain'>current tree view dir; root dir empty                        </td></tr>
+        <tr><td class='cmd5'><b>g</b></td><td class='action'> grep view.            </td><td class='bvar'><b>%(file)          </b></td><td class='splain'>selected file                                                </td></tr>
+        <tr><td class='cmd5'><b>b</b></td><td class='action'> blame view.           </td><td class='bvar'><b>%(lineno)        </b></td><td class='splain'>selected line number. Defaults to 0                          </td></tr>
+        <tr><td class='cmd5'><b>r</b></td><td class='action'> refs view.            </td><td class='bvar'><b>%(ref)           </b></td><td class='splain'>reference to blame or HEAD if undefined                      </td></tr>
+        <tr><td class='cmd5'><b>y</b></td><td class='action'> stash view.           </td><td class='bvar'><b>%(revargs)       </b></td><td class='splain'>revision arguments passed on command line                    </td></tr>
+        <tr><td class='cmd5'><b>h</b></td><td class='action'> help view             </td><td class='bvar'><b>%(fileargs)      </b></td><td class='splain'>file arguments passed on command line                        </td></tr>
+        <tr><td class='cmd5'><b>s</b></td><td class='action'> status view           </td><td class='bvar'><b>%(cmdlineargs)   </b></td><td class='splain'>All other options passed on the command line                 </td></tr>
+        <tr><td class='cmd5'><b>c</b></td><td class='action'> stage view            </td><td class='bvar'><b>%(diffargs)      </b></td><td class='splain'>diff-options/TIG_DIFF_OPTS used by diff view                 </td></tr>
+        <tr><th class='key1'>Scrolling</th><th></th><td><b>%(blameargs)     </b></td><td>blame-options used by blame view                             </td></tr>
+        <tr><td class='cmd5'><b>Insert </b></td><td class='action'>Scroll one line up     </td><td><b>%(logargs)       </b></td><td>log-options used by log view                                 </td></tr>
+        <tr><td class='cmd5'><b>Delete </b></td><td class='action'>Scroll one line down   </td><td><b>%(mainargs)      </b></td><td>main-options used by main view                               </td></tr>
+        <tr><td class='cmd5'><b>ScrBack</b></td><td class='action'>Scroll one page up     </td><td><b>%(prompt)        </b></td><td>Prompt for the argument value                                </td></tr>
+        <tr><td class='cmd5'><b>ScrFwd </b></td><td class='action'>Scroll one page down   </td><td><b>tig show --pretty=fuller</b></td><td>view commit/show author &amp; committer</td></tr>
+        <tr><td class='cmd5'><b>Left   </b></td><td class='action'>Scroll one column left </td>
+        <tr><td class='cmd5'><b>Right  </b></td><td class='action'>Scroll one column right</td>
+        <tr><td class='cmd5'><b>|      </b></td><td class='action'>Scroll to first column </td>
+      </tbody>
+    </table>
+  </div> <!-- end kb -->
+</div> <!-- end kbind -->
+<div 'views'>
+  <span onclick="showhide('kb2')"><h4>View Commands</h4>
+  <div id='kb2' style="display: none">
+    <table>
+      <tbody>
+        <tr><th class='key2'>Key</th><th class='key2'>Action</th></tr>
+        <tr><td class='cmd5'><b>q      </b></td><td colspan='3' class='long1'>Close view, if more than one view is open: jumps back to previous view. Quits last open view. <b>Q</b> quits all views</td></tr>
+        <tr><td class='cmd5'><b>Enter  </b></td><td colspan='3' class='long1'>Depends on context *log view/main view: splits view and shows commit diff *diff view: scrolls view</td></tr>
+        <tr><td class='cmd5'><b>Tab    </b></td><td colspan='3' class='long1'>Switch to next view</td></tr>
+        <tr><td class='cmd5'><b>R      </b></td><td colspan='3' class='long1'>Reload and refresh the current view</td></tr>
+        <tr><td class='cmd5'><b>O      </b></td><td colspan='3' class='long1'>Maximize the current view to fill the whole display</td></tr>
+        <tr><td class='cmd5'><b>Up     </b></td><td colspan='3' class='long1'>moves cursor up one line. *diff view from the main view: points to previous commit in main view/updates diff view to display it</td></tr>
+        <tr><td class='cmd5'><b>Down   </b></td><td colspan='3' class='long1'>moves cursor down one line</td></tr>
+        <tr><td class='cmd5'><b>,      </b></td><td colspan='3' class='long1'>Move to parent. *tree view: switch to parent dir. *blame view: loads blame for parent commit. For merges the parent is queried</td></tr>
+      </tbody>
+    </table>
+    <table>
+      <tbody>
+        <tr><th class='key2' colspan='3'>View Actions</th></tr>
+        <tr><td class='cmd5'><b>u   </b></td><td class='long1'>Update status of file. In the status view, this allows you to add an untracked file or stage changes to a file for next commit (similar to running git-add <filename>). In the stage view, when pressing this on a diff chunk line stages only that chunk for next commit, when not on a diff chunk line all changes in the displayed diff are staged.  </td></tr>
+        <tr><td class='cmd5'><b>M   </b></td><td class='long1'>Resolve unmerged file by launching git-mergetool(1). Note, to work correctly this might require some initial configuration of your preferred merge tool. See the manpage of git-mergetool(1).                                                                                                                                                           </td></tr>
+        <tr><td class='cmd5'><b>!   </b></td><td class='long1'>Checkout file with unstaged changes. This will reset the file to contain the content it had at last commit.                                                                                                                                                                                                                                             </td></tr>
+        <tr><td class='cmd5'><b>1   </b></td><td class='long1'>Stage single diff line.                                                                                                                                                                                                                                                                                                                                 </td></tr>
+        <tr><td class='cmd5'><b>@   </b></td><td class='long1'>Move to next chunk in the stage view.                                                                                                                                                                                                                                                                                                                   </td></tr>
+        <tr><td class='cmd5'><b>]   </b></td><td class='long1'>Increase the diff context.                                                                                                                                                                                                                                                                                                                              </td></tr>
+        <tr><td class='cmd5'><b>[   </b></td><td class='long1'>Decrease the diff context.                                                                                                                                                                                                                                                                                                                              </td></tr>
+      </tbody>
+    </table>
+  </div> <!-- end kb2 -->
+</div> <!-- end views -->
+<div 'cursor'>
+  <span onclick="showhide('kb3')"><h4>Cursor, Search &amp; Misc</h4>
+  <div id='kb3' style="display: none">
+   <table>
+     <tbody>
+       <tr><th class='key4' colspan='2'>Cursor Navigation</th>                                                           <th class='key3' colspan='3'>Prompt</th></tr>                                                                                                                                                                   
+         <tr><td class='cmd3'><b>k             </b></td><td class='action3'> Move cursor one line up.    </td><td class='cmd2'><b>:&lt;number&gt;       </b></td><td class='long1'>Jump to specific line number, e.g. :80.                                                       </td></tr> 
+         <tr><td class='cmd3'><b>j             </b></td><td class='action3'> Move cursor one line down.  </td><td class='cmd2'><b>:&lt;sha&gt;               </b></td><td class='long1'>Jump to specific commit, e.g. :2f12bcc.                                                         </td></tr>
+         <tr><td class='cmd3'><b>PgUp,-,a      </b></td><td class='action3'> Move cursor one page up.    </td><td class='cmd2'><b>:&lt;x&gt;                 </b></td><td class='long1'>Execute the corresponding key binding, e.g. :q.                                                   </td></tr>
+         <tr><td class='cmd3'><b>PgDown, Space </b></td><td class='action3'> Move cursor one page down.  </td><td class='cmd2'><b>:!&lt;command&gt;          </b></td><td class='long1'>Execute system command in a pager, e.g. :!git log -p.                                           </td></tr>
+         <tr><td class='cmd3'><b>End           </b></td><td class='action3'> Jump to last line.          </td><td class='cmd2'><b>:&lt;action&gt;            </b></td><td class='long1'>Execute Tig command, e.g. :edit.                                                                </td></tr>
+         <tr><td class='cmd3'><b>Home          </b></td><td class='action3'> Jump to first line.         </td><td class='cmd2'><b>:save-display &lt;file&gt; </b></td><td class='long1'>Save current display to &lt;file&gt;                                                                   </td></tr>
+         <tr><td></td><td></td>                                                                                                   <td class='cmd2'><b>:save-options &lt;file&gt; </b></td><td class='long1'>Save current options to &lt;file&gt;                                                                   </td></tr>
+         <tr><td></td><td></td>                                                                                                   <td class='cmd2'><b>:script &lt;file&gt;       </b></td><td class='long1'>Execute commands from   &lt;file&gt;                                                                     </td></tr>
+         <tr><td></td><td></td>                                                                                                  <td class='cmd2'><b>:exec &lt;flags&gt;&lt;args&gt;</b></td><td class='long1'>Execute command using &lt;args&gt; (user-defined command option flags in &lt;flags&gt;</td></tr>
+     </tbody>     
+   </table>       
+    <table>
+      <tbody>
+        <tr><th class='key4' colspan='2'>Search</th></tr>
+          <tr><td class='cmd5'><b>/</b></td><td class='long1'>Search the view (prompts for regexp)      </td></tr>
+          <tr><td class='cmd5'><b>?</b></td><td class='long1'>Search backwards (Also prompts for regexp)</td></tr>
+          <tr><td class='cmd5'><b>n</b></td><td class='long1'>Find next match for current regexp        </td></tr>
+          <tr><td class='cmd5'><b>N</b></td><td class='long1'>Find previous match for current regexp    </td></tr>
+      </tbody>
+    </table>
+
+    <table>
+      <tbody>
+        <tr><th class='key4' colspan='2'>Misc</th></tr>
+        <tr><td class='cmd5'><b>Q          </b></td><td colspan='3' class='long1'>Quit                                                                                                                                </td></tr> 
+        <tr><td class='cmd5'><b>&lt;C-L&gt;</b></td><td colspan='3' class='long1'>Redraw screen                                                                                                                       </td></tr>
+        <tr><td class='cmd5'><b>z          </b></td><td colspan='3' class='long1'>Stop background loading (for using Tig in repo with a long history)</td></tr>
+        <tr><td class='cmd5'><b>v          </b></td><td colspan='3' class='long1'>Show version                                                                                                                        </td></tr>
+        <tr><td class='cmd5'><b>o          </b></td><td colspan='3' class='long1'>Open option menu                                                                                                                     </td></tr>
+        <tr><td class='cmd5'><b>#          </b></td><td colspan='3' class='long1'>Toggle line numbers on/off                                                                                                          </td></tr>
+        <tr><td class='cmd5'><b>D          </b></td><td colspan='3' class='long1'>Toggle date display on/off/short/relative/local                                                                                     </td></tr>
+        <tr><td class='cmd5'><b>A          </b></td><td colspan='3' class='long1'>Toggle author display on/off/abbreviated/email/username                                                                      </td></tr>
+        <tr><td class='cmd5'><b>G          </b></td><td colspan='3' class='long1'>Toggle revision graph visualization on/off                                                                                          </td></tr>
+        <tr><td class='cmd5'><b>~          </b></td><td colspan='3' class='long1'>Toggle (line) graphics mode                                                                                                          </td></tr>
+        <tr><td class='cmd5'><b>F          </b></td><td colspan='3' class='long1'>Toggle reference display on/off (tag and branch names)                                                                              </td></tr>
+        <tr><td class='cmd5'><b>W          </b></td><td colspan='3' class='long1'>Toggle ignoring whitespace on/off for diffs                                                                                          </td></tr>
+        <tr><td class='cmd5'><b>X          </b></td><td colspan='3' class='long1'>Toggle commit ID display on/off                                                                                                      </td></tr>
+        <tr><td class='cmd5'><b>%          </b></td><td colspan='3' class='long1'>Toggle file filtering to see full diff                </td></tr>
+        <tr><td class='cmd5'><b>$          </b></td><td colspan='3' class='long1'>Toggle highlighting of commit title overflow                                                                                        </td></tr>
+        <tr><td class='cmd5'><b>:          </b></td><td colspan='3' class='long1'>Open prompt (allows you to a command to run)                                                                         </td></tr>
+        <tr><td class='cmd5'><b>e          </b></td><td colspan='3' class='long1'>Open file in editor                                                                                                                 </td></tr>
+        <tr><td></td><td></td></tr>
+      </tbody>
+    </table>
+  </div> <!-- end kb3 -->
+</div> <!-- end cursor -->
+<br/><br/>
+</body>
+</html>
+
