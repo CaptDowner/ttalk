@@ -58,3 +58,6 @@ uk:
         many: '%{resource}: не вдалося зберегти через %{count} помилок'
         one: '%{resource}: не вдалося зберегти через %{count} помилку'
         other: '%{resource}: не вдалося зберегти через %{count} помилок'
+  view:
+    pagination:
+      truncate: урізати

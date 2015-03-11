@@ -57,3 +57,6 @@ ro:
         few: '%{count} erori nu au permis %{resource} să fie salvat:'
         one: '1 eroare nu a permis %{resource} să fie salvat:'
         other: '%{count} erori nu au permis %{resource} să fie salvat:'
+  view:
+    pagination:
+      truncate: trunchia

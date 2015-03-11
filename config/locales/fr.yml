@@ -56,3 +56,6 @@ fr:
       not_saved:
         one: 'une erreur a empêché ce (ou cette) %{resource} d’être enregistré(e) :'
         other: '%{count} erreurs ont empêché ce (ou cette) %{resource} d’être enregistré(e) :'
+  views:
+    pagination:
+      truncate: tronquer

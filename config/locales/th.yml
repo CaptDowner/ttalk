@@ -54,3 +54,6 @@ th:
       not_found: ไม่พบ
       not_locked: ไม่ถูกล็อก
       not_saved: '%{count} ผิดพลาด %{resource} นี้ถูกห้ามบันทึก:'
+  view:
+    pagination:
+      truncate: ตัด

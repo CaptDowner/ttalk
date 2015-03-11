@@ -56,3 +56,6 @@ ja:
       not_saved:
         one: 'エラーが発生したため %{resource} は保存されませんでした:'
         other: '%{count} 件のエラーが発生したため %{resource} は保存されませんでした:'
+  views:
+    pagination:
+      truncate: 切り捨てる

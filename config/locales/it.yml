@@ -56,3 +56,6 @@ it:
       not_saved:
         one: 'Non posso salvare questo %{resource}: 1 errore'
         other: 'Non posso salvare questo %{resource}: %{count} errori.'
+  view:
+    pagination:
+      truncate: troncare

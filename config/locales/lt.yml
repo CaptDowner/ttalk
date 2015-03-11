@@ -56,4 +56,7 @@ lt:
       not_saved:
         few: '%{count} klaidos(-ų) neleido išsaugoti %{resource}:'
         one: '1 klaida neleido išsaugoti %{resource}:'
-        other: '%{count} klaidos(-ų) neleido išsaugoti %{resource}:'
+        other: '%{count} klaidos(-ų) neleido išsaugoti %{resource}:'  
+  view:
+    pagination:
+      truncate: trumpinti

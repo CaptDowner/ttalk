@@ -58,3 +58,6 @@ ru:
         many: '%{resource}: сохранение не удалось из-за %{count} ошибок:'
         one: '%{resource}: сохранение не удалось из-за %{count} ошибки:'
         other: '%{resource}: сохранение не удалось из-за %{count} ошибки:'
+  view:
+    pagination:
+      truncate: урезать

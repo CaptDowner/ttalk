@@ -56,3 +56,6 @@ vi:
       not_saved:
         one: '1 lỗi khi lưu %{resource}:'
         other: '%{count} lỗi khi lưu %{resource}:'
+  view:
+    pagination:
+      truncate: cắt bớt
