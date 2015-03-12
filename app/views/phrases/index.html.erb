@@ -6,7 +6,7 @@
   </div>
   <table id='allphrases'>
     <thead>
-      <tr><th>Text</th><th>Audio</th><th>Key</th>
+      <tr><th>Id</th><th>Text</th><th>Audio</th><th>Key</th>
       </tr>
     </thead>
 
@@ -14,6 +14,7 @@
     <% lang = Language.where(:id => 10) %>
     <% @phrases.each do |phrase| %>
       <tr>
+        <td><%= phrase.id %></td>
         <td><%= phrase.phrase_text %></td>
         <td><%= phrase.audio_file %></td>
         <td><%= phrase.key %></td>
