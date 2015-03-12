@@ -1,27 +1,21 @@
-class SessionController < ApplicationController
-  def login
-    user = User.find_by_name_and_password(params[:user], params[:password])
-    if user
+class SessionsController < DeviseController
+  def new
+  end
+
+  def create
+    if user = User.authenticate(params[:email], params[:password])
       session[:user_id] = user.id
-      redirect_to :action => "index"
+      flash[:notice] = "Welcome back, #{user.name}!"
+      redirect_to(session[:intended_url] || user)
+      session[:intended_url] = nil
     else
-      reset_session
-      flash[:note] = "Invalid user name/password"
+      flash.now[:alert] = "Invalid email/password combination!"
+      render :new
     end
   end
 
-  def index
-    @menu = create_menu_for(session[:user_id])
-    @menu.highlight(session[:last_selection]) 
-  end
-
-  def select_item
-    @item = Item.find(params[:id])
-    session[:last_selection] = params[:id]
-  end
-
-  def logout
-    reset_session
+  def destroy
+    session[:user_id] = nil
+    redirect_to root_url, notice: "You're now signed out!"
   end
 end
-
