@@ -20,7 +20,7 @@ following totals:
 
 Note: root dir of project has been changed to /home/sdownie/ttalk
 
-1. Using rails console, how can I execute a query like the following:
+ 1. Using rails console, how can I execute a query like the following:
 
 # I'm trying to update 27 records at a time, 
 # as all 27 language phrases have the same keys
@@ -36,17 +36,25 @@ where key='amipronouncingitcorrectly'
 
 I have done this manually using ruby code, but it's not ideal. How can I run a query like this in the rails console using ActiveRecord?
 
-2. I need to sort out roles and sessions so that they operate correctly.
+If a lookup is done and it returns all CategoryPhrases for a specific category, then that list needs to be
+filtered by language id for selection a subset of the phrase_ids returned.
+
+What would be the (Rails best practices) way to incorporate language id into the query?
+ 
+ 2. I need to sort out roles and sessions so that they operate correctly.
   a. Get admin? working for views that will be admin only.
   b. Possible separation of roles between visitor (not signed in)  and user (signed in). Possibly limit Language choices to signed in users?
 
-3. Change app so that it loads data from the db by language and category. When no category is selected, or a 'Load All' is selected, load all phrases in alpha ASC order. The program currently uses Rails i18m implementation to load phrases and translations from the ../config/locales dir.
+ 3. Change app so that it loads data from the db by language and category. When no category is selected, or a 'Load All' is selected, load all phrases in alpha ASC order. The program currently uses Rails i18m implementation to load phrases and translations from the ../config/locales dir.
 
-4. Change UI to checkboxes for categories, allowing multiple selections for each phrase and write the result to the category_phrases table, as well as updating the phrase table. Users should inly be able to select categoreies; admins can change phrases, keys and audio_files.
+ 4. Change UI to checkboxes for categories, allowing multiple selections for each phrase and write the result to the category_phrases table, as well as updating the phrase table. Users should inly be able to select categoreies; admins can change phrases, keys and audio_files.
 
-5. See why sessions are not routing correctly. Change routes.rb as needed.
+ 5. See why sessions are not routing correctly. Change routes.rb as needed.
 
-6. Create a relationship that can associate user_id with category_phrases, such that each user can categorize their own sets of phrases. (Either create another foreign key relationship or add user_id to the category_phrases table (category_phrases_users ??)
+ 6. Create a relationship that can associate user_id with category_phrases, 
+such that each user can categorize their own sets of phrases. 
+(create another foreign key relationship or add user_id to the 
+category_phrases table (category_phrases_users ??)
 
 If I created indexes on both users_id and category_id, lookups should be faster.
   (I could limit when to rebuild indexes to cut down on db processing)
@@ -54,8 +62,28 @@ If I limit each user to 100 choice per category (currently 10)
 That would be 1000 possible records per user
 1000 records times 1000 users = 1,000,000 total category_phrases_users entries
 
-Q: 
+ 7. Populate main page button names from category names and build pages 
+dynamically, getting a list of phrases from the db based on language and category 
+for each page. Adding a user_id will allow each user to set their own 
+category members, and will be looked up with user_id, category_id and phrase_id.
 
+ 8. At some point, I'll need to consider performance issues. 
+Some of these can be solved by using an in memory database 
+(Redis or other) to store frequently loaded data.
+
+Also, some caching strategies might be employed for frequently loaded pages.
+What's a good solution and when should I need to worry about it?
+
+ UI stuff:
+
+ 9. Do you know how to keep status notification messages and alerts 
+    in a fixed position on the page (not displacing page content)?
+
+10. Do you know a way to fade out on certain types of notification 
+messages (~ 3 seconds)?
+
+11. Horizontal alignment of top navigation menu (not aligned properly)
+-------------------------------------------------------------------
 
 1. US_Idioms contain many phrases that can be used in multiple 
 scenarios. The beginning of each phrase might be I|He|She|We|They.
