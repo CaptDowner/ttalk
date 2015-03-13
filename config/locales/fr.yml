@@ -58,4 +58,9 @@ fr:
         other: '%{count} erreurs ont empêché ce (ou cette) %{resource} d’être enregistré(e) :'
   views:
     pagination:
-      truncate: tronquer
+      first: 'première'
+      next: 'suivant'
+      last: 'dernier'
+
+
+

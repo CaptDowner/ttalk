@@ -56,4 +56,6 @@ ko:
       not_saved: '%{count}개의 오류로  %{resource}가 저장되는 것이 금지 되었습니다.'
   views:
     pagination:
-      truncate: 절단
+      first: '처음으로'
+      next: '다음에'
+      last: '마지막'

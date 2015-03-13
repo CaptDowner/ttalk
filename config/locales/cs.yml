@@ -57,3 +57,11 @@ cs:
         few: '%{resource} nebyl uložen kvůli %{count} chybám:'
         one: '%{resource} nebyl uložen kvůli chybě:'
         other: '%{resource} nebyl uložen kvůli %{count} chybám:'
+  views:
+    pagination:
+      first: 'první'
+      next: 'další'
+      last: 'poslední'
+
+
+

@@ -57,6 +57,8 @@ ro:
         few: '%{count} erori nu au permis %{resource} să fie salvat:'
         one: '1 eroare nu a permis %{resource} să fie salvat:'
         other: '%{count} erori nu au permis %{resource} să fie salvat:'
-  view:
+  views:
     pagination:
-      truncate: trunchia
+      first: 'în primul rând'
+      next: 'următorul'
+      last: 'ultimul'

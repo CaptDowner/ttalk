@@ -60,4 +60,9 @@ hr:
         other: '%{count} grešaka sprečavaju snimanje %{resource}:'
   views:
     pagination:
-      truncate: skratiti
+      first: 'prvo'
+      next: 'sljedeći'
+      last: 'posljednji'
+
+
+

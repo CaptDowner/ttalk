@@ -57,6 +57,8 @@ lt:
         few: '%{count} klaidos(-ų) neleido išsaugoti %{resource}:'
         one: '1 klaida neleido išsaugoti %{resource}:'
         other: '%{count} klaidos(-ų) neleido išsaugoti %{resource}:'  
-  view:
+  views:
     pagination:
-      truncate: trumpinti
+      first: 'pirmas'
+      next: 'kitas'
+      last: 'paskutinis'

@@ -59,4 +59,8 @@ es:
   views:
     pagination:
       truncate: 'truncar'
-
+  views:
+    pagination:
+      first: 'primero'
+      next: 'siguiente'
+      last: 'último'

@@ -58,4 +58,6 @@ ja:
         other: '%{count} 件のエラーが発生したため %{resource} は保存されませんでした:'
   views:
     pagination:
-      truncate: 切り捨てる
+      first: '最初'
+      next: '次'
+      last: '最後'

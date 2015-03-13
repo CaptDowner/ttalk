@@ -56,6 +56,8 @@ hu:
       not_saved:
         one: '1 hiba miatt %{resource} mentése nem lehetséges:'
         other: '%{count} hiba miatt %{resource} mentése nem lehetséges:'
-  view:
+  views:
     pagination:
-      truncate: megcsonkít
+      first: 'első'
+      next: 'következő'
+      last: 'utolsó'
