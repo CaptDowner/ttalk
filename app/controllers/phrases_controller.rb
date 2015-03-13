@@ -1,4 +1,5 @@
 class PhrasesController < ApplicationController
+  include Authenticable
 # before_action :require_signin, except: [:index, :show]
 # before_action :require_admin, except: [:index, :show]
   before_action :set_phrase, only: [:show, :edit, :update, :destroy]
@@ -25,7 +26,8 @@ class PhrasesController < ApplicationController
   end
 
   def create
-   @phrase=  Phrase.create( phrase_params )
+    requires_admin
+    @phrase=  Phrase.create( phrase_params )
    if @phrase.save
      respond_to do |format|
      flash[:notice] = 'Phrase was successfully created.'
@@ -37,11 +39,12 @@ class PhrasesController < ApplicationController
   end
 
   def edit
+    requires_admin
     @phrase = Phrase.find(params[:id])  
   end
 
   def update
-#    binding.pry
+    requires_admin
     @phrase = Phrase.find(params[:id])
     if @phrase.update(phrase_params)
       redirect_to @phrase, notice: "Phrase successfully updated!"
@@ -55,11 +58,11 @@ class PhrasesController < ApplicationController
   end
 
   def destroy
+    requires_admin
     phrase = Phrase.find(params[:id])
     phrase.destroy
     redirect_to phrases_path, :notice => "Phrase deleted."
   end
-  private
 
 private
 
