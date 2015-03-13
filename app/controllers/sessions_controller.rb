@@ -3,6 +3,7 @@ class SessionsController < DeviseController
   end
 
   def create
+    binding.pry
     if user = User.authenticate(params[:email], params[:password])
       session[:user_id] = user.id
       flash[:notice] = "Welcome back, #{user.name}!"
