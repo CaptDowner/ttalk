@@ -17,6 +17,8 @@
   < % end % >
 -->
   <table>
+    <tr><td><div class="field"><b><%= f.label :id %></b></td></tr>
+    <tr><td width='86'><%= @phrase.id %></div></td></tr>
     <tr><td><div class="field"><b><%= f.label :language_id %></b></td></tr>
     <tr><td width='86'><%= f.text_field @phrase.language_id %></div></td></tr>
     <tr><td><div class="field"><b><%= f.label :phrase_text %></b></td></tr>
