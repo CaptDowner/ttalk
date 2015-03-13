@@ -1,5 +1,11 @@
 class User < ActiveRecord::Base
-  enum  role: [:user, :vip, :admin]
+
+  ROLES = {
+    user: 0,
+    vip: 1,
+    admin: 2
+  }
+
 # Save these 2 lines for later development
 #  enum  mode: [:speak, :paste]
 #  enum voice: [:male, :female, :child, :cartoon]
@@ -18,7 +24,19 @@ class User < ActiveRecord::Base
   include ::Ownership
 
   def is_admin?
-    true
+    self.role == ROLES[:admin]
+  end
+
+  def is_vip?
+    self.role == ROLES[:vip]
+  end
+
+  def is_admin!
+    self.update_attributes(role: ROLES[:admin])
+  end
+
+  def is_vip!
+    self.update_attributes(role: ROLES[:vip])
   end
 
 end
