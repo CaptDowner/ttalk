@@ -6,16 +6,16 @@ html {
 }
 
 body {
-  height: 100%;
+  min-height: 100%;
 }
 
 fieldset { height: 100%;
 }
 fieldset form#edit_phrase {
-  height: 100em;
+  min-height: 100%;
 }
 div.main{
-  height: 100%;
+  min-height: 100&;
 }
 .button {
   width: 8em;
