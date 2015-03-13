@@ -15,6 +15,15 @@ class PhrasesController < ApplicationController
     @phrase = Phrase.find(params[:id])
   end
 
+  def get_category(cat)
+    # I need to do a result set with the following conditions:
+    # a language, a category, and possible a user_id
+    # each phrase has a language_id and the correlation between
+    # category and phrases is kept in the category_phrases table
+
+    @phrases= Phrase.where(id: CategoryPhrase.where(category_id = cat).phrase_id)
+  end
+
   def create
    @phrase=  Phrase.create( phrase_params )
    if @phrase.save
