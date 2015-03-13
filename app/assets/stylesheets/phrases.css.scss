@@ -76,7 +76,6 @@ td.show-label label{
   text-align: right;
   vertical-align: top;
 }
-
 td.label {
   text-align: right;
 }
@@ -90,4 +89,39 @@ table.show-phrase td{
   line-height: 1.2em;
   padding-top: 0.15em;
   vertical-align: top;
+}
+#ttmenu {
+  padding:0;
+  margin-left: 5.5em;
+  color:#fff;
+  font-family: arial, helvetica, sans-serif;
+  white-space:nowrap;
+  list-style-type:none;
+}
+#ttmenu li {
+  display:inline;
+}
+#ttmenu li a{
+  padding:0.2em 1em;
+  background:#fc6;
+  color:#000;
+  text-decoration:none;
+  float:left;
+  border:1px solid #000;
+}
+#ttmenu li a:hover{
+  background:#08c;
+  color:#fff;
+}
+html {
+  min-height: 100%;
+}
+
+body {
+  min-height: 100%;
+}
+
+fieldset { height: 100%;}
+div.main{
+  min-height: 100%;
 }
