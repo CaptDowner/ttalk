@@ -51,7 +51,7 @@ vi:
       already_confirmed: 'đã được xác nhận, vui lòng đăng nhập để tiếp tục.'
       confirmation_period_expired: 'cần được xác nhận trong %{period}, xin vui lòng yêu cầu mã mới.'
       expired: 'đã hết hạn, vui lòng gửi yêu cầu mới.'
-      not_found: 'không tìm thấy
+      not_found: 'không tìm thấy'
       not_locked: 'không bị khóa'
       not_saved:
         one: '1 lỗi khi lưu %{resource}:'
