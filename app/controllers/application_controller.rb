@@ -1,8 +1,6 @@
 require 'i18n'
 class ApplicationController < ActionController::Base
   before_filter :set_locale
-#  before_action :set_locale
-  include LocaleDetection
   # Prevent CSRF attacks by raising an exception.
   # For APIs, you may want to use :null_session instead.
   protect_from_forgery with: :exception
@@ -11,7 +9,6 @@ class ApplicationController < ActionController::Base
 
   def require_signin
     unless current_user
-      binding.pry
       session[:intended_url] = request.url
       redirect_to new_session_url, alert: "Please sign in!"
     end
@@ -58,10 +55,5 @@ class ApplicationController < ActionController::Base
     I18n.locale = extract_locale_from_subdomain || I18n.default_locale
   end
 
-  def configure_permitted_parameters
-    devise_parameter_sanitizer.for(:sign_up) << :name
-    devise_parameter_sanitizer.for(:sign_up) << :email
-    devise_parameter_sanitizer.for(:sign_up) << :password
-    devise_parameter_sanitizer.for(:sign_up) << :password_confirmation
-  end
+
 end
