@@ -9,24 +9,23 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
     <%= csrf_meta_tags %>
     <style type='text/css'>
-    // Change alignment for Arabic language
-    // which reads from right to left
-    <% if I18n.locale == :ar %>
-      table.talker { width: 50em; margin-right: 0.15em; margin-left: -14em; text-align: left; }
-      table.talker th{ text-align: right; margin-left: 4em; }
-      table.talker td{ font-family: Arial; font-size: 1em; text-align: right;  margin: 0; }
-    <% end %>
-
+      /* Change alignment for Arabic language
+       * which reads from right to left  */
+      <% if I18n.locale == :ar %>
+        table.talker { width: 50em; margin-right: 0.15em; margin-left: -14em; text-align: left; }
+        table.talker th{ text-align: right; margin-left: 4em; }
+        table.talker td{ font-family: Arial; font-size: 1em; text-align: right;  margin: 0; }
+      <% end %>
+      a { text-decoration:none }
     </style>
-
   </head>
+  <body style='background-color:#000088;'>
     <header>
       <%= render 'layouts/navigation' %>
     </header>
-    <div class='main' role='main'>
-
-         <%= render 'layouts/messages' %>
-         <%= yield %>
-
-   </div>  </body>
+<!--    <main role="main"> -->
+       <%= render 'layouts/messages' %>
+       <%= yield %>
+<!--     </main> -->
+  </body>
 </html>
