@@ -6,13 +6,11 @@
   <!--  <link rel="stylesheet" type="text/css" href="ttalk.css.scss" /> -->
 </head>
 <body>
+  <div class='container'>
   <div id='white'>
-    <br/>
     <div id='topper'>
       <h2>Tommy Talker</h2>
     </div>
-  </div> <!-- end white -->
-  <div class='container'>
     <table class='talker'>
        <tr>
           <th>Can you</th><th>Can I</th>
@@ -75,11 +73,11 @@
           <td><a href='#' onclick='return playSound("/sounds/phrases/canYouThrowThatAwayForMe.mp3")';><%=t :canyouthrowthatawayforme %></a></td>
         </tr>
     </table>
-    <%= link_to 'Back', root_path(:anchor => '#' ), id: 'a-bout', class: 'button', redirect_to: :back;%>
 
     <div id='copyright1'>
       <p>Copyright 2015, <a id='mmode' href='https://maintenancemode.com';>Maintenance Mode</a>. All rights reserved.</p>
     </div>
+  </div> <!-- end white -->
   </div> <!-- end container -->
 </body>
 </html>

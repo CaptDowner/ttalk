@@ -6,13 +6,11 @@
   <!--  <script type="text/javaScript" src="talker.js"></script>  -->
 </head>
 <body background='green'>
-  <div id='white'>
-    <br/>
-    <div id='topper'>
-      <h2>Tommy Talker Top 26</h2>
-    </div>
-  </div> <!-- end white -->
-    <div class='container'>
+  <div class='container'>
+    <div id='white'>
+      <div id='topper'>
+        <h2>Tommy Talker Top 26</h2>
+      </div>
       <table class='talker'>
         <tr>
           <td><a href='#' onclick='return playSound("/sounds/mine/yes.mp3")';><%=t :yess %></a></td>
@@ -67,11 +65,11 @@
           <td><a href='#' onclick='return playSound("/sounds/mine/youlookgreat.mp3")';><%=t :youlookgreat %></a></td>
         </tr>
       </table>
-      <%= link_to 'Back', root_path(:anchor => '#' ), id: 'a-bout', class: 'button', redirect_to: :back;%>
 
-      <div id='copyright1'>
-        <p>Copyright 2015, <a id='mmode' href='https://maintenancemode.com';>Maintenance Mode</a>. All rights reserved.</p>
-      </div>
+    <div id='copyright1'>
+      <p>Copyright 2015, <a id='mmode' href='https://maintenancemode.com';>Maintenance Mode</a>. All rights reserved.</p>
+    </div>
+    </div> <!-- end white -->
   </div> <!-- end container -->
 </body>
 </html>
