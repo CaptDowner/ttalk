@@ -1,6 +1,7 @@
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
+
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
@@ -19,9 +20,6 @@ module TommyTalker
       g.fixture_replacement :factory_girl, dir: "spec/factories"
     end
 
-    # Prevent CSRF attacks by raising an exception.
-    # For APIs, you may want to use :null_session instead.
-    #  protect_from_forgery with: :exception
     # Settings in config/environments/* take precedence over those specified here.
     # Application configuration should go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded.
@@ -30,17 +28,10 @@ module TommyTalker
     # Run "rake -D time" for a list of tasks for finding time zone names. Default is UTC.
     # config.time_zone = 'Central Time (US & Canada)'
 
-    # config.assets.paths << "#{Rails.root}/app/assets/sounds"
-    # config.assets.paths << Rails.root.join("app", "assets", "sounds")
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
-
-    # set default_locale to English symbol
     config.i18n.default_locale = :en
 
-    # set Active Record backend and fall back to the (default) Simple backend
-    # allows us to store data in PostgreSQL db and still use smaller locale files
-    ###    I18n.backend = I18n::Backend::Chain.new(I18n::Backend::ActiveRecord.new, I18n.backend)
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
   end
