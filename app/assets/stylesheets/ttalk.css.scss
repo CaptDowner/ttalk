@@ -1,14 +1,49 @@
-html,body,body.indexpage{  min-height: 100%;}
-.main1, .main h3 {
-  color: #ffff00;
-}
-div#white{
-  margin-top:2em;
+html{
+  height: 100%;
+  width: 100%;
   background-color: #000088;
+}
+body {
+  height: 100%;
+  margin-top: 200px;
+  margin-left: 2.5em;
+  background-color: #000088;
+}
+body.indexpage{
+  background-color: #000088;
+  min-height: 100%;
+  width: 100%;
+}
+main1, main h3 {
+  color: #ffff00;
+  background-color: red;
+}
+main {
+  min-height: 100%;
+  width: 100%;
+  background-color: #000088;
+}
+main h2{
+  background-color: #000088;
+  color: gold;
+}
+main div.container div#white{
+  margin-top: -4em;
+  margin-left: -1.25em;
+  width: 100em;
+  background-color: #000088;
+/*  height: 100%; */
+}
+main div.container{
+  margin-top: 0.5em;
+  margin-left: -1em;
+  width: 100%;
+  background-color: #000088;
+  height: 44em;
 }
 div#white h3{
   color: #ffff00;
-  margin-left:4em;
+  margin-left:6em;
   margin-top: -0.2em;
 }
 div#white p{
@@ -22,54 +57,34 @@ div#white a{
 div.main {
   background-color: #000088;
   width: 100%;
-  min-height: 44em;
-}
-ul.nav.navbar-nav a:hover {
-  color: gold;
-  font-weight: 900;
-}
-ul.nav.navbar-nav a:hover {
-  color: gold;
+  height: 100%;
 }
 /*
-l.li {
-  margin: 0 0 0 0;
+*::before, *::after {
+    box-sizing: border-box;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+*::before, *::after {
+    box-sizing: border-box;
+}
+*::before, *::after {
+    box-sizing: border-box;
 }
 */
-.container{
+div#white div.container{
 /*    -webkit-box-sizing: content-box;
     border-bottom: 1px solid;
-    border-color: white; */
-    border-width: 115%;
-    margin-left: -8em;
-    min-height: 64em;
-}
-
-.navbar-fixed-top {
-    -webkit-box-sizing: content-box;
-    border-bottom: 1px solid;
     border-color: white;
-    border-width: 100%;
-    margin-left: -7em;
-    padding-left:2em;
+*/
+    border-width: 115%;
+    margin-left: -18em;
+    height: 100%;
+    width: 114em;
+    background-color: #000088;
 }
 
-div.navbar-header {
-  margin-left: 0.5em;
-}
-.navbar-header navbar-brand {
-}
-.navbar-header a.navbar-brand {
-  color: gray;
-  font-weight: 400;
-}
-.navbar-header a.navbar-brand:hover {
-  color: gold;
-  font-weight: 900;
-}
-.navbar-nav.nav.ul.li  a:hover{
-    color: gold;
-}
 @font-face {
     font-family: 'EfonRegular';
     src: url('font/EFON-webfont.eot');
@@ -77,15 +92,6 @@ div.navbar-header {
     font-weight: normal;
     font-style: normal;
 }
-
-body {
-  min-height: 100%;
-  margin-top: 200px;
-  margin-left: 2.5em;
-  background-color: #000088;
-  color: white;
-}
-
 .button, .button_to {
   width: 12em;
   line-height: 1.3em;
@@ -99,6 +105,7 @@ body {
   position: relative;
   padding: 4px;
   margin-right: 0.35em;
+
   /* BACKGROUND GRADIENTS */
   background: #014464;
   background: -moz-linear-gradient(top, #0D658E, #0C577A 50%, #014D71 51%, #003E5C);
@@ -118,22 +125,27 @@ body {
   -moz-box-shadow: 0 1px 3px black;
   -webkit-box-shadow: 0 1px 3px black;
   box-shadow: 0 1px 3px black;
-}
 
+}
 /* WHILE HOVERED */
+
 .button:hover {
-  color: white;
+  color: gold;
   background: #014464;
   background: -moz-linear-gradient(top, #0c5f85, #0b5273 50%, #024869 51%, #003853);
   background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #0c5f85), color-stop(.5, #0b5273), color-stop(.51, #024869), to(#003853));
 }
 
+
 /* WHILE BEING CLICKED */
+
 .button:active {
   -moz-box-shadow: 0 2px 6px black;
   -webkit-box-shadow: 0 2px 6px black;
 }
+
 /* FONT GLYPH (MOSTLY FOR FUN) 
+
 .button:before {
   font-family: EfonRegular;
   content: 'v';
@@ -145,20 +157,20 @@ body {
   text-shadow: 0 1px 0 #4190AF;
 }
 */
+
 th {
   text-align: left;
   font-weight: bold;
-  color: #ffff00;
+  color: gold;
 }
-
-div.container {
+div#white div.container {
   width: 100%;
-  min-height: 100%;
-  margin-left: 5em;
+  height: 100%;
+  margin-left: 3.5em;
 }
 table#mbuttons {
   margin-top: 0.6em;
-  margin-left: -1em;
+  margin-left: 1.375em;
   margin-bottom: 0.75em;
 }
 table#mbuttons tr{
@@ -176,13 +188,11 @@ table#mbuttons td{
 }
 table#mbuttons a.button{
   margin: 0.25em 0.10em; 
-
 }
 table#mbuttons a.button:hover{
   color: #ffff00;
   text-decoration: none;
 }
-
 a.button:hover{
   color: #ffff00;
   text-decoration: none;
@@ -191,51 +201,83 @@ a {
   text-decoration: none;
   color: white;
 }
-
 a:hover {
   text-decoration: none;
   color: #ffff00;
 }
 
-table.talker {
-  width: 50em;
-  margin-left: 0.15em;
+div.container{
+  width: 100%;
+}
+div.container div#white table.talker {
+  width: 42em;
+  margin-left: 2.5em;
+  margin-top: 0.75em;
   text-align: left;
+  height: 2em;
 }
 
+div.container table.talker{
+  width: 42em;
+}
 table.talker tr{
-  margin-left: 66em;
+  margin-left: 0;
 }
 table.talker td{
   font-family: Arial;
   font-size: 1em;
   text-align: left;
+  line-height: 1.3em;
   margin: 0;
+  width: 22em;
 }
-table.talker a{
-  font-family: sans-serif;
+div.container div#white table.talker a{
+  font-family: arial;
   color: white;
+  font-weight: 500;
   font-size: 1em;
-  width: 28em;
+  width: 2em;
 }
-
-table.talker a:hover{
-  color: #ffff00;
+div.container div#white table.talker a:hover{
+  color: gold;
   text-decoration: none;
 }
+
+table.talker4 {
+  width: 2em;
+}
+table.talker4 td{
+  font-family: Arial;
+  font-size: 1em;
+  text-align: left;
+  line-height: 1.3em;
+  margin: 0;
+  width: 22em;
+}
+div.container table.talker4 a{
+  font-family: arial;
+  color: white;
+  font-weight: 500;
+  font-size: 1em;
+  width: 2em;
+}
+div.container table.talker4 a:hover{
+  color: gold;
+  text-decoration: none;
+}
+
 table.talker th {
   margin-left: 18.25em;
   margin-top: 0.75em;
 }
-
 a#a-bout.button {
-  margin-left:15em;
+  margin-top: 1em;
+  margin-left: 22.25em;
 }
 a#a-bout.button:hover {
   color: #ffff00;
   text-decoration: none;
 }
-
 h2#abt{
   width: 18.5em;
   margin-left: 2.5em;
@@ -244,7 +286,6 @@ h2#abt{
   font-weight: bold;
   color: #ffff00;
 }
-
 .modalDialog {
   position: fixed;
   font-family: Arial, Helvetica, sans-serif;
@@ -260,12 +301,10 @@ h2#abt{
   transition: opacity 400ms ease-in;
   pointer-events: none;
 }
-
 .modalDialog:target {
   opacity:1;
   pointer-events: auto;
 }
-
 .modalDialog > div {
   width: 23em;
   position: relative;
@@ -278,7 +317,6 @@ h2#abt{
   background: -webkit-linear-gradient(#fff, #999);
   background: -o-linear-gradient(#fff, #999);
 }
-
 .close {
   background: #606061;
   background: gray;
@@ -298,21 +336,18 @@ h2#abt{
   -webkit-box-shadow: 1px 1px 3px #000;
   box-shadow: 1px 1px 3px #000;
 }
-
 div#openModal p{
   color: white;
   margin-left: 1em;
 }
-
 span#spacer div#zz {
   margin-top: 1.5em;
 }
-
 div#zz {
   background: #000088;
-  width: 40em;
+  width: 42em;
   text-align: left;
-  margin-left: -0.5em;
+  margin-left: -1.75em;
   margin-top: 0.5em;
   min-height: 100%;
 }
@@ -324,20 +359,34 @@ div#zz h2{
   text-align: left;
   margin: 0.5em 2em -0.25em 5.2em;
 }
-
-#zz p{
+div.container div#zz p{
   font-family: sans-serif;
+  margin-left: 4em;
+  padding-left: 0;
+  margin-left: 4em;
+  color: white;
+  width: 45em;
 }
 
+div#copyright0 p{
+  margin-left: 12em;
+}
+div#copyright0 p {
+  text-align: center;
+  width: 32em;
+  margin-left: 14.5em;
+  font-size: 0.75em;
+  color:lightyellow;
+  font-family: sans-serif;
+  margin-top: 0.25em;
+}
 div#copyright1 {
   margin-top: 400em;
-  margin-left: 3em;
+  margin-left: 0;
 }
-
 div#copyright1 a {
   color: #ffffe0;
 }
-
 div#copyright1 {
   margin-top: 1.25em;
   margin-left: 0;
@@ -345,15 +394,27 @@ div#copyright1 {
 div#copyright1 p {
   text-align: center;
   width: 32em;
-  margin-left: 11em;
+  margin-left: 6.5em;
   font-size: 0.75em;
   color:lightyellow;
   font-family: sans-serif;
   margin-top: 0.25em;
 }
-
-div#copyright1 a {
+div#copyright2 {
+  margin-top: 1.25em;
+  margin-left: 4.75em;
+}
+div#copyright2 a {
   color: #ffffe0;
+}
+div#copyright2 p {
+  text-align: center;
+  width: 32em;
+  margin-left: 6.5em;
+  font-size: 0.75em;
+  color:lightyellow;
+  font-family: sans-serif;
+  margin-top: 0.25em;
 }
 
 p a#mmode {
@@ -362,14 +423,13 @@ p a#mmode {
 }
 p a#mmode:hover {
   text-decoration: none;
-  color: #ffff00;
+  color: gold;
   font-weight: 500;
 }
 div#copyright1.p a:hover{
   color: #ffff00;
   text-decoration: none;
 }
-
 div.daddy {
   background-color: #000088;
   margin-top: 10em;
@@ -394,16 +454,22 @@ nav ul:after {
 nav ul li {
   float: left;
 }
-.dropdown-toggle a:hover{
+.dropdown-toggle a{
   color: gold;
-  background-color: #004060;
+  
 }
 nav ul li:hover {
   color: gold;
 }
 nav ul li:hover a {
   color: gold;
+  background-color: #000;
 }
+nav ul li:hover a:hover {
+  color: gold;
+  background-color: #000088;
+}
+
 nav ul li a {
   display: block;
   padding: 25px 40px;
@@ -428,59 +494,63 @@ nav ul ul li a {
   color: #fff;
 }
 nav ul ul li a:hover {
-  background: #4b545f;
+  background: #000088;
   color: gold;
+}
+
+a.dropdown-toggle {
+  width: 4em;
+  margin-left: 0.5em;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: -1.25em;
+  margin-bottom: -3em;
+/*  border-bottom: white 1px solid;*/
 }
 ul.dropdown-menu {
   max-height: 18.4em;
   overflow: auto;
 }
-
 ul.dropdown-menu li, ul.dropdown-menu a {
   background-color: #000;
-  color: #fff;
+  color: #000088;
+}
+li.dropdown a.dropdown-toggle hover{
+  background-color: #000;
+  color: gray;
 }
 
-ul.dropdown-menu a:hover {
-  color: black;
-  background-color: #004060;
+ul.dropdown-menu li.a:hover{
+  background-color: #000;
+  color: #000088;
 }
-
 div.authform{
   margin-left: 6em;
   min-height: 100%;
 }
-
 div.authform h3{
   margin-top: -0.5em;
   margin-left: 3.5em;
 }
-
 div.authform .right {
   margin-right: 3.5em;
 }
-
 input.button.right {
   margin-top: 0em;
 }
-
 div.checkbox label{
   margin-top: -6em;
 }
-
 form.new_user {
   height: 28em;
 }
-
 form.new_user.signup  {
   @extend form.new_user;
   height: 24em;
 }
-
 div.authform2{
   margin-left: 6em;
 }
-
 div.authform2 form#new_user.new_user {
   height: 20em;
 }
@@ -488,14 +558,12 @@ div.authform2 h3{
   margin-top: -0.5em;
   margin-left: 3.5em;
 }
-
 div.authform2 .right {
   margin-right: 3.5em;
 }
 div.authform2 form#new_user.new_user {
   width: 22em;
 }
-
 form#new_user.new_user input.button.right{
   margin-left: 3.25em;
 }
@@ -503,7 +571,6 @@ table#allphrases {
   margin-left: 5.5em;
   margin-top: -1em;
 }
-
 table#allphrases td{
   padding-left: 0.5em;
   padding-right: 0.5em;
@@ -523,32 +590,76 @@ table#allphrases a:hover{
   margin-right: -0.15em;
   text-decoration: none;
 }
-div#topper2 h2, div#topper h2, div#topper-ab h2{
+
+div#topper{
+  margin-left: 0.75em;
+  margin-top: -1em;
+}
+
+/* div#topper h2{*/
+div#white div#topper h2{
   font-family: Courier New;
-  width: 22em; 
+  width: 34em;
   font-weight: bold;
   font-size: 1.95em;
   text-align: left;
   line-height: 2em;
   color: gold;
-  margin-top: 0.5em;
-  margin-left: 2.75em;
+  margin-top: 0;
+  padding-top: -2em;
+  margin-left: 0.75em;
   margin-bottom: -0.5em;
 }
+
+div#white {
+  width: 28em;
+}
+
+div#white div#topper h2{
+  font-family: Courier New;
+  width: 34em;
+  font-weight: bold;
+  font-size: 1.95em;
+  text-align: left;
+  line-height: 2em;
+  color: gold;
+  margin-top: 2em;
+  padding-top: 0.75em;
+  margin-left: 0.5em;
+  margin-bottom: -0.5em;
+}
+
+
+div#topper-ab{
+  margin-left: -1em;
+  margin-top: -0.5em;
+  width: 100em;
+}
+div.container div#topper-ab h2{
+  font-family: Courier New;
+  width: 44em;
+  font-weight: bold;
+  font-size: 1.95em;
+  text-align: left;
+  line-height: 2em;
+  color: gold;
+  margin-top: 0;
+  padding-top: 2.75em;
+  margin-left: 1.5em;
+  margin-bottom: -0.5em;
+}
+
 div.pnation{
   margin-left: 22em;
 }
-
 div.pnation td{
   line-height: 0.25em;
   margin-top: 0;
   margin-bottom: 0;
 }
-
 div.pnation a{
   color: gold;
 }
-
 div.pnation a:hover{
   font-weight: 900;
   color: gold;
@@ -566,19 +677,137 @@ div#topspacer {
   font-size: 2em;
   width: 3em;
 }
+ul.dropdown-menu {
+  li.a:hover{
+  background-color: #000088;
+  color: black;
+  }
+}
+nav.navbar-fixed-top {
+/*  -webkit-box-sizing: content-box;
+  border-bottom: 1px solid;
+  border-color: white;
+  border-width: 100%;
+*/
+  margin-left: -29.5em;
+  padding-left:2em;
+  background-color: black;
+  height: 3.65em;
+  width: 140em;
+}
+div.navbar-header {
+  margin-left: 7.5em;
+  padding-left: 0;
+  width: 160em;
+  background-color: #000;
+  border-bottom: white 1px solid;
+}
+div.container.collapse, div.container.navbar-collapse{
+  height: 44em;
+}
+div.navbar-header.collapse, div.navbar-brand {
+  background-color: gray;
+}
+a.navbar-brand {
+  color: white;
+  font-weight: 400;
+  padding-left: 1.5em;
+  margin-top: -0.5em;
+  margin-bottom: -0.5em;
+}
+.navbar-header a.navbar-brand:hover {
+  color: gold;
+  font-weight: 900;
+}
+.navbar-nav.nav.ul.li  a:hover{
+    color: gold;
+}
+.navbar::after {
+    clear: both;
+}
+.navbar::before, .navbar::after {
+    content: " ";
+    display: table;
+}
+.navbar::after {
+    clear: both;
+}
+.navbar::before, .navbar::after {
+    content: " ";
+    display: table;
+}
+ul.nav.navbar-nav a:hover {
+  color: gold;
+  font-weight: 900;
+}
+ul.nav.navbar-nav a:hover {
+  color: gold;
+}
+
+div.navbar-inverse{
+  .navbar::before, .navbar::after {
+      content: " ";
+      display: table;
+  }
+  div.spaceee a.navbar-brand {
+    margin-left: 14em;
+  }
+}
+.left { float: left !important; }
+
 .navbar-spacer {
   margin-left:3em;
   padding-left: 14em;
   font-size: 2em;
   width: 33em;
 }
-
-ul.dropdown-menu a:hover{
-  background-color: #004160;
+div.navbar-collapse {
+  height:22em;
+  background-color: #000;
+}
+div.container{
+  background-color: #000088;
 }
 
-div.spaceee a.navbar-brand {
+div.navbar-header.navbar-collapse {
+  background-color: #000088;
+}
+
+body, main, div.container, div#white{
+  background-color: #000088;
+  width: 100em;
+  height: 100%;
+}
+
+div#zz p a#mailto {
+}
+
+div#zz p a:hover{
+  color:gold;
+  text-decoration: none;
+}
+
+div.container table.talker{
+  margin-top: -20.75em;
+  margin-left: 1.25em;
+}
+
+div.container table.talker a{
+  font-family: arial,sans-serif ;
+  color: #ffffff;
+  font-weignt: 600;
+  text-decoration: none;
+}
+table.talker td a:hover{
+  color: gold;
+}
+div.container a#a-bout.button{
   margin-left: 14em;
 }
-
-.left { float: left !important; }
+table.talker4 {
+  width: 40em;
+  margin-left: 2.5em;
+  margin-top: -20.75em;
+  text-align: left;
+  height: 2em;
+}
