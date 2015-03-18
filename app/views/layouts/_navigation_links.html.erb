@@ -1,20 +1,53 @@
 <%# add navigation links to this file %>
 <div class="navbar-header">
   <%= link_to 'Home', root_path, class: 'navbar-brand' %>
-  <%= link_to 'About', about_path, :class => 'navbar-brand' %>
-   <%# binding.pry %>
-  <% if current_user %>
-<%#   user_signed_in? % > <only display sign_out to users already signed_in -->%>
-    <%= link_to 'Sign out', destroy_user_session_path, :method=>'delete', class: 'navbar-brand' %>
-  <% else %> <!-- only show when no user signed_in -->
+  <%= link_to 'About', about_path, class: 'navbar-brand' %>
+<!--  < % if user_signed_in? % > -->
+    <%= link_to 'Edit account', edit_user_registration_path, class: 'navbar-brand'  %>
+    <%= link_to 'Sign out', destroy_user_session_path, class: 'navbar-brand', :method=>'delete' %>
+<!--  < % else % > -->
     <%= link_to 'Sign in', new_user_session_path, class: 'navbar-brand' %>
     <%= link_to 'Sign up', new_user_registration_path, class: 'navbar-brand' %>
-  <% end %>
-
-
-  <% if is_admin? %>
+<!--  < % end % > -->
     <%= link_to 'Phrases', phrases_path, class: 'navbar-brand' %>
-    <%= link_to 'Users', users_path, class: 'navbar-brand' %>
+    <!--        <div class="collapse navbar-collapse left"> -->
+    <!--          <ul class="nav navbar-nav">  -->
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Language</a>
+              <ul class="dropdown-menu">
+                  <li><a href="http://zh.localhost:3000">Chinese</a></li>
+                  <li><a href="http://es.localhost:3000">Spanish</a></li>
+                  <li><a href="http://en.localhost:3000">English</a></li>
+                  <li><a href="http://ar.localhost:3000">Arabic</a></li> 
+                  <li><a href="http://pt.localhost:3000">Portuguese</a></li>
+                  <li><a href="http://pt.localhost:3000">Brazilian-pt</a></li>
+                  <li><a href="http://ru.localhost:3000">Russian</a></li>
+                  <li><a href="http://ja.localhost:3000">Japanese</a></li>
+                  <li><a href="http://de.localhost:3000">German</a></li>
+                  <li><a href="http://vi.localhost:3000">Vietnamese</a></li>
+                  <li><a href="http://ko.localhost:3000">Korean</a></li>
+                  <li><a href="http://fr.localhost:3000">French</a></li>
+                  <li><a href="http://tr.localhost:3000">Turkish</a></li>
+                  <li><a href="http://it.localhost:3000">Italian</a></li>
+                  <li><a href="http://th.localhost:3000">Thai</a></li>
+                  <li><a href="http://pl.localhost:3000">Polish</a></li>
+                  <li><a href="http://uk.localhost:3000">Ukrainian</a></li>
+                  <li><a href="http://ro.localhost:3000">Romanian</a></li>
+                  <li><a href="http://nl.localhost:3000">Dutch</a></li>
+                  <li><a href="http://hr.localhost:3000">Croatian</a></li>
+                  <li><a href="http://hu.localhost:3000">Hungarian</a></li>
+                  <li><a href="http://el.localhost:3000">Greek</a></li>
+                  <li><a href="http://cs.localhost:3000">Czech</a></li>
+                  <li><a href="http://sv.localhost:3000">Swedish</a></li>
+                  <li><a href="http://lt.localhost:3000">Lithuanian</a></li>
+              </ul><!-- end dropdown-menu -->
+            </li> <!-- end dropdown --> 
+<!--          </ul>< ! -- end nav navbar-nav -->
+<!--        </div>< ! -- end collapse navbar-collapse left --> 
+  <% if user_signed_in? %>
+    <% if current_user_admin? %>
+      <%= link_to 'Users', users_path, class: 'navbar-brand' %>
+    <!--  <li>< % = link_to 'Users', users_path % ></li> -->
+    <% end %>
   <% end %>
-
 </div>
