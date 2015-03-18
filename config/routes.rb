@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
-#  resources :sessions
-#  get "sessions/create"
-#  get "sessions/destroy"
-  get "signup" => "users#new", :as => "signup"
- 
+  root to: 'visitors#index'
+  devise_for :users
+  resources :users
+  resources :phrases
+  resources :category_phrases
+  resources :categories
+#  get "signup" => "users#new", :as => "signup"
   get 'phrases/edit'
   get 'phrases/show'
   get 'phrases/new'
@@ -19,19 +21,4 @@ Rails.application.routes.draw do
   get '/i', to: 'high_voltage/pages#show', id: 'i'
   get '/what', to: 'high_voltage/pages#show', id: 'what'
   get '/wwwww', to: 'high_voltage/pages#show', id: 'wwwww'
-
-  root to: 'visitors#index'
-  devise_for :users
-# , controllers: { sessions: "users/sessions" }
-  resources :phrases
-  resources :users
-  resources :category_phrases
-  resources :categories
-=begin
-  controller :sessions do
-    get  'login' => :new
-    post 'login' => :create
-    delete 'logout' => :destroy
-  end
-=end
 end
