@@ -1,4 +1,5 @@
 class PhrasesController < ApplicationController
+  before_filter :authenticate_user!
   include Authenticable
 # before_action :require_signin, except: [:index, :show]
 # before_action :require_admin, except: [:index, :show]
