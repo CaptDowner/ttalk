@@ -212,7 +212,7 @@ div.container{
 div.container div#white table.talker {
   width: 42em;
   margin-left: 2.5em;
-  margin-top: 0.75em;
+  margin-top: -1.25em;
   text-align: left;
   height: 2em;
 }
@@ -343,11 +343,11 @@ div#openModal p{
 span#spacer div#zz {
   margin-top: 1.5em;
 }
-div#zz {
+div#white div#zz {
   background: #000088;
   width: 42em;
   text-align: left;
-  margin-left: -1.75em;
+  margin-left: -13em;
   margin-top: 0.5em;
   min-height: 100%;
 }
@@ -525,7 +525,7 @@ ul.dropdown-menu li.a:hover{
   color: #000088;
 }
 div.authform{
-  margin-left: 6em;
+  margin-left: 3.75em;;
   min-height: 100%;
 }
 div.authform h3{
@@ -539,20 +539,25 @@ input.button.right {
   margin-top: 0em;
 }
 div.checkbox label{
-  margin-top: -6em;
+  padding-top: 2em;
+  margin-top: -1.75em;
+  margin-left: 0;
+  width: 10em;
 }
 form.new_user {
-  height: 28em;
+  height: 18.75em;
+  margin-top: 3.5em;
 }
 form.new_user.signup  {
   @extend form.new_user;
-  height: 24em;
+  height: 18em;
 }
 div.authform2{
   margin-left: 6em;
 }
 div.authform2 form#new_user.new_user {
   height: 20em;
+  margin-top: 4.5em;
 }
 div.authform2 h3{
   margin-top: -0.5em;
@@ -593,7 +598,8 @@ table#allphrases a:hover{
 
 div#topper{
   margin-left: 0.75em;
-  margin-top: -1em;
+  margin-top: 3em;
+  margin-bottom:0;
 }
 
 /* div#topper h2{*/
@@ -608,7 +614,7 @@ div#white div#topper h2{
   margin-top: 0;
   padding-top: -2em;
   margin-left: 0.75em;
-  margin-bottom: -0.5em;
+  margin-bottom: -2em;
 }
 
 div#white {
@@ -630,12 +636,12 @@ div#white div#topper h2{
 }
 
 
-div#topper-ab{
-  margin-left: -1em;
+div#white div#topper-ab{
+  margin-left: -12em;
   margin-top: -0.5em;
   width: 100em;
 }
-div.container div#topper-ab h2{
+div#white div#topper-ab h2{
   font-family: Courier New;
   width: 44em;
   font-weight: bold;
@@ -665,8 +671,15 @@ div.pnation a:hover{
   color: gold;
   text-decoration: none;
 }
-div#flash-alert {
+div#alert-danger div#flash-alert {
+  margin-top: -1.5em;
   margin-bottom: 2em;
+  margin-left:15em;
+  margin-right: 3em;
+  position: absolute;
+  top: 266px;
+  text-align: left;
+  padding-bottom: 2em;
 }
 .container {
   margin-left: 4em;
@@ -811,3 +824,49 @@ table.talker4 {
   text-align: left;
   height: 2em;
 }
+
+form#new_user.new_user{
+  margin-top: 5em;
+  margin-left: 0;
+}
+
+div#topper2{
+  margin-left: 6em;
+  margin-top: 5.25em;
+  margin-bottom: 0.5em;
+}
+
+/* div#topper2 h2{*/
+div#white div#topper h2{
+  font-family: Courier New;
+  width: 34em;
+  font-weight: bold;
+  font-size: 1.95em;
+  text-align: left;
+  line-height: 2em;
+  color: gold;
+  margin-top: 0;
+  padding-top: -2em;
+  margin-left: 0.75em;
+  margin-bottom: 0.5em;
+}
+
+div#white {
+  width: 28em;
+}
+
+div#topper2 h2{
+  font-family: Courier New;
+  width: 34em;
+  font-weight: bold;
+  font-size: 1.95em;
+  text-align: left;
+  line-height: 2em;
+  color: gold;
+  margin-top: 2em;
+  padding-top: 0;
+  margin-left: 0;
+  margin-bottom: 0;
+}
+
+
