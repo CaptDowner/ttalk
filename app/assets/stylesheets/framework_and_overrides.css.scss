@@ -39,7 +39,7 @@ img {
 
 .main {
 /*  @extend .container; */
-  background-color: green;
+  background-color: #000088;;
   padding-bottom: 80px;
   width: 100%;
   height: 100%;
@@ -110,14 +110,20 @@ section {
 #error_explanation {
   @extend .alert;
   @extend .alert-danger;
+  margin-top: -1em;
 }
 div.alert, div.alert-success{
-  margin-top: 3em; 
-  margin-left: 6.5em;
-  height: 2em;
-  width: 40em;
+/*  margin-top: 3.5em;
+  margin-left: 6.5em;*/
+  color: white;
+  background-color: green;
+  left: 26px;
+  top: 54px;
+  position: absolute;
+  height: 2.2em;
+  width: 20%;
 }
-.div.alert-success #flash_notice,  .flash-message {
+div.alert-success #flash_notice,  .flash-message {
   &.error {
     border: solid 4px #900;
     background-color: #FF6565;
@@ -126,21 +132,21 @@ div.alert, div.alert-success{
     border: solid 4px #26722D;
     background-color: #A4E7A0;
   }
-  color: black;
+  left: 26px;
+  top:  8px;
+  position: absolute;
+  height: 1.2em;
+  width: 85%;
+  color: white;
+  background-color: green;
   z-index: 999;
-  position: fixed;
   font-weight: bold;
-  width: 96%;
-  margin: 20px;
   p {
     font-size: 110%;
     margin: 15px 0;
   }
 }
-div.alert-success #flash_notice {
-  position: absolute;
-  margin-top: -0.65em;
-}
+
 #error_explanation h2 {
   font-size: 16px;
 }
