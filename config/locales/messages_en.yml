@@ -10,3 +10,8 @@ en:
       letusknow:    "Let us know by email if you'd like to know as features are added and we'll keep you in the loop."
       enjoyvisit:   "Enjoy your visit to "
       about:        "about"
+      tt_needs:     "needs native language speakers"
+      fluent:       "that are fluent in English to review and correct phrases that are incomplete or inaccurate. Translations have been done in 26 languages, but Google Translate only does so much, and there are about 1,000 phrases that need review/edits in each language."
+      designers:    "HTML5/CSS3 Designer(s) are needed to improve site look and functionality. RoR programmers interested in the project should contact me. Pair programming via Google Hangouts, tmux and using vim editor work best for me, as those are the tools I've found to be most effective."
+      open_source:  "This is a free open source program intended to help people not fluent in English be able to communicate using a one way universal translator. It's advantage is in it's simplicity. Just touch or click on a phrase you want to say and the program speaks for you. If you can help or you know someone who would be interested in helping create this useful tool, contact me by email to:"
+      credit:       "Credit for all translation and programming participation will be displayed prominently on this page, and I can provide bona fide references for participants needing open source programming or translation references on their resumes."
