@@ -61,3 +61,4 @@
       first: 'første'
       next: 'neste'
       last: 'siste'
+      truncate: '&hellip;'

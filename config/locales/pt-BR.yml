@@ -61,3 +61,4 @@ pt-BR:
       first: 'primeiro'
       next: 'next'
       last: 'último'
+      truncate: '&hellip;'

@@ -61,3 +61,4 @@ nl:
       first: 'eerste'
       next: 'volgende'
       last: 'laatste'
+      truncate: '&hellip;'

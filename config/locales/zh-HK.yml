@@ -54,3 +54,9 @@ zh-HK:
       not_found: 搵唔到
       not_locked: 無鎖到
       not_saved: 有%{count}個問題，%{resource}儲存唔到。
+  views:
+    pagination:
+      first: '第一'
+      next: '下一个'
+      last: '最后'
+      truncate: '&hellip;'

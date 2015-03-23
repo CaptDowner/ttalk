@@ -63,3 +63,4 @@ ru:
       first: 'первый'
       next: 'следующий'
       last: 'последний'
+      truncate: '&hellip;'

@@ -54,3 +54,9 @@ my:
       not_found: tidak dijumpai
       not_locked: tidak dikunci
       not_saved: 
+  views:
+    pagination:
+      first: '' 
+      next: ''
+      last: ''
+      truncate: '&hellip;'

@@ -61,3 +61,4 @@ sv:
       first: 'först'
       next: 'nästa'
       last: 'sista'
+      truncate: '&hellip;'

@@ -56,3 +56,9 @@ nb:
       not_saved:
         one: 'Én feil gjorde at %{resource} ikke kunne lagres:'
         other: '%{count} feil gjorde at %{resource} ikke kunne lagres:'
+  views:
+    pagination:
+      first: 'første'
+      next: 'neste'
+      last: 'siste'
+      truncate: '&hellip;'

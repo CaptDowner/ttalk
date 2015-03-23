@@ -56,3 +56,9 @@ zh-TW:
       not_saved:
         one: 有一個錯誤導致 %{resource} 不能被儲存：
         other: 有 %{count} 個錯誤導致 %{resource} 不能被儲存：
+  views:
+    pagination:
+      first: '第一'
+      next: '下一个'
+      last: '最后'
+      truncate: '&hellip;'

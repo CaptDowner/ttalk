@@ -62,3 +62,4 @@ ro:
       first: 'în primul rând'
       next: 'următorul'
       last: 'ultimul'
+      truncate: '&hellip;'

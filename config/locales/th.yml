@@ -59,3 +59,4 @@ th:
       first: 'แรก'
       next: 'ถัดไป'
       last: 'ล่าสุด'
+      truncate: '&hellip;'

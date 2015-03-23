@@ -54,6 +54,9 @@ tr:
       not_found: bulunamadı
       not_locked: kilitlenmemiş
       not_saved: '%{count} tane hata %{resource}''ın kaydını engelledi.'
-  view:
-    pagination:
-      truncate: kesmek
+  views:
+    pagination: 
+      first: 'ilk'
+      next: 'sonraki'
+      last: 'son'
+      truncate: '&hellip;'

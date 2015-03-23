@@ -61,3 +61,4 @@ zh-CN:
       first: '第一'
       next: '下一个'
       last: '最后'
+      truncate: '&hellip;'

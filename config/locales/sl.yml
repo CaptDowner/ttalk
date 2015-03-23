@@ -58,3 +58,9 @@ sl:
         one: '1 napaka je onemogočila shraniti %{resource}:'
         other: '%{count} napake so onemogočile shraniti %{resource}:'
         two: '2 napaki sta onemogočili shraniti %{resource}:'
+  views:
+    pagination:
+      first: 'prvý'
+      next: 'ďalšie'
+      last: 'posledná'
+      truncate: '&hellip;'

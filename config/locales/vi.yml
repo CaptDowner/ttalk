@@ -59,5 +59,6 @@ vi:
   views:
     pagination:
       first: 'đầu tiên'
-      next: ' kế tiếp'
-      last: ' cuối cùng'
+      next: 'kế tiếp'
+      last: 'cuối cùng'
+      truncate: '&hellip;'

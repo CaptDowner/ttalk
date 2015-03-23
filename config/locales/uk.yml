@@ -63,3 +63,4 @@ uk:
       first: 'перший'
       next: 'наступний'
       last: 'останній'
+      truncate: '&hellip;'
