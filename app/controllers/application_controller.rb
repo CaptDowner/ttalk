@@ -55,5 +55,4 @@ class ApplicationController < ActionController::Base
     I18n.locale = extract_locale_from_subdomain || I18n.default_locale
   end
 
-
 end
