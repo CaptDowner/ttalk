@@ -2,14 +2,17 @@
 <div class="navbar-header">
   <%= link_to 'Home', root_path, class: 'navbar-brand' %>
   <%= link_to 'About', about_path, class: 'navbar-brand' %>
-<!--  < % if user_signed_in? % > -->
-    <%= link_to 'Edit account', edit_user_registration_path, class: 'navbar-brand'  %>
-    <%= link_to 'Sign out', destroy_user_session_path, class: 'navbar-brand', :method=>'delete' %>
-<!--  < % else % > -->
-    <%= link_to 'Sign in', new_user_session_path, class: 'navbar-brand' %>
-    <%= link_to 'Sign up', new_user_registration_path, class: 'navbar-brand' %>
-<!--  < % end % > -->
-    <%= link_to 'Phrases', phrases_path, class: 'navbar-brand' %>
+  <!--  < % if user_signed_in? % > -->
+    <% if current_user?(@user) %>
+      <%= link_to 'Edit account', edit_user_registration_path, class: 'navbar-brand'  %>
+    <% end %>
+    <% if !user_signed_in? %>
+      <%= link_to 'Sign out', destroy_user_session_path, class: 'navbar-brand', :method=>'delete' %>
+    <% else %>
+      <%= link_to 'Sign in', new_user_session_path, class: 'navbar-brand' %>
+      <%= link_to 'Sign up', new_user_registration_path, class: 'navbar-brand' %>
+      <%= link_to 'Phrases', phrases_path, class: 'navbar-brand' %>
+    <% end %>
     <!--        <div class="collapse navbar-collapse left"> -->
     <!--          <ul class="nav navbar-nav">  -->
             <li class="dropdown">
