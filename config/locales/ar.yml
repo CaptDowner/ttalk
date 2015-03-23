@@ -65,6 +65,4 @@ ar:
       first: 'أولا'
       next: 'التالى'
       last: 'آخر'
-
-
-
+      truncate: '&hellip;'

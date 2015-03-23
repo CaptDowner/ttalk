@@ -59,3 +59,4 @@ ko:
       first: '처음으로'
       next: '다음에'
       last: '마지막'
+      truncate: '&hellip;'

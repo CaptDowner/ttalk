@@ -61,3 +61,4 @@ it:
       first: 'primo'
       next: 'il prossimo'
       last: 'ultimo'
+      truncate: '&hellip;'

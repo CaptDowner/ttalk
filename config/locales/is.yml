@@ -56,3 +56,9 @@ is:
       not_saved:
         one: '1 villa kom í veg fyrir að hægt væri að vista þennan %{resource}:'
         other: '%{count} villur komu í veg fyrir að hægt væri að vista þennan %{resource}:'
+  views:
+    pagination:
+      first: 'fyrst'
+      next: 'næsta'
+      last: 'síðasta'
+      truncate: '&hellip;'

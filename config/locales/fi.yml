@@ -56,3 +56,9 @@ fi:
       not_saved:
         one: '1 virhe esti %{resource} tallentamisen:'
         other: '%{count} virhettä esti %{resource} tallentamisen:'
+  views:
+    pagination:
+      first: 'ensimmäinen' 
+      next: 'seuraava'
+      last: 'viime'
+      truncate: '&hellip;'

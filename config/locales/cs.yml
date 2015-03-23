@@ -62,6 +62,4 @@ cs:
       first: 'první'
       next: 'další'
       last: 'poslední'
-
-
-
+      truncate: '&hellip;'

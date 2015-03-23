@@ -56,3 +56,9 @@ he:
       not_saved:
         one: 'שגיאה אחת מנעה את ה%{resource} מלהישמר:'
         other: '%{count} שגיאות מנעו מ%{resource} מלהישמר:'
+  views:
+    pagination:
+      first: 'ראשון'
+      next: 'הבא'
+      last: 'אחרון'
+      truncate: '&hellip;'

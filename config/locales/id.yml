@@ -54,3 +54,9 @@ id:
       not_found: tidak ditemukan
       not_locked: tidak dikunci
       not_saved: '%{count} kesalahan membuat %{resource} tidak bisa disimpan:'
+  views:
+    pagination:
+      first: 'lebih dulu'
+      next: 'berikutnya'
+      last: 'lalu'
+      truncate: '&hellip;'

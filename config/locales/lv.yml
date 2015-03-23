@@ -57,3 +57,9 @@ lv:
         one: '%{resource} netika saglabāts 1 kļūdas dēļ:'
         other: '%{resource} netika saglabāts %{count} kļūdu dēļ:'
         zero: '%{resource} netika saglabāts %{count} kļūdu dēļ:'
+  views:
+    pagination:
+      first: 'pirmais'
+      next: 'nākamais'
+      last: 'pēdējais'
+      truncate: '&hellip;'

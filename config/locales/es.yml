@@ -64,3 +64,4 @@ es:
       first: 'primero'
       next: 'siguiente'
       last: 'último'
+      truncate: '&hellip;'

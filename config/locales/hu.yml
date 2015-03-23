@@ -61,3 +61,4 @@ hu:
       first: 'első'
       next: 'következő'
       last: 'utolsó'
+      truncate: '&hellip;'

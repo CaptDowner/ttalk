@@ -58,3 +58,9 @@ bs:
         many: '%{count} grešaka sprječavaju sačuvanje %{resource}:'
         one: '1 greška sprječava sačuvanje %{resource}:'
         other: '%{count} grešaka sprječavaju sačuvanje %{resource}:'
+  views:
+    pagination:
+      first: 'prvi'
+      next: 'sljedeći'
+      last: 'posljednji'
+      truncate: '&hellip;'

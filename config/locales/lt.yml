@@ -62,3 +62,4 @@ lt:
       first: 'pirmas'
       next: 'kitas'
       last: 'paskutinis'
+      truncate: '&hellip;'

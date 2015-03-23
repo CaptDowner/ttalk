@@ -61,3 +61,4 @@ en:
       first: 'first'
       next: 'next'
       last: 'last'
+      truncate: '&hellip;'

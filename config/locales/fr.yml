@@ -61,6 +61,4 @@ fr:
       first: 'première'
       next: 'suivant'
       last: 'dernier'
-
-
-
+      truncate: '&hellip;'

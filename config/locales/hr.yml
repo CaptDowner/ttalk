@@ -63,6 +63,4 @@ hr:
       first: 'prvo'
       next: 'sljedeći'
       last: 'posljednji'
-
-
-
+      truncate: '&hellip;'

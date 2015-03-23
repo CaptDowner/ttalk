@@ -54,3 +54,9 @@ az:
       not_found: tapılmadı
       not_locked: bloklanmış deyildi
       not_saved: 
+  views:
+    pagination:
+      first: 'ilk'
+      next: 'sonrakı'
+      last: 'keçən'
+      truncate: '&hellip;'

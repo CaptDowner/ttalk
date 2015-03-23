@@ -61,6 +61,4 @@ el:
       first: 'πρώτα'
       next: 'επόμενος'
       last: 'τελευταίος'
-
-
-
+      truncate: '&hellip;'

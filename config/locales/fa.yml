@@ -56,3 +56,9 @@ fa:
       not_saved:
         one: '۱ خطا جلوی ذخیره %{resource} را گرفت:'
         other: '%{count} خطا جلوی ذخیره این %{resource} را گرفت:'
+  views:
+    pagination:
+      first: 'اولین'
+      next: 'بعد'
+      last: 'آخر'
+      truncate: '&hellip;'
