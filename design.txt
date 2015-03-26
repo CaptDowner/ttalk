@@ -1,3 +1,28 @@
+1. Debug and refactor ROLES so that current_user and user, vip and admin roles ve
+are assigned and recognized, and can be relied on for dynamic page presentations.
+
+2. Get dynamic page presentation working, based on categories.
+
+Given a category, get a list from the database containing 
+all phrases in alphabetical order, and present them on a page 
+in a similar format to the static pages already in use.
+
+3. Have the main page buttons, one per category, point to and load when selected,  
+the new dynamic pages of each category path.
+
+4. Determine how the design should accomodate sorting phrases on a per user basis.
+Should another field (user_id) be added to the category_phrases table, so that a single table will  
+handle the lookup of each users categorized phrases? We could index on category_id and user_id so that 
+lookups will be fast. I don't plan on giving users the ability to add phrases, so indexing should not become 
+a frequently ocurring event.
+
+
+Or is there  a better way?
+
+Languages should be loaded one at a time, so category_phrases needs to reference a language_id so that 
+we will only need 1/26 of the number of references returned when a category is searched for phrases.
+
+
 translation to Czech, email mlcek:
 http://mvlcek.bplaced.net
 ----------------------------------
