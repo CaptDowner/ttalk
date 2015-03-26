@@ -55,10 +55,10 @@ bg:
       not_locked: не бе заключен
       not_saved:
         one: 'Една грешка попречи този %{resource} да бъде записан:'
-        other: '%{count} грешки попречиха този %{resource} да бъде записан:'G
+        other: '%{count} грешки попречиха този %{resource} да бъде записан:'
   views:
     pagination:
-      first: 'първи'
-      next: 'до'
-      last: 'последно'
+      first: първи
+      next: до
+      last: последно
       truncate: '&hellip;'
