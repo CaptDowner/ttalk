@@ -21,19 +21,19 @@ class User < ActiveRecord::Base
 
 ###  include ::Ownership
 ###
-###  def is_admin?
-###    self.role == ROLES[:admin]
-###  end
-###
-###  def is_vip?
-###    self.role == ROLES[:vip]
-###  end
-###
-###  def is_admin!
-###    self.update_attributes(role: ROLES[:admin])
-###  end
-###
-###  def is_vip!
-###    self.update_attributes(role: ROLES[:vip])
-###  end
+  def is_admin?
+    self.role == ROLES[:admin]
+  end
+
+  def is_vip?
+    self.role == ROLES[:vip]
+  end
+
+  def is_admin!
+    self.update_attributes(role: ROLES[:admin])
+  end
+
+  def is_vip!
+    self.update_attributes(role: ROLES[:vip])
+  end
 end
