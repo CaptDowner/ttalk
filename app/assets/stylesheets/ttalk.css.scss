@@ -4,15 +4,16 @@ html{
   background-color: #000088;
 }
 body {
-  height: 100%;
+  min-height: 100%;
+  width: 100%;
   margin-top: 200px;
   margin-left: 2.5em;
   background-color: #000088;
 }
 body.indexpage{
-  background-color: #000088;
   min-height: 100%;
   width: 100%;
+  background-color: #000088;
 }
 main1, main h3 {
   color: #ffff00;
@@ -347,7 +348,7 @@ div#white div#zz {
   background: #000088;
   width: 42em;
   text-align: left;
-  margin-left: -13em;
+  margin-left: -3em;
   margin-top: 0.5em;
   min-height: 100%;
 }
@@ -500,6 +501,7 @@ nav ul ul li a:hover {
 
 a.dropdown-toggle {
   width: 4em;
+  height: 1.25em;
   margin-left: 0.5em;
   padding-left: 0;
   margin-bottom: 0;
@@ -507,11 +509,31 @@ a.dropdown-toggle {
   margin-bottom: -3em;
 /*  border-bottom: white 1px solid;*/
 }
+
+li.dropdown a.dropdown-toggle{
+  color: gray;
+  background-color: #000;
+}
+
+li.dropdown a.dropdown-toggle:hover{
+  color: gold;
+  text-decoration: none;
+  fonnt-weight: bold;
+  background-color: #000;
+}
+
+li.dropdown-toggle a:hover{
+  color: gold;
+  font-weight: bold;
+  background-color: #000;
+  text-decoration: none;
+}
 ul.dropdown-menu {
   max-height: 18.4em;
   overflow: auto;
+  margin-top: 2.225em;
 }
-ul.dropdown-menu li, ul.dropdown-menu a {
+ul.dropdown-menu a {
   background-color: #000;
   color: #000088;
 }
@@ -651,7 +673,7 @@ div#white div#topper-ab h2{
   color: gold;
   margin-top: 0;
   padding-top: 2.75em;
-  margin-left: 1.5em;
+  margin-left: 6.75em;
   margin-bottom: -0.5em;
 }
 
@@ -692,7 +714,7 @@ div#topspacer {
 }
 ul.dropdown-menu {
   li.a:hover{
-  background-color: #000088;
+  background-color: #000;
   color: black;
   }
 }
@@ -786,7 +808,8 @@ div.navbar-header.navbar-collapse {
   background-color: #000088;
 }
 
-body, main, div.container, div#white{
+/* body, main, div.container, div#white{ */
+div.container, div#white{
   background-color: #000088;
   width: 100em;
   height: 100%;
