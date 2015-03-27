@@ -2,10 +2,15 @@
 are assigned and recognized, and can be relied on for dynamic page presentations.
 
 2. Get dynamic page presentation working, based on categories.
+Design an ActiveRecord query that will get all phrases in a category 
+in only one language (the current language == I18n.locale).
+
+http://www.w3resource.com/PostgreSQL/foreign-key-constraint.php
 
 Given a category, get a list from the database containing 
 all phrases in alphabetical order, and present them on a page 
-in a similar format to the static pages already in use.
+in a similar format to the static pages already in use, one page 
+per category, although pagination allow for many pages per category.
 
 3. Have the main page buttons, one per category, point to and load when selected,  
 the new dynamic pages of each category path.
