@@ -4,13 +4,13 @@
 fr:
   visitors:
     index:
-      about:         "sur"
-      are:           "Etes?"
-      caniyou:       "Pouvoir?"
-      directions:    "instructions"
-      doyou:         "Le faites vous?"
-      how:           "Comment?"
-      i:             "je"
-      oftenused:     "souvent utilisé"
-      wherewhen:     "Quand? Où?"
-      welcometo:     "Bienvenue à"
+      about:         'À propos'
+      are:           'Êtes ?'
+      caniyou:       'Pouvez-vous ?'
+      directions:    'Instructions'
+      doyou:         'Faites vous ?'
+      how:           'Comment ?'
+      i:             'je'
+      oftenused:     'Souvent utilisées'
+      wherewhen:     'Quand ? Où ?'
+      welcometo:     'Bienvenue sur'
