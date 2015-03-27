@@ -8,9 +8,17 @@ fr:
       are:           'Êtes ?'
       caniyou:       'Pouvez-vous ?'
       directions:    'Instructions'
+<<<<<<< HEAD
       doyou:         'Faites vous ?'
       how:           'Comment ?'
       i:             'je'
       oftenused:     'Souvent utilisées'
       wherewhen:     'Quand ? Où ?'
+=======
+      doyou:         'Faites vous ?'
+      how:           'Comment ?'
+      i:             'je'
+      oftenused:     'Souvent utilisées'
+      wherewhen:     'Quand ? Où ?'
+>>>>>>> 232e70c125d38bfafcb77e115fee92702242727d
       welcometo:     'Bienvenue sur'
