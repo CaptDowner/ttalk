@@ -2,31 +2,31 @@
 # French categories list
 ###
 category:
-  are_you:        "Etes-vous"
-  can_will_you:   "Can You"
-  chat:           "bavarder"
-  directions:     "instructions"
-  do_did_you:     "le faites vous"
-  excuses:        "excuses"
-  foods:          "nourriture"
-  greetings:      "salutations"
-  he_she:         "il"
-  she:            "elle"
-  how:            "comment"
-  i_im_ive:       "je"
-  is:             "est"
-  it:             "il"
-  kudos_boos:     "Bravo et Insultes"
-  my_may:         "Mon ou en mai"
-  please:         "se il vous plaît"
-  q_and_a:        "Questions et réponses"
-  ratings:        "évaluations"
-  sports:         "sportif"
-  tech:           "technologie"
-  thats:          "Ce est"
-  this_there:     "Cette Il ou"
-  top_50:         "Top 50"
-  travel:         "Voyage"
-  weather:        "temps"
-  what:           "quoi"
-  you:            "vous"
+  are_you:        'êtes-vous'
+  can_will_you:   'pouvez-vous'
+  chat:           'bavarder'
+  directions:     'instructions'
+  do_did_you:     'le faites vous'
+  excuses:        'excuses'
+  foods:          'nourriture'
+  greetings:      'salutations'
+  he_she:         'il ou elle'
+  she:            'elle'
+  how:            'comment'
+  i_im_ive:       'je'
+  is:             'est'
+  it:             'il'
+  kudos_boos:     'bravo et insultes'
+  my_may:         'mon ou puis-je'
+  please:         's’il vous plaît'
+  q_and_a:        'questions et réponses'
+  ratings:        'évaluations'
+  sports:         'sports'
+  tech:           'technologie'
+  thats:          'c’est'
+  this_there:     'ceci ou Ici'
+  top_50:         'top 50'
+  travel:         'voyage'
+  weather:        'météo'
+  what:           'quoi'
+  you:            'vous'
