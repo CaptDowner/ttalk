@@ -33,13 +33,13 @@ class ApplicationController < ActionController::Base
   helper_method :current_user?
 
   def current_user_admin?  
-    current_user && current_user.admin?
+    current_user && current_user.is_admin?
   end
 
   helper_method :current_user_admin?
 
   def current_user_or_admin?
-    current_user || current_user.admin?
+    current_user || current_user.is_admin?
   end
 
   helper_method :current_user_or_admin?
