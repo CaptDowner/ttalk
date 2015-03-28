@@ -12,4 +12,9 @@ class Category < ActiveRecord::Base
       end
     end
   end
+
+  def phrases_by_language(language)
+    return self.phrases.where(language: language)
+  end
+
 end
