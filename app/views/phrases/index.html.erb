@@ -19,6 +19,7 @@
       <td><%= phrase.key %></td>
 
       <td><%= link_to 'Show', phrase %></td>
+
       <!-- admins only -->
       <% if current_user_admin? %>
         <td><%= link_to 'Edit', edit_phrase_path(phrase) %></td>
@@ -26,19 +27,17 @@
       <% end %>
       <!-- end admins only -->
     </tr>
-    <% end %>  
+    <% end %>
   </tbody>
 </table>
 
 <div class='pnation'>
   <table>
     <tr>
-      <td colspan='3'><%= paginate @phrases %></td>
+      <td colspan='3'><%# paginate @phrases %></td>
     </tr>
     <tr>
       <td align='center'><%= link_to 'New Phrase', new_phrase_path %></td>
     </tr>
   </table>
 </div>
-<!--      <td>< % = phrase.categories.map {|j| j.name}.join(", ") % ></td>  -->
-
