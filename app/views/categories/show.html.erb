@@ -1,0 +1,25 @@
+  <div class='container'>
+    <div id='white'>
+      <div id='topper'>
+        <h2>Tommy Talker <%= @category.name %> Sayings</h2>
+      </div>
+      <table class='talker'>
+        <tr>
+          <% @category.phrases_by_language(current_user.language).each.with_index do |phrase,index| %>
+            <td><a href='#' style='text-decoration: none'; onclick='return playSound("<%= "/sounds/mine/" + "#{phrase.audio_file}" %>")';><%= phrase.phrase_text %></a></td>
+            <% if((index+1) % 3 == 0) %>
+              </tr><tr>
+            <% end %>
+<!--          
+          <td><a href='#' style='text-decoration: none'; onclick='return playSound("/sounds/mine/yes.mp3")';>< %# =t phrase.key %></a></td>
+          <td><a href='#' style='text-decoration:none'; onclick='return playSound("/sounds/mine/no.mp3")';>< %# =t :noo %></a></td>
+-->      
+         <% end %>
+         </tr>
+       </table>
+       
+       <!-- <ul> -->
+  <%# @category.phrases_by_language(current_user.language).each do |phrase| %>
+    <!--    <li><a href="/phrases/< %#= phrase.id %>">< %# = phrase.key %></a><li> -->
+  <%# end %>
+  <!-- </ul> -->
