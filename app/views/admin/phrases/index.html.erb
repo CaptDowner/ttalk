@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+<p> </p>
+<div id='topper2'>
+  <% l = Language.where(:abbrv => I18n.locale.to_s).first.name %>
+  <h2><%= l %> Phrases</h2>
+</div>
+<table id='allphrases'>
+  <thead>
+    <tr><th>Id</th><th>Text</th><th>Audio</th><th>Key</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% lang = Language.where(:id => 10) %>
+    <% @phrases.each do |phrase| %>
+    <tr>
+      <td><%= phrase.id %></td>
+      <td><%= phrase.phrase_text %></td>
+      <td><%= phrase.audio_file %></td>
+      <td><%= phrase.key %></td>
+
+      <td><%= link_to 'Show', phrase %></td>
+      <!-- admins only -->
+      <% if user_signed_in? && current_user.is_admin? %>
+        <td><%= link_to 'Edit', edit_phrase_path(phrase) %></td>
+        <td><%= link_to 'Destroy', phrase, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      <% end %>
+      <!-- end admins only -->
+    </tr>
+    <% end %>  
+  </tbody>
+</table>
+
+<div class='pnation'>
+  <table>
+    <tr>
+      <td colspan='3'><%= paginate @phrases %></td>
+    </tr>
+    <tr>
+      <td align='center'><%= link_to 'New Phrase', new_phrase_path %></td>
+    </tr>
+  </table>
+</div>
+<!--      <td>< % = phrase.categories.map {|j| j.name}.join(", ") % ></td>  -->
+
