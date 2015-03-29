@@ -16,24 +16,40 @@ $(document).ready(function(){
         <h2><%=t '.welcometo' %> Tommy Talker</h2>
       </div>
         <table id='mbuttons'>
-          <tr>
-            <td><a href="./oftenused" class="button"><%=t '.oftenused' %></a></td>
-            <td><a href="./are" class="button"><%=t '.are' %></a></td>
-            <td><a href="./do-you" class="button"><%=t '.doyou' %></a></td>
-            <td><a href="./how" class="button"><%=t '.how' %></a></td>
-          </tr>
-          <tr>
-            <td><a href="./directions" class="button"><%=t '.directions' %></a></td>
-            <td><a href="./i" class="button"><%=t '.i' %></a></td>
-            <td><a href="./can" class="button"><%=t '.caniyou' %></a></td>
-            <td><a href="./wwwww" class="button"><%=t '.wherewhen' %></a></td>
+          <% if !user_signed_in? %>
+            <tr>
+              <td><a href="/oftenused" class="button"><%=t '.oftenused' %></a></td>
+              <td><a href="/are" class="button"><%=t '.are' %></a></td>
+              <td><a href="/do-you" class="button"><%=t '.doyou' %></a></td>
+              <td><a href="/how" class="button"><%=t '.how' %></a></td>
             </tr>
-            <% if false %>
+            <tr>
+              <td><a href="/directions" class="button"><%=t '.directions' %></a></td>
+              <td><a href="/i" class="button"><%=t '.i' %></a></td>
+              <td><a href="/can" class="button"><%=t '.caniyou' %></a></td>
+              <td><a href="/wwwww" class="button"><%=t '.wherewhen' %></a></td>
+            </tr>
+          <% else %>
+            <tr>
+            <%# @categories = Category.all %>
+            <% @categories.each.with_index do |cat, index| %>
+              <% if((index != 0) && (index % 4 == 0)) %>
+                </tr><tr>
+              <% end %>
+              <td><a href="/categories/<%= cat.id %>" class="button"><%= cat.name %></a></td>
+              <%# binding.pry %>
             <% end %>
+            </tr>
+          <% end %>
         </table>
         <div id='copyright0'>
           <p>Copyright 2015, <a id='mmode'; href='https://maintenancemode.com';>Maintenance Mode</a>. All rights reserved.</p>
         </div>
     </div> <!-- end white -->
   </div> <!-- end container -->
-</body>
+  </body>
+
+  <!-- <td><a href="/phrases/< %= cat.name %>" class="button"><%# t ".# { cat.name}" %></a></td>-->
+              <%# i f ( (index ! = 0 ) && (index % 4 = = 0)) %>
+                  <!--                </tr> -->
+
