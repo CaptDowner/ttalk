@@ -5,11 +5,7 @@ fr:
   pages:
     about:
       tt_is_a:      'est un programme qui parlent pour vous. Certaines personnes ont des difficultés d’élocution. Que ce soit temporaire ou permanent, TommyTalker vous aide en vous permettant de sélectionner une phrase que vous souhaitez dire et en l’énonçant pour vous.'
-<<<<<<< HEAD
       donttype:     'Vous n’avez rien à taper. Il suffit de cliquer ou de toucher la phrase et celle-ci est prononcée. Les suggestions de fonctionnalités, mots ou phrases à ajouter peuvent être envoyées par email à :'
-=======
-      donttype:     'Vous n’avez rien à taper. Il suffit de cliquer ou de toucher la phrase et celle-ci est prononcée. Les suggestions de fonctionnalités, mots ou phrases à ajouter peuvent être envoyées par email à :'
->>>>>>> 232e70c125d38bfafcb77e115fee92702242727d
       supportfor:   'Nous avons ajouté le support de 26 langues. Le texte peut être présenté dans chacune d’elles et les liens est sélectionné sont énoncés en anglais. Cela peut aider les non-anglophones, en sélectionnant une phrase, ils peuvent être compris en anglais. L’utilisation du logiciel est donc possible pour les gens avec difficultés d’élocutions comme pour les non-anglophones qui aimeraient communiquer en anglais.'
       letusknow:    'Faites-nous savoir par email si vous souhaitez être tenu au courant des nouvelles fonctionnalités et nous vous tiendrons informé.'
       enjoyvisit:   'Profitez de votre visite sur'
@@ -17,9 +13,5 @@ fr:
       tt_needs:     'besoins de locuteurs natifs '
       fluent:       'parlant anglais couramment afin de vérifier et corriger les phrases incomplètes ou inexactes. Les traductions ont été faites dans 26 langues, mais Google Translate ne fait pas tout, il y a environ 1000 phrases qui à vérifier et corriger dans chaque langue. '
       designers:    'Des designers HTML5 / CSS3 sont nécessaires pour améliorer le look du site et son fonctionnement. Les développeurs RoR intéressés par le projet peuvent me contacter. Le pair-programming via Google Hangouts, tmux et vim est la meilleure solution pour moi, ce sont les outils les plus efficaces que j’ai trouvé.'
-<<<<<<< HEAD
       open_source:  'C’est un programme gratuit et open source destiné à aider les gens ne parlant pas couramment anglais afin qu’elles soient en mesure de communiquer en utilisant un simple traducteur universel. Son principal avantage est sa simplicité. Il suffit de toucher ou de cliquer sur une phrase que vous voulez dire et le programme parle pour vous. Si vous pouvez aider ou si vous connaissez quelqu’un qui serait intéressé par la création de cet outil utile, contactez-mois par e-mail sur : '
-=======
-      open_source:  'C’est un programme gratuit et open source destiné à aider les gens ne parlant pas couramment anglais afin qu’elles soient en mesure de communiquer en utilisant un simple traducteur universel. Son principal avantage est sa simplicité. Il suffit de toucher ou de cliquer sur une phrase que vous voulez dire et le programme parle pour vous. Si vous pouvez aider ou si vous connaissez quelqu’un qui serait intéressé par la création de cet outil utile, contactez-mois par e-mail sur : '
->>>>>>> 232e70c125d38bfafcb77e115fee92702242727d
       credit:       'Toute participation à la traduction et/ou programmation sera indiquée en bonne et due forme sur cette page. Je peux être cité par les participants ayant besoin de références en programmation open source ou en traduction sur leur CV.'

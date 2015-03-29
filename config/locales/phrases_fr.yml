@@ -43,7 +43,6 @@ fr:
   alittle:                                               'un peu'
   allday:                                                'toute la journée'
   alongtimeago:                                          'il y a longtemps'
-<<<<<<< HEAD
   amipronouncingitcorrectly:                             'Est-ce que je prononce correctement ?'
   amyisjohnsgirlfriend:                                  'Amy est la petite amie de Johns'
   andyou:                                                'et vous ?'
@@ -73,37 +72,6 @@ fr:
   areyouwaitingforsomeone:                               'Attendez-vous quelqu’un ?'
   areyouworkingtoday:                                    'Travaillez-vous aujourd’hui ?'
   areyouworkingtomorrow:                                 'Travaillez-vous demain ?'
-=======
-  amipronouncingitcorrectly:                             'Est-ce que je prononce correctement ?'
-  amyisjohnsgirlfriend:                                  'Amy est la petite amie de Johns'
-  andyou:                                                'et vous ?'
-  anythingelse:                                          'rien d’autre'
-  aonewayticket:                                         'un billet aller simple'
-  arethereanyconcerts:                                   'y at-il des concerts ?'
-  aretheycomingthisevening:                              'viennent-ils ce soir ?'
-  aretheythesame:                                        'sont-ils les mêmes ?'
-  areyouafraid:                                          'avez-vous peur ?'
-  areyouallergictoanything:                              'Avez-vous des allergies ?'
-  areyouamerican:                                        'Êtes-vous américain ?'
-  areyoubusy:                                            'Êtes-vous occupé ?'
-  areyoucomfortable:                                     'Êtes-vous à l’aise ?'
-  areyoucomingthisevening:                               'Venez-vous ce soir ?'
-  areyoufreetonight:                                     'Êtes-vous libre ce soir ?'
-  areyougoingtoattendtheirwedding:                       'Serez-vous présent à leur mariage ?'
-  areyougoingtohelpher:                                  'Allez-vous l’aider ?'
-  areyougoingtotakeaplane:                               'Allez-vous prendre l’avion ?'
-  areyouherealone:                                       'Êtes-vous seul ?'
-  areyouhungry:                                          'Avez-vous faim ?'
-  areyoumarried:                                         'Êtes-vous marié ?'
-  areyouok:                                              'Vous allez bien ?'
-  areyourchildrenwithyou:                                'Vos enfants sont-ils avec vous ?'
-  areyouready:                                           'Êtes-vous prêt ?'
-  areyousick:                                            'Êtes-vous malade ?'
-  areyousure:                                            'Êtes-vous sûr ?'
-  areyouwaitingforsomeone:                               'Attendez-vous quelqu’un ?'
-  areyouworkingtoday:                                    'Travaillez-vous aujourd’hui ?'
-  areyouworkingtomorrow:                                 'Travaillez-vous demain ?'
->>>>>>> 232e70c125d38bfafcb77e115fee92702242727d
   aroundtripticket:                                      'un billet aller-retour'
   assoonaspossible:                                      'dès que possible'
   at3oclock:                                             'à 3 heures'
@@ -120,7 +88,6 @@ fr:
   businessisgood:                                        'les affaires sont bonnes'
   callme:                                                'appelez-moi'
   callthepolice:                                         'appelez la police'
-<<<<<<< HEAD
   caniaccesstheinternethere:                             'Puis-je accéder à Internet ici ?'
   caniborrowsomemoney:                                   'Puis-je emprunter de l’argent ?'
   canibringmyfriend:                                     'Puis-je venir avec un ami ?'
@@ -153,45 +120,10 @@ fr:
   canyouswim:                                            'Savez-vous nager ?'
   canyouthrowthatawayforme:                              'Pouvez-vous jeter ça pour moi ?'
   canyoutranslatethisforme:                              'Vous pouvez traduire ceci pour moi ?'
-=======
-  caniaccesstheinternethere:                             'Puis-je accéder à Internet ici ?'
-  caniborrowsomemoney:                                   'Puis-je emprunter de l’argent ?'
-  canibringmyfriend:                                     'Puis-je venir avec un ami ?'
-  canihaveaglassofwaterplease:                           'Puis-je avoir un verre d’eau s’il vous plaît ?'
-  canihaveareceiptplease:                                'Puis-je avoir un reçu s’il vous plaît ?'
-  canihavethebillplease:                                 'Puis-je avoir le projet de loi s’il vous plaît ?'
-  canihelpyou:                                           'Puis-je vous aider ?'
-  canimakeanappointmentfornextwednesday:                 'Puis-je prendre rendez-vous pour mercredi prochain ?'
-  caniseeyourpassportplease:                             'Puis-je voir votre passeport s’il vous plaît ?'
-  canitakeamessage:                                      'Puis-je prendre un message ?'
-  canitbecheaper:                                        'Cela peut-il être moins cher ?'
-  canitryiton:                                           'Puis-je l’essayer ?'
-  caniuseyourphone:                                      'Puis-je utiliser votre téléphone ?'
-  canwehaveamenuplease:                                  'Pouvons-nous avoir un menu s’il vous plaît ?'
-  canwehavesomemorebreadplease:                          'Pouvons-nous avoir un peu plus de pain s’il vous plaît ?'
-  canwesitoverthere:                                     'Pouvons-nous nous asseoir là-bas ?'
-  canyoucallbacklater:                                   'Pouvez-vous rappeler plus tard ?'
-  canyoucarrythisforme:                                  'Pouvez-vous porter ceci pour moi ?'
-  canyoudomeafavor:                                      'Pouvez-vous me rendre service ?'
-  canyoufixthis:                                         'Pouvez-vous réparer ceci ?'
-  canyougivemeanexample:                                 'Pouvez-vous me donner un exemple ?'
-  canyouhelpme:                                          'Pouvez-vous m’aider ?'
-  canyouholdthisforme:                                   'Pouvez-vous tenir ceci pour moi ?'
-  canyoupleasehelpme:                                    'Pouvez-vous m’aider s’il vous plaît ?'
-  canyoupleasesaythatagain:                              'Pouvez-vous répéter s’il vous plaît ?'
-  canyourecommendagoodrestaurant:                        'Avez-vous un bon restaurant à recommander ?'
-  canyourepeatthatplease:                                'Pouvez vous répéter s’il vous plaît ?'
-  canyoushowme:                                          'Pouvez-vous me montrer ?'
-  canyouspeaklouderplease:                               'Pouvez-vous parler plus fort s’il vous plaît ?'
-  canyouswim:                                            'Savez-vous nager ?'
-  canyouthrowthatawayforme:                              'Pouvez-vous jeter ça pour moi ?'
-  canyoutranslatethisforme:                              'Vous pouvez traduire ceci pour moi ?'
->>>>>>> 232e70c125d38bfafcb77e115fee92702242727d
   certainly:                                             "sûrement"
   cheers:                                                "santé"
   chicagoisverydifferentfromboston:                      "Chicago est très différent de Boston"
   comehere:                                              "venez ici"
-<<<<<<< HEAD
   diditsnowyesterday:                                    'A-t-il neigé hier ?'
   didyoucomewithyourfamily:                              'Êtes-vous venu avec votre famille ?'
   didyougetmyemail:                                      'Avez-vous reçu mon email ?'
@@ -258,74 +190,6 @@ fr:
   doyouwanttocomewithme:                                 "voulez-vous venir avec moi ?"
   doyouwanttogotothemovies:                              "voulez-vous aller au cinéma ?"
   doyouwanttogowithme:                                   "voulez-vous venir avec moi ?"
-=======
-  diditsnowyesterday:                                    'A-t-il neigé hier ?'
-  didyoucomewithyourfamily:                              'Êtes-vous venu avec votre famille ?'
-  didyougetmyemail:                                      'Avez-vous reçu mon email ?'
-  didyourwifelikecalifornia:                             'Votre femme a-t-elle aimé la Californie ?'
-  didyousendmeflowers:                                   'M’avez-vous envoyé des fleurs ?'
-  didyoutakeyourmedicine:                                'Avez-vous pris votre médicament ?'
-  doesanyoneherespeakenglish:                            "Est-ce que quelqu’un parle anglais ici ?"
-  doesheliketheschool:                                   'il n’aime l’école ?'
-  doesitoftensnowinthewinterinmassachusetts:             'Neige-t-il souvent en hiver dans le Massachusetts ?'
-  doesthisroadgotonewyork:                               'Cette route mène-t-elle à New York ?'
-  dontdothat:                                            'Ne faites pas cela.'
-  dontworry:                                             'Ne vous inquiétez pas.'
-  doyouacceptusdollars:                                  'Acceptez-vous les dollars américains ?'
-  doyoubelievethat:                                      'Vous le croyez ?'
-  doyoufeelbetter:                                       'Vous sentez-vous mieux ?'
-  doyougotofloridaoften:                                 'Allez-vous souvent en Floride ?'
-  doyouhaveaboyfriend:                                   'Avez-vous un petit ami ?'
-  doyouhaveagirlfriend:                                  'Avez-vous une petite amie ?'
-  doyouhaveanappointment:                                'Avez-vous un rendez-vous ?'
-  doyouhaveanotherone:                                   'Avez-vous quelqu’un dans la vie ?'
-  doyouhaveanychildren:                                  'Avez-vous des enfants ?'
-  doyouhaveanycoffee:                                    'Auriez-vous du café ?'
-  doyouhaveanymoney:                                     'Auriez-vous de l’argent ?'
-  doyouhaveanythingcheaper:                              'Avez-vous quelque chose de moins cher ?'
-  doyouhaveanyvacancies:                                 'Avez-vous des postes vacants ?'
-  doyouhaveapencil:                                      "Auriez-vous un crayon ?"
-  doyouhaveaproblem:                                     'Avez-vous un problème ?'
-  doyouhaveaswimmingpool:                                'Avez-vous une piscine ?'
-  doyouhaveenoughmoney:                                  'Avez-vous assez d’argent ?'
-  doyouhavethenumberforataxi:                            'Avez-vous le numéro pour un taxi ?'
-  doyouhavethisinsizeeleven:                             'Avez-vous ceci en taille 11 ?'
-  doyouhearthat:                                         'Entendez-vous ?'
-  doyouknowher:                                          "ne savez-lui que vous ?"
-  doyouknowhowmuchitcosts:                               "savez-vous combien il en coûte ?"
-  doyouknowhowtocook:                                    "savez-vous comment faire cuire ?"
-  doyouknowhowtogettothemarriotthotel:                   "savez-vous comment se rendre à l’hôtel de Marriott ?"
-  doyouknowwhatthismeans:                                "savez-vous ce que cela signifie ?"
-  doyouknowwhatthissays:                                 "savez-vous ce que cela dit ?"
-  doyouknowwhereicangetataxi:                            "savez-vous où je peux prendre un taxi ?"
-  doyouknowwheremyglassesare:                            "savez-vous où sont mes lunettes ?"
-  doyouknowwheresheis:                                   "savez-vous où elle est ?"
-  doyouknowwheretheresastorethatsellstowels:             "savez-vous où theres un magasin qui vend des serviettes ?"
-  doyoulikeithere:                                       "aimez-vous ici ?"
-  doyoulikethebook:                                      "vous aimez le livre ?"
-  doyouliketowatchtv:                                    "aimez-vous regarder t v ?"
-  doyoulikeyourboss:                                     "Aimez-vous votre patron ?"
-  doyoulikeyourcoworkers:                                "aimez-vous vos collègues ?"
-  doyouneedanything:                                     "avez-vous besoin de quelque chose ?"
-  doyouneedanythingelse:                                 "-vous besoin d’autre chose ?"
-  doyouplayanysports:                                    "ne jouez-vous du sport ?"
-  doyouplaybasketball:                                   "-vous jouer au basket ?"
-  doyousellbatteries:                                    "vendez-vous des piles ?"
-  doyousellmedicine:                                     "vendez-vous la médecine ?"
-  doyousmoke:                                            "fumez-vous ?"
-  doyouspeakenglish:                                     "parlez-vous anglais ?"
-  doyoustudyenglish:                                     "ne étudiez-vous anglais ?"
-  doyoutakecreditcards:                                  "prenez-vous les cartes de crédit ?"
-  doyouthinkitllraintoday:                               "pensez-vous qu’il va pleuvoir aujourd’hui ?"
-  doyouthinkitsgoingtoraintoday:                         "pensez-vous que sa va pleuvoir aujourd’hui ?"
-  doyouthinkitspossible:                                 "pensez-vous de sa possible ?"
-  doyouthinkyoullbebackbyeleventhirty:                   "pensez-vous que vous aurez sera de retour en 1130 ?"
-  doyouunderstand:                                       "comprenez vous ?"
-  doyouwantmetocomeandpickyouup:                         "voulez-vous que je vienne vous chercher ?"
-  doyouwanttocomewithme:                                 "voulez-vous venir avec moi ?"
-  doyouwanttogotothemovies:                              "voulez-vous aller au cinéma ?"
-  doyouwanttogowithme:                                   "voulez-vous venir avec moi ?"
->>>>>>> 232e70c125d38bfafcb77e115fee92702242727d
   everydayigetupatsix:                                   "tous les jours je me lève à six"
   everyoneknowsit:                                       "tout le monde le sait"
   everythingisready:                                     "tout est prêt"
@@ -353,7 +217,6 @@ fr:
   happybirthday:                                         "joyeux anniversaire"
   hasyourbrotherbeentocalifornia:                        "a ton frère connaissez California"
   haveagoodtrip:                                         "avoir un bon voyage"
-<<<<<<< HEAD
   havetheymetheryet:                                     "ont-ils l’ont rencontrée encore ?"
   haveyouarrived:                                        "êtes-vous arrivé ?"
   haveyoubeentoboston:                                   "avez-vous été à Boston ?"
@@ -364,18 +227,6 @@ fr:
   haveyoueverhadpotatosoup:                              "avez-vous déjà eu la soupe de pommes de terre ?"
   haveyoufinishedstudying:                               "avez-vous terminé vos études ?"
   haveyouseenthismovie:                                  "avez-vous vu ce film ?"
-=======
-  havetheymetheryet:                                     "ont-ils l’ont rencontrée encore ?"
-  haveyouarrived:                                        "êtes-vous arrivé ?"
-  haveyoubeentoboston:                                   "avez-vous été à Boston ?"
-  haveyoubeenwaitinglong:                                "avez-vous été longue attente ?"
-  haveyoudonethisbefore:                                 "avez-vous fait cela avant ?"
-  haveyoueatenatthatrestaurant:                          "avez-vous mangé dans ce restaurant ?"
-  haveyoueatenyet:                                       "avez-vous encore mangé ?"
-  haveyoueverhadpotatosoup:                              "avez-vous déjà eu la soupe de pommes de terre ?"
-  haveyoufinishedstudying:                               "avez-vous terminé vos études ?"
-  haveyouseenthismovie:                                  "avez-vous vu ce film ?"
->>>>>>> 232e70c125d38bfafcb77e115fee92702242727d
   healwaysdoesthatforme:                                 "il le fait toujours pour moi"
   heather:                                                 "bruyère"
   hebrokethewindow:                                      "il a cassé la fenêtre"
@@ -414,7 +265,6 @@ fr:
   hisfamilyiscomingtomorrow:                             "sa famille est pour demain"
   hisroomisverysmall:                                    "sa chambre est très petite"
   hisson:                                                "son fils"
-<<<<<<< HEAD
   howaboutsaturday:                                      "que diriez-vous samedi ?"
   howareyou:                                             "comment allez-vous ?"
   howareyoupaying:                                       "comment allez-vous payer ?"
@@ -470,63 +320,6 @@ fr:
   howtallareyou:                                         "quelle est votre taille ?"
   howwasthemovie:                                        "Comment était le film ?"
   howwasthetrip:                                         "comment était le voyage ?"
-=======
-  howaboutsaturday:                                      "que diriez-vous samedi ?"
-  howareyou:                                             "comment allez-vous ?"
-  howareyoupaying:                                       "comment allez-vous payer ?"
-  howareyourparents:                                     "comment sont vos parents ?"
-  howdoesittaste:                                        "quel est son goût ?"
-  howdoigetthere:                                        "comment puis-je y arriver ?"
-  howdoigettodanielstreet:                               "comment puis-je obtenir à la rue Daniel ?"
-  howdoigettotheamericanembassy:                         "comment puis-je obtenir à l’ambassade américaine ?"
-  howdoiusethis:                                         "comment puis-je l’utiliser ?"
-  howdoyouknow:                                          "comment savez-vous ?"
-  howdoyoupronouncethat:                                 "comment prononcez-vous cela ?"
-  howdoyousayitinenglish:                                "comment dit-on en anglais ?"
-  howdoyouspellit:                                       "comment ça s’épelle ?"
-  howdoyouspellthewordseattle:                           "Comment épelez-vous le mot Seattle ?"
-  howfarisit:                                            "dans quelle mesure est-il ?"
-  howfarisittochicago:                                   "dans quelle mesure est-il à Chicago ?"
-  howisshe:                                              "comment est-elle ?"
-  howlongareyougoingtostay:                              "combien de temps allez-vous rester ?"
-  howlongareyougoingtostayincalifornia:                  "combien de temps allez-vous rester en Californie ?"
-  howlongdoesittakebycar:                                "combien de temps cela prend-il en voiture ?"
-  howlongdoesittaketogettogeorgia:                       "combien de temps faut-il pour obtenir à la Géorgie ?"
-  howlonghaveyoubeenhere:                                "combien de temps êtes-vous ici ?"
-  howlonghaveyouworkedhere:                              "combien de temps avez-vous travaillé ici ?"
-  howlongisit:                                           "combien de temps est-il ?"
-  howlongistheflight:                                    "combien de temps dure le vol ?"
-  howlongwillittake:                                     "combien de temps ça va prendre ?"
-  howlongwillyoubestaying:                               "combien de temps resterez-vous ?"
-  howmany:                                               "combien ?"
-  howmanychildrendoyouhave:                              "combien d’enfants avez-vous ?"
-  howmanyhoursaweekdoyouwork:                            "combien d’heures par semaine travaillez-vous ?"
-  howmanylanguagesdoyouspeak:                            "Combien de langues parlez-vous ?"
-  howmanymilesisittopennsylvania:                        "combien de miles est-il en Pennsylvanie ?"
-  howmanypeople:                                         "combien de personnes ?"
-  howmanypeoplearethereinnewyork:                        "combien de personnes sont là à New York ?"
-  howmanypeopledoyouhaveinyourfamily:                    "combien de personnes avez-vous dans votre famille ?"
-  howmuchalltogether:                                    "combien tout ensemble ?"
-  howmucharetheseearrings:                               "combien sont ces boucles d’oreilles ?"
-  howmuchdoesitcostperday:                               "combien ça coûte par jour ?"
-  howmuchdoesthiscost:                                   "Combien ça coûte ?"
-  howmuchdoioweyou:                                      "combien vous dois-je ?"
-  howmuchisit:                                           "combien ça coûte ?"
-  howmuchisittogotomiami:                                "combien est-il pour aller à Miami ?"
-  howmuchisthat:                                         "Combien est-ce ?"
-  howmuchisthis:                                         "combien ça coûte ?"
-  howmuchmoneydoyouhave:                                 "combien d’argent avez-vous ?"
-  howmuchmoneydoyoumake:                                 "combien d’argent faites-vous ?"
-  howmuchwillitcost:                                     "combien ça coûtera ?"
-  howmuchwouldyoulike:                                   "Combien seriez-vous ?"
-  howoldareyou:                                          "quel âge avez-vous ?"
-  howsbusiness:                                          "Comment vont les affaires ?"
-  howstheweather:                                        "comment est la météo ?"
-  howsworkgoing:                                         "comment ça travaux en cours ?"
-  howtallareyou:                                         "quelle est votre taille ?"
-  howwasthemovie:                                        "Comment était le film ?"
-  howwasthetrip:                                         "comment était le voyage ?"
->>>>>>> 232e70c125d38bfafcb77e115fee92702242727d
   hurry:                                                 "se dépêcher"
   iagree:                                                "je suis d’accord"
   iatealready:                                           "Je ai mangé déjà"
@@ -701,7 +494,6 @@ fr:
   ionlyhavefivedollars:                                  "Je ne ai que cinq dollars"
   ionlywantasnack:                                       "Je veux seulement une collation"
   iremember:                                             "je me souviens"
-<<<<<<< HEAD
   isanyoneelsecoming:                                    "est quelqu’un d’autre arrive ?"
   iseverythingok:                                        "tout est OK ?"
   isitclose:                                             "est-il à proximité ?"
@@ -735,56 +527,14 @@ fr:
   isthispenyours:                                        "ce stylo est le vôtre ?"
   isthisthebustony:                                      "ce est le bus à New York ?"
   isthisyourbook:                                        "est-ce votre livre ?"
-=======
-  isanyoneelsecoming:                                    "est quelqu’un d’autre arrive ?"
-  iseverythingok:                                        "tout est OK ?"
-  isitclose:                                             "est-il à proximité ?"
-  isitcoldoutside:                                       "est-il froid dehors ?"
-  isitfarfromhere:                                       "est-ce loin d ’ici ?"
-  isithot:                                               "est-ce que c’est chaud ?"
-  isitnearby:                                            "est-il à proximité ?"
-  isitpossible:                                          "est-il possible ?"
-  isitraining:                                           "est-ce qu’il pleut ?"
-  isitready:                                             "est-elle prête ?"
-  isitsupposedtoraintomorrow:                            "est-il censé pleuvoir demain ?"
-  isjohnhere:                                            "John est ici ?"
-  isjohnthereplease:                                     "John est là s’il vous plaît ?"
-  ismr.smithanamerican:                                  "M. Smith est un Américain ?"
-  isntit:                                                "n’est-ce pas ?"
-  ispeakalittleenglish:                                  "Je parle un peu l’anglais"
-  ispeaktwolanguages:                                    "Je parle deux langues"
-  isthatenough:                                          "est-ce suffisant ?"
-  isthatok:                                              "est que OK ?"
-  isthebankfar:                                          "est l’autre rive ?"
-  isthereairconditioningintheroom:                       "est-il l’air conditionné dans la chambre ?"
-  isthereamovietheaternearby:                            "y at-il une salle de cinéma à proximité ?"
-  isthereanenglishspeakingguide:                         "il est un guide anglophone ?"
-  isthereanightclubintown:                               "il est un club de nuit en ville ?"
-  isthereanymailforme:                                   "y a t-il un message pour moi ?"
-  isthereanythingcheaper:                                "y a-t-il quelque chose de moins cher ?"
-  istherearestaurantinthehotel:                          "est-il un restaurant dans l’hôtel ?"
-  isthereastorenearhere:                                 "est-il un magasin près d’ici ?"
-  isthisasafearea:                                       "est-ce une zone de sécurité ?"
-  isthismr.smith:                                        "est-ce M. Smith ?"
-  isthispenyours:                                        "ce stylo est le vôtre ?"
-  isthisthebustony:                                      "ce est le bus à New York ?"
-  isthisyourbook:                                        "est-ce votre livre ?"
->>>>>>> 232e70c125d38bfafcb77e115fee92702242727d
   istillhavealotofthingstobuy:                           "Je ai encore beaucoup de choses à acheter"
   istillhavealotofworktodo:                              "Je ai encore beaucoup de travail à faire"
   istillhaventdecided:                                   "Je nai pas encore décidé"
   istillhavetobrushmyteethandtakeashower:                "Je ai encore à me brosser les dents et prendre une douche"
-<<<<<<< HEAD
   isyourfatherhome:                                      "est votre père à la maison ?"
   isyourhouselikethisone:                                "est votre maison comme celle-ci ?"
   isyourhusbandalsofromboston:                           "votre mari est également de Boston ?"
   isyoursonhere:                                         "est votre fils ici ?"
-=======
-  isyourfatherhome:                                      "est votre père à la maison ?"
-  isyourhouselikethisone:                                "est votre maison comme celle-ci ?"
-  isyourhusbandalsofromboston:                           "votre mari est également de Boston ?"
-  isyoursonhere:                                         "est votre fils ici ?"
->>>>>>> 232e70c125d38bfafcb77e115fee92702242727d
   itcoststwentydollarsperhour:                           "il en coûte vingt dollars par heure"
   itdependsontheweather:                                 "cela dépend de la météo"
   ithinkineedtoseeadoctor:                               "Je pense que je ai besoin de voir un médecin"
@@ -931,11 +681,7 @@ fr:
   pleasecomein:                                          "s’il vous plaît venir"
   pleasecountthisforme:                                  "s’il vous plaît compter pour moi"
   pleasefilloutthisform:                                 "s’il vous plaît remplir ce formulaire"
-<<<<<<< HEAD
   pleasehelpme:                                          "Se il vous plaît me aider ?"
-=======
-  pleasehelpme:                                          "Se il vous plaît me aider ?"
->>>>>>> 232e70c125d38bfafcb77e115fee92702242727d
   pleasesitdown:                                         "s’il vous plaît asseoir"
   pleasespeakenglish:                                    "s’il vous plaît parler anglais"
   pleasespeakmoreslowly:                                 "s’il vous plaît parler plus lentement"
@@ -1069,7 +815,6 @@ fr:
   wellhavetwoglassesofwaterplease:                       "nous aurons deux verres d’eau s’il vous plaît"
   werefromcalifornia:                                    "nous sommes de Californie"
   werelate:                                              "nous sommes en retard"
-<<<<<<< HEAD
   werethereanyproblems:                                  "avait-il des problèmes ?"
   wereyouatthelibrarylastnight:                          "vous étiez à la bibliothèque la nuit dernière ?"
   whatareyoudoing:                                       "que faites-vous ?"
@@ -1256,194 +1001,6 @@ fr:
   wouldyouliketowatchtv:                                 "voulez-vous regarder TV ?"
   wouldyoulikewaterormilk:                               "voulez-vous de l’eau ou du lait ?"
   wouldyoutakeamessageplease:                            "prendriez-vous un message s’il vous plaît ?"
-=======
-  werethereanyproblems:                                  "avait-il des problèmes ?"
-  wereyouatthelibrarylastnight:                          "vous étiez à la bibliothèque la nuit dernière ?"
-  whatareyoudoing:                                       "que faites-vous ?"
-  whatareyougoingtodotonight:                            "qu’allez-vous faire ce soir ?"
-  whatareyougoingtohave:                                 "qu’allez-vous avoir ?"
-  whatareyourhobbies:                                    "Quels sont vos hobbies ?"
-  whatareyouthinkingabout:                               "qu’est-ce que tu penses ?"
-  whatareyoutwotalkingabout:                             "qu’est-ce que vous parlez de deux ?"
-  whatcanidoforyou:                                      "que puis-je faire pour vous ?"
-  whatcoloristhatcar:                                    "de quelle couleur est cette voiture ?"
-  whatdayaretheycomingover:                              "ce jour viennent-ils plus ?"
-  whatdayoftheweekisit:                                  "quel jour de la semaine est-il ?"
-  whatdidyoudolastnight:                                 "qu’avez-vous fait hier soir ?"
-  whatdidyoudoyesterday:                                 "qu’avez-vous fait hier ?"
-  whatdidyouthink:                                       "qu’avez-vous pensé ?"
-  whatdoeshedoforwork:                                   "que fait-il pour le travail ?"
-  whatdoesthismean:                                      "qu’est-ce que cela signifie ?"
-  whatdoesthissay:                                       "qu’est-ce que cela nous dit ?"
-  whatdoesthiswordmean:                                  "qu’est-ce que ce mot veut dire ?"
-  whatdoesyourfatherdoforwork:                           "qu’est-ce que votre père pour le travail ?"
-  whatdopeopleusuallydointhesummerinlosangeles:          "que font les gens habituellement dans l’été à Los Angeles ?"
-  whatdotheystudy:                                       "ce étudient-ils ?"
-  whatdoyoudoforwork:                                    "que faites-vous pour le travail ?"
-  whatdoyouhave:                                         "qu’est-ce que vous avez ?"
-  whatdoyourecommend:                                    "que recommandez-vous ?"
-  whatdoyourparentsdoforwork:                            "ce font vos parents pour le travail ?"
-  whatdoyoustudy:                                        "qu’est-ce que tu étudies ?"
-  whatdoyouthink:                                        "que pensez-vous ?"
-  whatdoyouthinkoftheseshoes:                            "que pensez-vous de ces chaussures ?"
-  whatdoyouwant:                                         "Qu’est-ce que vous voulez ?"
-  whatdoyouwanttobuy:                                    "que voulez-vous acheter ?"
-  whatdoyouwanttodo:                                     "qu’est-ce que vous voulez faire ?"
-  whathappened:                                          "ce qui s’est passé ?"
-  whatisit:                                              "qu’est-ce que c’est ?"
-  whatisthat:                                            "qu’est-ce que c’est ?"
-  whatistheareacode:                                     "ce est l’indicatif régional ?"
-  whatistodaysdate:                                      "ce est la date du jour ?"
-  whatkindofmusicdoyoulike:                              "quel genre de musique aimez-vous ?"
-  whatschooldidyougoto:                                  "quelle école êtes-vous allé ?"
-  whatshouldiwear:                                       "que dois-je porter ?"
-  whatsinit:                                             "ce qui est en elle ?"
-  whatsize:                                              "quelle taille ?"
-  whatstheaddress:                                       "Quelle est l’adresse ?"
-  whatsthechargepernight:                                "ce est la charge par nuit ?"
-  whatsthedate:                                          "ce est la date ?"
-  whatstheexchangerate:                                  "quel est le taux de change ?"
-  whatstheexchangeratefordollars:                        "quel est le taux de change du dollar ?"
-  whatsthematter:                                        "quel est le problème ?"
-  whatsthenameofthecompanyyouworkfor:                    "quel est le nom de l’entreprise pour laquelle vous travaillez ?"
-  whatsthephonenumber:                                   "quel est le numéro de téléphone ?"
-  whatstheroomrate:                                      "quel est le prix de la chambre ?"
-  whatsthetemperature:                                   "ce est la température ?"
-  whatsthis:                                             "qu’est-ce que c’est ça ?"
-  whatstodaysdate:                                       "ce est la date du jour ?"
-  whatsup:                                               "quoi de neuf ?"
-  whatswrong:                                            "qu’est-ce qui ne va pas ?"
-  whatsyouraddress:                                      "quelle est votre adresse ?"
-  whatsyourfavoritefood:                                 "ce est votre plat préféré ?"
-  whatsyourfavoritemovie:                                "quel est votre film préféré ?"
-  whatsyourlastname:                                     "quel est votre nom ?"
-  whatsyourname:                                         "quel est votre nom ?"
-  whatsyourreligion:                                     "quelle est votre religion ?"
-  whattimearetheyarriving:                               "quelle heure sont-ils arriver ?"
-  whattimeareyougoingtothebusstation:                    "quelle heure allez-vous à la station de bus ?"
-  whattimedidyougetup:                                   "quelle heure avez-vous vous levez ?"
-  whattimedidyougotosleep:                               "quelle heure avez-vous d’aller dormir ?"
-  whattimedidyouwakeup:                                  "quelle heure avez-vous vous réveillez ?"
-  whattimedoesitstart:                                   "a quelle heure ça commence ?"
-  whattimedoesthemoviestart:                             "a quelle heure le film débute-t-il ?"
-  whattimedoesthestoreopen:                              "quelle heure le magasin ouvert ?"
-  whattimedoyougotoworkeveryday:                         "quelle heure allez-vous travailler tous les jours ?"
-  whattimedoyouthinkyoullarrive:                         "quelle heure pensez-vous que vous aurez arrivez ?"
-  whattimeischeckout:                                    "quelle heure est la caisse ?"
-  whattimeisit:                                          "quelle heure est-il ?"
-  whatwilltheweatherbeliketomorrow:                      "quelle sera la météo demain ?"
-  whatwouldyouliketodrink:                               "que voulez-vous boire ?"
-  whatwouldyouliketoeat:                                 "que voudriez-vous manger ?"
-  whenaretheycoming:                                     "où viennent-ils ?"
-  whenareyoucomingback:                                  "quand reviendras-tu ?"
-  whenareyougoingtopickupyourfriend:                     "quand allez-vous chercher votre ami ?"
-  whenareyouleaving:                                     "quand partez-vous ?"
-  whenareyoumoving:                                      "quand vous déménagez ?"
-  whendidthishappen:                                     "quand est-ce arrivé ?"
-  whendidyouarriveinboston:                              "quand avez-vous arrivez à Boston ?"
-  whendoeshearrive:                                      "quand est-il arrivé ?"
-  whendoesitarrive:                                      "quand at-il arriver ?"
-  whendoesitleave:                                       "quand at-il laissé ?"
-  whendoesthebankopen:                                   "lorsque la banque ne ouvrir ?"
-  whendoesthebusleave:                                   "lorsqu’il ne laisse le bus ?"
-  whendoestheplanearrive:                                "lorsque l’avion ne arrive ?"
-  whendowearrive:                                        "quand avons-nous arrivons ?"
-  whendoyouarriveintheunitedstates:                      "quand pensez-vous arriver aux États-Unis ?"
-  whendoyougetoffwork:                                   "quand vous obtenez arrêt de travail ?"
-  whenisthenextbustophiladelphia:                        "quand est le prochain bus à Philadelphie ?"
-  whenisyourbirthday:                                    "c’est quand votre anniversaire ?"
-  wheniwenttothestoretheydidnthaveanyapples:             "quand je suis allé au magasin, ils ne avaient pas de pommes ?"
-  whenwillitbeready:                                     "quand il sera prêt ?"
-  whenwouldyouliketomeet:                                "quand souhaitez-vous rencontrer ?"
-  wherearethetshirts:                                    "où sont les t-shirts ?"
-  whereareyou:                                           "où êtes-vous ?"
-  whereareyoufrom:                                       "d’où êtes-vous ?"
-  whereareyougoing:                                      "où allez-vous ?"
-  whereareyougoingtogo:                                  "où allez-vous aller ?"
-  wherecanibuytickets:                                   "Où puis-je acheter des billets ?"
-  wherecaniexchangeusdollars:                            "où puis-je échanger des dollars américains ?"
-  wherecanifindahospital:                                "où puis-je trouver un hôpital ?"
-  wherecanimailthis:                                     "où puis-je poster ce ?"
-  wherecanirentacar:                                     "Où puis-je louer une voiture ?"
-  wheredidithappen:                                      "où est-ce arrivé ?"
-  wheredidyougo:                                         "où êtes-vous allé ?"
-  wheredidyoulearnenglish:                               "où avez-vous apprendre l’anglais ?"
-  wheredidyoulearnit:                                    "où avez-vous appris ?"
-  wheredidyouputit:                                      "où avez-vous dites ?"
-  wheredidyouworkbeforeyouworkedhere:                    "où avez-vous travaillé avant vous avez travaillé ici ?"
-  wheredoesithurt:                                       "où avez-vous mal ?"
-  wheredoesyourwifework:                                 "où ne fonctionne votre femme ?"
-  wheredoyoulive:                                        "où habitez-vous ?"
-  wheredoyouwanttogo:                                    "où voulez-vous aller wantto ?"
-  wheredoyouwork:                                        "où travaillez-vous ?"
-  whereishe:                                             "où est-il ?"
-  whereishefrom:                                         "d’où est-il ?"
-  whereisit:                                             "où est-il ?"
-  whereismainstreet:                                     "où est la rue principale ?"
-  whereismyshirt:                                        "où est ma chemise ?"
-  whereisshefrom:                                        "où est-elle ?"
-  whereistheairport:                                     "où est l’aéroport ?"
-  whereisthebathroom:                                    "où se trouvent les toilettes ?"
-  whereisthebusstation:                                  "où est la station de bus ?"
-  whereisthereadoctorwhospeaksenglish:                   "où est-il un médecin qui parle anglais ?"
-  whereisthereanatm:                                     "où est-il un distributeur de billets ?"
-  wherestheclosestrestaurant:                            "où est le restaurant le plus proche ?"
-  wheresthemailbox:                                      "où est la boîte aux lettres ?"
-  wheresthenearesthospital:                              "où est l’hôpital le plus proche ?"
-  wheresthepharmacy:                                     "où est la pharmacie ?"
-  wheresthepostoffice:                                   "où est le bureau de poste ?"
-  wherewereyou:                                          "où étiez-vous ?"
-  wherewouldyouliketogo:                                 "où voulez-vous aller ?"
-  wherewouldyouliketomeet:                               "où aimeriez-vous rencontrer ?"
-  whichisbetter:                                         "ce qui est mieux ?"
-  whichisbetterthespaghettiorchickensalad:               "ce qui est mieux les spaghettis ou salade de poulet ?"
-  whichisthebest:                                        "Quel est le meilleur ?"
-  whichone:                                              "laquelle ?"
-  whichonedoyouwant:                                     "qui veux-tu ?"
-  whichoneisbetter:                                      "quel est le meilleur ?"
-  whichoneischeaper:                                     "lequel est le moins cher ?"
-  whichoneisthebest:                                     "lequel est le meilleur ?"
-  whichroadshoulditake:                                  "quel chemin dois-je prendre ?"
-  whichschooldoeshegoto:                                 "quelle école t-il allé ?"
-  whoarethey:                                            "qui sont-ils ?"
-  whoisit:                                               "qu’est-ce ?"
-  whoisthat:                                             "qui est-ce ?"
-  whosbookisthat:                                        "qui est livre est cela ?"
-  whosentthisletter:                                     "qui a envoyé cette lettre ?"
-  whosthatmanoverthere:                                  "qui est cet homme là-bas ?"
-  whotaughtyou:                                          "qui vous a enseigné ?"
-  whotaughtyouthat:                                      "qui vous a enseigné que ?"
-  whowasthat:                                            "Qui était-ce ?"
-  whowasyourteacher:                                     "qui était votre professeur ?"
-  whowon:                                                "qui a gagné ?"
-  whowouldyouliketospeakto:                              "à qui voulez-vous parler ?"
-  whyarentyougoing:                                      "pourquoi arent allez-vous ?"
-  whyareyoulaughing:                                     "pourquoi riez-vous ?"
-  whydidyoudothat:                                       "pourquoi avez-vous fait cela ?"
-  whydidyousaythat:                                      "pourquoi avez-vous fait dire ça ?"
-  whynot:                                                "pourquoi pas ?"
-  willyoucallmeataxiplease:                              "allez-vous me appeler un taxi s’il vous plaît ?"
-  willyouhandmeatowelplease:                             "allez-vous me donner une serviette s’il vous plaît ?"
-  willyoupassmethesaltplease:                            "allez-vous me passer le sel s’il vous plaît ?"
-  willyouputthisinthecarforme:                           "allez-vous mettre cela dans la voiture pour moi ?"
-  willyouremindme:                                       "allez-vous me rappeler ?"
-  willyoutakemehome:                                     "allez-vous me ramener chez moi ?"
-  wouldyouaskhimtocallmebackplease:                      "voulez-vous lui demander de me rappeler s’il vous plaît ?"
-  wouldyouaskhimtocomehere:                              "voulez-vous lui demander de venir ici ?"
-  wouldyoulikeaglassofwater:                             "voulez-vous un verre d’eau ?"
-  wouldyoulikecoffeeortea:                               "voulez-vous café ou de thé ?"
-  wouldyoulikesomethingtodrink:                          "voulez-vous boire quelque chose ?"
-  wouldyoulikesomethingtoeat:                            "voulez-vous quelque chose à manger ?"
-  wouldyoulikesomewater:                                 "voulez-vous un peu d’eau ?"
-  wouldyoulikesomewine:                                  "voulez-vous un peu de vin ?"
-  wouldyouliketobuythis:                                 "voulez-vous buythis ?"
-  wouldyouliketogoforawalk:                              "voulez-vous faire une promenade ?"
-  wouldyouliketohavedinnerwithme:                        "voulez-vous dîner avec moi ?"
-  wouldyouliketorentamovie:                              "souhaitez-vous louer un film ?"
-  wouldyouliketowatchtv:                                 "voulez-vous regarder TV ?"
-  wouldyoulikewaterormilk:                               "voulez-vous de l’eau ou du lait ?"
-  wouldyoutakeamessageplease:                            "prendriez-vous un message s’il vous plaît ?"
->>>>>>> 232e70c125d38bfafcb77e115fee92702242727d
   yess:                                                  "oui"
   yesreally:                                             "oui vraiment"
   youhaveaverynicecar:                                   "vous avez une très belle voiture"
