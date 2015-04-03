@@ -1,1 +1,59 @@
-<h1><%= @phrase.id %></h1>
+<div id='topper2'>
+  <h2><%= l = Language.where(id: 10).first.name %> Phrase</h2>
+</div>
+<%= form_for(@phrase) do |f| %>
+  <% if @phrase.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@phrase.errors.count, "error") %> prohibited this phrase from being saved:</h2>
+      <ul>
+      <% @phrase.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <fieldset>
+    <table class='show-phrase'>
+      <tr class="required">
+        <td class='show-label'><%= f.label :id %>:</td>
+        <td style="width: 34em;"><%= @phrase.id %></td>
+      </tr>
+      <tr class="required">
+        <td class='show-label'><%= f.label :phrase_text %>:</td>
+        <td style="width: 34em;"><%= @phrase.phrase_text %></td>
+      </tr>
+      <tr class="required">
+        <td class='show-label'><%= f.label :audio_file %>:</td>
+        <td><%= @phrase.audio_file %></td>
+      </tr>
+      <tr class="required">
+        <td class='show-label'><%= f.label :key %>:</td>
+        <td style="width:34em;"><%= @phrase.key %></td>
+      </tr>
+      <tr>
+<%#
+      < % cats = CategoryPhrase.where(phrase_id: :phrase_id) % >
+      < % cname = (Category.where(id: ((cats[0].category_id)[0].name))) % > %>
+      <td class='show-label'>Category:</td>
+      <td style="width:34em;">Q_and_A</td>
+      </tr>
+    </table>
+  </fieldset>
+
+  <div class="actions">
+    <table>
+      <tr>
+      <!-- admins only -->
+        <% if false %>
+          <td><%= link_to 'Edit', edit_phrase_path, :class => 'button' %></td>
+        <% end %>
+        <td><%= link_to 'Back', phrases_path, class: 'button' %></td>
+        <!-- moved to top bar -->
+        <% if false %>
+          <td><%= link_to 'Home', root_path(:anchor => '#' ), class: 'button', redirect_to: :back;%>
+        <% end %>
+      </tr>
+    </table>
+  </div>
+<% end %>
+
