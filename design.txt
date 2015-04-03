@@ -1,7 +1,32 @@
-1. Debug and refactor ROLES so that current_user and user, vip and admin roles ve
+a. Added copyright message to all Category pages
+b. set default scope order for phrases to be alpha ASC
+c. Added credits page to app
+
+
+Latest issues and Todos
+
+1. Record missing phrases (a lot of them)
+
+2. Change dropdown list to checkboxes. Make it reversible 
+such that when a category is deselected the entry in category_phrases
+along with the categories_users entries are deleted.
+
+3. Implement user categorization of phrases.
+This should allow each user to select one or more phrases 
+and assign one or more categories to each phrase so that 
+when a category button is selected for a user, that user's 
+phrases assigned to that category all appear in the subsequent page. 
+
+4. 
+
+
+
+
+---------------------------------------------------------------------------------
+1. DONE -Debug and refactor ROLES so that current_user and user, vip and admin roles ve
 are assigned and recognized, and can be relied on for dynamic page presentations.
 
-2. Get dynamic page presentation working, based on categories.
+2. DONE - Get dynamic page presentation working, based on categories.
 Design an ActiveRecord query that will get all phrases in a category 
 in only one language (the current language == I18n.locale).
 
@@ -12,10 +37,10 @@ all phrases in alphabetical order, and present them on a page
 in a similar format to the static pages already in use, one page 
 per category, although pagination allow for many pages per category.
 
-3. Have the main page buttons, one per category, point to and load when selected,  
+3. DONE - Have the main page buttons, one per category, point to and load when selected,  
 the new dynamic pages of each category path.
 
-4. Determine how the design should accomodate sorting phrases on a per user basis.
+4. DONE - Determine how the design should accomodate sorting phrases on a per user basis.
 Should another field (user_id) be added to the category_phrases table, so that a single table will  
 handle the lookup of each users categorized phrases? We could index on category_id and user_id so that 
 lookups will be fast. I don't plan on giving users the ability to add phrases, so indexing should not become 
