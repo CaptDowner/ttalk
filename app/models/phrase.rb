@@ -1,4 +1,5 @@
 class Phrase < ActiveRecord::Base
+  default_scope { order('phrase_text ASC') }
   paginates_per 30
   belongs_to :language
   has_many :category_phrases
