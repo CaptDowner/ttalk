@@ -230,8 +230,15 @@ table.talker td{
   text-align: left;
   line-height: 1.3em;
   margin: 0;
-  width: 22em;
+  width: 32em;
 }
+
+table.talker.cat td{
+  padding-left: 1em;
+  width: 32em;
+}
+
+
 div.container div#white table.talker a{
   font-family: arial;
   color: white;
