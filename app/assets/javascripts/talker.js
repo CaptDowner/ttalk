@@ -18,5 +18,3 @@ function showhide(myid) {
   var div = document.getElementById(myid);
     div.style.display = (div.style.display != 'none' ? 'none' : 'block');
 };
-
-
