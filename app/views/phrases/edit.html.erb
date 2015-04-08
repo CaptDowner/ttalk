@@ -1,0 +1,76 @@
+<div id='topper2'>
+  <h2>Edit Phrase in <%= l = Language.where(id: 10).first.name %></h2>
+</div>
+<%= form_for(@phrase) do |f| %>
+  <% if @phrase.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@phrase.errors.count, "error") %> prohibited this phrase from being saved:</h2>
+      <ul>
+      <% @phrase.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+  <fieldset>
+    <table class='edit-phrase'>
+      <tr class="required">
+        <td class='label'><%= f.label :phrase_text %>:</td>
+        </tr>
+        <tr>
+        <td><%= f.text_area(:phrase_text, :size => "68x2") %> </td>
+      </tr>
+      <tr class="required">
+        <td class='label'><%= f.label :audio_file %>:</td>
+        </tr><tr>
+        <td style="width:34em;"><%= f.text_field :audio_file %>  </td>
+      </tr>
+      <tr class="required">
+        <td class='label'><%= f.label :key %>:</td>
+        </tr><tr>
+        <td style="width:34em;"><%= f.text_field :key %> </td>
+      </tr>
+      <tr class="required">
+        <td class='label'><%= f.label "Categories" %>:</td>
+        </tr>
+        <tr>
+          <td style="width:34em;"><%= f.collection_select :id, Category.all, :id, :name, include_blank: false, selected: true %></td>
+        </tr>
+    </table>
+  </fieldset>
+        <ul id='ttmenu'>
+          <%= simple_form_for @phrase do |f| %>
+          <li><%  cats = (f.association :categories, as: :check_boxes, collection: Category.all) %></li>
+<%#          <li><%= puts 'cats.class = #{cats.class}' % ></li> %>
+<%#          <% binding.pry % > %>
+          <% end %>
+        </ul>
+
+<!--    </table>  -->
+  <div class="actions">
+    <table>
+      <tr>
+        <td><%= f.submit 'Update', :class => 'button' %></td>
+        <td><%= link_to 'Show', @phrase, class: 'button' %></td>
+        <td><%= link_to 'Back', phrases_path, class: 'button' %></td>
+      </tr>
+    </table>
+  </div>
+<% end %>
+
+<!-- < % = render 'form' % > -->
+<!--      < % cats = Category.all % > -->
+
+<!--  < % categories_array = Category.all.map { |cat| [cat.name, cat.id] } % > -->
+<%#
+        <tr>
+          <td style="width:34em;"><%= f.collection_select :id, Category.all, :id, :name, include_blank: false, selected: true % > %>
+  <%#        </tr>
+        </table>
+      <table>
+        <tr>
+        <td><%= check_box_tag(:categories) % > %>
+<%#            <%= categories_array.each do |c| { "check_box_tag(#{c.name}, #{c.id})" } %>
+<%#        </td>
+        </tr>
+
