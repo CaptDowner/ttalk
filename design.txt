@@ -1,26 +1,97 @@
-a. Added copyright message to all Category pages
-b. set default scope order for phrases to be alpha ASC
-c. Added credits page to app
+New connection for tmux
 
+1. Start the regular 5 windows ttalk session
+2. in a different terminal, start a tmate session
+3. Have partner connect to the ssh id listed. Once connected,
+   have him type: tmux list-sessions
+4. Then this command: tmuxp attach-session ttalk
+5. Then, he/she will see all of the windows in use for the project.
+-----------------------------------------------------------------------
+
+a. revised code and layout for categories pages
+b. Added copyright message to all Category pages
+c. set default scope order for phrases to be alpha ASC
+d. Added credits page to app.
+e. Recorded hundreds of phrases.
 
 Latest issues and Todos
 
-1. Record missing phrases (a lot of them)
+a. corrected pagination
+b. made audio_file a clickable link on Phrases index page.
+c. Made a branch on github for latest changes
+
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Correct lookup of Category for phrase and add checkboxes for category assignment.
+From app/views/phrases/show.html.erb
+
+<!-- Hard-coded. This needs to lookup the category from the language id -->
+      <td class='show-label'>Category:</td>
+      <td style="width:34em;">Q_and_A</td>
+      <!-- end Hard-coded -->
+
+<!-- Hard coded mockup of Category selection for each phrase 
+From: app/views/phrases/new.html.erb
+-->
+  <table id='categories'>
+    <tr>
+      <td class='label'; style='text-align: right';><%= f.label 'Categories' %>:</td>
+      <td id='cb'><%= check_box_tag "Frequent", "1" %> Frequent </td><td id='cb'><%= check_box_tag "Q and A", "1" %> Q and A </td><td id='cb'><%= check_box_tag "Chat", "1" %> Chat </td><td id='cb'><%= check_box_tag "Food", "1" %> Food </td><td id='cb'><%= check_box_tag "Health", "1" %> Health </td>
+    </tr>
+    <tr>
+      <td></td>
+      <td id='cb'><%= check_box_tag "Kudos/Slams", "1" %> Kudos/Slams </td><td id='cb'><%= check_box_tag "Weather", "1" %> Weather </td><td id='cb'><%= check_box_tag "Sports", "1" %> Sports </td><td id='cb'><%= check_box_tag "Travel", "1" %> Travel </td><td id='cb'><%= check_box_tag "Help", "1" %> Help </td>
+    </tr>
+  </table>
+---------------------------------------------------------------------------------
+
+0. almost DONE! - Record missing phrases (50 more to go)
+
+1. Pagination is no longer working for index.html.erb for Phrases.
+   Determine if it's a Kaminari issue of a bad method call, as total_pages 
+   is coming up undefined.
 
 2. Change dropdown list to checkboxes. Make it reversible 
-such that when a category is deselected the entry in category_phrases
-along with the categories_users entries are deleted.
+   such that when a category is deselected the entry in category_phrases
+   along with the categories_users entries are deleted(dropped) from the db.
 
-3. Implement user categorization of phrases.
-This should allow each user to select one or more phrases 
-and assign one or more categories to each phrase so that 
-when a category button is selected for a user, that user's 
-phrases assigned to that category all appear in the subsequent page. 
+3. Implement user categorization of phrases. Should allow current user to 
+   assign categories to phrases in his selected (current) language.
+   This should allow each user to select one or more phrases 
+   and assign one or more categories to each phrase so that 
+   when a category button is selected for a user, that user's 
+   phrases assigned to that category all appear in an index page per category. 
 
-4. 
+   Edit Page should show all phrases available
 
+   Should language matter here? Each phrase is the same for the other 26 translations.
+   What would be the best way to get to different translations for the same user?
+   Access the 'key' and then lookup by 'language_id' + 'key' for a categorized phrase?
 
+4. I need to better understand how to access categorized phrases of each user, and only 
+   lookup the ones that are in the current language of the user (initially the default language, 
+   and subsequently, any language chosen on the dropdown language menu.
 
+   (the following seems to be already working when the users categories are
+    presented, so I just have to get a handle on the request order and how to 
+    optimize/limit some of the parameters)
+
+   a. Get the language of the user. Get user's stored category names from the db. 
+      Set an limit of 0-10 possible categories per user.
+
+   b. Then lookup all phrases in each category targeted by the current language of the user.
+      The category labels on the buttons should be in the current language of the user.:w
+
+5. Other languages are not yet working when a user is signed_in. Incorporate language changes 
+   for signed_in users such that when the language changes, each category page is populated with 
+   translated strings.
+XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+Correct lookup of Category for phrase and add checkboxes for category assignment.
+From app/views/phrases/show.html.erb:
+
+<!-- Hard-coded. This needs to lookup the category from the language id -->
+      <td class='show-label'>Category:</td>
+      <td style="width:34em;">Q_and_A</td>
+      <!-- end Hard-coded -->
 
 ---------------------------------------------------------------------------------
 1. DONE -Debug and refactor ROLES so that current_user and user, vip and admin roles ve
