@@ -13,6 +13,8 @@ div#copyright1{
     </div> <!-- end topper -->
     <table class='talker cat'>
       <tr>
+        <!-- Category -> Phrases -->
+        <!-- Phrase -> Translations -->
         <% @category.phrases_by_language(current_user.language).each.with_index do |phrase,index| %>
           <td><a href='#' style='text-decoration: none'; onclick='return playSound("<%= "/sounds/mine/" + "#{phrase.audio_file}" %>")';><%= phrase.phrase_text %></a></td>
           <% if((index+1) % 3 == 0) %>
@@ -21,7 +23,16 @@ div#copyright1{
         <% end %>
       </tr>
     </table>
-
+<!--    
+    <div class='pnation'>
+      <table>
+        <tr>
+          <td colspan='3'>< % = paginate @category.phrases %></td>
+        </tr>
+      <tr><td align='center'>< % = link_to 'New Phrase', new_phrase_path %></td></tr>
+      </table>
+    </div>
+-->
     <div id='copyright0'>
       <span onclick="showhide('ccl')"><p class='creative'><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></span>
       <div id='ccl' style="display:none">
