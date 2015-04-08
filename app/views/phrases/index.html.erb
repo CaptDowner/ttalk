@@ -4,6 +4,24 @@
     <% l = Language.where(:abbrv => I18n.locale.to_s).first.name %>
     <h2><%= l %> Phrases</h2>
   </div>
+  <style type='text/css'>
+  div#topper2 h2{
+    margin-bottom: -0.75em;
+
+   }
+  table#allphrases {
+    margin-top: -1em;
+    padding-top: -3em;
+  }
+
+  table#allphrases a.plink{
+    color: white;
+  }
+  table#allphrases a.plink:hover{
+    color: gold;
+    font-weight: bold;
+  }
+  </style>
   <table id='allphrases'>
     <thead>
       <tr><th>Id</th><th>Text</th><th>Audio</th><th>Key</th>
@@ -11,12 +29,17 @@
     </thead>
 
     <tbody>
+    <!-- Hard coded language to English (id: 10) for now 
+         This needs to be assignable to the current language 
+         of the user -->
     <% lang = Language.where(:id => 10) %>
     <% @phrases.each do |phrase| %>
       <tr>
         <td><%= phrase.id %></td>
         <td><%= phrase.phrase_text %></td>
-        <td><%= phrase.audio_file %></td>
+        <!-- Made audio_file a link so audio can be played when the file is clicked/touched -->
+        <td><a class='plink' href='#' style='text-decoration: none'; onclick='return playSound("<%= "/sounds/mine/" + "#{phrase.audio_file}" %>")';><%= phrase.audio_file %></a></td>
+        <!--        <td>< % = phrase.audio_file % ></td> -->
         <td><%= phrase.key %></td>
         <%#<td><%= phrase.categories.map {|j| j.name}.join(", ") %></td>%>
         <td><%= link_to 'Show', phrase %></td>
