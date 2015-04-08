@@ -33,9 +33,11 @@
       <tr>
 <%#
       < % cats = CategoryPhrase.where(phrase_id: :phrase_id) % >
-      < % cname = (Category.where(id: ((cats[0].category_id)[0].name))) % > %>
+< % cname = (Category.where(id: ((cats[0].category_id)[0].name))) % > %>
+      <!-- Hard-coded. This needs to lookup the category from the language id -->
       <td class='show-label'>Category:</td>
       <td style="width:34em;">Q_and_A</td>
+      <!-- end Hard-coded -->
       </tr>
     </table>
   </fieldset>
