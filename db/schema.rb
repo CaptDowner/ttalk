@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150313152246) do
+ActiveRecord::Schema.define(version: 20150406154238) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -55,7 +55,20 @@ ActiveRecord::Schema.define(version: 20150313152246) do
 
   add_index "phrases", ["language_id"], name: "index_phrases_on_language_id", using: :btree
 
+  create_table "translations", force: :cascade do |t|
+    t.string   "phrase_text"
+    t.string   "audio_file"
+    t.integer  "language_id"
+    t.integer  "phrase_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "translations", ["language_id"], name: "index_translations_on_language_id", using: :btree
+  add_index "translations", ["phrase_id"], name: "index_translations_on_phrase_id", using: :btree
+
   create_table "users", force: :cascade do |t|
+    t.string   "name",                   default: "", null: false
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
     t.string   "reset_password_token"
@@ -66,19 +79,19 @@ ActiveRecord::Schema.define(version: 20150313152246) do
     t.datetime "last_sign_in_at"
     t.string   "current_sign_in_ip"
     t.string   "last_sign_in_ip"
+    t.integer  "role",                   default: 0,  null: false
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "name"
-    t.integer  "role"
     t.integer  "language_id"
   end
 
   add_index "users", ["email"], name: "index_users_on_email", unique: true, using: :btree
   add_index "users", ["language_id"], name: "index_users_on_language_id", using: :btree
   add_index "users", ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
-  add_index "users", ["role"], name: "index_users_on_role", using: :btree
 
   add_foreign_key "category_phrases", "categories"
   add_foreign_key "category_phrases", "phrases"
   add_foreign_key "phrases", "languages"
+  add_foreign_key "translations", "languages"
+  add_foreign_key "translations", "phrases"
 end
