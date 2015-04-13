@@ -1,3 +1,30 @@
+<style type='text/css'>
+table#categories{
+  margin-top: 0;
+  margin-left: 5.5em;
+}
+
+table#categories td#cb{
+  width: 7.75em;
+  font-weight: normal;
+}
+
+table#categories td.labelc label{
+  color: gold;
+  font-weight: 700;
+  font-size: 1.1em;
+  margin-right: 2.5em;
+}
+div#ccl3 p#cright{
+  margin-left: 8em;
+}
+
+div#topper2 h2{
+  margin-top: -0.90em;
+  margin-left: -0.75em;
+  margin-bottom: -0.75em;
+}
+</style>
 <div id='topper2'>
   <h2><%= l = Language.where(id: 10).first.name %> Phrase</h2>
 </div>
@@ -30,16 +57,27 @@
         <td class='show-label'><%= f.label :key %>:</td>
         <td style="width:34em;"><%= @phrase.key %></td>
       </tr>
+    </table>
+    <!-- Hard-coded. This needs to lookup the category from the language id 
+         for the selected phrase. Ideally, these entries will display only 
+         those categories that are selected for this phrase, with gold 
+         checkmarks to the left of each category. -->
+    <table id='categories'>
       <tr>
-<%#
-      < % cats = CategoryPhrase.where(phrase_id: :phrase_id) % >
-< % cname = (Category.where(id: ((cats[0].category_id)[0].name))) % > %>
-      <!-- Hard-coded. This needs to lookup the category from the language id -->
-      <td class='show-label'>Category:</td>
-      <td style="width:34em;">Q_and_A</td>
-      <!-- end Hard-coded -->
+        <td class='labelc'><%= f.label 'Categories:' %></td>
+        <% index = 1 %>
+        <% @categories.each do |cat| %>
+          <% if @phrase.categories.include?(cat) %>
+            <% index +=1 %>
+            <td id='cb'><%= check_box_tag cat.name, cat.id, true, disabled: :disabled %> <%= cat.name %> </td>
+            <% if index % 5 == 0  %>
+              </tr><tr><td></td>
+            <% end %>
+          <% end %>
+        <% end %>
       </tr>
     </table>
+    <!-- end Hard-coded -->
   </fieldset>
 
   <div class="actions">
@@ -58,4 +96,3 @@
     </table>
   </div>
 <% end %>
-
