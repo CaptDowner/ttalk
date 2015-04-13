@@ -631,21 +631,6 @@ div#topper{
   margin-bottom:0;
 }
 
-/* div#topper h2{*/
-div#white div#topper h2{
-  font-family: Courier New;
-  width: 34em;
-  font-weight: bold;
-  font-size: 1.95em;
-  text-align: left;
-  line-height: 2em;
-  color: gold;
-  margin-top: 0;
-  padding-top: -3em;
-  margin-left: 0.75em;
-  margin-bottom: -2em;
-}
-
 div#white {
   width: 28em;
 }
@@ -875,7 +860,7 @@ div#white div#topper h2{
   text-align: left;
   line-height: 2em;
   color: gold;
-  margin-top: 0;
+  margin-top: 2em;
   padding-top: -2em;
   margin-left: 0.75em;
   margin-bottom: 0.5em;
@@ -893,13 +878,13 @@ div#topper2 h2{
   text-align: left;
   line-height: 2em;
   color: gold;
-  margin-top: 2em;
+  margin-top: 5em;
   padding-top: 0;
   margin-left: 0;
   margin-bottom: 0;
 }
 div#zz table.credits{
-  margin-left: 17.5em;
+  margin-left: 4.5em;
   margin-bottom: 1em;
   margin-top: 1.5em;
   background-color: #000088;
@@ -921,12 +906,20 @@ div#white p#credito{
   width: 40em;
 }
 p.creative{
-  margin-left:26em;
+  margin-left: 17em;
 }
 p.creative img{
   margin-top: 2em;
-  margin-left: 24em;
-  margin-bottom: -2em;
+  margin-left: 17em;
+  margin-bottom: 0;
+}
+
+p.creative img#img-cpr{
+  margin-left: 17em;
+}
+
+p.creative {
+  margin-left: 2em;
 }
 div#zz div#copyright0 {
   margin-left: 4em;
@@ -941,13 +934,19 @@ div#white div#topper-ab h2{
 div#white div#copyright0 span div#ccl a{
   width: 64em;
 }
+
+div#copyright0 p.creative{
+  margin-left: 10em;
+}
 div#ccl {
-  margin-left: 4.5em;
+  margin-left: 14.5em;
 /*  width: 66em; */
 }
 div#ccl p{
   width: 42em;
-  margin-left: 24em;
+  margin-top: -2em;
+  margin-left: 17.5em;
+  margin-bottom: 3em;
 }
 span#spacer div#zzz {
   margin-top: 1.5em;
@@ -972,5 +971,10 @@ div.container div#zzz p{
   color: white;
   width: 45em;
 }
-
+div#copyright0 img{
+  margin-left: 22.5em;
+}
+div#ccl {
+  margin-left: -1em;
+}
 
