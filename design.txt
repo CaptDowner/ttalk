@@ -8,12 +8,6 @@ New connection for tmux
 5. Then, he/she will see all of the windows in use for the project.
 -----------------------------------------------------------------------
 
-a. revised code and layout for categories pages
-b. Added copyright message to all Category pages
-c. set default scope order for phrases to be alpha ASC
-d. Added credits page to app.
-e. Recorded hundreds of phrases.
-
 Latest issues and Todos
 
 a. corrected pagination
@@ -21,17 +15,42 @@ b. made audio_file a clickable link on Phrases index page.
 c. Made a branch on github for latest changes
 
 XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-Correct lookup of Category for phrase and add checkboxes for category assignment.
+1. Correct lookup of Category for phrase and add checkboxes for category assignment.
 From app/views/phrases/show.html.erb
 
+line 20 of categories -> show.html.erb
+  <!-- Createn ActiveRecord query that generates the same results
+       using the Translations table to access the phrases -->
+  <!-- Category -> Phrases -->
+  <!-- Phrase -> Translations -->
+  <% @category.phrases_by_language(current_user.language).each.with_index do |phrase,index| %>
+
+line 55 -> views/phrases -> new.html.erb
 <!-- Hard-coded. This needs to lookup the category from the language id -->
       <td class='show-label'>Category:</td>
       <td style="width:34em;">Q_and_A</td>
       <!-- end Hard-coded -->
 
-<!-- Hard coded mockup of Category selection for each phrase 
+line 65 -> views/phrases/show.html.erb
+    <!-- Hard-coded. This needs to lookup the category from the language id 
+         for the selected phrase. Ideally, these entries will display only 
+         those categories that are selected for this phrase, with gold 
+         checkmarks to the left of each category. -->
+    <table id='categories'>
+      <tr>
+        <td class='labelc'><%= f.label 'Categories:' %></td>
+        <td id='cb'><%= check_box_tag "Frequent", "1" %> Frequent </td><td id='cb'><%= check_box_tag "Q and A", "1" %> Q and A </td><td id='cb'><%= check_box_tag "Chat", "1" %> Chat </td><td id='cb'><%= check_box_tag "Food", "1" %> Food </td><td id='cb'><%= check_box_tag "Health", "1" %> Health </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td id='cb'><%= check_box_tag "Kudos/Slams", "1" %> Kudos/Slams </td><td id='cb'><%= check_box_tag "Weather", "1" %> Weather </td><td id='cb'><%= check_box_tag "Sports", "1" %> Sports </td><td id='cb'><%= check_box_tag "Travel", "1" %> Travel </td><td id='cb'><%= check_box_tag "Help", "1" %> Help </td>
+      </tr>
+    </table>
+    <!-- end Hard-coded -->
+
+2. Correct lookup of Category for phrase and add checkboxes for category assignment.
 From: app/views/phrases/new.html.erb
--->
+<!-- Hard coded mockup of Category selection for each phrase 
   <table id='categories'>
     <tr>
       <td class='label'; style='text-align: right';><%= f.label 'Categories' %>:</td>
@@ -42,7 +61,32 @@ From: app/views/phrases/new.html.erb
       <td id='cb'><%= check_box_tag "Kudos/Slams", "1" %> Kudos/Slams </td><td id='cb'><%= check_box_tag "Weather", "1" %> Weather </td><td id='cb'><%= check_box_tag "Sports", "1" %> Sports </td><td id='cb'><%= check_box_tag "Travel", "1" %> Travel </td><td id='cb'><%= check_box_tag "Help", "1" %> Help </td>
     </tr>
   </table>
+-->
+
+3. Implement checkboxes so they update the DB when chosen and display just those 
+assigned categories on the show phrases page.
+
+Q: Translation now contains all of the following fields:
+
+So what is the ActiveRecord syntax to query the db to come up with 
+all phrases that a particular user has placed into a certain category?
+
+user A has 7 phrases assign to the Frequent category.
+user B has 9 phrases assigned to the Sports category.
+user C has 6 phrases assigned to the Weather category.
+
+Each user, once logged in, should have a different selection of buttons 
+designated for the categories that have at least one phrase assigned 
+by that user to that category.
+
+Do I still need the phrases table for any purpose?
 ---------------------------------------------------------------------------------
+a. revised code and layout for categories pages
+b. Added copyright message to all Category pages
+c. set default scope order for phrases to be alpha ASC
+d. Added credits page to app.
+e. Recorded hundreds of phrases.
+
 
 0. almost DONE! - Record missing phrases (50 more to go)
 
