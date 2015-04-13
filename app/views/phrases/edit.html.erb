@@ -1,3 +1,20 @@
+<style type='text/css'>
+table#categories{
+  margin-top: 0.5em;
+  margin-left: 6em;
+}
+
+table#categories td#cb{
+  width: 7.75em;
+  font-weight: 700;
+}
+
+div#ccl
+
+div#ccl3 p#cright{
+  margin-left: 8em;
+}
+</style>
 <div id='topper2'>
   <h2>Edit Phrase in <%= l = Language.where(id: 10).first.name %></h2>
 </div>
@@ -30,23 +47,31 @@
         </tr><tr>
         <td style="width:34em;"><%= f.text_field :key %> </td>
       </tr>
+    </table>
+<!--    
       <tr class="required">
-        <td class='label'><%= f.label "Categories" %>:</td>
+        <td class='label'>< % = f.label "Categories" % >:</td>
         </tr>
         <tr>
-          <td style="width:34em;"><%= f.collection_select :id, Category.all, :id, :name, include_blank: false, selected: true %></td>
+          <td style="width:34em;">< % = f.collection_select :id, Category.all, :id, :name, include_blank: false, selected: true % ></td>
         </tr>
+-->
+    <table id='categories'>
+      <tr><td></td>
+        <td class='label'; style='text-align: right';><%= f.label 'Categories' %>:</td></tr>
+      <tr><td></td>
+        <% @categories.each.with_index do |cat, index| %>
+          <td id='cb'>
+            <input type="checkbox" name="phrase[category_ids][]" value="<%= cat.id %>" <%= @phrase.categories.include?(cat) ? 'checked="checked"' : '' %> />
+            <%= cat.name %>
+          </td>
+          <% if (index+1) % 5 == 0  %>
+            </tr><tr><td></td>
+          <% end %>
+        <% end %>
+      </tr>
     </table>
   </fieldset>
-        <ul id='ttmenu'>
-          <%= simple_form_for @phrase do |f| %>
-          <li><%  cats = (f.association :categories, as: :check_boxes, collection: Category.all) %></li>
-<%#          <li><%= puts 'cats.class = #{cats.class}' % ></li> %>
-<%#          <% binding.pry % > %>
-          <% end %>
-        </ul>
-
-<!--    </table>  -->
   <div class="actions">
     <table>
       <tr>
@@ -56,21 +81,11 @@
       </tr>
     </table>
   </div>
+  <div id='copyright0'>
+    <span onclick="showhide('ccl3')"><p class='creative2'><img id='img-cpr2' alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/4.0/80x15.png" /></span>
+    <div id='ccl' style="display:none">
+      <p id='cright'><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Tommy Talker</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://tommytalker.com" property="cc:attributionName" rel="cc:attributionURL">Steve Downie</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://tommytalker.com" rel="dct:source">http://tommytalker.com</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="http://maintenancemode.com" rel="cc:morePermissions">http://maintenancemode.com</a></p>
+    </div> <!-- end ccl -->
+  </div> <!-- end copyright0 -->
 <% end %>
-
-<!-- < % = render 'form' % > -->
-<!--      < % cats = Category.all % > -->
-
-<!--  < % categories_array = Category.all.map { |cat| [cat.name, cat.id] } % > -->
-<%#
-        <tr>
-          <td style="width:34em;"><%= f.collection_select :id, Category.all, :id, :name, include_blank: false, selected: true % > %>
-  <%#        </tr>
-        </table>
-      <table>
-        <tr>
-        <td><%= check_box_tag(:categories) % > %>
-<%#            <%= categories_array.each do |c| { "check_box_tag(#{c.name}, #{c.id})" } %>
-<%#        </td>
-        </tr>
 
