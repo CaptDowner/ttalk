@@ -13,6 +13,8 @@ div#copyright1{
     </div> <!-- end topper -->
     <table class='talker cat'>
       <tr>
+        <!-- Createn ActiveRecord query that generates the same results
+             using the Translations table to access the phrases -->
         <!-- Category -> Phrases -->
         <!-- Phrase -> Translations -->
         <% @category.phrases_by_language(current_user.language).each.with_index do |phrase,index| %>
@@ -39,6 +41,6 @@ div#copyright1{
         <p><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/"></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Tommy Talker</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://tommytalker.com" property="cc:attributionName" rel="cc:attributionURL">Steve Downie</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 International License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://tommytalker.com" rel="dct:source">http://tommytalker.com</a>.<br />Permissions beyond the scope of this license may be available at <a xmlns:cc="http://creativecommons.org/ns#" href="http://maintenancemode.com" rel="cc:morePermissions">http://maintenancemode.com</a></p>
       </div> <!-- end ccl -->
     </div> <!-- end copyright0 -->
-
+    <br/><br/>
   </div> <!-- end white -->
 </div> <!-- end container -->
