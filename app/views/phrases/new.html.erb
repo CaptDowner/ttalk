@@ -35,6 +35,8 @@ table#categories td.label label{
     </div>
   <% end %>
 
+  <input type="hidden" name="phrase[language_id]" value="<%= current_user.language.id %>"/>
+
   <fieldset>
    <table class='show-phrase'>
     <tr class="required">
@@ -53,14 +55,19 @@ table#categories td.label label{
     </tr>
   </table>
   <table id='categories'>
-    <tr>
-      <td class='label'; style='text-align: right';><%= f.label 'Categories' %>:</td>
-      <td id='cb'><%= check_box_tag "Frequent", "1" %> Frequent </td><td id='cb'><%= check_box_tag "Q and A", "1" %> Q and A </td><td id='cb'><%= check_box_tag "Chat", "1" %> Chat </td><td id='cb'><%= check_box_tag "Food", "1" %> Food </td><td id='cb'><%= check_box_tag "Health", "1" %> Health </td>
-    </tr>
-    <tr>
-      <td></td>
-      <td id='cb'><%= check_box_tag "Kudos/Slams", "1" %> Kudos/Slams </td><td id='cb'><%= check_box_tag "Weather", "1" %> Weather </td><td id='cb'><%= check_box_tag "Sports", "1" %> Sports </td><td id='cb'><%= check_box_tag "Travel", "1" %> Travel </td><td id='cb'><%= check_box_tag "Help", "1" %> Help </td>
-    </tr>
+      <tr><td></td>
+        <td class='label'; style='text-align: right';><%= f.label 'Categories' %>:</td></tr>
+      <tr><td></td>
+        <% @categories.each.with_index do |cat, index| %>
+          <td id='cb'>
+            <input type="checkbox" name="phrase[category_ids][]" value="<%= cat.id %>" <%= @phrase.categories.include?(cat) ? 'checked="checked"' : '' %> />
+            <%= cat.name %>
+          </td>
+          <% if (index+1) % 5 == 0  %>
+            </tr><tr><td></td>
+          <% end %>
+        <% end %>
+      </tr>
   </table>
   <div class="actions">
     <table>
