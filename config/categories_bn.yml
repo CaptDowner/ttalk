@@ -1,0 +1,32 @@
+###
+# Bengali categories
+###
+category:
+  are_you:       আপনি কি 
+  can_will_you:  আপনি  কি 
+  chat:          চ্যাট করুন 
+  directions:    পথনির্দেশ 
+  do_did_you:    আপনি কি 
+  excuses:       অজুহাত 
+  foods:         খাবার 
+  greetings:     শুভেচ্ছা 
+  he_she:        তিনি 
+  she:           সে 
+  how:           কেমন 
+  i_im_ive:      আমি 
+  is:            হয় 
+  it:            এটা 
+  kudos_boos:    যশ এবং অপমান 
+  my_may:        আমার বা পারা 
+  please:        দয়া করে 
+  q_and_a:       প্রশ্ন ও উত্তর 
+  ratings:       গুণমান নির্দেশ  
+  sports:        ক্রীড়া 
+  tech:          কারিগরি 
+  thats:         যে 
+  this_there:    এই বা সেখানে 
+  top_50:        শীর্ষ ৫০ 
+  travel:        ভ্রমণ 
+  weather:       আবহাওয়া 
+  what:          কি 
+  you:           আপনি 

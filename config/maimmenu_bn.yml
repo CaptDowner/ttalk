@@ -1,0 +1,16 @@
+###
+# Main menu in Bengali
+###
+bn:
+  visitors:
+    index:
+      about:        সম্বন্ধে 
+      are:          হয়? 
+      caniyou:      আপনি কি? 
+      directions:   পথনির্দেশ 
+      doyou:        আপনি কি? 
+      how:          কেমন? 
+      i:            আমি 
+      oftenused:    প্রায়ই ব্যবহার করা 
+      wherewhen:    কখন? কোথায়? 
+      welcometo:    স্বাগতম 
