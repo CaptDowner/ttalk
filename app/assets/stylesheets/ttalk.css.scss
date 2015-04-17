@@ -355,8 +355,8 @@ div#white div#zz {
   background: #000088;
   width: 42em;
   text-align: left;
-  margin-left: -2.75em;
-  margin-top: -1.25em;
+  margin-left: 0.8em;
+  margin-top: -1.5em;
   min-height: 100%;
 }
 .close:hover {
@@ -574,7 +574,7 @@ div.checkbox label{
   width: 10em;
 }
 form.new_user {
-  height: 18.75em;
+  height: 100%;
   margin-top: 3.5em;
 }
 form.new_user.signup  {
@@ -585,7 +585,7 @@ div.authform2{
   margin-left: 6em;
 }
 div.authform2 form#new_user.new_user {
-  height: 20em;
+  height: 23.25em;
   margin-top: 4.5em;
 }
 div.authform2 h3{
@@ -643,7 +643,7 @@ div#white div#topper h2{
   text-align: left;
   line-height: 2em;
   color: gold;
-  margin-top: 2em;
+  margin-top: 1.5em;
   padding-top: 0.75em;
   margin-left: 0.5em;
   margin-bottom: -0.5em;
@@ -860,8 +860,8 @@ div#white div#topper h2{
   text-align: left;
   line-height: 2em;
   color: gold;
-  margin-top: 2em;
-  padding-top: -2em;
+  margin-top: 1.25em;
+/*  padding-top: -3em; */
   margin-left: 0.75em;
   margin-bottom: 0.5em;
 }
@@ -977,4 +977,26 @@ div#copyright0 img{
 div#ccl {
   margin-left: -1em;
 }
+form#new_user.new_user {
+ height: 20em;
+}
+input#user_email.form-control{
+  margin-top: -0.35em;
+  margin-bottom: -0.35em;
+}
+input.button_right{
+  margin-top: 0.75em;
+  margin-bottom: 0.75em;
+}
 
+div.authform form#new_user.new_user{
+  height: 100%;
+}
+
+input#user_name.form-control{
+  margin: 0 0 -1em 0;
+}
+
+div.form-group label{
+  margin-bottom: 0.15em;
+}
