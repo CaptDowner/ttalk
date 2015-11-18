@@ -18,7 +18,7 @@ gem 'devise'
 gem 'pundit'
 gem 'high_voltage'
 gem 'simple_form', '~> 3.1.0'
-
+gem 'newrelic_rpm'
 group :development, :test do
   gem 'gist'
   gem 'pry'
